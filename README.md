@@ -3,7 +3,9 @@
 
 > *From customer conversations to intelligent, evidence-grounded, human-aware support decisions.*
 
-![ThreadMind Banner](hero_banner.png)
+<p align="center">
+  <img src="docs/assets/threadmind-hero-banner.png" alt="ThreadMind — AI Customer Support Intelligence" width="100%" />
+</p>
 
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-3.1-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
