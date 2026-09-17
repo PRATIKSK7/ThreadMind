@@ -1,0 +1,23 @@
+{
+  "results": {
+    "Application": "PASS",
+    "Browser": "PASS",
+    "UI": "PASS",
+    "Forms": "PASS",
+    "Navigation": "PASS",
+    "Persistence": "PASS",
+    "Completion": "PASS",
+    "JavaScript": "PASS",
+    "HTTP": "PASS",
+    "Accessibility": "PASS",
+    "Visual": "PASS",
+    "Performance": "PASS",
+    "CSV isolation": "PASS",
+    "Golden Set": "UNCHANGED",
+    "FAISS": "UNCHANGED",
+    "MODEL": "UNCHANGED",
+    "PRODUCTION": "UNCHANGED"
+  },
+  "warnings": [],
+  "critical": []
+}

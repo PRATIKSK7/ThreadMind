@@ -1,0 +1,836 @@
+{
+  "dense_baseline": {
+    "Recall@1": 0.7244897959183674,
+    "Recall@3": 0.8418367346938775,
+    "Recall@5": 0.8571428571428571,
+    "MRR@3": 0.7772108843537414
+  },
+  "dense_top10_reranked": {
+    "Recall@1": 0.673469387755102,
+    "Recall@3": 0.8214285714285714,
+    "Recall@5": 0.8520408163265306,
+    "MRR@3": 0.7406462585034013
+  },
+  "dense_top20_reranked": {
+    "Recall@1": 0.6530612244897959,
+    "Recall@3": 0.8367346938775511,
+    "Recall@5": 0.8571428571428571,
+    "MRR@3": 0.7389455782312924
+  },
+  "candidate_recall_top10": 0.8724489795918368,
+  "candidate_recall_top20": 0.9183673469387755,
+  "dense_vs_reranked10": {
+    "improved": 14,
+    "regressed": 26,
+    "unchanged": 156
+  },
+  "dense_vs_reranked20": {
+    "improved": 19,
+    "regressed": 34,
+    "unchanged": 143
+  },
+  "improved_details_20": [
+    {
+      "id": "136747dbfd949f68",
+      "intent": "returns_refunds",
+      "dense_rank": 2,
+      "reranked_rank": 1
+    },
+    {
+      "id": "0d7053cbb502d63a",
+      "intent": "delivery_missing",
+      "dense_rank": 2,
+      "reranked_rank": 1
+    },
+    {
+      "id": "5fc32478a3b63ac7",
+      "intent": "delivery_wrong_item",
+      "dense_rank": 3,
+      "reranked_rank": 1
+    },
+    {
+      "id": "df577fc749f849fc",
+      "intent": "account_access",
+      "dense_rank": 3,
+      "reranked_rank": 1
+    },
+    {
+      "id": "d25f65835961b06a",
+      "intent": "account_access",
+      "dense_rank": 3,
+      "reranked_rank": 1
+    },
+    {
+      "id": "74d3d83c4ad45c3d",
+      "intent": "returns_refunds",
+      "dense_rank": 3,
+      "reranked_rank": 1
+    },
+    {
+      "id": "deff7ff8ef25e07d",
+      "intent": "returns_refunds",
+      "dense_rank": 2,
+      "reranked_rank": 1
+    },
+    {
+      "id": "b614a28772a4ff9a",
+      "intent": "returns_refunds",
+      "dense_rank": 2,
+      "reranked_rank": 1
+    },
+    {
+      "id": "583e80a133042b71",
+      "intent": "returns_refunds",
+      "dense_rank": 4,
+      "reranked_rank": 2
+    },
+    {
+      "id": "f7b90627ea18d8f6",
+      "intent": "returns_refunds",
+      "dense_rank": 2,
+      "reranked_rank": 1
+    },
+    {
+      "id": "c1b7a8c0f138c843",
+      "intent": "account_billing",
+      "dense_rank": 3,
+      "reranked_rank": 2
+    },
+    {
+      "id": "b7fe8e583253b111",
+      "intent": "echo_alexa",
+      "dense_rank": 2,
+      "reranked_rank": 1
+    },
+    {
+      "id": "c4dfa7c7bd5687f2",
+      "intent": "echo_alexa",
+      "dense_rank": 3,
+      "reranked_rank": 1
+    },
+    {
+      "id": "6177b8cf868e7f36",
+      "intent": "account_access",
+      "dense_rank": 999,
+      "reranked_rank": 1
+    },
+    {
+      "id": "94623b4fdd7ab5bf",
+      "intent": "promotions_pricing",
+      "dense_rank": 2,
+      "reranked_rank": 1
+    },
+    {
+      "id": "baa82fe4c3c04a25",
+      "intent": "amazon_locker",
+      "dense_rank": 999,
+      "reranked_rank": 1
+    },
+    {
+      "id": "16cfcf62900ef5ea",
+      "intent": "grocery_fresh",
+      "dense_rank": 999,
+      "reranked_rank": 2
+    },
+    {
+      "id": "451122bbe75eae6a",
+      "intent": "product_availability",
+      "dense_rank": 999,
+      "reranked_rank": 4
+    },
+    {
+      "id": "ebefc67d2ab0c89b",
+      "intent": "product_availability",
+      "dense_rank": 999,
+      "reranked_rank": 3
+    }
+  ],
+  "regressed_details_20": [
+    {
+      "id": "1d34fe17e6385fba",
+      "intent": "delivery_delayed",
+      "dense_rank": 1,
+      "reranked_rank": 2
+    },
+    {
+      "id": "3f03050f2ccd56e1",
+      "intent": "delivery_missing",
+      "dense_rank": 1,
+      "reranked_rank": 3
+    },
+    {
+      "id": "8e6ae6b8bb6ff8d9",
+      "intent": "delivery_wrong_item",
+      "dense_rank": 3,
+      "reranked_rank": 9
+    },
+    {
+      "id": "471d985ba341b408",
+      "intent": "returns_refunds",
+      "dense_rank": 1,
+      "reranked_rank": 2
+    },
+    {
+      "id": "373f82ed0389646e",
+      "intent": "returns_refunds",
+      "dense_rank": 1,
+      "reranked_rank": 3
+    },
+    {
+      "id": "0e5b9b2c0a94881f",
+      "intent": "account_billing",
+      "dense_rank": 1,
+      "reranked_rank": 2
+    },
+    {
+      "id": "ddc983b3b471f230",
+      "intent": "account_billing",
+      "dense_rank": 2,
+      "reranked_rank": 4
+    },
+    {
+      "id": "51f7b73ff3175ac1",
+      "intent": "digital_kindle",
+      "dense_rank": 4,
+      "reranked_rank": 12
+    },
+    {
+      "id": "f3b9d9f09b657817",
+      "intent": "digital_kindle",
+      "dense_rank": 1,
+      "reranked_rank": 2
+    },
+    {
+      "id": "24d6b4a375ee21d6",
+      "intent": "digital_kindle",
+      "dense_rank": 1,
+      "reranked_rank": 2
+    },
+    {
+      "id": "547be894014b4903",
+      "intent": "digital_kindle",
+      "dense_rank": 1,
+      "reranked_rank": 2
+    },
+    {
+      "id": "fa4e4850dc1714f0",
+      "intent": "amazon_music",
+      "dense_rank": 1,
+      "reranked_rank": 2
+    },
+    {
+      "id": "63b3f781506205d3",
+      "intent": "amazon_music",
+      "dense_rank": 1,
+      "reranked_rank": 2
+    },
+    {
+      "id": "acd6f1d0d28dc947",
+      "intent": "amazon_music",
+      "dense_rank": 1,
+      "reranked_rank": 2
+    },
+    {
+      "id": "5d794124ada5a1f9",
+      "intent": "amazon_music",
+      "dense_rank": 1,
+      "reranked_rank": 2
+    },
+    {
+      "id": "54def58a96d81403",
+      "intent": "amazon_music",
+      "dense_rank": 1,
+      "reranked_rank": 2
+    },
+    {
+      "id": "15417200d18d8247",
+      "intent": "echo_alexa",
+      "dense_rank": 1,
+      "reranked_rank": 2
+    },
+    {
+      "id": "086732e38ad7c1f5",
+      "intent": "account_access",
+      "dense_rank": 1,
+      "reranked_rank": 2
+    },
+    {
+      "id": "c763f518de8ef948",
+      "intent": "account_access",
+      "dense_rank": 1,
+      "reranked_rank": 3
+    },
+    {
+      "id": "2d269faf8a58863e",
+      "intent": "promotions_pricing",
+      "dense_rank": 1,
+      "reranked_rank": 2
+    },
+    {
+      "id": "a2bbc722057b5719",
+      "intent": "promotions_pricing",
+      "dense_rank": 1,
+      "reranked_rank": 2
+    },
+    {
+      "id": "f7cd418894688848",
+      "intent": "promotions_pricing",
+      "dense_rank": 2,
+      "reranked_rank": 12
+    },
+    {
+      "id": "b881f26bc54d6db1",
+      "intent": "promotions_pricing",
+      "dense_rank": 1,
+      "reranked_rank": 2
+    },
+    {
+      "id": "0f622e19186b5f24",
+      "intent": "promotions_pricing",
+      "dense_rank": 1,
+      "reranked_rank": 2
+    },
+    {
+      "id": "e1e6809c33e1958c",
+      "intent": "amazon_locker",
+      "dense_rank": 1,
+      "reranked_rank": 3
+    },
+    {
+      "id": "20c1a80b2496fb80",
+      "intent": "delivery_missing",
+      "dense_rank": 1,
+      "reranked_rank": 5
+    },
+    {
+      "id": "88d34caa84fe33cf",
+      "intent": "amazon_locker",
+      "dense_rank": 2,
+      "reranked_rank": 3
+    },
+    {
+      "id": "b75b8aba4b7a9baf",
+      "intent": "amazon_locker",
+      "dense_rank": 1,
+      "reranked_rank": 2
+    },
+    {
+      "id": "97d46e56ad05b8e3",
+      "intent": "amazon_locker",
+      "dense_rank": 1,
+      "reranked_rank": 7
+    },
+    {
+      "id": "416f367ae994e79c",
+      "intent": "grocery_fresh",
+      "dense_rank": 1,
+      "reranked_rank": 3
+    },
+    {
+      "id": "51815e0ee9dcfccd",
+      "intent": "grocery_fresh",
+      "dense_rank": 5,
+      "reranked_rank": 7
+    },
+    {
+      "id": "fa37c61f8b78911c",
+      "intent": "product_availability",
+      "dense_rank": 1,
+      "reranked_rank": 2
+    },
+    {
+      "id": "058a1adda23bf491",
+      "intent": "product_availability",
+      "dense_rank": 1,
+      "reranked_rank": 2
+    },
+    {
+      "id": "079b146a88a14dc0",
+      "intent": "product_availability",
+      "dense_rank": 1,
+      "reranked_rank": 4
+    }
+  ],
+  "error_categories": {
+    "CANDIDATE_GENERATION_FAILURE": 16,
+    "RERANKING_FAILURE": 7,
+    "SUCCESSFUL_RERANK": 19,
+    "HARMFUL_RERANK": 34
+  },
+  "error_details": {
+    "CANDIDATE_GENERATION_FAILURE": [
+      {
+        "id": "971d58ab9348de04",
+        "intent": "account_access",
+        "dense_rank": 999,
+        "reranked_rank": 999
+      },
+      {
+        "id": "37bacc4a02a35a8b",
+        "intent": "delivery_wrong_item",
+        "dense_rank": 999,
+        "reranked_rank": 999
+      },
+      {
+        "id": "80daedda83f344bd",
+        "intent": "account_access",
+        "dense_rank": 999,
+        "reranked_rank": 999
+      },
+      {
+        "id": "04f0d488a16c8b29",
+        "intent": "account_access",
+        "dense_rank": 999,
+        "reranked_rank": 999
+      },
+      {
+        "id": "62c4d90a25d0f418",
+        "intent": "account_access",
+        "dense_rank": 999,
+        "reranked_rank": 999
+      },
+      {
+        "id": "e0e2bacc798bff2b",
+        "intent": "digital_kindle",
+        "dense_rank": 999,
+        "reranked_rank": 999
+      },
+      {
+        "id": "a6dbcc41eea15111",
+        "intent": "amazon_music",
+        "dense_rank": 999,
+        "reranked_rank": 999
+      },
+      {
+        "id": "1dcf6340ae04e307",
+        "intent": "echo_alexa",
+        "dense_rank": 999,
+        "reranked_rank": 999
+      },
+      {
+        "id": "f96b9b10c4206c30",
+        "intent": "delivery_wrong_item",
+        "dense_rank": 999,
+        "reranked_rank": 999
+      },
+      {
+        "id": "b916108101eca175",
+        "intent": "delivery_wrong_item",
+        "dense_rank": 999,
+        "reranked_rank": 999
+      },
+      {
+        "id": "5d58b0bdefae1299",
+        "intent": "promotions_pricing",
+        "dense_rank": 999,
+        "reranked_rank": 999
+      },
+      {
+        "id": "1df63ea1d5a69936",
+        "intent": "amazon_locker",
+        "dense_rank": 999,
+        "reranked_rank": 999
+      },
+      {
+        "id": "4659bf7cb80e967a",
+        "intent": "grocery_fresh",
+        "dense_rank": 999,
+        "reranked_rank": 999
+      },
+      {
+        "id": "f0cfad48f6a145b1",
+        "intent": "grocery_fresh",
+        "dense_rank": 999,
+        "reranked_rank": 999
+      },
+      {
+        "id": "51a322d37e9a7679",
+        "intent": "grocery_fresh",
+        "dense_rank": 999,
+        "reranked_rank": 999
+      },
+      {
+        "id": "e84a7e6d5d4a4373",
+        "intent": "grocery_fresh",
+        "dense_rank": 999,
+        "reranked_rank": 999
+      }
+    ],
+    "RERANKING_FAILURE": [
+      {
+        "id": "d6cf59dcf89bf508",
+        "intent": "account_billing",
+        "dense_rank": 6,
+        "reranked_rank": 8
+      },
+      {
+        "id": "39c418bf1848d060",
+        "intent": "digital_kindle",
+        "dense_rank": 16,
+        "reranked_rank": 16
+      },
+      {
+        "id": "663015f372cd3b8a",
+        "intent": "promotions_pricing",
+        "dense_rank": 15,
+        "reranked_rank": 7
+      },
+      {
+        "id": "9d048a20fd47ab7f",
+        "intent": "grocery_fresh",
+        "dense_rank": 6,
+        "reranked_rank": 15
+      },
+      {
+        "id": "3f38d0690064ea3e",
+        "intent": "grocery_fresh",
+        "dense_rank": 12,
+        "reranked_rank": 20
+      },
+      {
+        "id": "632f0aed89f71a07",
+        "intent": "grocery_fresh",
+        "dense_rank": 12,
+        "reranked_rank": 8
+      },
+      {
+        "id": "c5f3c1301f833cc0",
+        "intent": "product_availability",
+        "dense_rank": 12,
+        "reranked_rank": 17
+      }
+    ],
+    "SUCCESSFUL_RERANK": [
+      {
+        "id": "136747dbfd949f68",
+        "intent": "returns_refunds",
+        "dense_rank": 2,
+        "reranked_rank": 1
+      },
+      {
+        "id": "0d7053cbb502d63a",
+        "intent": "delivery_missing",
+        "dense_rank": 2,
+        "reranked_rank": 1
+      },
+      {
+        "id": "5fc32478a3b63ac7",
+        "intent": "delivery_wrong_item",
+        "dense_rank": 3,
+        "reranked_rank": 1
+      },
+      {
+        "id": "df577fc749f849fc",
+        "intent": "account_access",
+        "dense_rank": 3,
+        "reranked_rank": 1
+      },
+      {
+        "id": "d25f65835961b06a",
+        "intent": "account_access",
+        "dense_rank": 3,
+        "reranked_rank": 1
+      },
+      {
+        "id": "74d3d83c4ad45c3d",
+        "intent": "returns_refunds",
+        "dense_rank": 3,
+        "reranked_rank": 1
+      },
+      {
+        "id": "deff7ff8ef25e07d",
+        "intent": "returns_refunds",
+        "dense_rank": 2,
+        "reranked_rank": 1
+      },
+      {
+        "id": "b614a28772a4ff9a",
+        "intent": "returns_refunds",
+        "dense_rank": 2,
+        "reranked_rank": 1
+      },
+      {
+        "id": "583e80a133042b71",
+        "intent": "returns_refunds",
+        "dense_rank": 4,
+        "reranked_rank": 2
+      },
+      {
+        "id": "f7b90627ea18d8f6",
+        "intent": "returns_refunds",
+        "dense_rank": 2,
+        "reranked_rank": 1
+      },
+      {
+        "id": "c1b7a8c0f138c843",
+        "intent": "account_billing",
+        "dense_rank": 3,
+        "reranked_rank": 2
+      },
+      {
+        "id": "b7fe8e583253b111",
+        "intent": "echo_alexa",
+        "dense_rank": 2,
+        "reranked_rank": 1
+      },
+      {
+        "id": "c4dfa7c7bd5687f2",
+        "intent": "echo_alexa",
+        "dense_rank": 3,
+        "reranked_rank": 1
+      },
+      {
+        "id": "6177b8cf868e7f36",
+        "intent": "account_access",
+        "dense_rank": 12,
+        "reranked_rank": 1
+      },
+      {
+        "id": "94623b4fdd7ab5bf",
+        "intent": "promotions_pricing",
+        "dense_rank": 2,
+        "reranked_rank": 1
+      },
+      {
+        "id": "baa82fe4c3c04a25",
+        "intent": "amazon_locker",
+        "dense_rank": 7,
+        "reranked_rank": 1
+      },
+      {
+        "id": "16cfcf62900ef5ea",
+        "intent": "grocery_fresh",
+        "dense_rank": 18,
+        "reranked_rank": 2
+      },
+      {
+        "id": "451122bbe75eae6a",
+        "intent": "product_availability",
+        "dense_rank": 19,
+        "reranked_rank": 4
+      },
+      {
+        "id": "ebefc67d2ab0c89b",
+        "intent": "product_availability",
+        "dense_rank": 16,
+        "reranked_rank": 3
+      }
+    ],
+    "HARMFUL_RERANK": [
+      {
+        "id": "1d34fe17e6385fba",
+        "intent": "delivery_delayed",
+        "dense_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "3f03050f2ccd56e1",
+        "intent": "delivery_missing",
+        "dense_rank": 1,
+        "reranked_rank": 3
+      },
+      {
+        "id": "8e6ae6b8bb6ff8d9",
+        "intent": "delivery_wrong_item",
+        "dense_rank": 3,
+        "reranked_rank": 9
+      },
+      {
+        "id": "471d985ba341b408",
+        "intent": "returns_refunds",
+        "dense_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "373f82ed0389646e",
+        "intent": "returns_refunds",
+        "dense_rank": 1,
+        "reranked_rank": 3
+      },
+      {
+        "id": "0e5b9b2c0a94881f",
+        "intent": "account_billing",
+        "dense_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "ddc983b3b471f230",
+        "intent": "account_billing",
+        "dense_rank": 2,
+        "reranked_rank": 4
+      },
+      {
+        "id": "51f7b73ff3175ac1",
+        "intent": "digital_kindle",
+        "dense_rank": 4,
+        "reranked_rank": 12
+      },
+      {
+        "id": "f3b9d9f09b657817",
+        "intent": "digital_kindle",
+        "dense_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "24d6b4a375ee21d6",
+        "intent": "digital_kindle",
+        "dense_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "547be894014b4903",
+        "intent": "digital_kindle",
+        "dense_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "fa4e4850dc1714f0",
+        "intent": "amazon_music",
+        "dense_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "63b3f781506205d3",
+        "intent": "amazon_music",
+        "dense_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "acd6f1d0d28dc947",
+        "intent": "amazon_music",
+        "dense_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "5d794124ada5a1f9",
+        "intent": "amazon_music",
+        "dense_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "54def58a96d81403",
+        "intent": "amazon_music",
+        "dense_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "15417200d18d8247",
+        "intent": "echo_alexa",
+        "dense_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "086732e38ad7c1f5",
+        "intent": "account_access",
+        "dense_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "c763f518de8ef948",
+        "intent": "account_access",
+        "dense_rank": 1,
+        "reranked_rank": 3
+      },
+      {
+        "id": "2d269faf8a58863e",
+        "intent": "promotions_pricing",
+        "dense_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "a2bbc722057b5719",
+        "intent": "promotions_pricing",
+        "dense_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "f7cd418894688848",
+        "intent": "promotions_pricing",
+        "dense_rank": 2,
+        "reranked_rank": 12
+      },
+      {
+        "id": "b881f26bc54d6db1",
+        "intent": "promotions_pricing",
+        "dense_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "0f622e19186b5f24",
+        "intent": "promotions_pricing",
+        "dense_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "e1e6809c33e1958c",
+        "intent": "amazon_locker",
+        "dense_rank": 1,
+        "reranked_rank": 3
+      },
+      {
+        "id": "20c1a80b2496fb80",
+        "intent": "delivery_missing",
+        "dense_rank": 1,
+        "reranked_rank": 5
+      },
+      {
+        "id": "88d34caa84fe33cf",
+        "intent": "amazon_locker",
+        "dense_rank": 2,
+        "reranked_rank": 3
+      },
+      {
+        "id": "b75b8aba4b7a9baf",
+        "intent": "amazon_locker",
+        "dense_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "97d46e56ad05b8e3",
+        "intent": "amazon_locker",
+        "dense_rank": 1,
+        "reranked_rank": 7
+      },
+      {
+        "id": "416f367ae994e79c",
+        "intent": "grocery_fresh",
+        "dense_rank": 1,
+        "reranked_rank": 3
+      },
+      {
+        "id": "51815e0ee9dcfccd",
+        "intent": "grocery_fresh",
+        "dense_rank": 5,
+        "reranked_rank": 7
+      },
+      {
+        "id": "fa37c61f8b78911c",
+        "intent": "product_availability",
+        "dense_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "058a1adda23bf491",
+        "intent": "product_availability",
+        "dense_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "079b146a88a14dc0",
+        "intent": "product_availability",
+        "dense_rank": 1,
+        "reranked_rank": 4
+      }
+    ]
+  },
+  "weak_intents": {
+    "grocery_fresh_r5": 0.42857142857142855,
+    "account_access_r5": 0.8095238095238095,
+    "delivery_wrong_item_r5": 0.42857142857142855
+  },
+  "decision": "REJECT",
+  "cross_encoder_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "production_model_modified": false,
+  "production_faiss_modified": false,
+  "golden_set_modified": false
+}

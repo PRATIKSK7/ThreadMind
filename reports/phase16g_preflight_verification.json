@@ -1,0 +1,380 @@
+{
+  "CURRENT_BEST": "V2",
+  "GOLDEN_SET_STATUS": "UNCHANGED",
+  "PRODUCTION_STATUS": "UNCHANGED",
+  "HUMAN_REVIEW_STATUS": "SIMULATED",
+  "SIMULATED_DECISIONS": 24,
+  "REAL_DECISIONS": 0,
+  "TAXONOMY_GAPS": [
+    "other_support overlaps with everything"
+  ],
+  "CORPUS_GAPS": [],
+  "TOP_BOUNDARIES": [
+    "amazon_locker \u2194 delivery_missing",
+    "digital_kindle \u2194 other_support",
+    "echo_alexa \u2194 other_support"
+  ],
+  "SAFE_NEXT_ACTION": "MANUAL_REVIEW_REQUIRED",
+  "verified_cases": [
+    {
+      "id": "GS-009",
+      "current_label": "returns_refunds",
+      "v2_prediction": "other_support",
+      "top_3_retrieved_intents": [
+        "delivery_delayed",
+        "returns_refunds",
+        "delivery_delayed"
+      ],
+      "failure_category": "CONFLICTING_EVIDENCE",
+      "ambiguity_boundary": "other_support \u2194 returns_refunds",
+      "phase16f_decision": "CHANGE_LABEL",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-017",
+      "current_label": "delivery_missing",
+      "v2_prediction": "amazon_locker",
+      "top_3_retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "failure_category": "CLASSIFIER_IGNORED_CORRECT",
+      "ambiguity_boundary": "amazon_locker \u2194 delivery_missing",
+      "phase16f_decision": "CHANGE_LABEL",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-027",
+      "current_label": "delivery_missing",
+      "v2_prediction": "amazon_locker",
+      "top_3_retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "failure_category": "CLASSIFIER_IGNORED_CORRECT",
+      "ambiguity_boundary": "amazon_locker \u2194 delivery_missing",
+      "phase16f_decision": "CHANGE_LABEL",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-057",
+      "current_label": "account_billing",
+      "v2_prediction": "other_support",
+      "top_3_retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "failure_category": "CLASSIFIER_IGNORED_CORRECT",
+      "ambiguity_boundary": "account_billing \u2194 other_support",
+      "phase16f_decision": "TAXONOMY_RULE_NEEDED",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-064",
+      "current_label": "account_billing",
+      "v2_prediction": "other_support",
+      "top_3_retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "failure_category": "CLASSIFIER_IGNORED_CORRECT",
+      "ambiguity_boundary": "account_billing \u2194 other_support",
+      "phase16f_decision": "CHANGE_LABEL",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-077",
+      "current_label": "digital_prime_video",
+      "v2_prediction": "other_support",
+      "top_3_retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "failure_category": "CLASSIFIER_IGNORED_CORRECT",
+      "ambiguity_boundary": "digital_prime_video \u2194 other_support",
+      "phase16f_decision": "CHANGE_LABEL",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-084",
+      "current_label": "digital_kindle",
+      "v2_prediction": "other_support",
+      "top_3_retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "failure_category": "RETRIEVAL_MISSING",
+      "ambiguity_boundary": "digital_kindle \u2194 other_support",
+      "phase16f_decision": "TAXONOMY_RULE_NEEDED",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-086",
+      "current_label": "digital_kindle",
+      "v2_prediction": "other_support",
+      "top_3_retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "failure_category": "RETRIEVAL_MISSING",
+      "ambiguity_boundary": "digital_kindle \u2194 other_support",
+      "phase16f_decision": "TAXONOMY_RULE_NEEDED",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-096",
+      "current_label": "digital_kindle",
+      "v2_prediction": "other_support",
+      "top_3_retrieved_intents": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "failure_category": "CLASSIFIER_IGNORED_CORRECT",
+      "ambiguity_boundary": "digital_kindle \u2194 other_support",
+      "phase16f_decision": "TAXONOMY_RULE_NEEDED",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-122",
+      "current_label": "echo_alexa",
+      "v2_prediction": "other_support",
+      "top_3_retrieved_intents": [
+        "echo_alexa",
+        "delivery_delayed",
+        "echo_alexa"
+      ],
+      "failure_category": "CONFLICTING_EVIDENCE",
+      "ambiguity_boundary": "echo_alexa \u2194 other_support",
+      "phase16f_decision": "TAXONOMY_RULE_NEEDED",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-123",
+      "current_label": "echo_alexa",
+      "v2_prediction": "other_support",
+      "top_3_retrieved_intents": [
+        "echo_alexa",
+        "echo_alexa",
+        "amazon_music"
+      ],
+      "failure_category": "CONFLICTING_EVIDENCE",
+      "ambiguity_boundary": "echo_alexa \u2194 other_support",
+      "phase16f_decision": "TAXONOMY_RULE_NEEDED",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-124",
+      "current_label": "echo_alexa",
+      "v2_prediction": "other_support",
+      "top_3_retrieved_intents": [
+        "product_availability",
+        "account_access",
+        "echo_alexa"
+      ],
+      "failure_category": "CONFLICTING_EVIDENCE",
+      "ambiguity_boundary": "echo_alexa \u2194 other_support",
+      "phase16f_decision": "CHANGE_LABEL",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-128",
+      "current_label": "account_access",
+      "v2_prediction": "delivery_wrong_item",
+      "top_3_retrieved_intents": [
+        "account_access",
+        "delivery_delayed",
+        "account_access"
+      ],
+      "failure_category": "CONFLICTING_EVIDENCE",
+      "ambiguity_boundary": "account_access \u2194 delivery_wrong_item",
+      "phase16f_decision": "CHANGE_LABEL",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-139",
+      "current_label": "account_access",
+      "v2_prediction": "delivery_wrong_item",
+      "top_3_retrieved_intents": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "failure_category": "CLASSIFIER_IGNORED_CORRECT",
+      "ambiguity_boundary": "account_access \u2194 delivery_wrong_item",
+      "phase16f_decision": "CHANGE_LABEL",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-141",
+      "current_label": "promotions_pricing",
+      "v2_prediction": "other_support",
+      "top_3_retrieved_intents": [
+        "delivery_delayed",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "failure_category": "CONFLICTING_EVIDENCE",
+      "ambiguity_boundary": "other_support \u2194 promotions_pricing",
+      "phase16f_decision": "CHANGE_LABEL",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-144",
+      "current_label": "promotions_pricing",
+      "v2_prediction": "other_support",
+      "top_3_retrieved_intents": [
+        "promotions_pricing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "failure_category": "CONFLICTING_EVIDENCE",
+      "ambiguity_boundary": "other_support \u2194 promotions_pricing",
+      "phase16f_decision": "CHANGE_LABEL",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-150",
+      "current_label": "promotions_pricing",
+      "v2_prediction": "other_support",
+      "top_3_retrieved_intents": [
+        "promotions_pricing",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "failure_category": "CLASSIFIER_IGNORED_CORRECT",
+      "ambiguity_boundary": "other_support \u2194 promotions_pricing",
+      "phase16f_decision": "TAXONOMY_RULE_NEEDED",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-159",
+      "current_label": "delivery_missing",
+      "v2_prediction": "amazon_locker",
+      "top_3_retrieved_intents": [
+        "delivery_missing",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "failure_category": "CONFLICTING_EVIDENCE",
+      "ambiguity_boundary": "amazon_locker \u2194 delivery_missing",
+      "phase16f_decision": "CHANGE_LABEL",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-164",
+      "current_label": "amazon_locker",
+      "v2_prediction": "other_support",
+      "top_3_retrieved_intents": [
+        "amazon_locker",
+        "delivery_missing",
+        "delivery_delayed"
+      ],
+      "failure_category": "CONFLICTING_EVIDENCE",
+      "ambiguity_boundary": "amazon_locker \u2194 other_support",
+      "phase16f_decision": "TAXONOMY_RULE_NEEDED",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-174",
+      "current_label": "grocery_fresh",
+      "v2_prediction": "other_support",
+      "top_3_retrieved_intents": [
+        "delivery_delayed",
+        "delivery_missing",
+        "delivery_delayed"
+      ],
+      "failure_category": "RETRIEVAL_MISSING",
+      "ambiguity_boundary": "grocery_fresh \u2194 other_support",
+      "phase16f_decision": "CHANGE_LABEL",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-178",
+      "current_label": "grocery_fresh",
+      "v2_prediction": "other_support",
+      "top_3_retrieved_intents": [
+        "delivery_missing",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "failure_category": "RETRIEVAL_MISSING",
+      "ambiguity_boundary": "grocery_fresh \u2194 other_support",
+      "phase16f_decision": "CHANGE_LABEL",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-182",
+      "current_label": "product_availability",
+      "v2_prediction": "other_support",
+      "top_3_retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "failure_category": "CLASSIFIER_IGNORED_CORRECT",
+      "ambiguity_boundary": "other_support \u2194 product_availability",
+      "phase16f_decision": "TAXONOMY_RULE_NEEDED",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-186",
+      "current_label": "product_availability",
+      "v2_prediction": "other_support",
+      "top_3_retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "amazon_music"
+      ],
+      "failure_category": "RETRIEVAL_MISSING",
+      "ambiguity_boundary": "other_support \u2194 product_availability",
+      "phase16f_decision": "TAXONOMY_RULE_NEEDED",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    },
+    {
+      "id": "GS-189",
+      "current_label": "product_availability",
+      "v2_prediction": "other_support",
+      "top_3_retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "failure_category": "CLASSIFIER_IGNORED_CORRECT",
+      "ambiguity_boundary": "other_support \u2194 product_availability",
+      "phase16f_decision": "TAXONOMY_RULE_NEEDED",
+      "decision_source": "SIMULATED_LLM",
+      "confidence": "N/A"
+    }
+  ]
+}

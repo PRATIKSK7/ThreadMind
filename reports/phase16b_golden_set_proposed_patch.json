@@ -1,0 +1,54 @@
+[
+  {
+    "example_id": "GS-027",
+    "thread_id": "2555a8d9872a2f15",
+    "current_intent": "delivery_missing",
+    "proposed_intent": "delivery_missing",
+    "status": "PROPOSE_LABEL_CHANGE",
+    "confidence": "MEDIUM",
+    "reason": "The customer explicitly stated that the product was delivered on time, which contradicts the current golden label of 'delivery_missing'. The V2 predicted label of 'amazon_locker' is also not relevant to the conversation.",
+    "evidence": "User: @AmazonHelp Delivered bang in time. https://t.co/OGmzvgFyXQ",
+    "why_current_inferior": "The current golden label does not align with the customer's statement, and the V2 predicted label is not relevant to the conversation.",
+    "why_proposed_superior": "The proposed intent of 'delivery_missing' is the most relevant and accurate based on the customer's statement.",
+    "competing_intents": "None"
+  },
+  {
+    "example_id": "GS-064",
+    "thread_id": "5bdc103dceaa85cc",
+    "current_intent": "account_billing",
+    "proposed_intent": "delivery_missing",
+    "status": "PROPOSE_LABEL_CHANGE",
+    "confidence": "LOW",
+    "reason": "The customer is asking for a price confirmation, but the current label 'account_billing' does not address the issue. The V2 predicted label 'other_support' is also not relevant to the customer's concern.",
+    "evidence": "The customer is asking for a price confirmation and is expressing frustration with the price increase, which suggests that the issue is related to the product's availability or delivery.",
+    "why_current_inferior": "The current label 'account_billing' does not address the customer's concern about the price increase, and the V2 predicted label 'other_support' is not relevant to the issue.",
+    "why_proposed_superior": "The proposed intent 'delivery_missing' is more relevant to the customer's concern, as they are asking for a price confirmation and are expressing frustration with the price increase.",
+    "competing_intents": "account_billing, other_support"
+  },
+  {
+    "example_id": "GS-164",
+    "thread_id": "e4b818ccb8232155",
+    "current_intent": "amazon_locker",
+    "proposed_intent": "delivery_missing",
+    "status": "PROPOSE_LABEL_CHANGE",
+    "confidence": "MEDIUM",
+    "reason": "The current label amazon_locker does not accurately capture the primary issue, which is the failed delivery of a book. The V2 predicted label other_support is also not relevant to the customer's concern.",
+    "evidence": "The customer's message mentions that USPS failed to deliver a book and that the customer is now expected to chase it down, indicating a missing delivery issue.",
+    "why_current_inferior": "The current label amazon_locker is too broad and does not specifically address the customer's issue with the failed delivery of a book.",
+    "why_proposed_superior": "The proposed intent delivery_missing is more specific and accurately captures the primary issue the customer is facing.",
+    "competing_intents": "None"
+  },
+  {
+    "example_id": "GS-174",
+    "thread_id": "51815e0ee9dcfccd",
+    "current_intent": "grocery_fresh",
+    "proposed_intent": "delivery_delayed",
+    "status": "PROPOSE_LABEL_CHANGE",
+    "confidence": "MEDIUM",
+    "reason": "The customer is asking about the status of their grocery delivery, which is not matched by the current golden label 'grocery_fresh'. The V2 predicted label 'other_support' is also not relevant to the customer's concern.",
+    "evidence": "The customer mentions 'grocery' and 'delivery' in their message, indicating that the issue is with the delivery of their grocery order.",
+    "why_current_inferior": "The current golden label 'grocery_fresh' does not address the customer's concern about the delivery status of their order.",
+    "why_proposed_superior": "The proposed intent 'delivery_delayed' is more relevant to the customer's concern and is a more specific and accurate description of the issue.",
+    "competing_intents": "None"
+  }
+]

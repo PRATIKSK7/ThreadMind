@@ -1,0 +1,843 @@
+{
+  "confusion": {
+    "delivery_delayed": {
+      "delivery_delayed": 12
+    },
+    "returns_refunds": {
+      "returns_refunds": 15,
+      "other_support": 1
+    },
+    "delivery_missing": {
+      "delivery_missing": 12,
+      "amazon_locker": 3
+    },
+    "delivery_wrong_item": {
+      "delivery_wrong_item": 7
+    },
+    "account_access": {
+      "account_access": 19,
+      "delivery_wrong_item": 2
+    },
+    "account_billing": {
+      "account_billing": 12,
+      "other_support": 2
+    },
+    "digital_prime_video": {
+      "digital_prime_video": 13,
+      "other_support": 1
+    },
+    "digital_kindle": {
+      "other_support": 3,
+      "digital_kindle": 11
+    },
+    "amazon_music": {
+      "amazon_music": 14
+    },
+    "echo_alexa": {
+      "echo_alexa": 11,
+      "other_support": 3
+    },
+    "promotions_pricing": {
+      "promotions_pricing": 11,
+      "other_support": 3
+    },
+    "amazon_locker": {
+      "amazon_locker": 12,
+      "other_support": 1
+    },
+    "grocery_fresh": {
+      "grocery_fresh": 12,
+      "other_support": 2
+    },
+    "product_availability": {
+      "other_support": 3,
+      "product_availability": 11
+    }
+  },
+  "intent_stats": [
+    {
+      "intent": "digital_kindle",
+      "total": 14,
+      "correct": 11,
+      "incorrect": 3,
+      "accuracy": 0.7857142857142857
+    },
+    {
+      "intent": "echo_alexa",
+      "total": 14,
+      "correct": 11,
+      "incorrect": 3,
+      "accuracy": 0.7857142857142857
+    },
+    {
+      "intent": "promotions_pricing",
+      "total": 14,
+      "correct": 11,
+      "incorrect": 3,
+      "accuracy": 0.7857142857142857
+    },
+    {
+      "intent": "product_availability",
+      "total": 14,
+      "correct": 11,
+      "incorrect": 3,
+      "accuracy": 0.7857142857142857
+    },
+    {
+      "intent": "delivery_missing",
+      "total": 15,
+      "correct": 12,
+      "incorrect": 3,
+      "accuracy": 0.8
+    },
+    {
+      "intent": "account_billing",
+      "total": 14,
+      "correct": 12,
+      "incorrect": 2,
+      "accuracy": 0.8571428571428571
+    },
+    {
+      "intent": "grocery_fresh",
+      "total": 14,
+      "correct": 12,
+      "incorrect": 2,
+      "accuracy": 0.8571428571428571
+    },
+    {
+      "intent": "account_access",
+      "total": 21,
+      "correct": 19,
+      "incorrect": 2,
+      "accuracy": 0.9047619047619048
+    },
+    {
+      "intent": "amazon_locker",
+      "total": 13,
+      "correct": 12,
+      "incorrect": 1,
+      "accuracy": 0.9230769230769231
+    },
+    {
+      "intent": "digital_prime_video",
+      "total": 14,
+      "correct": 13,
+      "incorrect": 1,
+      "accuracy": 0.9285714285714286
+    },
+    {
+      "intent": "returns_refunds",
+      "total": 16,
+      "correct": 15,
+      "incorrect": 1,
+      "accuracy": 0.9375
+    },
+    {
+      "intent": "delivery_delayed",
+      "total": 12,
+      "correct": 12,
+      "incorrect": 0,
+      "accuracy": 1.0
+    },
+    {
+      "intent": "delivery_wrong_item",
+      "total": 7,
+      "correct": 7,
+      "incorrect": 0,
+      "accuracy": 1.0
+    },
+    {
+      "intent": "amazon_music",
+      "total": 14,
+      "correct": 14,
+      "incorrect": 0,
+      "accuracy": 1.0
+    }
+  ],
+  "failures": [
+    {
+      "thread_id": "136747dbfd949f68",
+      "expected": "returns_refunds",
+      "predicted": "other_support",
+      "retrieved_intents": [
+        "delivery_delayed",
+        "returns_refunds",
+        "delivery_delayed"
+      ],
+      "expected_rank": 2,
+      "heuristic_category": "CONFLICTING_EVIDENCE",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "@115821.ca So apprently a 3 to 5 bussines days refund from you means 2 + weeks and counting, good know. Seriously now happy with your customer service."
+        },
+        {
+          "author_role": "brand",
+          "text": "@564183 I'm sorry for the frustration! Are you able to see your refund status here: https://t.co/5WRq60kw24 ^AC"
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp My refund claim is 2 weeks old. Sorry dosn't exactly cut it. It was an issue on your end that caused the problem, I was told I had to wait, and I'm still waiting."
+        },
+        {
+          "author_role": "brand",
+          "text": "@564183 Can you tell us what information we provided about the refund? Did we mention the cause of the error and if it was processed correctly since then? ^EZ"
+        }
+      ]
+    },
+    {
+      "thread_id": "9d4ee10b51d6518c",
+      "expected": "delivery_missing",
+      "predicted": "amazon_locker",
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "expected_rank": 1,
+      "heuristic_category": "CLASSIFIER_IGNORED_CORRECT",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "@115850 you people are torturing me since last 3 days by not collecting the faulty phone that has been delivered to me by mistake 1/5"
+        },
+        {
+          "author_role": "brand",
+          "text": "@268374 Sorry about the experience, Ajay. We have responded to your query here: https://t.co/Ghyge8BqMg. Please check. ^NK"
+        }
+      ]
+    },
+    {
+      "thread_id": "2555a8d9872a2f15",
+      "expected": "delivery_missing",
+      "predicted": "amazon_locker",
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "expected_rank": 1,
+      "heuristic_category": "CLASSIFIER_IGNORED_CORRECT",
+      "conversation": [
+        {
+          "author_role": "brand",
+          "text": "@549653 Welcome to Prime, Sudarshan. I'm positive the product would be delivered according to the estimate. Please keep us posted.^KA"
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp Loved the ease of shopping and checkout."
+        },
+        {
+          "author_role": "brand",
+          "text": "@549653 Delighted to know that. Do keep us posted for further issues or concerns. ^SB"
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp Delivered bang in time. https://t.co/OGmzvgFyXQ"
+        },
+        {
+          "author_role": "brand",
+          "text": "@549653 We're glad you've received the order. Wish you and your family a happy &amp; safe Diwali! \ud83d\ude0a\ud83c\udf87 ^EM"
+        }
+      ]
+    },
+    {
+      "thread_id": "548c4f7b87a573e3",
+      "expected": "account_billing",
+      "predicted": "other_support",
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "expected_rank": 1,
+      "heuristic_category": "CLASSIFIER_IGNORED_CORRECT",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "@115850 Im not able to add money to AmazonPay thr DebitCard. Im being taken to same page after filling the info.#AmazonGreatIndianFestival https://t.co/nDJn8OGBmn"
+        },
+        {
+          "author_role": "brand",
+          "text": "@193112 Allow our support team to investigate this. You can report this here: https://t.co/R3EfhzgU8B ^CB."
+        }
+      ]
+    },
+    {
+      "thread_id": "5bdc103dceaa85cc",
+      "expected": "account_billing",
+      "predicted": "other_support",
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "expected_rank": 1,
+      "heuristic_category": "CLASSIFIER_IGNORED_CORRECT",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "Sir, price of your book Black money &amp; Tax heavens has doubled in last few hours on @115850 ..what's d actual price ? https://t.co/7DjCvtsLs1"
+        },
+        {
+          "author_role": "brand",
+          "text": "@356321 The price you see are the lowest we are able to offer. You can check the price of the product here : https://t.co/bPZAnv9WLy.^GD"
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp Did u even see the screenshot ? The price has increased more then 100 INR in last few hours..and u say its lowest ?? Smell some coffee.."
+        },
+        {
+          "author_role": "brand",
+          "text": "@356321 The price and availability of the items and services offered on our website are subject to change. Adding an item (1/2)"
+        },
+        {
+          "author_role": "brand",
+          "text": "@356321 or service to your Cart doesn't lock in the price of that item and it doesn't reserve the inventory available. ^SG(2/2)"
+        }
+      ]
+    },
+    {
+      "thread_id": "e6aef6c530ba4876",
+      "expected": "digital_prime_video",
+      "predicted": "other_support",
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "expected_rank": 1,
+      "heuristic_category": "CLASSIFIER_IGNORED_CORRECT",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp my friend subscribed for Prime videos. Amt. has been deducted frm her accnt. But prime subscription is still not activated."
+        },
+        {
+          "author_role": "brand",
+          "text": "@465245 That's strange. Request the account holder to share the details here: https://t.co/beaaDm0muc and we'll check. ^GK"
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp Thanks team. Spoke with customer care and it's resolved now."
+        },
+        {
+          "author_role": "brand",
+          "text": "@465245 We're happy to hear that the issue is resolved. Keep us posted, for further concerns. ^SC"
+        }
+      ]
+    },
+    {
+      "thread_id": "e0e2bacc798bff2b",
+      "expected": "digital_kindle",
+      "predicted": "other_support",
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "expected_rank": 999,
+      "heuristic_category": "RETRIEVAL_MISSING",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "where's my kindle\ud83d\udc86\ud83c\udffd"
+        },
+        {
+          "author_role": "brand",
+          "text": "@798774 Hi. Are you waiting on a delivery? What was the expected delivery date given at the time the order was placed? ^DC"
+        }
+      ]
+    },
+    {
+      "thread_id": "51f7b73ff3175ac1",
+      "expected": "digital_kindle",
+      "predicted": "other_support",
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "expected_rank": 999,
+      "heuristic_category": "RETRIEVAL_MISSING",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "@amazonhelp @44867 is this site legit? I'm seeing ads on Twitter &amp; Facebook.. Thanks\n\nhttps://t.co/gt3cPmEqUP"
+        },
+        {
+          "author_role": "brand",
+          "text": "@529488 Thanks for bringing this to our attention. This is not an official Amazon account page. I\u2019ve reported it to the appropriate team. ^LI"
+        }
+      ]
+    },
+    {
+      "thread_id": "a0cb92cfb35738bb",
+      "expected": "digital_kindle",
+      "predicted": "other_support",
+      "retrieved_intents": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "expected_rank": 1,
+      "heuristic_category": "CLASSIFIER_IGNORED_CORRECT",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "@115830, I am trying to buy an Italian ebook - La gente by Bianchi - but I can't just because I am in the UK? How's that possible? It's an ebook, not a paperback? It would be great if you could let me know if there is anyway I can buy it (ebook only)"
+        },
+        {
+          "author_role": "brand",
+          "text": "@280803 Hi There, I am sorry to hear this! could you please send us a link to the ebook? ^HS"
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp Hi, thanks for the quick reply. The italian link is the following https://t.co/SfY8Nmq831"
+        },
+        {
+          "author_role": "brand",
+          "text": "@280803 What error message are you receiving when purchasing the ebook?^CN"
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp I cannot buy the ebook because it's only available on amazon.it in which I can't purchase because my account is in the UK. If I search it on https://t.co/5JeCbiv3lj no results are available. Is there a way in which you could get the book on https://t.co/7ZmjRmPlGB"
+        },
+        {
+          "author_role": "brand",
+          "text": "@280803 I am sorry to hear this. Just to note you can access the Amazon.it website with the same login credentials as the AmazonUK website. Can I ask what item you are searching for please?^GA"
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp Hi, I can access but I can't buy ebook in the italian Amazon, only in the UK and US ones. It's an ebook, La Gente by Bianchi. I do not want to buy paperback just ebook for kindle!"
+        },
+        {
+          "author_role": "brand",
+          "text": "@280803 Please contact our Customer Service for help by clicking here: https://t.co/u32OIkkndA. ^MZ"
+        }
+      ]
+    },
+    {
+      "thread_id": "4c2ba68f8d6d8d01",
+      "expected": "echo_alexa",
+      "predicted": "other_support",
+      "retrieved_intents": [
+        "echo_alexa",
+        "delivery_delayed",
+        "echo_alexa"
+      ],
+      "expected_rank": 1,
+      "heuristic_category": "CONFLICTING_EVIDENCE",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "Today we're celebrating Alexa's 3rd birthday. \ud83c\udf82 \ud83c\udf81\ud83c\udf88 #HBDAlexa https://t.co/dD0mE0be1D"
+        },
+        {
+          "author_role": "customer",
+          "text": "@116439 @115833 Seriously, why does she tell us \" the happy birthday app is no longer enabled\"? Why the big ad campaign with no payoff here at home?"
+        },
+        {
+          "author_role": "brand",
+          "text": "@518122 Hey there! Have you enabled the skill? You can learn more about enabling Alexa skills here: https://t.co/4jjBvcBduG ^GM"
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp My opinion: happy birthday on her birthday should be a standard prompt like \"good morning\"&amp; \"thank you\" it should elicit a response from her"
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp Looking at the apps I can't even tell which would be the official birthday app.  Now it says \" the skill is not available right now\""
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp she's getting the others but \" happy birthday\" is the one that just doesn't work. Weird.( We've tried all three units with same results) https://t.co/b8RZJl9inJ"
+        }
+      ]
+    },
+    {
+      "thread_id": "59b64538302cb337",
+      "expected": "echo_alexa",
+      "predicted": "other_support",
+      "retrieved_intents": [
+        "echo_alexa",
+        "echo_alexa",
+        "amazon_music"
+      ],
+      "expected_rank": 1,
+      "heuristic_category": "CONFLICTING_EVIDENCE",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "There is certain expectation from @115821 , please do not let down customers with such low quality speakers on Echo plus @AmazonHelp"
+        },
+        {
+          "author_role": "brand",
+          "text": "@127217 I'm sorry to know that the device wasn't as expected. I'll certainly forward your feedback to the relevant team. ^EM"
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp Let me know once have better speakers on Echo Plus I may once again try my luck. As of now disappointed as it is not expected from @115821"
+        },
+        {
+          "author_role": "brand",
+          "text": "@127217 I get your concern, we've passed on your feedback internally. ^PS"
+        }
+      ]
+    },
+    {
+      "thread_id": "c4dfa7c7bd5687f2",
+      "expected": "echo_alexa",
+      "predicted": "other_support",
+      "retrieved_intents": [
+        "product_availability",
+        "account_access",
+        "echo_alexa"
+      ],
+      "expected_rank": 3,
+      "heuristic_category": "CONFLICTING_EVIDENCE",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "Porqu\u00e9 @116928 tarda tanto en tomar un pedido \ud83d\ude28"
+        },
+        {
+          "author_role": "brand",
+          "text": "@299203 Lamento cualquier inconveniente, Lichis, \u00bfPodr\u00edas comentarnos m\u00e1s sobre lo que ha ocurrido sin publicar detalles de tu cuenta? ^AZ"
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp Ordene por su web el martes! Y no me han hecho el cargo a mi tarjeta, y mi pedido sigue pendiente!"
+        },
+        {
+          "author_role": "brand",
+          "text": "@299203 Lichis, \u00bfcu\u00e1l es la fecha estimada de entrega de tu pedido? ^LG"
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp \u00danicamente dice Fecha estimada pendiente!!"
+        },
+        {
+          "author_role": "brand",
+          "text": "@299203 Lichis, \u00bfverificaste la disponibilidad de los productos (https://t.co/AqWMye8QMq)? ^HC"
+        }
+      ]
+    },
+    {
+      "thread_id": "7407c0dd1c4a8822",
+      "expected": "account_access",
+      "predicted": "delivery_wrong_item",
+      "retrieved_intents": [
+        "account_access",
+        "delivery_delayed",
+        "account_access"
+      ],
+      "expected_rank": 1,
+      "heuristic_category": "CONFLICTING_EVIDENCE",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "@115830 Really poor delivery service today. Saw van arrive when upstairs, by time I'd come down the van had driven off. No attempt to open the unlocked gates or place in the mail box at roadside."
+        },
+        {
+          "author_role": "brand",
+          "text": "@505085 I do apologize about this experience! Please give us a ring so we can look into this with you: https://t.co/JzP7hlA23B ^TR"
+        }
+      ]
+    },
+    {
+      "thread_id": "7e10f8a5300df65c",
+      "expected": "account_access",
+      "predicted": "delivery_wrong_item",
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "expected_rank": 1,
+      "heuristic_category": "CLASSIFIER_IGNORED_CORRECT",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp hello my account has been blocked due to security reasons I tried to buy \u00a320 on Xbox and it was pending verification"
+        },
+        {
+          "author_role": "brand",
+          "text": "@650920 Did you receive an email from one of our Account Specialists? ^SH"
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp Not yet"
+        },
+        {
+          "author_role": "brand",
+          "text": "@650920 When an account is put on hold, an e-mail with more information is sent out. Have you checked your junk/spam folder? ^MJ"
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp Oh I got one telling me to fax them I haven't even seen a fax in real life before!"
+        }
+      ]
+    },
+    {
+      "thread_id": "507a5d959193bd85",
+      "expected": "promotions_pricing",
+      "predicted": "other_support",
+      "retrieved_intents": [
+        "delivery_delayed",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "expected_rank": 2,
+      "heuristic_category": "CONFLICTING_EVIDENCE",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "WTF .. KAUNSA AISA COMPANY HAI JO 1290 MA 32GB SD CARD PRICE KARTHAI . STOP TRAPPING INNOCENT PEOPLE. @115850 https://t.co/Hbjmxdtf8r"
+        },
+        {
+          "author_role": "brand",
+          "text": "@165811 We constantly receive new data from our suppliers &amp; our prices are set by the sellers. (2/2) ^AS"
+        },
+        {
+          "author_role": "brand",
+          "text": "@165811 As Amazon.in is a marketplace, the products are sold by individual sellers/suppliers. (1/2) ^AS"
+        }
+      ]
+    },
+    {
+      "thread_id": "a2bbc722057b5719",
+      "expected": "promotions_pricing",
+      "predicted": "other_support",
+      "retrieved_intents": [
+        "promotions_pricing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "expected_rank": 1,
+      "heuristic_category": "CONFLICTING_EVIDENCE",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "@115850 @115851 \nTotally unprofessional, bought Xbox on preorder offer, CC team refused any such promo existed, 10 days  no resolution. https://t.co/bNlpeOujdC"
+        },
+        {
+          "author_role": "brand",
+          "text": "@444428 Apologies, That was not intended. Please share your details here: https://t.co/GIJyeYqKE0 &amp; we'll get in touch with you. ^BS"
+        }
+      ]
+    },
+    {
+      "thread_id": "a3b31228d3f292c5",
+      "expected": "promotions_pricing",
+      "predicted": "other_support",
+      "retrieved_intents": [
+        "promotions_pricing",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "expected_rank": 1,
+      "heuristic_category": "CLASSIFIER_IGNORED_CORRECT",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "@6326 vous pouvez me dire en quoi c\u2019est une promo ? \u00c7a s\u2019appellerait pas par hasard gonfler ses prix avant promo pour faire croire \u00e0 une remise ? @120533 vous \u00eates pareil ! #BlackFriday2017 https://t.co/R0oZWY96FW"
+        },
+        {
+          "author_role": "brand",
+          "text": "@147033 Bonjour, pouvez-vous me fournir le lien de l'article sur notre site s'il vous pla\u00eet ? ^AR"
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp https://t.co/uXk7h5QNDa  encore une remise de 11% fictive ! Le vrai prix est d\u00e9j\u00e0 de 1329,99\u20ac"
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp Pas de r\u00e9ponse ! Apparemment c\u2019est normal comme pratique @6326"
+        },
+        {
+          "author_role": "brand",
+          "text": "@147033 Est-ce que vous avez une id\u00e9e si le prix affich\u00e9 sur le site du constructeur (Gopro), est sous promotion ou non ? ^AR"
+        }
+      ]
+    },
+    {
+      "thread_id": "20c1a80b2496fb80",
+      "expected": "delivery_missing",
+      "predicted": "amazon_locker",
+      "retrieved_intents": [
+        "delivery_missing",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "expected_rank": 1,
+      "heuristic_category": "CONFLICTING_EVIDENCE",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp Hello, I ordered an item from you fro collection at a locker - but I have only recieved an empty cardboard sleeve. Can you help?"
+        },
+        {
+          "author_role": "brand",
+          "text": "@800869 Hi! We'll need to investigate this issue further. Please contact us by phone or chat here: https://t.co/JzP7hlA23B One of our representatives will be able to provide the best options available. Let us know if you need anything! ^DA"
+        }
+      ]
+    },
+    {
+      "thread_id": "e4b818ccb8232155",
+      "expected": "amazon_locker",
+      "predicted": "other_support",
+      "retrieved_intents": [
+        "amazon_locker",
+        "delivery_missing",
+        "delivery_delayed"
+      ],
+      "expected_rank": 1,
+      "heuristic_category": "CONFLICTING_EVIDENCE",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "Do you ever get so angry at something so stupid that it's not even worth the effort? I don't, usually, but @115821 - you suck. USPS can't deliver a BOOK in my mailbox or at the house? Failed attempt? I'm supposed to chase it down now? Really. Not so #Prime."
+        },
+        {
+          "author_role": "brand",
+          "text": "@725306 I hate to hear of any trouble getting your package, Sherri! Usually missed deliveries are attempted again the next business day. Has it been more than one day since the delivery was failed? Let us know! We want to be sure you receive your package. ^MT"
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp Very frustrating-- \"You can reschedule the delivery by visiting USPS Redelivery or you can pick up your package from the post office listed on the notice of attempted delivery.\" 2nd time in recent weeks. Guess we'll see today. How can USPS fail to put a BOOK in the mailbox?!"
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp This is not #Prime service."
+        }
+      ]
+    },
+    {
+      "thread_id": "51815e0ee9dcfccd",
+      "expected": "grocery_fresh",
+      "predicted": "other_support",
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_missing",
+        "delivery_delayed"
+      ],
+      "expected_rank": 999,
+      "heuristic_category": "RETRIEVAL_MISSING",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "@115821 any idea when this order will arrive? I have a sassy Brit since grocery stopped carrying his @118826 #teatime #isthisatrick https://t.co/wb8uMOsjcW"
+        },
+        {
+          "author_role": "brand",
+          "text": "@118825 I'm sorry there was a delay! Let us know if your package doesn't arrive by November 2. Please keep us posted on its delivery. ^TN"
+        }
+      ]
+    },
+    {
+      "thread_id": "f0cfad48f6a145b1",
+      "expected": "grocery_fresh",
+      "predicted": "other_support",
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "expected_rank": 999,
+      "heuristic_category": "RETRIEVAL_MISSING",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "@115850 is so pathetic that it says guaranteed delivery by 11 AM tomorrow for a fresh order but cant deliver an order placed on 25th oct"
+        },
+        {
+          "author_role": "brand",
+          "text": "@478782 Did you report this to our customer service team here: https://t.co/vlvfJrlYEH? ^SI"
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp Yes 33 times but no one @115850 even takes the initiative to resolve issues just lie...pathetic service will never place an order with"
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp @115850 No one even took the initiative to give me a call after so much hassle @118919 @115850 @115830 @AmazonHelp"
+        }
+      ]
+    },
+    {
+      "thread_id": "7fa5ccca8702f290",
+      "expected": "product_availability",
+      "predicted": "other_support",
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "expected_rank": 1,
+      "heuristic_category": "CLASSIFIER_IGNORED_CORRECT",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "@121284 Can't change my device location to India. It is  only accepting US pincodes! Saavn says that service is not available here!"
+        },
+        {
+          "author_role": "brand",
+          "text": "@449425 Sorry to know you're having trouble changing the location. Kindly connect with us here: https://t.co/HQhpS2qeEd. We'll help. ^PS"
+        }
+      ]
+    },
+    {
+      "thread_id": "451122bbe75eae6a",
+      "expected": "product_availability",
+      "predicted": "other_support",
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "amazon_music"
+      ],
+      "expected_rank": 999,
+      "heuristic_category": "RETRIEVAL_MISSING",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp if I pre-order an mp3 album and I have a giftcard balance, will it automatically take it off when I order it? it's not showing"
+        },
+        {
+          "author_role": "brand",
+          "text": "@305178 We charge as songs or the album are released. For more details, please click here: https://t.co/ErE5xqdYyZ ^JR"
+        }
+      ]
+    },
+    {
+      "thread_id": "058a1adda23bf491",
+      "expected": "product_availability",
+      "predicted": "other_support",
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "expected_rank": 1,
+      "heuristic_category": "CLASSIFIER_IGNORED_CORRECT",
+      "conversation": [
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp is there a way to check why 2 orders keep having their delivery dates pushed back? Item shows as in-stock, and it\u2019s been a month since the order was placed."
+        },
+        {
+          "author_role": "brand",
+          "text": "@449947 I'm sorry to hear about the delay with your order! Have you received any messages regarding the delay? You can check here: https://t.co/Xl6oQRQ1sb ^MW"
+        },
+        {
+          "author_role": "customer",
+          "text": "@AmazonHelp No message. The expected shipping/delivery date just changes in my list of orders."
+        },
+        {
+          "author_role": "brand",
+          "text": "@449947 We can have a further look into this with you. Please use the following link so that we may do so: https://t.co/hApLpMlfHN ^DO"
+        }
+      ]
+    }
+  ]
+}

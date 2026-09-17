@@ -1,0 +1,282 @@
+{
+  "metrics": {
+    "current_accuracy": 0.8775510204081632,
+    "current_macro_f1": 0.857859366042162,
+    "simulated_accuracy": 0.8775510204081632,
+    "simulated_macro_f1": 0.857859366042162,
+    "changed_labels_count": 0,
+    "changed_evaluations_count": 0
+  },
+  "ambiguous_cases": [
+    {
+      "example_id": "GS-009",
+      "thread_id": "136747dbfd949f68",
+      "current_label": "returns_refunds",
+      "competing_intent": "other_support",
+      "policy_decision": "returns_refunds",
+      "why_ambiguous": "The conversation contains signals for both intents, requiring a hierarchy to resolve.",
+      "disambiguation_info": "The intent hierarchy resolves this by prioritizing operational impact (e.g. financial > fulfillment)."
+    },
+    {
+      "example_id": "GS-017",
+      "thread_id": "9d4ee10b51d6518c",
+      "current_label": "delivery_missing",
+      "competing_intent": "amazon_locker",
+      "policy_decision": "delivery_missing",
+      "why_ambiguous": "The conversation contains signals for both intents, requiring a hierarchy to resolve.",
+      "disambiguation_info": "The intent hierarchy resolves this by prioritizing operational impact (e.g. financial > fulfillment)."
+    },
+    {
+      "example_id": "GS-057",
+      "thread_id": "548c4f7b87a573e3",
+      "current_label": "account_billing",
+      "competing_intent": "other_support",
+      "policy_decision": "account_billing",
+      "why_ambiguous": "The conversation contains signals for both intents, requiring a hierarchy to resolve.",
+      "disambiguation_info": "The intent hierarchy resolves this by prioritizing operational impact (e.g. financial > fulfillment)."
+    },
+    {
+      "example_id": "GS-077",
+      "thread_id": "e6aef6c530ba4876",
+      "current_label": "digital_prime_video",
+      "competing_intent": "other_support",
+      "policy_decision": "digital_prime_video",
+      "why_ambiguous": "The conversation contains signals for both intents, requiring a hierarchy to resolve.",
+      "disambiguation_info": "The intent hierarchy resolves this by prioritizing operational impact (e.g. financial > fulfillment)."
+    },
+    {
+      "example_id": "GS-084",
+      "thread_id": "e0e2bacc798bff2b",
+      "current_label": "digital_kindle",
+      "competing_intent": "other_support",
+      "policy_decision": "digital_kindle",
+      "why_ambiguous": "The conversation contains signals for both intents, requiring a hierarchy to resolve.",
+      "disambiguation_info": "The intent hierarchy resolves this by prioritizing operational impact (e.g. financial > fulfillment)."
+    },
+    {
+      "example_id": "GS-086",
+      "thread_id": "51f7b73ff3175ac1",
+      "current_label": "digital_kindle",
+      "competing_intent": "other_support",
+      "policy_decision": "digital_kindle",
+      "why_ambiguous": "The conversation contains signals for both intents, requiring a hierarchy to resolve.",
+      "disambiguation_info": "The intent hierarchy resolves this by prioritizing operational impact (e.g. financial > fulfillment)."
+    },
+    {
+      "example_id": "GS-096",
+      "thread_id": "a0cb92cfb35738bb",
+      "current_label": "digital_kindle",
+      "competing_intent": "other_support",
+      "policy_decision": "digital_kindle",
+      "why_ambiguous": "The conversation contains signals for both intents, requiring a hierarchy to resolve.",
+      "disambiguation_info": "The intent hierarchy resolves this by prioritizing operational impact (e.g. financial > fulfillment)."
+    },
+    {
+      "example_id": "GS-122",
+      "thread_id": "4c2ba68f8d6d8d01",
+      "current_label": "echo_alexa",
+      "competing_intent": "other_support",
+      "policy_decision": "echo_alexa",
+      "why_ambiguous": "The conversation contains signals for both intents, requiring a hierarchy to resolve.",
+      "disambiguation_info": "The intent hierarchy resolves this by prioritizing operational impact (e.g. financial > fulfillment)."
+    },
+    {
+      "example_id": "GS-123",
+      "thread_id": "59b64538302cb337",
+      "current_label": "echo_alexa",
+      "competing_intent": "other_support",
+      "policy_decision": "echo_alexa",
+      "why_ambiguous": "The conversation contains signals for both intents, requiring a hierarchy to resolve.",
+      "disambiguation_info": "The intent hierarchy resolves this by prioritizing operational impact (e.g. financial > fulfillment)."
+    },
+    {
+      "example_id": "GS-124",
+      "thread_id": "c4dfa7c7bd5687f2",
+      "current_label": "echo_alexa",
+      "competing_intent": "other_support",
+      "policy_decision": "echo_alexa",
+      "why_ambiguous": "The conversation contains signals for both intents, requiring a hierarchy to resolve.",
+      "disambiguation_info": "The intent hierarchy resolves this by prioritizing operational impact (e.g. financial > fulfillment)."
+    },
+    {
+      "example_id": "GS-128",
+      "thread_id": "7407c0dd1c4a8822",
+      "current_label": "account_access",
+      "competing_intent": "delivery_wrong_item",
+      "policy_decision": "account_access",
+      "why_ambiguous": "The conversation contains signals for both intents, requiring a hierarchy to resolve.",
+      "disambiguation_info": "The intent hierarchy resolves this by prioritizing operational impact (e.g. financial > fulfillment)."
+    },
+    {
+      "example_id": "GS-139",
+      "thread_id": "7e10f8a5300df65c",
+      "current_label": "account_access",
+      "competing_intent": "delivery_wrong_item",
+      "policy_decision": "account_access",
+      "why_ambiguous": "The conversation contains signals for both intents, requiring a hierarchy to resolve.",
+      "disambiguation_info": "The intent hierarchy resolves this by prioritizing operational impact (e.g. financial > fulfillment)."
+    },
+    {
+      "example_id": "GS-141",
+      "thread_id": "507a5d959193bd85",
+      "current_label": "promotions_pricing",
+      "competing_intent": "other_support",
+      "policy_decision": "promotions_pricing",
+      "why_ambiguous": "The conversation contains signals for both intents, requiring a hierarchy to resolve.",
+      "disambiguation_info": "The intent hierarchy resolves this by prioritizing operational impact (e.g. financial > fulfillment)."
+    },
+    {
+      "example_id": "GS-144",
+      "thread_id": "a2bbc722057b5719",
+      "current_label": "promotions_pricing",
+      "competing_intent": "other_support",
+      "policy_decision": "promotions_pricing",
+      "why_ambiguous": "The conversation contains signals for both intents, requiring a hierarchy to resolve.",
+      "disambiguation_info": "The intent hierarchy resolves this by prioritizing operational impact (e.g. financial > fulfillment)."
+    },
+    {
+      "example_id": "GS-150",
+      "thread_id": "a3b31228d3f292c5",
+      "current_label": "promotions_pricing",
+      "competing_intent": "other_support",
+      "policy_decision": "promotions_pricing",
+      "why_ambiguous": "The conversation contains signals for both intents, requiring a hierarchy to resolve.",
+      "disambiguation_info": "The intent hierarchy resolves this by prioritizing operational impact (e.g. financial > fulfillment)."
+    },
+    {
+      "example_id": "GS-159",
+      "thread_id": "20c1a80b2496fb80",
+      "current_label": "delivery_missing",
+      "competing_intent": "amazon_locker",
+      "policy_decision": "delivery_missing",
+      "why_ambiguous": "The conversation contains signals for both intents, requiring a hierarchy to resolve.",
+      "disambiguation_info": "The intent hierarchy resolves this by prioritizing operational impact (e.g. financial > fulfillment)."
+    },
+    {
+      "example_id": "GS-178",
+      "thread_id": "f0cfad48f6a145b1",
+      "current_label": "grocery_fresh",
+      "competing_intent": "other_support",
+      "policy_decision": "grocery_fresh",
+      "why_ambiguous": "The conversation contains signals for both intents, requiring a hierarchy to resolve.",
+      "disambiguation_info": "The intent hierarchy resolves this by prioritizing operational impact (e.g. financial > fulfillment)."
+    },
+    {
+      "example_id": "GS-182",
+      "thread_id": "7fa5ccca8702f290",
+      "current_label": "product_availability",
+      "competing_intent": "other_support",
+      "policy_decision": "product_availability",
+      "why_ambiguous": "The conversation contains signals for both intents, requiring a hierarchy to resolve.",
+      "disambiguation_info": "The intent hierarchy resolves this by prioritizing operational impact (e.g. financial > fulfillment)."
+    },
+    {
+      "example_id": "GS-186",
+      "thread_id": "451122bbe75eae6a",
+      "current_label": "product_availability",
+      "competing_intent": "other_support",
+      "policy_decision": "product_availability",
+      "why_ambiguous": "The conversation contains signals for both intents, requiring a hierarchy to resolve.",
+      "disambiguation_info": "The intent hierarchy resolves this by prioritizing operational impact (e.g. financial > fulfillment)."
+    },
+    {
+      "example_id": "GS-189",
+      "thread_id": "058a1adda23bf491",
+      "current_label": "product_availability",
+      "competing_intent": "other_support",
+      "policy_decision": "product_availability",
+      "why_ambiguous": "The conversation contains signals for both intents, requiring a hierarchy to resolve.",
+      "disambiguation_info": "The intent hierarchy resolves this by prioritizing operational impact (e.g. financial > fulfillment)."
+    }
+  ],
+  "clusters": {
+    "other_support \u2194 returns_refunds": [
+      "136747dbfd949f68"
+    ],
+    "amazon_locker \u2194 delivery_missing": [
+      "9d4ee10b51d6518c",
+      "20c1a80b2496fb80"
+    ],
+    "account_billing \u2194 other_support": [
+      "548c4f7b87a573e3"
+    ],
+    "digital_prime_video \u2194 other_support": [
+      "e6aef6c530ba4876"
+    ],
+    "digital_kindle \u2194 other_support": [
+      "e0e2bacc798bff2b",
+      "51f7b73ff3175ac1",
+      "a0cb92cfb35738bb"
+    ],
+    "echo_alexa \u2194 other_support": [
+      "4c2ba68f8d6d8d01",
+      "59b64538302cb337",
+      "c4dfa7c7bd5687f2"
+    ],
+    "account_access \u2194 delivery_wrong_item": [
+      "7407c0dd1c4a8822",
+      "7e10f8a5300df65c"
+    ],
+    "other_support \u2194 promotions_pricing": [
+      "507a5d959193bd85",
+      "a2bbc722057b5719",
+      "a3b31228d3f292c5"
+    ],
+    "grocery_fresh \u2194 other_support": [
+      "f0cfad48f6a145b1"
+    ],
+    "other_support \u2194 product_availability": [
+      "7fa5ccca8702f290",
+      "451122bbe75eae6a",
+      "058a1adda23bf491"
+    ]
+  },
+  "patch_analysis": [
+    {
+      "example_id": "GS-027",
+      "current_intent": "delivery_missing",
+      "proposed_intent": "delivery_missing",
+      "decision": "DEFER",
+      "reason": "Changes must be made holistically along with the new Intent Hierarchy Policy to prevent localized inconsistency."
+    },
+    {
+      "example_id": "GS-064",
+      "current_intent": "account_billing",
+      "proposed_intent": "delivery_missing",
+      "decision": "DEFER",
+      "reason": "Changes must be made holistically along with the new Intent Hierarchy Policy to prevent localized inconsistency."
+    },
+    {
+      "example_id": "GS-164",
+      "current_intent": "amazon_locker",
+      "proposed_intent": "delivery_missing",
+      "decision": "DEFER",
+      "reason": "Changes must be made holistically along with the new Intent Hierarchy Policy to prevent localized inconsistency."
+    },
+    {
+      "example_id": "GS-174",
+      "current_intent": "grocery_fresh",
+      "proposed_intent": "delivery_delayed",
+      "decision": "DEFER",
+      "reason": "Changes must be made holistically along with the new Intent Hierarchy Policy to prevent localized inconsistency."
+    }
+  ],
+  "hierarchy": {
+    "account_access": 1,
+    "account_billing": 2,
+    "returns_refunds": 3,
+    "promotions_pricing": 4,
+    "delivery_missing": 5,
+    "delivery_wrong_item": 6,
+    "grocery_fresh": 7,
+    "amazon_locker": 8,
+    "delivery_delayed": 9,
+    "echo_alexa": 10,
+    "digital_prime_video": 11,
+    "digital_kindle": 12,
+    "amazon_music": 13,
+    "product_availability": 14,
+    "other_support": 15
+  },
+  "final_decision": "POLICY_READY_FOR_PILOT"
+}

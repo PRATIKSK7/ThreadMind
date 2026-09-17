@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="main-content" style="padding: 30px; max-width: 1000px; margin: 0 auto;">
+    <h1 style="color: var(--cyan); margin-bottom: 20px; font-weight: 300; font-size: 2rem;">SETTINGS</h1>
+    
+    <div style="display: grid; gap: 24px;">
+        
+        <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 24px;">
+            <h3 style="color: var(--text-primary); margin-bottom: 16px; font-weight: 600;">MODEL CONFIGURATION</h3>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+                <div>
+                    <label style="display: block; color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 8px;">LLM Provider</label>
+                    <input type="text" value="Ollama (Local)" disabled style="width: 100%; background: var(--surface-2); border: 1px solid var(--border); color: var(--text-secondary); padding: 10px; border-radius: 6px;">
+                </div>
+                <div>
+                    <label style="display: block; color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 8px;">Model Variant</label>
+                    <input type="text" value="llama3.2:latest" disabled style="width: 100%; background: var(--surface-2); border: 1px solid var(--border); color: var(--text-secondary); padding: 10px; border-radius: 6px;">
+                </div>
+                <div>
+                    <label style="display: block; color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 8px;">Temperature</label>
+                    <input type="text" value="0.0 (Greedy)" disabled style="width: 100%; background: var(--surface-2); border: 1px solid var(--border); color: var(--text-secondary); padding: 10px; border-radius: 6px;">
+                </div>
+            </div>
+            <p style="color: var(--text-secondary); font-size: 0.85rem; margin-top: 12px; font-style: italic;">Note: Model configuration is read-only in production to ensure deterministic evaluation.</p>
+        </div>
+
+        <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 24px;">
+            <h3 style="color: var(--text-primary); margin-bottom: 16px; font-weight: 600;">RETRIEVAL SETTINGS</h3>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+                <div>
+                    <label style="display: block; color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 8px;">Top-K Documents</label>
+                    <input type="number" value="3" disabled style="width: 100%; background: var(--surface-2); border: 1px solid var(--border); color: var(--text-secondary); padding: 10px; border-radius: 6px;">
+                </div>
+                <div>
+                    <label style="display: block; color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 8px;">Similarity Threshold</label>
+                    <input type="text" value="Cosine > 0.0" disabled style="width: 100%; background: var(--surface-2); border: 1px solid var(--border); color: var(--text-secondary); padding: 10px; border-radius: 6px;">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+{% endblock %}

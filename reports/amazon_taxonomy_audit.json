@@ -1,0 +1,142 @@
+[
+  {
+    "intent": "account_access",
+    "count": 21,
+    "definition": "Issues logging in, password resets, locked accounts.",
+    "boundary": "Login and account lockouts. Billing issues inside an accessible account go to account_billing.",
+    "examples": [
+      "@115850 The delivery may be delayed by a day due to the package arriving at an incorrect courier facility!\nY does dis happen all da tym?\ud83d\ude21\ud83d\ude24",
+      "@115833 Trying to set up for the 1st time but the app says my Amazon password is incorrect. no. it's not. any ideas?"
+    ]
+  },
+  {
+    "intent": "returns_refunds",
+    "count": 16,
+    "definition": "Requesting a refund, returning an item, checking refund status.",
+    "boundary": "Must explicitly involve returning a product or getting money back. If it's a billing dispute for a service, use account_billing.",
+    "examples": [
+      "@244842 please explain where parcels PD74A000026 and PD74A000027 for @115830 are? One week later and I still await refunds.",
+      "@115821.ca So apprently a 3 to 5 bussines days refund from you means 2 + weeks and counting, good know. Seriously now happy with your customer service."
+    ]
+  },
+  {
+    "intent": "delivery_missing",
+    "count": 15,
+    "definition": "Package marked delivered but not found, stolen packages.",
+    "boundary": "Only when package is marked delivered but not received. If not delivered yet, use delivery_delayed.",
+    "examples": [
+      "@115850 just delivered me a broken room heater.",
+      "@AmazonHelp A package meant for someone else was delivered to me by mistake. I've tried to contact then owner. How do I return to Amazon?"
+    ]
+  },
+  {
+    "intent": "account_billing",
+    "count": 14,
+    "definition": "Unrecognized charges, Prime membership billing, invoice requests.",
+    "boundary": "Standard isolation.",
+    "examples": [
+      "where the f*ck is my money???? @115821 i will singlehandedly destroy your reputation on this Website",
+      "@115850 Im not able to add money to AmazonPay thr DebitCard. Im being taken to same page after filling the info.#AmazonGreatIndianFestival https://t.co/nDJn8OGBmn"
+    ]
+  },
+  {
+    "intent": "digital_prime_video",
+    "count": 14,
+    "definition": "Prime Video streaming errors, renting/purchasing digital movies.",
+    "boundary": "Strictly digital streaming. Physical DVDs use delivery_delayed/wrong_item.",
+    "examples": [
+      "Smart speaker. Smart living. #AskAlexa https://t.co/WLUjbFotDB",
+      "@181080 i can\u2019t watch anything on amazon video or Netflix I keep getting a error it\u2019s been like this for 2 days I checked my WiFi it\u2019s fine"
+    ]
+  },
+  {
+    "intent": "digital_kindle",
+    "count": 14,
+    "definition": "Kindle device sync issues, missing e-books.",
+    "boundary": "Standard isolation.",
+    "examples": [
+      "where's my kindle\ud83d\udc86\ud83c\udffd",
+      "@AmazonHelp - trying to purchase your kindle unlimited offer, but it keeps putting the price back to normal at checkout. Help??!! https://t.co/FXadyukjm7"
+    ]
+  },
+  {
+    "intent": "amazon_music",
+    "count": 14,
+    "definition": "Amazon Music Unlimited billing, playback issues.",
+    "boundary": "Standard isolation.",
+    "examples": [
+      "@115833 how am I supposed 2 know all of the commands I can give Alexa? I\u2019m really not sure what to do with it besides weather/music/news",
+      "@AmazonHelp is Amazon Music down or something? The app opens, but nothing works. Even stuff I have downloaded doesn't work. Tried a restart."
+    ]
+  },
+  {
+    "intent": "echo_alexa",
+    "count": 14,
+    "definition": "Echo device troubleshooting, Alexa voice recognition issues.",
+    "boundary": "Standard isolation.",
+    "examples": [
+      "@115833 please teach Alexa slang. I've been trying to play Momentz by gorillaz for the last 30 minutes.",
+      "Amazon EchoPlus\u826f\u3044\u3002\u643a\u5e2f\u3067\u305b\u3063\u305b\u3068\u691c\u7d22\u3059\u308b\u3053\u3068\u306a\u304f\u3001\u76f4\u611f\u5373\u6642\u767a\u58f0\u3060\u3051\u3067\u66f2\u304c\u304b\u304b\u308b\u306e\u3063\u3066\u3059\u3054\u3044\u3002\u30cf\u30fc\u30c9\u30eb\u4f4e\u3044\u3002\u305d\u3046\u3044\u3048\u3070\u30a2\u30ec\u8074\u304d\u305f\u3044\u306a\u3063\u3066\u601d\u3063\u305f5\u79d2\u5f8c\u3060\u3082\u3093\u3002"
+    ]
+  },
+  {
+    "intent": "promotions_pricing",
+    "count": 14,
+    "definition": "Price matching, promotional code issues, discounts.",
+    "boundary": "Standard isolation.",
+    "examples": [
+      "@115850 what kind of joke is this ?? same product, with two different prices ??? and ur selling higher value saying its lighting deal !!! https://t.co/ApK0kFwLxf",
+      "WTF .. KAUNSA AISA COMPANY HAI JO 1290 MA 32GB SD CARD PRICE KARTHAI . STOP TRAPPING INNOCENT PEOPLE. @115850 https://t.co/Hbjmxdtf8r"
+    ]
+  },
+  {
+    "intent": "grocery_fresh",
+    "count": 14,
+    "definition": "Amazon Fresh or Whole Foods delivery issues, spoiled food.",
+    "boundary": "Standard isolation.",
+    "examples": [
+      "@115850 Change in account user interfaces is fine. But page wise listing of wish list was much better. This auto refresh is bad UX!",
+      "@115850 We ordered grocery from your pantry and my only concern is use of plastic for packaging. So much plastic? https://t.co/7TtmjM0su3"
+    ]
+  },
+  {
+    "intent": "product_availability",
+    "count": 14,
+    "definition": "Restock dates, pre-order status, stock inquiries.",
+    "boundary": "Standard isolation.",
+    "examples": [
+      "@121284 Can't change my device location to India. It is  only accepting US pincodes! Saavn says that service is not available here!",
+      "@AmazonHelp now waao see this message !! am waiting for my delivery all my numbers are working and the delivery boy's no was not available"
+    ]
+  },
+  {
+    "intent": "amazon_locker",
+    "count": 13,
+    "definition": "Locker codes not working, locker full, pickup issues.",
+    "boundary": "Standard isolation.",
+    "examples": [
+      "Prime Membership is waste. They want us to pick up from their location instead of delivering to doorstep @115850 @115821 Order #                         404-2427118-6554764 No use complaining through their customer call center. #Disapponted",
+      "Address is given for a reason. I am happy to help delivery guys w navigation, but unprofessional to insist I pick up the order @115850"
+    ]
+  },
+  {
+    "intent": "delivery_delayed",
+    "count": 12,
+    "definition": "Package has not arrived by promised date, tracking stalled.",
+    "boundary": "Standard isolation.",
+    "examples": [
+      "Confused at how 2-day shipping means it arrives 7 days later @115821",
+      "@115821 does such a good job trying to keep customers happy. Shipment coming in late and they made it right. Thanks \u201cAnita S\u201d very prompt!"
+    ]
+  },
+  {
+    "intent": "delivery_wrong_item",
+    "count": 7,
+    "definition": "Received incorrect item, damaged item upon arrival.",
+    "boundary": "Standard isolation.",
+    "examples": [
+      ".@AmazonHelp finally ended chat with customer support. Was I supported? No. Am I hopeful? No. Absolute waste of so much time... Await yet another email stating incorrect information... Huge abyss in their customer service!",
+      "@AmazonHelp I\u2019ve had a delivery just now but it\u2019s not what I ordered and paid for, what should I do?"
+    ]
+  }
+]

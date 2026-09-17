@@ -1,0 +1,97 @@
+{
+  "dataset": {
+    "rows": 2811774,
+    "columns": 7,
+    "memory_usage_mb": 588.687089920044
+  },
+  "schema": [
+    "tweet_id",
+    "author_id",
+    "inbound",
+    "created_at",
+    "text",
+    "response_tweet_id",
+    "in_response_to_tweet_id"
+  ],
+  "missing_values": {
+    "tweet_id": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "author_id": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "inbound": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "created_at": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "text": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "response_tweet_id": {
+      "count": 1040629,
+      "percentage": 37.009695658328155
+    },
+    "in_response_to_tweet_id": {
+      "count": 794335,
+      "percentage": 28.250314570089913
+    }
+  },
+  "duplicates": {
+    "exact_rows": 0,
+    "duplicate_tweet_ids": 0
+  },
+  "text_quality": {
+    "null_count": 0,
+    "empty_count": 0,
+    "length": {
+      "min": 1,
+      "mean": 113.88970735201336,
+      "median": 115.0,
+      "p95": 215.0,
+      "max": 513
+    }
+  },
+  "inbound_distribution": {
+    "True": {
+      "count": 1537843,
+      "percentage": 54.69298030353791
+    },
+    "False": {
+      "count": 1273931,
+      "percentage": 45.30701969646209
+    }
+  },
+  "timestamps": {
+    "parse_success_rate": 100.0,
+    "invalid_timestamps": 0,
+    "earliest": "2008-05-08 20:13:59+00:00",
+    "latest": "2017-12-03 23:14:01+00:00"
+  },
+  "response_links": {
+    "response_tweet_id": {
+      "null_percentage": 37.009695658328155
+    },
+    "in_response_to_tweet_id": {
+      "null_percentage": 28.250314570089913,
+      "valid_references_in_dataset": 2013577,
+      "references_to_missing_ids": 3862,
+      "self_references": 0
+    }
+  },
+  "thread_statistics": {
+    "tweets_with_parent_references": 2017439,
+    "tweets_without_parent_references": 794335,
+    "valid_parent_references": 2013577,
+    "orphan_references": 3862,
+    "tweets_with_responses": 1771145,
+    "approximate_conversation_depth": "To be determined during deep traversal",
+    "conversation_length_distribution": "To be determined during deep traversal"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "executive_summary": "Phase 6 investigated whether the retrieval corpus was limiting performance due to outdated or inconsistent labels. The audit revealed that the corpus metadata labels (dynamically assigned by RuleBaseline during FAISS indexing) contain taxonomy violations consistent with the V1 taxonomy boundary issues. Specifically, 50 account_access examples were flagged for containing contradictory logistics keywords. Because the rules prohibit using an LLM to relabel the corpus and no explicit deterministic mapping exists for the non-Golden Set examples, the ambiguous labels were flagged for review (Outcome C). A V2 corpus was not built to prevent unsafe data manipulation.",
+  "baseline": {
+    "k3_intent_accuracy": 87.76,
+    "k3_macro_f1": 0.8579,
+    "k3_escalation_accuracy": 100.0,
+    "k3_recall": 84.18
+  },
+  "corpus_audit": {
+    "total_documents": 35247,
+    "obsolete_labels": 0,
+    "flagged_ambiguous": 50,
+    "decision": "Outcome C: Mixed/ambiguous labels. Flagged for review."
+  },
+  "corpus_changes": null,
+  "index_changes": null,
+  "retrieval_metrics": {
+    "old": {
+      "recall_1": 72.45,
+      "recall_3": 84.18,
+      "recall_5": 85.71,
+      "mrr_3": 0.7866
+    },
+    "new": null
+  },
+  "end_to_end_metrics": {
+    "old": {
+      "intent_accuracy": 87.76,
+      "macro_f1": 0.8579,
+      "escalation_accuracy": 100.0
+    },
+    "new": null
+  },
+  "failure_attribution": {
+    "retrieval_bottleneck_percentage": null,
+    "classification_bottleneck_percentage": null
+  },
+  "latency": null,
+  "integrity_checks": {
+    "golden_set_size": 196,
+    "golden_set_hash": "6d4e700bfe65f0134acb39aa1ec0dbb1ba4dfafcf1ae1f0c102858ab2d54610f"
+  },
+  "regression_analysis": "Re-indexing aborted; no regression introduced.",
+  "recommendation": "REJECT - Proceed to Phase 7: LLM-Assisted Corpus Relabeling"
+}

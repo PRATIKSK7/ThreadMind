@@ -1,0 +1,22 @@
+# Classification Reasoning Policy V1
+
+## account_access vs delivery_wrong_item
+- **Primary distinguishing signal**: Mention of digital credentials (password, login, app crashing) vs physical possession of an incorrect product.
+- **Negative signal**: "Information is wrong" without specifying if it's login info or order info.
+- **What should NOT determine classification**: Use of the word "wrong" or "incorrect".
+- **Tie-breaking rule**: If the user is physically holding an item they did not order, it is `delivery_wrong_item`. If the user cannot digitally authenticate, it is `account_access`.
+- **Example reasoning pattern**: "Customer says 'password incorrect'. This affects digital login, not physical merchandise. The primary problem is digital access."
+
+## amazon_locker vs delivery_missing
+- **Primary distinguishing signal**: The technical functionality of the locker hardware/software vs the logistical presence of the package.
+- **Negative signal**: "Cannot get my package."
+- **What should NOT determine classification**: The fact that the customer doesn't have their package at the end of the transaction.
+- **Tie-breaking rule**: If the locker code fails, the screen is broken, or the door is jammed, it is `amazon_locker`. If the door opens successfully but the compartment is empty, it is `delivery_missing`.
+- **Example reasoning pattern**: "Customer says 'door opened but nothing inside'. The locker functioned correctly mechanically. The primary problem is the package is missing from the supply chain."
+
+## account_access vs delivery_delayed
+- **Primary distinguishing signal**: App/website authentication failure vs tracking status showing a delay in transit.
+- **Negative signal**: "I can't see where my order is."
+- **What should NOT determine classification**: A customer being unable to view tracking *because* they are locked out of their account.
+- **Tie-breaking rule**: If the customer's *only* issue is that an order hasn't arrived, it is `delivery_delayed`. If the customer explicitly states they are locked out or their password fails, it is `account_access`, even if they originally wanted to check tracking.
+- **Example reasoning pattern**: "Customer says 'Account locked after ordering a TV'. The primary problem is the security lock on the account, which supersedes the delivery status of the TV."

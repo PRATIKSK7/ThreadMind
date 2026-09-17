@@ -1,0 +1,3 @@
+"""
+THREADMIND package initialization.
+"""

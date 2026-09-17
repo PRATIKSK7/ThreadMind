@@ -1,0 +1,1766 @@
+[
+  {
+    "golden_id": "971d58ab9348de04",
+    "expected_intent": "account_access",
+    "query_text": "User: @115850 The delivery may be delayed by a day due to the package arriving at an incorrect courier facility!\nY does dis happen all da tym?\ud83d\ude21\ud83d\ude24\nUser: @491543 We've sent the correspondence to your registered email ID. Kindly check it here: https://t.co/8DAc10S7ww ^GK",
+    "top1_result": {
+      "thread_id": "09ddc5f2967dc2c3",
+      "intent": "delivery_delayed",
+      "score": 0.9102602005004883
+    },
+    "top3_results": [
+      {
+        "thread_id": "09ddc5f2967dc2c3",
+        "intent": "delivery_delayed",
+        "score": 0.9102602005004883
+      },
+      {
+        "thread_id": "3505dfd192dfd0cb",
+        "intent": "delivery_delayed",
+        "score": 0.9038726687431335
+      },
+      {
+        "thread_id": "7191c13a025b126f",
+        "intent": "delivery_delayed",
+        "score": 0.9035904407501221
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "09ddc5f2967dc2c3",
+        "intent": "delivery_delayed",
+        "score": 0.9102602005004883
+      },
+      {
+        "thread_id": "3505dfd192dfd0cb",
+        "intent": "delivery_delayed",
+        "score": 0.9038726687431335
+      },
+      {
+        "thread_id": "7191c13a025b126f",
+        "intent": "delivery_delayed",
+        "score": 0.9035904407501221
+      },
+      {
+        "thread_id": "bb06331df7bb4cdf",
+        "intent": "delivery_delayed",
+        "score": 0.9026796221733093
+      },
+      {
+        "thread_id": "bd61fe32f5dc342b",
+        "intent": "delivery_delayed",
+        "score": 0.9024726748466492
+      }
+    ],
+    "retrieved_intents": [
+      "delivery_delayed",
+      "delivery_delayed",
+      "delivery_delayed",
+      "delivery_delayed",
+      "delivery_delayed"
+    ],
+    "correct_intent_rank": -1,
+    "failure_type": "SEMANTIC_RETRIEVAL_FAILURE"
+  },
+  {
+    "golden_id": "37bacc4a02a35a8b",
+    "expected_intent": "delivery_wrong_item",
+    "query_text": "User: @AmazonHelp I\u2019ve had a delivery just now but it\u2019s not what I ordered and paid for, what should I do?\nUser: @404625 Hi, sorry to hear that. Have you checked the options available here: http:https://t.co/5RcjVPJgUP? ^JJ",
+    "top1_result": {
+      "thread_id": "bf82185772e5ba05",
+      "intent": "delivery_missing",
+      "score": 0.860893726348877
+    },
+    "top3_results": [
+      {
+        "thread_id": "bf82185772e5ba05",
+        "intent": "delivery_missing",
+        "score": 0.860893726348877
+      },
+      {
+        "thread_id": "45a3504649059e9f",
+        "intent": "delivery_missing",
+        "score": 0.8585979342460632
+      },
+      {
+        "thread_id": "7def50106bab29c9",
+        "intent": "delivery_delayed",
+        "score": 0.8535151481628418
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "bf82185772e5ba05",
+        "intent": "delivery_missing",
+        "score": 0.860893726348877
+      },
+      {
+        "thread_id": "45a3504649059e9f",
+        "intent": "delivery_missing",
+        "score": 0.8585979342460632
+      },
+      {
+        "thread_id": "7def50106bab29c9",
+        "intent": "delivery_delayed",
+        "score": 0.8535151481628418
+      },
+      {
+        "thread_id": "be32af1e35e31065",
+        "intent": "delivery_missing",
+        "score": 0.8513608574867249
+      },
+      {
+        "thread_id": "75cd22a11a802281",
+        "intent": "delivery_delayed",
+        "score": 0.8477979302406311
+      }
+    ],
+    "retrieved_intents": [
+      "delivery_missing",
+      "delivery_missing",
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_delayed"
+    ],
+    "correct_intent_rank": -1,
+    "failure_type": "SEMANTIC_RETRIEVAL_FAILURE"
+  },
+  {
+    "golden_id": "80daedda83f344bd",
+    "expected_intent": "account_access",
+    "query_text": "User: @115821 you guys have sent me the wrong item twice in a row\nUser: @319209 Hi, sorry to hear that. Was the order fulfilled by Amazon or a 3rd Party Seller? What Amazon website did you use to place the order? https://t.co/eytlXM7Zz9? ^JJ\nUser: @AmazonHelp It says \"shipped and sold from Amazon\".  I'm using the Android app\nUser: @319209 Thanks - please contact us so we can assist :  https://t.co/hApLpMlfHN ^TD",
+    "top1_result": {
+      "thread_id": "384a6748058de4bc",
+      "intent": "returns_refunds",
+      "score": 0.8619359135627747
+    },
+    "top3_results": [
+      {
+        "thread_id": "384a6748058de4bc",
+        "intent": "returns_refunds",
+        "score": 0.8619359135627747
+      },
+      {
+        "thread_id": "265f0fe3038f93cf",
+        "intent": "delivery_wrong_item",
+        "score": 0.8611922860145569
+      },
+      {
+        "thread_id": "3eb44f256b934996",
+        "intent": "delivery_wrong_item",
+        "score": 0.8600888848304749
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "384a6748058de4bc",
+        "intent": "returns_refunds",
+        "score": 0.8619359135627747
+      },
+      {
+        "thread_id": "265f0fe3038f93cf",
+        "intent": "delivery_wrong_item",
+        "score": 0.8611922860145569
+      },
+      {
+        "thread_id": "3eb44f256b934996",
+        "intent": "delivery_wrong_item",
+        "score": 0.8600888848304749
+      },
+      {
+        "thread_id": "2d0c5396433ae579",
+        "intent": "delivery_wrong_item",
+        "score": 0.8600820302963257
+      },
+      {
+        "thread_id": "e31feec89dfcdfcd",
+        "intent": "delivery_wrong_item",
+        "score": 0.8539243340492249
+      }
+    ],
+    "retrieved_intents": [
+      "returns_refunds",
+      "delivery_wrong_item",
+      "delivery_wrong_item",
+      "delivery_wrong_item",
+      "delivery_wrong_item"
+    ],
+    "correct_intent_rank": -1,
+    "failure_type": "SEMANTIC_RETRIEVAL_FAILURE"
+  },
+  {
+    "golden_id": "04f0d488a16c8b29",
+    "expected_intent": "account_access",
+    "query_text": "User: @115850 , I had delivered an incorrect Box for my order (#406-0293843-4945979) yesterday. Possibly wrong labeling. Delivery staff and his peers were unable to help on this. No response on your call center also. Pls look into it.\nUser: @735524 I'm sorry you've received the incorrect order. We certainly did not expect this to happen. I'd like to assist you with this. Please provide your details here: https://t.co/cllwXc2HeK. I'll look into it right away. Please don't provide your order details via Twitter, 1/2\nUser: @AmazonHelp I had filled in the URL, Let me know on this ASAP\nUser: @735524 Thanks for the update. We've received your details and we'll get back to you at the earliest. ^SC\nUser: @735524 as we consider it to be personal information. Our page is visible to public. 2/2 ^AR",
+    "top1_result": {
+      "thread_id": "4c6767f6c2d2da95",
+      "intent": "delivery_missing",
+      "score": 0.9286397695541382
+    },
+    "top3_results": [
+      {
+        "thread_id": "4c6767f6c2d2da95",
+        "intent": "delivery_missing",
+        "score": 0.9286397695541382
+      },
+      {
+        "thread_id": "72cb8b54cf55a170",
+        "intent": "delivery_missing",
+        "score": 0.9268532395362854
+      },
+      {
+        "thread_id": "a1c30c4becc306d8",
+        "intent": "delivery_missing",
+        "score": 0.9261901378631592
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "4c6767f6c2d2da95",
+        "intent": "delivery_missing",
+        "score": 0.9286397695541382
+      },
+      {
+        "thread_id": "72cb8b54cf55a170",
+        "intent": "delivery_missing",
+        "score": 0.9268532395362854
+      },
+      {
+        "thread_id": "a1c30c4becc306d8",
+        "intent": "delivery_missing",
+        "score": 0.9261901378631592
+      },
+      {
+        "thread_id": "a86a2d7dfa19645a",
+        "intent": "delivery_missing",
+        "score": 0.9246595501899719
+      },
+      {
+        "thread_id": "efcc719543633733",
+        "intent": "delivery_missing",
+        "score": 0.9240051507949829
+      }
+    ],
+    "retrieved_intents": [
+      "delivery_missing",
+      "delivery_missing",
+      "delivery_missing",
+      "delivery_missing",
+      "delivery_missing"
+    ],
+    "correct_intent_rank": -1,
+    "failure_type": "SEMANTIC_RETRIEVAL_FAILURE"
+  },
+  {
+    "golden_id": "62c4d90a25d0f418",
+    "expected_intent": "account_access",
+    "query_text": "User: @AmazonHelp tried to highlight issues with being told the wrong thing 3 times by 3 different cs representatives and got yet another 1/2\nUser: @212238 Hey! I'm really sorry you've had an experience like that. We'd love to help! Can you tell us a little about what happened? ^AJ\nUser: @AmazonHelp I ordered an item via amazon prime on Thursday 5th October and it didn't arrive until today 9th October. I have now had 2 late prime\nUser: @AmazonHelp Deliveries in the space of a week.When I emailed customer services I was told 3 completely different things by 3 different cs reps\nUser: @AmazonHelp all of which were incorrect. First I was told it was delivered (it wasn't), then I was told there was no tracking information (there was)\nUser: @AmazonHelp then I was told it was delivered to the wrong address (it wasn't - it arrived today). Now I've been told by a 4th person that i am getting\nUser: @AmazonHelp A full refund because the order was delivered to the wrong address. It wasn't! It arrived today!\nUser: @212238 I'm so sorry to hear about this trouble you've been experiencing! Did the associates mention they would be leaving feedback? ^BG\nUser: @AmazonHelp No.The English in the emails is absolutely terrible and now I feel like I have committed mail fraud by getting a refund I did not ask for!\nUser: @212238 This is an easy fix. Please contact us again to confirm you've received the item, by phone or chat: https://t.co/hApLpMlfHN ^ST",
+    "top1_result": {
+      "thread_id": "aebefba87eadfd5c",
+      "intent": "delivery_missing",
+      "score": 0.9340352416038513
+    },
+    "top3_results": [
+      {
+        "thread_id": "aebefba87eadfd5c",
+        "intent": "delivery_missing",
+        "score": 0.9340352416038513
+      },
+      {
+        "thread_id": "c480f2aa1fe3d2d4",
+        "intent": "delivery_missing",
+        "score": 0.9309337139129639
+      },
+      {
+        "thread_id": "e432c0601c386994",
+        "intent": "delivery_missing",
+        "score": 0.9271864295005798
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "aebefba87eadfd5c",
+        "intent": "delivery_missing",
+        "score": 0.9340352416038513
+      },
+      {
+        "thread_id": "c480f2aa1fe3d2d4",
+        "intent": "delivery_missing",
+        "score": 0.9309337139129639
+      },
+      {
+        "thread_id": "e432c0601c386994",
+        "intent": "delivery_missing",
+        "score": 0.9271864295005798
+      },
+      {
+        "thread_id": "eecd93b549f11046",
+        "intent": "delivery_missing",
+        "score": 0.9260150790214539
+      },
+      {
+        "thread_id": "7db902677f9740d0",
+        "intent": "delivery_missing",
+        "score": 0.9259180426597595
+      }
+    ],
+    "retrieved_intents": [
+      "delivery_missing",
+      "delivery_missing",
+      "delivery_missing",
+      "delivery_missing",
+      "delivery_missing"
+    ],
+    "correct_intent_rank": -1,
+    "failure_type": "SEMANTIC_RETRIEVAL_FAILURE"
+  },
+  {
+    "golden_id": "d6cf59dcf89bf508",
+    "expected_intent": "account_billing",
+    "query_text": "User: I got an unsolicited email from @115821 saying I signed up for a free trial of #AmazonPrime. It freaked me out so I instictively changed my password. I'm worried someone gained access to my account.\nUser: @615231 Hi, Daniel! Your account security is our top priority. If you aren't sure if the email you received came from Amazon, please use this handy guide: https://t.co/maWvFya0mZ  And please reach out if you need further assistance!  ^SP\nUser: @AmazonHelp The email is definitely from Amazon, for a trial of Amazon Prime that I didn't sign up for. It had me concerned that one of two things is happening. 1) someone gained access to my account and only signed me up for a free trial of Prime out 2) YOU signed me up for it.\nUser: @AmazonHelp If 1, why did they not take further advantage of my account and only sign me up for a free trial of Prime? Odd, for sure, but changing my password should fix the problem\nUser: @AmazonHelp If 2, while I appreciate free things, it seems like this trial will auto renew with my credit card info. Had I not been on top of this, you would have signed me up for something I didn't ask for so you could drain my bank account.\nUser: @AmazonHelp I hope I'm wrong on both, and there is some not malicious reason for this. Either way, my paranoia has been triggered, and I have my eye on you.\nUser: @615231 Hello! The Amazon Prime trial could be activated through several ways on our website. At the end of the trial is when the membership is charged. You can check out the trial and cancel it here: https://t.co/u97atjSTp2 Let us know if you have any other questions! ^DA",
+    "top1_result": {
+      "thread_id": "cec917dc574d9a46",
+      "intent": "delivery_wrong_item",
+      "score": 0.885555624961853
+    },
+    "top3_results": [
+      {
+        "thread_id": "cec917dc574d9a46",
+        "intent": "delivery_wrong_item",
+        "score": 0.885555624961853
+      },
+      {
+        "thread_id": "40916c3e9a0a7099",
+        "intent": "account_access",
+        "score": 0.882054328918457
+      },
+      {
+        "thread_id": "621eb07bde694c44",
+        "intent": "account_access",
+        "score": 0.8792398571968079
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "cec917dc574d9a46",
+        "intent": "delivery_wrong_item",
+        "score": 0.885555624961853
+      },
+      {
+        "thread_id": "40916c3e9a0a7099",
+        "intent": "account_access",
+        "score": 0.882054328918457
+      },
+      {
+        "thread_id": "621eb07bde694c44",
+        "intent": "account_access",
+        "score": 0.8792398571968079
+      },
+      {
+        "thread_id": "693dbba85d9b2267",
+        "intent": "account_access",
+        "score": 0.8734778165817261
+      },
+      {
+        "thread_id": "893cebfb73cdb4e8",
+        "intent": "account_access",
+        "score": 0.8731772899627686
+      }
+    ],
+    "retrieved_intents": [
+      "delivery_wrong_item",
+      "account_access",
+      "account_access",
+      "account_access",
+      "account_access"
+    ],
+    "correct_intent_rank": 6,
+    "failure_type": "INTENT_BOUNDARY_FAILURE"
+  },
+  {
+    "golden_id": "e0e2bacc798bff2b",
+    "expected_intent": "digital_kindle",
+    "query_text": "User: where's my kindle\ud83d\udc86\ud83c\udffd\nUser: @798774 Hi. Are you waiting on a delivery? What was the expected delivery date given at the time the order was placed? ^DC",
+    "top1_result": {
+      "thread_id": "50a628c8cb82d31d",
+      "intent": "delivery_delayed",
+      "score": 0.8410356044769287
+    },
+    "top3_results": [
+      {
+        "thread_id": "50a628c8cb82d31d",
+        "intent": "delivery_delayed",
+        "score": 0.8410356044769287
+      },
+      {
+        "thread_id": "aedf0c212239cbdf",
+        "intent": "delivery_delayed",
+        "score": 0.8402253985404968
+      },
+      {
+        "thread_id": "0726b5607e478512",
+        "intent": "delivery_delayed",
+        "score": 0.8387489318847656
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "50a628c8cb82d31d",
+        "intent": "delivery_delayed",
+        "score": 0.8410356044769287
+      },
+      {
+        "thread_id": "aedf0c212239cbdf",
+        "intent": "delivery_delayed",
+        "score": 0.8402253985404968
+      },
+      {
+        "thread_id": "0726b5607e478512",
+        "intent": "delivery_delayed",
+        "score": 0.8387489318847656
+      },
+      {
+        "thread_id": "e64d56353ac6b281",
+        "intent": "delivery_delayed",
+        "score": 0.8355188369750977
+      },
+      {
+        "thread_id": "6c4eefa39da72e3b",
+        "intent": "delivery_delayed",
+        "score": 0.8347555994987488
+      }
+    ],
+    "retrieved_intents": [
+      "delivery_delayed",
+      "delivery_delayed",
+      "delivery_delayed",
+      "delivery_delayed",
+      "delivery_delayed"
+    ],
+    "correct_intent_rank": -1,
+    "failure_type": "SEMANTIC_RETRIEVAL_FAILURE"
+  },
+  {
+    "golden_id": "39c418bf1848d060",
+    "expected_intent": "digital_kindle",
+    "query_text": "User: Stupid @115821 ordeal update: Matt's brother switched to @127271. Their order shows already ready to pick up in their store. Convenient and hassle free.\nUser: @137100 Sorry to hear that. Without revealing any personal information, can you tell me a bit more about the issue?^TI\nUser: @AmazonHelp My situation has already been reported twice, so it's well documented there with you guys. At any rate, however, here a post of the full situation on Facebook: https://t.co/u2rQCI719t\nUser: @137100 Hi, thanks for the update, we've received the details. ^HS",
+    "top1_result": {
+      "thread_id": "fac52962e38b2dff",
+      "intent": "amazon_locker",
+      "score": 0.8461529612541199
+    },
+    "top3_results": [
+      {
+        "thread_id": "fac52962e38b2dff",
+        "intent": "amazon_locker",
+        "score": 0.8461529612541199
+      },
+      {
+        "thread_id": "208c1c13f9bcc185",
+        "intent": "amazon_locker",
+        "score": 0.8406293392181396
+      },
+      {
+        "thread_id": "66c2bb05b4be804f",
+        "intent": "amazon_locker",
+        "score": 0.8340240120887756
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "fac52962e38b2dff",
+        "intent": "amazon_locker",
+        "score": 0.8461529612541199
+      },
+      {
+        "thread_id": "208c1c13f9bcc185",
+        "intent": "amazon_locker",
+        "score": 0.8406293392181396
+      },
+      {
+        "thread_id": "66c2bb05b4be804f",
+        "intent": "amazon_locker",
+        "score": 0.8340240120887756
+      },
+      {
+        "thread_id": "0d6185855366473f",
+        "intent": "amazon_locker",
+        "score": 0.8330073952674866
+      },
+      {
+        "thread_id": "78d1e3d9b211629c",
+        "intent": "amazon_locker",
+        "score": 0.8220062255859375
+      }
+    ],
+    "retrieved_intents": [
+      "amazon_locker",
+      "amazon_locker",
+      "amazon_locker",
+      "amazon_locker",
+      "amazon_locker"
+    ],
+    "correct_intent_rank": 16,
+    "failure_type": "INTENT_BOUNDARY_FAILURE"
+  },
+  {
+    "golden_id": "a6dbcc41eea15111",
+    "expected_intent": "amazon_music",
+    "query_text": "User: Hola @AmazonHelp. Hace un mes devolv\u00ed dos productos porque uno no encajaba bien en el terminal y el otro no era el que ped\u00ed. Devolv\u00ed la carcasa Qissy -era para un S8 y el protector de pantalla Vicksongs para mi S8 Plus. Y me acaba de llegar el mensaje que adjunto. https://t.co/AoYHpn9kN3\nUser: @780029 Hola, Jose. Lamentamos este inconveniente. Esto sucede cuando no se tiene certeza de que hayas devuelto un producto. Por ello, te recomendamos que env\u00edes el comprobante de devoluci\u00f3n que te dio el transportista al correo de Amazon, para que puedas probarlo. ^ES",
+    "top1_result": {
+      "thread_id": "d3baeace6882828c",
+      "intent": "delivery_delayed",
+      "score": 0.8691093921661377
+    },
+    "top3_results": [
+      {
+        "thread_id": "d3baeace6882828c",
+        "intent": "delivery_delayed",
+        "score": 0.8691093921661377
+      },
+      {
+        "thread_id": "b63ec2ba6272ea16",
+        "intent": "echo_alexa",
+        "score": 0.8686529994010925
+      },
+      {
+        "thread_id": "e07f7620733f9491",
+        "intent": "echo_alexa",
+        "score": 0.863045334815979
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "d3baeace6882828c",
+        "intent": "delivery_delayed",
+        "score": 0.8691093921661377
+      },
+      {
+        "thread_id": "b63ec2ba6272ea16",
+        "intent": "echo_alexa",
+        "score": 0.8686529994010925
+      },
+      {
+        "thread_id": "e07f7620733f9491",
+        "intent": "echo_alexa",
+        "score": 0.863045334815979
+      },
+      {
+        "thread_id": "8ca1a9fc15e40fea",
+        "intent": "echo_alexa",
+        "score": 0.8542943596839905
+      },
+      {
+        "thread_id": "fe4c5e1656ac9909",
+        "intent": "echo_alexa",
+        "score": 0.8537231683731079
+      }
+    ],
+    "retrieved_intents": [
+      "delivery_delayed",
+      "echo_alexa",
+      "echo_alexa",
+      "echo_alexa",
+      "echo_alexa"
+    ],
+    "correct_intent_rank": -1,
+    "failure_type": "SEMANTIC_RETRIEVAL_FAILURE"
+  },
+  {
+    "golden_id": "1dcf6340ae04e307",
+    "expected_intent": "echo_alexa",
+    "query_text": "User: @116928 llevo desde el d\u00eda 15 esperando y hay stock desde hace una semana, cuando recibir\u00e9 mi compra? https://t.co/opNH57pEia\nUser: @246487 Miguel, lamentamos este inconveniente. En este caso, puedes contactar con nuestro Servicio al Cliente a trav\u00e9s del siguiente enlace, para que puedan brindarte mayor informaci\u00f3n: https://t.co/2kVACn2pCf\n^ES\nUser: @AmazonHelp Lo he hecho tres veces y no me dan fecha de entrega.\nUser: @246487 Lamento lo sucedido, \u00bfpodr\u00edas indicarnos que respuesta recibiste por parte de nuestros agentes de Servicio al Cliente? ^AZ\nUser: @AmazonHelp Pues realmente no saben que decirme que van a hablar con no se quien ya que est\u00e1 en stock pero as\u00ed llevo 10 d\u00edas desde que se repuso el stock.\nUser: @246487 Entiendo Miguel, en este caso Amazon depende de los proveedores y los pedidos \u00fanicamente pueden enviados cuando est\u00e9n disponibles en el inventario. Cuando est\u00e9n disponibles inmediatamente ser\u00e1 enviado y ser\u00e1s notificado. ^MB\nUser: @AmazonHelp Entonces lo que pone en la pagina del producto de que que si lo compras ahora lo recibes el dia 4 de diciembre es mentira? Si yo lo compre el d\u00eda 15 de noviembre... porque no me lo entregais el d\u00eda 4 de diciembre? No lo entiendo...\nUser: @246487 Tal y como se indica en el mensaje, en el momento que el producto este listo para ser enviado recibir\u00e1s un correo electr\u00f3nico con todos los detalles de la fecha de entrega. ^AA\nUser: @AmazonHelp @116928 seguir\u00e9 esperando como llevo desde el d\u00eda 15 de noviembre pero entender que no sois claros y si est\u00e1 en stock en vuestra p\u00e1gina desde hace una semana no se a que tengo que seguir esperando.",
+    "top1_result": {
+      "thread_id": "31c1361384193f7c",
+      "intent": "product_availability",
+      "score": 0.9571840763092041
+    },
+    "top3_results": [
+      {
+        "thread_id": "31c1361384193f7c",
+        "intent": "product_availability",
+        "score": 0.9571840763092041
+      },
+      {
+        "thread_id": "bd0578a8d971dc5e",
+        "intent": "product_availability",
+        "score": 0.9502498507499695
+      },
+      {
+        "thread_id": "c5700155898a2f42",
+        "intent": "product_availability",
+        "score": 0.9475443959236145
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "31c1361384193f7c",
+        "intent": "product_availability",
+        "score": 0.9571840763092041
+      },
+      {
+        "thread_id": "bd0578a8d971dc5e",
+        "intent": "product_availability",
+        "score": 0.9502498507499695
+      },
+      {
+        "thread_id": "c5700155898a2f42",
+        "intent": "product_availability",
+        "score": 0.9475443959236145
+      },
+      {
+        "thread_id": "b70c4b984c3b374e",
+        "intent": "product_availability",
+        "score": 0.943510890007019
+      },
+      {
+        "thread_id": "e670c1da3ddeb566",
+        "intent": "product_availability",
+        "score": 0.9434993267059326
+      }
+    ],
+    "retrieved_intents": [
+      "product_availability",
+      "product_availability",
+      "product_availability",
+      "product_availability",
+      "product_availability"
+    ],
+    "correct_intent_rank": -1,
+    "failure_type": "SEMANTIC_RETRIEVAL_FAILURE"
+  },
+  {
+    "golden_id": "f96b9b10c4206c30",
+    "expected_intent": "delivery_wrong_item",
+    "query_text": "User: Has anyone ever been locked out of an @115821 account after a large purchase...?\nUser: @520963 We'd like to help. Have you received an e-mail from our Account Specialist team? Be sure to check your junk/spam folder. ^NM",
+    "top1_result": {
+      "thread_id": "daa708e541dbaa05",
+      "intent": "account_access",
+      "score": 0.9069748520851135
+    },
+    "top3_results": [
+      {
+        "thread_id": "daa708e541dbaa05",
+        "intent": "account_access",
+        "score": 0.9069748520851135
+      },
+      {
+        "thread_id": "7bbf52335fb9166e",
+        "intent": "account_access",
+        "score": 0.9056547284126282
+      },
+      {
+        "thread_id": "6b378e5b5f1a10de",
+        "intent": "account_access",
+        "score": 0.9044846892356873
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "daa708e541dbaa05",
+        "intent": "account_access",
+        "score": 0.9069748520851135
+      },
+      {
+        "thread_id": "7bbf52335fb9166e",
+        "intent": "account_access",
+        "score": 0.9056547284126282
+      },
+      {
+        "thread_id": "6b378e5b5f1a10de",
+        "intent": "account_access",
+        "score": 0.9044846892356873
+      },
+      {
+        "thread_id": "72a0ca115fa97627",
+        "intent": "account_access",
+        "score": 0.8963383436203003
+      },
+      {
+        "thread_id": "e47ef35f6dd7dd8f",
+        "intent": "account_access",
+        "score": 0.8955100774765015
+      }
+    ],
+    "retrieved_intents": [
+      "account_access",
+      "account_access",
+      "account_access",
+      "account_access",
+      "account_access"
+    ],
+    "correct_intent_rank": -1,
+    "failure_type": "SEMANTIC_RETRIEVAL_FAILURE"
+  },
+  {
+    "golden_id": "b916108101eca175",
+    "expected_intent": "delivery_wrong_item",
+    "query_text": "User: @AmazonHelp Hello there, I'vent received cashback in my Amazon Pay Balance. And my mobile number is  blocked to get in touch with cc @115821\nUser: @523078 You can get in touch with us via email/chat/phone. Please contact us here: https://t.co/HQhpS2qeEd. ^MN\nUser: @AmazonHelp Thank you :-)\nUser: @AmazonHelp #amazon cc hang up the call and now not able to connect... what a pathetic customer care services. The worst I have ever seen @115851\nUser: @523078 My apologies for the experience. Please fill in your details here: https://t.co/RtpZ2Hbj0e and we will get back to you. ^KS",
+    "top1_result": {
+      "thread_id": "fba96c6eaae20464",
+      "intent": "account_access",
+      "score": 0.8902267217636108
+    },
+    "top3_results": [
+      {
+        "thread_id": "fba96c6eaae20464",
+        "intent": "account_access",
+        "score": 0.8902267217636108
+      },
+      {
+        "thread_id": "2625443430c35e5d",
+        "intent": "account_billing",
+        "score": 0.8837953209877014
+      },
+      {
+        "thread_id": "1db2ce9703fa0605",
+        "intent": "account_access",
+        "score": 0.8824144601821899
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "fba96c6eaae20464",
+        "intent": "account_access",
+        "score": 0.8902267217636108
+      },
+      {
+        "thread_id": "2625443430c35e5d",
+        "intent": "account_billing",
+        "score": 0.8837953209877014
+      },
+      {
+        "thread_id": "1db2ce9703fa0605",
+        "intent": "account_access",
+        "score": 0.8824144601821899
+      },
+      {
+        "thread_id": "fc6e24eda2ff1465",
+        "intent": "digital_prime_video",
+        "score": 0.8726956844329834
+      },
+      {
+        "thread_id": "bb38fabf30ed7ddb",
+        "intent": "account_access",
+        "score": 0.8651114702224731
+      }
+    ],
+    "retrieved_intents": [
+      "account_access",
+      "account_billing",
+      "account_access",
+      "digital_prime_video",
+      "account_access"
+    ],
+    "correct_intent_rank": -1,
+    "failure_type": "SEMANTIC_RETRIEVAL_FAILURE"
+  },
+  {
+    "golden_id": "6177b8cf868e7f36",
+    "expected_intent": "account_access",
+    "query_text": "User: When @AmazonHelp mess up, they really mess up big.  For a company their size, it is absolutely shocking.  #badcustomerservice\nUser: @620968 Hello- Without providing personal info can you explain further what has happened please? Thanks ^NV\nUser: @AmazonHelp Where do you want me to start? Perhaps you can speak to your colleagues Ray, Munish and Karl.\nUser: @620968 We can't check your account here. Without personal info, what has occurred? ^MC\nUser: @AmazonHelp Do you really want me to air all your dirty linen on Twitter? Because I will.\nUser: @AmazonHelp I didn't think so. Now perhaps you can pass this information to your managers, train your staff on some basic customer service skills.\nUser: @AmazonHelp Take responsibility for your mistakes and resolve them as soon as possible and don't offer empty apologies.\nUser: @AmazonHelp And for goodness sake, don't keep a customer on hold for over an hour when they ask to speak to a manager.\nUser: @620968 We never want you to feel this way. We'd still like to help! Just to clarify, can you tell us the reason for contacting? ^AL\nUser: @AmazonHelp Please tell me how you are going to help without accessing my personal details.\nUser: @AmazonHelp I am happy to offer more customer service tips just ask Lydia Long to get in touch with me.",
+    "top1_result": {
+      "thread_id": "10e7f84a46aa7dea",
+      "intent": "delivery_delayed",
+      "score": 0.85664302110672
+    },
+    "top3_results": [
+      {
+        "thread_id": "10e7f84a46aa7dea",
+        "intent": "delivery_delayed",
+        "score": 0.85664302110672
+      },
+      {
+        "thread_id": "2d6a2cc180a8af46",
+        "intent": "delivery_missing",
+        "score": 0.8541954755783081
+      },
+      {
+        "thread_id": "599f7069552dbde5",
+        "intent": "promotions_pricing",
+        "score": 0.8423404097557068
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "10e7f84a46aa7dea",
+        "intent": "delivery_delayed",
+        "score": 0.85664302110672
+      },
+      {
+        "thread_id": "2d6a2cc180a8af46",
+        "intent": "delivery_missing",
+        "score": 0.8541954755783081
+      },
+      {
+        "thread_id": "599f7069552dbde5",
+        "intent": "promotions_pricing",
+        "score": 0.8423404097557068
+      },
+      {
+        "thread_id": "feace36bf0d2933c",
+        "intent": "delivery_delayed",
+        "score": 0.8422911167144775
+      },
+      {
+        "thread_id": "38247c52c55eee7f",
+        "intent": "delivery_wrong_item",
+        "score": 0.840116560459137
+      }
+    ],
+    "retrieved_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "promotions_pricing",
+      "delivery_delayed",
+      "delivery_wrong_item"
+    ],
+    "correct_intent_rank": 12,
+    "failure_type": "INTENT_BOUNDARY_FAILURE"
+  },
+  {
+    "golden_id": "663015f372cd3b8a",
+    "expected_intent": "promotions_pricing",
+    "query_text": "User: @115850 if I buy LG refrigrator online, will I get a dealer stamped warranty? Thanks!\nUser: @306175 You'll get the invoice, you can use it to claim the warranty. ^SH",
+    "top1_result": {
+      "thread_id": "9082f003e6e3b290",
+      "intent": "returns_refunds",
+      "score": 0.8673564195632935
+    },
+    "top3_results": [
+      {
+        "thread_id": "9082f003e6e3b290",
+        "intent": "returns_refunds",
+        "score": 0.8673564195632935
+      },
+      {
+        "thread_id": "fb1ab8b547c95f2c",
+        "intent": "returns_refunds",
+        "score": 0.8670567274093628
+      },
+      {
+        "thread_id": "c9ef81f196dc3b5b",
+        "intent": "returns_refunds",
+        "score": 0.8661237955093384
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "9082f003e6e3b290",
+        "intent": "returns_refunds",
+        "score": 0.8673564195632935
+      },
+      {
+        "thread_id": "fb1ab8b547c95f2c",
+        "intent": "returns_refunds",
+        "score": 0.8670567274093628
+      },
+      {
+        "thread_id": "c9ef81f196dc3b5b",
+        "intent": "returns_refunds",
+        "score": 0.8661237955093384
+      },
+      {
+        "thread_id": "50ce720d926e9176",
+        "intent": "returns_refunds",
+        "score": 0.8604025840759277
+      },
+      {
+        "thread_id": "61029148eecdb838",
+        "intent": "returns_refunds",
+        "score": 0.8597354888916016
+      }
+    ],
+    "retrieved_intents": [
+      "returns_refunds",
+      "returns_refunds",
+      "returns_refunds",
+      "returns_refunds",
+      "returns_refunds"
+    ],
+    "correct_intent_rank": 15,
+    "failure_type": "INTENT_BOUNDARY_FAILURE"
+  },
+  {
+    "golden_id": "5d58b0bdefae1299",
+    "expected_intent": "promotions_pricing",
+    "query_text": "User: @115821 hey Amazon! An item I purchased is supposed to arrive tomorrow but hasn't shipped yet. Customer Service chat is giving me the runaround and hasn't even displayed sympathy or apologized. What gives with that?\nUser: @813934 I'm sorry about your recent experience when contacting us. I'd like to see how I can help. Some items may ship as late as the delivery date. Is tomorrow still the current delivery estimate: https://t.co/Y5jpI9gRhE? ^MG\nUser: @AmazonHelp no. there was no date as it is out of stock but no one notified me. if I didn't contact you, I would never have known. not cool.\nUser: @813934 Have you received any insight on the order when speaking to customer service? Any options provided? We're here to help! ^MH\nUser: @AmazonHelp I would like to say Ackela S was very helpful. She contacted the seller, found out the status? cancelled my original order and found the same deal under Amazon and then upgraded my shipping - simply amazing. Only issue is that she was 3rd person I talked to. Other 2 did not help.",
+    "top1_result": {
+      "thread_id": "5ba5c83454c15212",
+      "intent": "delivery_delayed",
+      "score": 0.9078577160835266
+    },
+    "top3_results": [
+      {
+        "thread_id": "5ba5c83454c15212",
+        "intent": "delivery_delayed",
+        "score": 0.9078577160835266
+      },
+      {
+        "thread_id": "a377010de6e318d1",
+        "intent": "product_availability",
+        "score": 0.9009417295455933
+      },
+      {
+        "thread_id": "973471dfb02da43f",
+        "intent": "delivery_delayed",
+        "score": 0.8902337551116943
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "5ba5c83454c15212",
+        "intent": "delivery_delayed",
+        "score": 0.9078577160835266
+      },
+      {
+        "thread_id": "a377010de6e318d1",
+        "intent": "product_availability",
+        "score": 0.9009417295455933
+      },
+      {
+        "thread_id": "973471dfb02da43f",
+        "intent": "delivery_delayed",
+        "score": 0.8902337551116943
+      },
+      {
+        "thread_id": "c9242fe3804a06e4",
+        "intent": "delivery_delayed",
+        "score": 0.8885789513587952
+      },
+      {
+        "thread_id": "28db7e29ba3887a3",
+        "intent": "delivery_delayed",
+        "score": 0.8875327706336975
+      }
+    ],
+    "retrieved_intents": [
+      "delivery_delayed",
+      "product_availability",
+      "delivery_delayed",
+      "delivery_delayed",
+      "delivery_delayed"
+    ],
+    "correct_intent_rank": -1,
+    "failure_type": "SEMANTIC_RETRIEVAL_FAILURE"
+  },
+  {
+    "golden_id": "1df63ea1d5a69936",
+    "expected_intent": "amazon_locker",
+    "query_text": "User: No point in paying for prime  @AmazonHelp if you have to go pick up your own packages.. you know that\u2019s why people still shop locally!\nUser: @717281 I'm sorry your order wasn't delivered to your house! We'd like to see how we can help so please reach out to us here: https://t.co/hApLpMlfHN ^DD",
+    "top1_result": {
+      "thread_id": "05f96bf8946f75e8",
+      "intent": "delivery_missing",
+      "score": 0.9042001366615295
+    },
+    "top3_results": [
+      {
+        "thread_id": "05f96bf8946f75e8",
+        "intent": "delivery_missing",
+        "score": 0.9042001366615295
+      },
+      {
+        "thread_id": "d5d1ef45a4c177ba",
+        "intent": "delivery_missing",
+        "score": 0.887872040271759
+      },
+      {
+        "thread_id": "4cfbcdce7115efd5",
+        "intent": "delivery_missing",
+        "score": 0.8873985409736633
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "05f96bf8946f75e8",
+        "intent": "delivery_missing",
+        "score": 0.9042001366615295
+      },
+      {
+        "thread_id": "d5d1ef45a4c177ba",
+        "intent": "delivery_missing",
+        "score": 0.887872040271759
+      },
+      {
+        "thread_id": "4cfbcdce7115efd5",
+        "intent": "delivery_missing",
+        "score": 0.8873985409736633
+      },
+      {
+        "thread_id": "294c750cb97ee701",
+        "intent": "delivery_missing",
+        "score": 0.8865365386009216
+      },
+      {
+        "thread_id": "c307b6dc7fdaa288",
+        "intent": "delivery_missing",
+        "score": 0.8834105134010315
+      }
+    ],
+    "retrieved_intents": [
+      "delivery_missing",
+      "delivery_missing",
+      "delivery_missing",
+      "delivery_missing",
+      "delivery_missing"
+    ],
+    "correct_intent_rank": -1,
+    "failure_type": "SEMANTIC_RETRIEVAL_FAILURE"
+  },
+  {
+    "golden_id": "baa82fe4c3c04a25",
+    "expected_intent": "amazon_locker",
+    "query_text": "User: @115850 @AmazonHelp 1/4 please help me if you really want to help me . I need pickup service buy, location new Delhi 110062.plz help\nUser: @517200 We've responded to your query via DM, please check. ^HA\nUser: @AmazonHelp You can also CHK I have reply you\nUser: @517200 I understand your concern. I\u2019d like to help you. Please fill this form: https://t.co/beaaDm0muc and I\u2019ll contact you soon.^RI\nUser: @AmazonHelp Plz CHK I have done , form filled\nUser: @517200 Thank you for letting us know. We'd get back to you soon with an update. ^BS\nUser: @AmazonHelp Today I have called BD cs but they want approval form Amazon then pick up the parcel..I have info I am ready to pay but not agree.plz help\nUser: @517200 We've emailed a correspondence to you, Jitendra. Kindly check it here: https://t.co/8DAc10S7ww and revert to it if needed.^SF\nUser: @AmazonHelp Dear please chk my reply today I have send parcel through over nite courier. please give confirm for the same attached courier slip and bill\nUser: @517200 Thank you for the heads up, Jitendra. If the details were shared, our team shall reach out to you soon. ^MP\nUser: @AmazonHelp I have call recording also which in BlueDart info me the same plz help and arrange pickup today any how",
+    "top1_result": {
+      "thread_id": "65b884fc57399160",
+      "intent": "returns_refunds",
+      "score": 0.8550613522529602
+    },
+    "top3_results": [
+      {
+        "thread_id": "65b884fc57399160",
+        "intent": "returns_refunds",
+        "score": 0.8550613522529602
+      },
+      {
+        "thread_id": "b18680ebc8e52842",
+        "intent": "returns_refunds",
+        "score": 0.8480225205421448
+      },
+      {
+        "thread_id": "8e45b6473c0ca158",
+        "intent": "delivery_delayed",
+        "score": 0.8461276888847351
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "65b884fc57399160",
+        "intent": "returns_refunds",
+        "score": 0.8550613522529602
+      },
+      {
+        "thread_id": "b18680ebc8e52842",
+        "intent": "returns_refunds",
+        "score": 0.8480225205421448
+      },
+      {
+        "thread_id": "8e45b6473c0ca158",
+        "intent": "delivery_delayed",
+        "score": 0.8461276888847351
+      },
+      {
+        "thread_id": "913dafb121a1ab72",
+        "intent": "returns_refunds",
+        "score": 0.8372100591659546
+      },
+      {
+        "thread_id": "146d160fcdb187fe",
+        "intent": "digital_kindle",
+        "score": 0.8348441123962402
+      }
+    ],
+    "retrieved_intents": [
+      "returns_refunds",
+      "returns_refunds",
+      "delivery_delayed",
+      "returns_refunds",
+      "digital_kindle"
+    ],
+    "correct_intent_rank": 7,
+    "failure_type": "INTENT_BOUNDARY_FAILURE"
+  },
+  {
+    "golden_id": "9d048a20fd47ab7f",
+    "expected_intent": "grocery_fresh",
+    "query_text": "User: @115850 Change in account user interfaces is fine. But page wise listing of wish list was much better. This auto refresh is bad UX!\nUser: @492539 I understand your concern. I'll be sure to share your comments with internal teams for review. ^SV",
+    "top1_result": {
+      "thread_id": "859153d0ce8105dd",
+      "intent": "returns_refunds",
+      "score": 0.8134172558784485
+    },
+    "top3_results": [
+      {
+        "thread_id": "859153d0ce8105dd",
+        "intent": "returns_refunds",
+        "score": 0.8134172558784485
+      },
+      {
+        "thread_id": "b0e413f5d9f07485",
+        "intent": "delivery_wrong_item",
+        "score": 0.8057370185852051
+      },
+      {
+        "thread_id": "a9da7f16e4e2b638",
+        "intent": "returns_refunds",
+        "score": 0.797687828540802
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "859153d0ce8105dd",
+        "intent": "returns_refunds",
+        "score": 0.8134172558784485
+      },
+      {
+        "thread_id": "b0e413f5d9f07485",
+        "intent": "delivery_wrong_item",
+        "score": 0.8057370185852051
+      },
+      {
+        "thread_id": "a9da7f16e4e2b638",
+        "intent": "returns_refunds",
+        "score": 0.797687828540802
+      },
+      {
+        "thread_id": "755b0d134c294ef7",
+        "intent": "delivery_delayed",
+        "score": 0.7948651313781738
+      },
+      {
+        "thread_id": "32fa90372511f908",
+        "intent": "returns_refunds",
+        "score": 0.7878996729850769
+      }
+    ],
+    "retrieved_intents": [
+      "returns_refunds",
+      "delivery_wrong_item",
+      "returns_refunds",
+      "delivery_delayed",
+      "returns_refunds"
+    ],
+    "correct_intent_rank": 6,
+    "failure_type": "INTENT_BOUNDARY_FAILURE"
+  },
+  {
+    "golden_id": "4659bf7cb80e967a",
+    "expected_intent": "grocery_fresh",
+    "query_text": "User: Super whack that @117795 is charging a $5 delivery fee now on top of the $5 tip. Wtf is the point then? I\u2019ll just walk my ass to the grocery store\nUser: @714332 Tipping is completely optional and not required, here is how you can add or remove the tip: https://t.co/rGKmeDV18z ^AG",
+    "top1_result": {
+      "thread_id": "08c098be76b68acd",
+      "intent": "account_billing",
+      "score": 0.8948956727981567
+    },
+    "top3_results": [
+      {
+        "thread_id": "08c098be76b68acd",
+        "intent": "account_billing",
+        "score": 0.8948956727981567
+      },
+      {
+        "thread_id": "944eb846b50559ed",
+        "intent": "account_billing",
+        "score": 0.8905592560768127
+      },
+      {
+        "thread_id": "985e79a32630568b",
+        "intent": "account_billing",
+        "score": 0.8874154090881348
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "08c098be76b68acd",
+        "intent": "account_billing",
+        "score": 0.8948956727981567
+      },
+      {
+        "thread_id": "944eb846b50559ed",
+        "intent": "account_billing",
+        "score": 0.8905592560768127
+      },
+      {
+        "thread_id": "985e79a32630568b",
+        "intent": "account_billing",
+        "score": 0.8874154090881348
+      },
+      {
+        "thread_id": "70404c66061997b9",
+        "intent": "account_billing",
+        "score": 0.8793119192123413
+      },
+      {
+        "thread_id": "30ddc7705adbced3",
+        "intent": "account_billing",
+        "score": 0.8719227313995361
+      }
+    ],
+    "retrieved_intents": [
+      "account_billing",
+      "account_billing",
+      "account_billing",
+      "account_billing",
+      "account_billing"
+    ],
+    "correct_intent_rank": -1,
+    "failure_type": "SEMANTIC_RETRIEVAL_FAILURE"
+  },
+  {
+    "golden_id": "3f38d0690064ea3e",
+    "expected_intent": "grocery_fresh",
+    "query_text": "User: @115851 @115850 As a consumer I believe that the UI of Flipkart is better than Amazon in India. I hope it gets better with the fresh investment.\nUser: @704462 I'll be sure to pass on your feedback to our specialist team internally and work on it. ^AK",
+    "top1_result": {
+      "thread_id": "ffbd11a849584bd9",
+      "intent": "delivery_missing",
+      "score": 0.8796966075897217
+    },
+    "top3_results": [
+      {
+        "thread_id": "ffbd11a849584bd9",
+        "intent": "delivery_missing",
+        "score": 0.8796966075897217
+      },
+      {
+        "thread_id": "79f58506644e503f",
+        "intent": "account_billing",
+        "score": 0.839939534664154
+      },
+      {
+        "thread_id": "88b6c61a42170b49",
+        "intent": "delivery_wrong_item",
+        "score": 0.8370738625526428
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "ffbd11a849584bd9",
+        "intent": "delivery_missing",
+        "score": 0.8796966075897217
+      },
+      {
+        "thread_id": "79f58506644e503f",
+        "intent": "account_billing",
+        "score": 0.839939534664154
+      },
+      {
+        "thread_id": "88b6c61a42170b49",
+        "intent": "delivery_wrong_item",
+        "score": 0.8370738625526428
+      },
+      {
+        "thread_id": "e21de1792f8fccf8",
+        "intent": "returns_refunds",
+        "score": 0.8064029812812805
+      },
+      {
+        "thread_id": "476ab302d5d33795",
+        "intent": "echo_alexa",
+        "score": 0.8044965267181396
+      }
+    ],
+    "retrieved_intents": [
+      "delivery_missing",
+      "account_billing",
+      "delivery_wrong_item",
+      "returns_refunds",
+      "echo_alexa"
+    ],
+    "correct_intent_rank": 12,
+    "failure_type": "INTENT_BOUNDARY_FAILURE"
+  },
+  {
+    "golden_id": "16cfcf62900ef5ea",
+    "expected_intent": "grocery_fresh",
+    "query_text": "User: Amazon\u306efresh\u3001\u7d19\u888b\u3067\u6765\u308b\u306e\u306d\uff01\uff01\u826f\u3044\u826f\u3044\uff01\uff01\n\u888b\u304c\uff13\u3064\u3042\u308b\u306e\u306f\u3001\u5e38\u6e29\u3001\u51b7\u8535\u3001\u51b7\u51cd\u306b\u5206\u304b\u308c\u3066\u3044\u308b\u304b\u3089\u3067\u3059 https://t.co/NyvO1QJnuZ\nUser: @762615 Amazon\u30d5\u30ec\u30c3\u30b7\u30e5\u306e\u3054\u5229\u7528\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\uff01\u307e\u305f\u305c\u3072\u3054\u5229\u7528\u304f\u3060\u3055\u3044\u307e\u305b\uff5e\u266a\u30fe(=^\u25bd^=)\u30ce TN",
+    "top1_result": {
+      "thread_id": "2451b419ba24f7db",
+      "intent": "digital_kindle",
+      "score": 0.9030352830886841
+    },
+    "top3_results": [
+      {
+        "thread_id": "2451b419ba24f7db",
+        "intent": "digital_kindle",
+        "score": 0.9030352830886841
+      },
+      {
+        "thread_id": "ee6853462316c45a",
+        "intent": "digital_kindle",
+        "score": 0.8913863301277161
+      },
+      {
+        "thread_id": "35373544a9785cad",
+        "intent": "digital_kindle",
+        "score": 0.8902819752693176
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "2451b419ba24f7db",
+        "intent": "digital_kindle",
+        "score": 0.9030352830886841
+      },
+      {
+        "thread_id": "ee6853462316c45a",
+        "intent": "digital_kindle",
+        "score": 0.8913863301277161
+      },
+      {
+        "thread_id": "35373544a9785cad",
+        "intent": "digital_kindle",
+        "score": 0.8902819752693176
+      },
+      {
+        "thread_id": "50f3ef72dbf37ccc",
+        "intent": "digital_kindle",
+        "score": 0.8895161747932434
+      },
+      {
+        "thread_id": "e4594b6eaaf3b2b0",
+        "intent": "digital_prime_video",
+        "score": 0.8824127912521362
+      }
+    ],
+    "retrieved_intents": [
+      "digital_kindle",
+      "digital_kindle",
+      "digital_kindle",
+      "digital_kindle",
+      "digital_prime_video"
+    ],
+    "correct_intent_rank": 18,
+    "failure_type": "LABEL_FAILURE"
+  },
+  {
+    "golden_id": "632f0aed89f71a07",
+    "expected_intent": "grocery_fresh",
+    "query_text": "User: How I feel about @117093 https://t.co/UrGhp5f9uQ\nUser: @472999 I'm sorry to hear you haven't been receiving your orders! Have you had a chance to report this to us via phone? ^BH\nUser: @AmazonHelp I have and I cancelled my Amazon Fresh. The service is not worth the headache and especially not $15 a month for so many issues.",
+    "top1_result": {
+      "thread_id": "8b605c8d711d2487",
+      "intent": "delivery_missing",
+      "score": 0.8570277690887451
+    },
+    "top3_results": [
+      {
+        "thread_id": "8b605c8d711d2487",
+        "intent": "delivery_missing",
+        "score": 0.8570277690887451
+      },
+      {
+        "thread_id": "e626440f44bc3bc0",
+        "intent": "account_billing",
+        "score": 0.8522800207138062
+      },
+      {
+        "thread_id": "5aa4cfd9533362ce",
+        "intent": "promotions_pricing",
+        "score": 0.84919673204422
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "8b605c8d711d2487",
+        "intent": "delivery_missing",
+        "score": 0.8570277690887451
+      },
+      {
+        "thread_id": "e626440f44bc3bc0",
+        "intent": "account_billing",
+        "score": 0.8522800207138062
+      },
+      {
+        "thread_id": "5aa4cfd9533362ce",
+        "intent": "promotions_pricing",
+        "score": 0.84919673204422
+      },
+      {
+        "thread_id": "48ec1d680d09562d",
+        "intent": "account_billing",
+        "score": 0.8473162651062012
+      },
+      {
+        "thread_id": "8e7894e8b538ba9b",
+        "intent": "account_billing",
+        "score": 0.8466707468032837
+      }
+    ],
+    "retrieved_intents": [
+      "delivery_missing",
+      "account_billing",
+      "promotions_pricing",
+      "account_billing",
+      "account_billing"
+    ],
+    "correct_intent_rank": 12,
+    "failure_type": "INTENT_BOUNDARY_FAILURE"
+  },
+  {
+    "golden_id": "f0cfad48f6a145b1",
+    "expected_intent": "grocery_fresh",
+    "query_text": "User: @115850 is so pathetic that it says guaranteed delivery by 11 AM tomorrow for a fresh order but cant deliver an order placed on 25th oct\nUser: @478782 Did you report this to our customer service team here: https://t.co/vlvfJrlYEH? ^SI\nUser: @AmazonHelp Yes 33 times but no one @115850 even takes the initiative to resolve issues just lie...pathetic service will never place an order with\nUser: @AmazonHelp @115850 No one even took the initiative to give me a call after so much hassle @118919 @115850 @115830 @AmazonHelp",
+    "top1_result": {
+      "thread_id": "02adc7f6381dde48",
+      "intent": "delivery_missing",
+      "score": 0.85627681016922
+    },
+    "top3_results": [
+      {
+        "thread_id": "02adc7f6381dde48",
+        "intent": "delivery_missing",
+        "score": 0.85627681016922
+      },
+      {
+        "thread_id": "754ddf1d41250506",
+        "intent": "delivery_delayed",
+        "score": 0.8502964973449707
+      },
+      {
+        "thread_id": "db097e98f2c37ad2",
+        "intent": "delivery_delayed",
+        "score": 0.850157618522644
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "02adc7f6381dde48",
+        "intent": "delivery_missing",
+        "score": 0.85627681016922
+      },
+      {
+        "thread_id": "754ddf1d41250506",
+        "intent": "delivery_delayed",
+        "score": 0.8502964973449707
+      },
+      {
+        "thread_id": "db097e98f2c37ad2",
+        "intent": "delivery_delayed",
+        "score": 0.850157618522644
+      },
+      {
+        "thread_id": "a2e1b32e13cb7f97",
+        "intent": "delivery_missing",
+        "score": 0.8469923734664917
+      },
+      {
+        "thread_id": "9c28394568998922",
+        "intent": "delivery_missing",
+        "score": 0.8451612591743469
+      }
+    ],
+    "retrieved_intents": [
+      "delivery_missing",
+      "delivery_delayed",
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_missing"
+    ],
+    "correct_intent_rank": -1,
+    "failure_type": "SEMANTIC_RETRIEVAL_FAILURE"
+  },
+  {
+    "golden_id": "51a322d37e9a7679",
+    "expected_intent": "grocery_fresh",
+    "query_text": "User: @AmazonHelp After 3 botched #PrimeNow orders, I finally have the motivation to just go to the store myself. Thanks y'all.\nUser: @436428 I'm sorry we've let you down, Alejandra! Without giving sensitive info, can you tell us what's going on so we can help? ^HS\nUser: @AmazonHelp I've gotten\n-the wrong produce\n-spoiled produce\nAND PIZZA BAGELS RATHER THAN PIZZA ROLLS \ud83e\udd23 which is really the last straw \ud83d\ude2d\nUser: @436428 Oh wow! Have you reached out to us through the app regarding a refund or a replacement? ^ML\nUser: @AmazonHelp I didn't feel like wasting more time over one rotten veggie. Laziness is why I used the service anyway. Lesson learned. Store trips for me.\nUser: @436428 We understand your frustration; if you'd like us to look into options we're available here: https://t.co/mDBpZohi8o ^LJ",
+    "top1_result": {
+      "thread_id": "d2ac4e81ac39a300",
+      "intent": "delivery_delayed",
+      "score": 0.894025981426239
+    },
+    "top3_results": [
+      {
+        "thread_id": "d2ac4e81ac39a300",
+        "intent": "delivery_delayed",
+        "score": 0.894025981426239
+      },
+      {
+        "thread_id": "ad19c9434bf6b950",
+        "intent": "returns_refunds",
+        "score": 0.8889286518096924
+      },
+      {
+        "thread_id": "8a3714ab65d4ce9e",
+        "intent": "returns_refunds",
+        "score": 0.8851925134658813
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "d2ac4e81ac39a300",
+        "intent": "delivery_delayed",
+        "score": 0.894025981426239
+      },
+      {
+        "thread_id": "ad19c9434bf6b950",
+        "intent": "returns_refunds",
+        "score": 0.8889286518096924
+      },
+      {
+        "thread_id": "8a3714ab65d4ce9e",
+        "intent": "returns_refunds",
+        "score": 0.8851925134658813
+      },
+      {
+        "thread_id": "6a40bd4af496ab14",
+        "intent": "returns_refunds",
+        "score": 0.8841641545295715
+      },
+      {
+        "thread_id": "89ee0ce088a3c4f3",
+        "intent": "returns_refunds",
+        "score": 0.883756160736084
+      }
+    ],
+    "retrieved_intents": [
+      "delivery_delayed",
+      "returns_refunds",
+      "returns_refunds",
+      "returns_refunds",
+      "returns_refunds"
+    ],
+    "correct_intent_rank": -1,
+    "failure_type": "SEMANTIC_RETRIEVAL_FAILURE"
+  },
+  {
+    "golden_id": "e84a7e6d5d4a4373",
+    "expected_intent": "grocery_fresh",
+    "query_text": "User: New scam on @115850. Bought an SDcard at 50% off. Seller cancelled my COD order but sent me a duplicate card instead in Amazon packaging. https://t.co/AZJo3iuRgF\nUser: @351687 That's unacceptable indeed, did you report this to our customer service team here: https://t.co/vlvfJr4nN9. ^SI\nUser: @AmazonHelp I have been in touch with them but some honesty would be refreshing. I've so far got 4 different reasons for why the order was cancelled.\nUser: @351687 That's strange. I'd like to investigate this and assist you with the issue. Please provide your details 1/2 ^SH\nUser: @351687 here: https://t.co/mPwWgQbX6t and I'll get back to you. 2/2 ^SH\nUser: @AmazonHelp Done.",
+    "top1_result": {
+      "thread_id": "20a1039d99515e18",
+      "intent": "returns_refunds",
+      "score": 0.8478302359580994
+    },
+    "top3_results": [
+      {
+        "thread_id": "20a1039d99515e18",
+        "intent": "returns_refunds",
+        "score": 0.8478302359580994
+      },
+      {
+        "thread_id": "5bcd7ab18c0b0ad3",
+        "intent": "returns_refunds",
+        "score": 0.8453844785690308
+      },
+      {
+        "thread_id": "177006dcf9935c66",
+        "intent": "delivery_delayed",
+        "score": 0.8418570756912231
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "20a1039d99515e18",
+        "intent": "returns_refunds",
+        "score": 0.8478302359580994
+      },
+      {
+        "thread_id": "5bcd7ab18c0b0ad3",
+        "intent": "returns_refunds",
+        "score": 0.8453844785690308
+      },
+      {
+        "thread_id": "177006dcf9935c66",
+        "intent": "delivery_delayed",
+        "score": 0.8418570756912231
+      },
+      {
+        "thread_id": "0c22a4be08ed6d94",
+        "intent": "promotions_pricing",
+        "score": 0.8249611854553223
+      },
+      {
+        "thread_id": "6d98410799b010d7",
+        "intent": "returns_refunds",
+        "score": 0.824889063835144
+      }
+    ],
+    "retrieved_intents": [
+      "returns_refunds",
+      "returns_refunds",
+      "delivery_delayed",
+      "promotions_pricing",
+      "returns_refunds"
+    ],
+    "correct_intent_rank": -1,
+    "failure_type": "SEMANTIC_RETRIEVAL_FAILURE"
+  },
+  {
+    "golden_id": "451122bbe75eae6a",
+    "expected_intent": "product_availability",
+    "query_text": "User: @AmazonHelp if I pre-order an mp3 album and I have a giftcard balance, will it automatically take it off when I order it? it's not showing\nUser: @305178 We charge as songs or the album are released. For more details, please click here: https://t.co/ErE5xqdYyZ ^JR",
+    "top1_result": {
+      "thread_id": "b63fd60f885b1e4c",
+      "intent": "account_billing",
+      "score": 0.8720964193344116
+    },
+    "top3_results": [
+      {
+        "thread_id": "b63fd60f885b1e4c",
+        "intent": "account_billing",
+        "score": 0.8720964193344116
+      },
+      {
+        "thread_id": "87ca89fff377a938",
+        "intent": "account_billing",
+        "score": 0.8637738227844238
+      },
+      {
+        "thread_id": "30a68f4da362a282",
+        "intent": "amazon_music",
+        "score": 0.8626341819763184
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "b63fd60f885b1e4c",
+        "intent": "account_billing",
+        "score": 0.8720964193344116
+      },
+      {
+        "thread_id": "87ca89fff377a938",
+        "intent": "account_billing",
+        "score": 0.8637738227844238
+      },
+      {
+        "thread_id": "30a68f4da362a282",
+        "intent": "amazon_music",
+        "score": 0.8626341819763184
+      },
+      {
+        "thread_id": "7d2249db11905ae4",
+        "intent": "account_billing",
+        "score": 0.8550668358802795
+      },
+      {
+        "thread_id": "05bad44b612f7877",
+        "intent": "account_billing",
+        "score": 0.8520068526268005
+      }
+    ],
+    "retrieved_intents": [
+      "account_billing",
+      "account_billing",
+      "amazon_music",
+      "account_billing",
+      "account_billing"
+    ],
+    "correct_intent_rank": 19,
+    "failure_type": "LABEL_FAILURE"
+  },
+  {
+    "golden_id": "ebefc67d2ab0c89b",
+    "expected_intent": "product_availability",
+    "query_text": "User: @115821 @AmazonHelp pre-ordered this book and it finally came in today! but with damages :/ https://t.co/BdpvGIQYPj\nUser: @219470 I'm sorry it arrived this way! Have you had a chance to checkout available return/replace options: https://t.co/vgsq1JXwLP ^ML",
+    "top1_result": {
+      "thread_id": "f560d95553c5c344",
+      "intent": "echo_alexa",
+      "score": 0.9345882534980774
+    },
+    "top3_results": [
+      {
+        "thread_id": "f560d95553c5c344",
+        "intent": "echo_alexa",
+        "score": 0.9345882534980774
+      },
+      {
+        "thread_id": "983d2f4dd94b45f2",
+        "intent": "grocery_fresh",
+        "score": 0.8993819952011108
+      },
+      {
+        "thread_id": "cc76868c63381b4f",
+        "intent": "returns_refunds",
+        "score": 0.8943564891815186
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "f560d95553c5c344",
+        "intent": "echo_alexa",
+        "score": 0.9345882534980774
+      },
+      {
+        "thread_id": "983d2f4dd94b45f2",
+        "intent": "grocery_fresh",
+        "score": 0.8993819952011108
+      },
+      {
+        "thread_id": "cc76868c63381b4f",
+        "intent": "returns_refunds",
+        "score": 0.8943564891815186
+      },
+      {
+        "thread_id": "1ea9b5e20603b913",
+        "intent": "returns_refunds",
+        "score": 0.8926470279693604
+      },
+      {
+        "thread_id": "f93fc8d21caad905",
+        "intent": "returns_refunds",
+        "score": 0.8873352408409119
+      }
+    ],
+    "retrieved_intents": [
+      "echo_alexa",
+      "grocery_fresh",
+      "returns_refunds",
+      "returns_refunds",
+      "returns_refunds"
+    ],
+    "correct_intent_rank": 16,
+    "failure_type": "LABEL_FAILURE"
+  },
+  {
+    "golden_id": "c5f3c1301f833cc0",
+    "expected_intent": "product_availability",
+    "query_text": "User: @115850 WHAT IS THE DIFFERENCE OF #reputation \u20b9400+ &amp; \u20b91k+ ?\nI NEED TO KNOW. PLZ. I'M FREAKING OUT!!!\nUser: @563037 Pricing and offers are decision of the sellers. The constantly changing marketplace and our efforts (2/2)^HR\nUser: @563037 to offer you the lowest price, may result in fluctuations in our prices over time. Appreciate your understanding.(2/2)^HR\nUser: @AmazonHelp But the \u20b91k+ has description saying it includes the album booklet, poster &amp; notepad. Yet, when I went to check the \u20b9400+ (which I pre-ordered) edition there was no description. I'm confused. Will the \u20b9400+ edition hv the same contains as \u20b91k+ edition?\nUser: @563037 I understand you confusion. I'd request you to check with the seller here directly for more info: https://t.co/SJH8OnLxyh ^JC\nUser: @AmazonHelp Thnx \ud83d\udc95\nUser: @563037 You're welcome, Sreeya. Do let us know if you need any further assistance. ^SY",
+    "top1_result": {
+      "thread_id": "07c9a02305516b66",
+      "intent": "promotions_pricing",
+      "score": 0.9010766744613647
+    },
+    "top3_results": [
+      {
+        "thread_id": "07c9a02305516b66",
+        "intent": "promotions_pricing",
+        "score": 0.9010766744613647
+      },
+      {
+        "thread_id": "a9bbe22e4ceea1dd",
+        "intent": "promotions_pricing",
+        "score": 0.8983535766601562
+      },
+      {
+        "thread_id": "86b901680dfc75b9",
+        "intent": "promotions_pricing",
+        "score": 0.896178126335144
+      }
+    ],
+    "top5_results": [
+      {
+        "thread_id": "07c9a02305516b66",
+        "intent": "promotions_pricing",
+        "score": 0.9010766744613647
+      },
+      {
+        "thread_id": "a9bbe22e4ceea1dd",
+        "intent": "promotions_pricing",
+        "score": 0.8983535766601562
+      },
+      {
+        "thread_id": "86b901680dfc75b9",
+        "intent": "promotions_pricing",
+        "score": 0.896178126335144
+      },
+      {
+        "thread_id": "5f0850facd553e44",
+        "intent": "promotions_pricing",
+        "score": 0.8902360200881958
+      },
+      {
+        "thread_id": "f2f23d1998bf203c",
+        "intent": "promotions_pricing",
+        "score": 0.8871065378189087
+      }
+    ],
+    "retrieved_intents": [
+      "promotions_pricing",
+      "promotions_pricing",
+      "promotions_pricing",
+      "promotions_pricing",
+      "promotions_pricing"
+    ],
+    "correct_intent_rank": 12,
+    "failure_type": "LABEL_FAILURE"
+  }
+]

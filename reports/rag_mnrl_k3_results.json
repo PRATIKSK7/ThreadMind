@@ -1,0 +1,4331 @@
+{
+  "metrics": {
+    "intent_accuracy": 0.8775510204081632,
+    "macro_f1": 0.857859366042162,
+    "escalation_accuracy": 1.0,
+    "api_failures": 0,
+    "malformed_responses": 0,
+    "cache_hits": 0,
+    "cache_misses": 196,
+    "latency_avg": 2.2324980521688655e-05,
+    "retrieval_recall_at_1": 0.7244897959183674,
+    "retrieval_recall_at_3": 0.8418367346938775,
+    "retrieval_recall_at_5": 0.8418367346938775,
+    "retrieval_mrr_at_3": 0.7772108843537414,
+    "k": 3
+  },
+  "predictions": [
+    {
+      "example_id": "GS-000",
+      "thread_id": "d3a37c0eb6a2e1af",
+      "predicted_intent": "delivery_delayed",
+      "expected_intent": "delivery_delayed",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 4.9114227294921875e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "62aa0e4f680b4a6c",
+        "e31f97d644de2597",
+        "4ec6c8b1a25900ea"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-001",
+      "thread_id": "6128774c272909e7",
+      "predicted_intent": "delivery_delayed",
+      "expected_intent": "delivery_delayed",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.811981201171875e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "645f795f9fda8152",
+        "caababc69a7303be",
+        "cacad3ba234c582c"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-002",
+      "thread_id": "7dd3e41677eca8cf",
+      "predicted_intent": "delivery_delayed",
+      "expected_intent": "delivery_delayed",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4781951904296875e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "aa5f38dd9dbf2e3a",
+        "2d05aed0824f6ad4",
+        "17d79eaf587536c6"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-003",
+      "thread_id": "421694ec25574621",
+      "predicted_intent": "delivery_delayed",
+      "expected_intent": "delivery_delayed",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3828277587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "e41bbfcb849ef0c1",
+        "9bb08c3b4c8ec88d",
+        "50a628c8cb82d31d"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-004",
+      "thread_id": "ffdab40197f48de2",
+      "predicted_intent": "delivery_delayed",
+      "expected_intent": "delivery_delayed",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.52587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "e35f1c2ffebef20b",
+        "a961481b86923f3e",
+        "d0be400bdf6b93a5"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-005",
+      "thread_id": "66b6dfde5ea6a023",
+      "predicted_intent": "delivery_delayed",
+      "expected_intent": "delivery_delayed",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.3126602172851562e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "9ee9d150129906c6",
+        "0d8b2010bc4eb103",
+        "f593eccd3b2efbc2"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-006",
+      "thread_id": "e5e227f6392f6343",
+      "predicted_intent": "returns_refunds",
+      "expected_intent": "returns_refunds",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3828277587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "7668dbd5f093263e",
+        "c40e0e63af01a30f",
+        "61c2e118a8616dbe"
+      ],
+      "retrieved_intents": [
+        "returns_refunds",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-007",
+      "thread_id": "6211a9e0735ee03b",
+      "predicted_intent": "delivery_delayed",
+      "expected_intent": "delivery_delayed",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "d70b055ca357e82b",
+        "bb06331df7bb4cdf",
+        "10bb002b52974603"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-008",
+      "thread_id": "1d34fe17e6385fba",
+      "predicted_intent": "delivery_delayed",
+      "expected_intent": "delivery_delayed",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "7fb41a1434c3ebfc",
+        "cf7d4f720068d906",
+        "da33d6b95cbbbc7b"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-009",
+      "thread_id": "136747dbfd949f68",
+      "predicted_intent": "other_support",
+      "expected_intent": "returns_refunds",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 1.5020370483398438e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "9009151fd9a606a2",
+        "8c90dd608492b63e",
+        "1b0b4d8bb73a678d"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "returns_refunds",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-010",
+      "thread_id": "9bd9508fd74f46c4",
+      "predicted_intent": "delivery_delayed",
+      "expected_intent": "delivery_delayed",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "571cea4de6d05eed",
+        "57fc082dd8423bf1",
+        "6b6602d03d11ea72"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-011",
+      "thread_id": "da35f7dc09d3f8d2",
+      "predicted_intent": "delivery_delayed",
+      "expected_intent": "delivery_delayed",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3113021850585938e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "7e9152a208898a49",
+        "3f00cf18f674e526",
+        "ea7f2f8823276afa"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-012",
+      "thread_id": "c329621fdd6a6860",
+      "predicted_intent": "delivery_delayed",
+      "expected_intent": "delivery_delayed",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3828277587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "c08d6ec8949f17c9",
+        "d70b055ca357e82b",
+        "ab480df76a1adbf9"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-013",
+      "thread_id": "788e6b6ab3ad975f",
+      "predicted_intent": "delivery_delayed",
+      "expected_intent": "delivery_delayed",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "7ab1e987ab5c50cf",
+        "bc6cd73033c48ec1",
+        "d8deff596e787846"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-014",
+      "thread_id": "564d4563079bdbfb",
+      "predicted_intent": "delivery_missing",
+      "expected_intent": "delivery_missing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3828277587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "386ebf618a1ccc76",
+        "8aacc47c866fa73a",
+        "b14c26d452718329"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-015",
+      "thread_id": "979bcf1ba7572381",
+      "predicted_intent": "delivery_missing",
+      "expected_intent": "delivery_missing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "f8129f9805fba434",
+        "d083a1e12879f431",
+        "a8f11fcc204c2aae"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-016",
+      "thread_id": "c01dbc075c112a90",
+      "predicted_intent": "delivery_missing",
+      "expected_intent": "delivery_missing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.430511474609375e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "55492856e807e514",
+        "3bacc90b3dba7212",
+        "1479c41ed51248e4"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-017",
+      "thread_id": "9d4ee10b51d6518c",
+      "predicted_intent": "amazon_locker",
+      "expected_intent": "delivery_missing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "6771abd3c56d0f1e",
+        "1b828fd9b04de4e5",
+        "b14c26d452718329"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-018",
+      "thread_id": "26e37f657a9242c0",
+      "predicted_intent": "delivery_missing",
+      "expected_intent": "delivery_missing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "83277080bfa0d8ad",
+        "0fa5ba8d687f0f1c",
+        "27d745434bf8e263"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-019",
+      "thread_id": "d62bfab11ba69a91",
+      "predicted_intent": "delivery_missing",
+      "expected_intent": "delivery_missing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "27182c63862e4305",
+        "eb253a73d64a70b6",
+        "b01d53dfbdb27a5c"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-020",
+      "thread_id": "44e4104210bad607",
+      "predicted_intent": "delivery_missing",
+      "expected_intent": "delivery_missing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.2874603271484375e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "77c0b20f26a40d89",
+        "5814e38b1fdb7d5c",
+        "73892b28225dbd65"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-021",
+      "thread_id": "1e9fb1462c55081f",
+      "predicted_intent": "delivery_missing",
+      "expected_intent": "delivery_missing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.430511474609375e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "622bcf60d6fca8e2",
+        "f8a57ff984232c98",
+        "e8272d49c18738f0"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-022",
+      "thread_id": "3f03050f2ccd56e1",
+      "predicted_intent": "delivery_missing",
+      "expected_intent": "delivery_missing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.430511474609375e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "1045891f1cbc77d9",
+        "4ac3fe9d2acc986e",
+        "2243b8c0e00efaec"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "returns_refunds",
+        "delivery_wrong_item"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-023",
+      "thread_id": "1812ebbdb250a03e",
+      "predicted_intent": "delivery_missing",
+      "expected_intent": "delivery_missing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "9e930de2fc77e2a7",
+        "324dc8fb531ca2c1",
+        "cf2867371201ee66"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-024",
+      "thread_id": "3a510b96266055de",
+      "predicted_intent": "delivery_missing",
+      "expected_intent": "delivery_missing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "8a31f79bda8979b2",
+        "30db8e39bc6ebfc8",
+        "fa451cc43c941f41"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-025",
+      "thread_id": "c9b23242d5347d51",
+      "predicted_intent": "delivery_missing",
+      "expected_intent": "delivery_missing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.5974044799804688e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "80895de6cc24526b",
+        "e8cc4fff691f0cdf",
+        "518606ef7b161adf"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-026",
+      "thread_id": "0d7053cbb502d63a",
+      "predicted_intent": "delivery_missing",
+      "expected_intent": "delivery_missing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3828277587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "3445cb0c55a9cde5",
+        "d415afdc49b58dc4",
+        "df0d0fd18517f075"
+      ],
+      "retrieved_intents": [
+        "delivery_wrong_item",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-027",
+      "thread_id": "2555a8d9872a2f15",
+      "predicted_intent": "amazon_locker",
+      "expected_intent": "delivery_missing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "f3f325d497f76853",
+        "a7972382560d4c76",
+        "69f66f118f55fb10"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-028",
+      "thread_id": "8e6ae6b8bb6ff8d9",
+      "predicted_intent": "delivery_wrong_item",
+      "expected_intent": "delivery_wrong_item",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "586413dbe5323781",
+        "a51ce1d41afcaa1c",
+        "b83323e0796fba6d"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "returns_refunds",
+        "delivery_wrong_item"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-029",
+      "thread_id": "971d58ab9348de04",
+      "predicted_intent": "account_access",
+      "expected_intent": "account_access",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "09ddc5f2967dc2c3",
+        "3505dfd192dfd0cb",
+        "7191c13a025b126f"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-030",
+      "thread_id": "25ca3ab474dd691d",
+      "predicted_intent": "account_access",
+      "expected_intent": "account_access",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3828277587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "03a283dfd342dc2a",
+        "05a3ff0133f4497b",
+        "729b334644be4baa"
+      ],
+      "retrieved_intents": [
+        "delivery_wrong_item",
+        "account_access",
+        "delivery_wrong_item"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-031",
+      "thread_id": "37bacc4a02a35a8b",
+      "predicted_intent": "delivery_wrong_item",
+      "expected_intent": "delivery_wrong_item",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.52587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "bf82185772e5ba05",
+        "45a3504649059e9f",
+        "7def50106bab29c9"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-032",
+      "thread_id": "5fc32478a3b63ac7",
+      "predicted_intent": "delivery_wrong_item",
+      "expected_intent": "delivery_wrong_item",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.384185791015625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "7d14a0d20ebef158",
+        "9cf4a840a6eac266",
+        "02e3a13a4e0446d3"
+      ],
+      "retrieved_intents": [
+        "returns_refunds",
+        "account_billing",
+        "delivery_wrong_item"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-033",
+      "thread_id": "72784fad0c2d64eb",
+      "predicted_intent": "delivery_wrong_item",
+      "expected_intent": "delivery_wrong_item",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.5735626220703125e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "b1690ba952b53954",
+        "b345f1747617c56a",
+        "77c0b20f26a40d89"
+      ],
+      "retrieved_intents": [
+        "delivery_wrong_item",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-034",
+      "thread_id": "20cce9b10faebf82",
+      "predicted_intent": "account_access",
+      "expected_intent": "account_access",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.5020370483398438e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "6417325e79837481",
+        "729b334644be4baa",
+        "738a68a079fd80fe"
+      ],
+      "retrieved_intents": [
+        "account_access",
+        "delivery_wrong_item",
+        "account_access"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-035",
+      "thread_id": "df577fc749f849fc",
+      "predicted_intent": "account_access",
+      "expected_intent": "account_access",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3828277587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "4759df656f38fdfa",
+        "c230a79e53eeeda2",
+        "ed341d21b7245704"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_wrong_item",
+        "account_access"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-036",
+      "thread_id": "80daedda83f344bd",
+      "predicted_intent": "account_access",
+      "expected_intent": "account_access",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3828277587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "384a6748058de4bc",
+        "265f0fe3038f93cf",
+        "3eb44f256b934996"
+      ],
+      "retrieved_intents": [
+        "returns_refunds",
+        "delivery_wrong_item",
+        "delivery_wrong_item"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-037",
+      "thread_id": "aa1845b17e22923e",
+      "predicted_intent": "account_access",
+      "expected_intent": "account_access",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "a44546f8bcde8741",
+        "643077da01a31fca",
+        "836cc558ec642bde"
+      ],
+      "retrieved_intents": [
+        "account_access",
+        "delivery_wrong_item",
+        "account_access"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-038",
+      "thread_id": "d25f65835961b06a",
+      "predicted_intent": "account_access",
+      "expected_intent": "account_access",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3828277587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "abe1ad35a16b58ac",
+        "17a0bc7f975da742",
+        "e0c93e54ab944af1"
+      ],
+      "retrieved_intents": [
+        "delivery_wrong_item",
+        "delivery_wrong_item",
+        "account_access"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-039",
+      "thread_id": "04f0d488a16c8b29",
+      "predicted_intent": "account_access",
+      "expected_intent": "account_access",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "4c6767f6c2d2da95",
+        "72cb8b54cf55a170",
+        "a1c30c4becc306d8"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-040",
+      "thread_id": "62c4d90a25d0f418",
+      "predicted_intent": "account_access",
+      "expected_intent": "account_access",
+      "predicted_escalation": "human_review_recommended",
+      "expected_escalation": "human_review_recommended",
+      "correctness": true,
+      "latency_seconds": 1.621246337890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "aebefba87eadfd5c",
+        "c480f2aa1fe3d2d4",
+        "e432c0601c386994"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-041",
+      "thread_id": "dd3f0d83804bec2a",
+      "predicted_intent": "delivery_wrong_item",
+      "expected_intent": "delivery_wrong_item",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.5735626220703125e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "30cef5eda8fb4227",
+        "e947f6d18c80530c",
+        "6969da9ef25a7e8c"
+      ],
+      "retrieved_intents": [
+        "delivery_wrong_item",
+        "account_access",
+        "account_billing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-042",
+      "thread_id": "471d985ba341b408",
+      "predicted_intent": "returns_refunds",
+      "expected_intent": "returns_refunds",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.5020370483398438e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "0a116fcbd9062fa5",
+        "9dca147fe85b7d34",
+        "120d2b469e1c365e"
+      ],
+      "retrieved_intents": [
+        "returns_refunds",
+        "delivery_wrong_item",
+        "returns_refunds"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-043",
+      "thread_id": "09b03780f7d6795f",
+      "predicted_intent": "returns_refunds",
+      "expected_intent": "returns_refunds",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "711ec2856fa799a5",
+        "bbc31494ade6fe49",
+        "37581440bc94f377"
+      ],
+      "retrieved_intents": [
+        "returns_refunds",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-044",
+      "thread_id": "507666bffe853255",
+      "predicted_intent": "returns_refunds",
+      "expected_intent": "returns_refunds",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "ba0e9772ec1be75f",
+        "c3796fc671781761",
+        "fa66093ab899a36e"
+      ],
+      "retrieved_intents": [
+        "returns_refunds",
+        "delivery_delayed",
+        "returns_refunds"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-045",
+      "thread_id": "7537e113f152e797",
+      "predicted_intent": "returns_refunds",
+      "expected_intent": "returns_refunds",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.52587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "c6f88c5b50868c02",
+        "68dff71db8d9721f",
+        "39799c8b8302921f"
+      ],
+      "retrieved_intents": [
+        "returns_refunds",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-046",
+      "thread_id": "9cae32f77fa87a38",
+      "predicted_intent": "returns_refunds",
+      "expected_intent": "returns_refunds",
+      "predicted_escalation": "human_review_recommended",
+      "expected_escalation": "human_review_recommended",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "eda768e80e39a411",
+        "23e05758c6da8d08",
+        "f487bbd10af0bc9f"
+      ],
+      "retrieved_intents": [
+        "returns_refunds",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-047",
+      "thread_id": "74d3d83c4ad45c3d",
+      "predicted_intent": "returns_refunds",
+      "expected_intent": "returns_refunds",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3113021850585938e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "1781c4eb3da9fe1d",
+        "7dfdf0ca0c881afd",
+        "f1ef58591600790a"
+      ],
+      "retrieved_intents": [
+        "account_billing",
+        "delivery_delayed",
+        "returns_refunds"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-048",
+      "thread_id": "acbce372aa4fd05c",
+      "predicted_intent": "returns_refunds",
+      "expected_intent": "returns_refunds",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "be63fe3c62d572cc",
+        "ab0c518f60179630",
+        "89d33c6f0a0149cf"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-049",
+      "thread_id": "deff7ff8ef25e07d",
+      "predicted_intent": "returns_refunds",
+      "expected_intent": "returns_refunds",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 3.1948089599609375e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "e11489493987e694",
+        "4b32c648adf8bdd3",
+        "2dd72d5595b251d8"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-050",
+      "thread_id": "b614a28772a4ff9a",
+      "predicted_intent": "returns_refunds",
+      "expected_intent": "returns_refunds",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.6927719116210938e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "4c81b9f4a0e1e27a",
+        "ea083b7d99d5732d",
+        "9009151fd9a606a2"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "returns_refunds",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-051",
+      "thread_id": "583e80a133042b71",
+      "predicted_intent": "returns_refunds",
+      "expected_intent": "returns_refunds",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4781951904296875e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "dded40aa005c250d",
+        "1a1446b69df3cc6f",
+        "6f88277f4aa8002b"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-052",
+      "thread_id": "f7b90627ea18d8f6",
+      "predicted_intent": "returns_refunds",
+      "expected_intent": "returns_refunds",
+      "predicted_escalation": "human_review_recommended",
+      "expected_escalation": "human_review_recommended",
+      "correctness": true,
+      "latency_seconds": 5.125999450683594e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "53e29e925ea102a2",
+        "977688de28ea312a",
+        "cdad812b212acd1e"
+      ],
+      "retrieved_intents": [
+        "account_billing",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-053",
+      "thread_id": "5b8bf1ab06aa0f1a",
+      "predicted_intent": "returns_refunds",
+      "expected_intent": "returns_refunds",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.8133392333984375e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "a9b56c5a431741b4",
+        "098c15f339931e2d",
+        "298337395f9bbf2f"
+      ],
+      "retrieved_intents": [
+        "returns_refunds",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-054",
+      "thread_id": "6aae04ebe65fd679",
+      "predicted_intent": "returns_refunds",
+      "expected_intent": "returns_refunds",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4781951904296875e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "c66d5e495339b011",
+        "ae31ce9cd45865fc",
+        "5e1fcbed7ec6af84"
+      ],
+      "retrieved_intents": [
+        "returns_refunds",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-055",
+      "thread_id": "373f82ed0389646e",
+      "predicted_intent": "returns_refunds",
+      "expected_intent": "returns_refunds",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.71661376953125e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "f9b05bd51b4d49b3",
+        "4e10df15717ba5cc",
+        "180d6e9eca0ffe73"
+      ],
+      "retrieved_intents": [
+        "returns_refunds",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-056",
+      "thread_id": "78620867b16ba960",
+      "predicted_intent": "account_billing",
+      "expected_intent": "account_billing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.5020370483398438e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "d5de0aaaebe11dc3",
+        "37713993d3447a34",
+        "274334b08eda8d04"
+      ],
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-057",
+      "thread_id": "548c4f7b87a573e3",
+      "predicted_intent": "other_support",
+      "expected_intent": "account_billing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 2.3126602172851562e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "649ba51caf37b379",
+        "ed8e04442ded11d0",
+        "1928231cf12e45cc"
+      ],
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-058",
+      "thread_id": "2e3f3cc2c3e5aaf3",
+      "predicted_intent": "account_billing",
+      "expected_intent": "account_billing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.5020370483398438e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "9066c0d04a96a80e",
+        "9b2239bce1aeb4b8",
+        "cdcfd4ddc107ffa1"
+      ],
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-059",
+      "thread_id": "1aa3e4f8f4a38d99",
+      "predicted_intent": "account_billing",
+      "expected_intent": "account_billing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.9073486328125e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "38be6eea3bfaf272",
+        "4c68cd2416b9fc79",
+        "d5ca1553fcf8c705"
+      ],
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-060",
+      "thread_id": "afe31458331bf3e4",
+      "predicted_intent": "account_billing",
+      "expected_intent": "account_billing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 5.1975250244140625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "bcc2dcded981d78c",
+        "434de72cfdf5ec2e",
+        "5cb4d06e69eca85e"
+      ],
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-061",
+      "thread_id": "363ab923a9cff990",
+      "predicted_intent": "account_billing",
+      "expected_intent": "account_billing",
+      "predicted_escalation": "human_review_recommended",
+      "expected_escalation": "human_review_recommended",
+      "correctness": true,
+      "latency_seconds": 1.7881393432617188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "ff1e59916f20d58b",
+        "9b15fd595c39b44e",
+        "9e29e63fc19afdf3"
+      ],
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-062",
+      "thread_id": "2516a81a039f9f65",
+      "predicted_intent": "account_billing",
+      "expected_intent": "account_billing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "531a63ecc41020e2",
+        "a7eba67c1a50dae8",
+        "4bf0400c303791a6"
+      ],
+      "retrieved_intents": [
+        "account_billing",
+        "delivery_missing",
+        "account_billing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-063",
+      "thread_id": "61d93d9d63543125",
+      "predicted_intent": "account_billing",
+      "expected_intent": "account_billing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3113021850585938e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "1e67b57cf99f038d",
+        "c58a34f003356c07",
+        "eed158d202722e26"
+      ],
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-064",
+      "thread_id": "5bdc103dceaa85cc",
+      "predicted_intent": "other_support",
+      "expected_intent": "account_billing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "5ef99b626563e8eb",
+        "90788b3220e0aa04",
+        "11fd71441e11f600"
+      ],
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-065",
+      "thread_id": "c1b7a8c0f138c843",
+      "predicted_intent": "account_billing",
+      "expected_intent": "account_billing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4781951904296875e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "a4b9ffeb5c2796a7",
+        "14b2584ef65922f7",
+        "faf981a36b3b2b46"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "account_billing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-066",
+      "thread_id": "d6cf59dcf89bf508",
+      "predicted_intent": "account_billing",
+      "expected_intent": "account_billing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 3.7670135498046875e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "cec917dc574d9a46",
+        "40916c3e9a0a7099",
+        "621eb07bde694c44"
+      ],
+      "retrieved_intents": [
+        "delivery_wrong_item",
+        "account_access",
+        "account_access"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-067",
+      "thread_id": "0e5b9b2c0a94881f",
+      "predicted_intent": "account_billing",
+      "expected_intent": "account_billing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.7881393432617188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "6f382fd6182945a3",
+        "8a9c4e9a6aaf21c4",
+        "5f13a845a603f2f9"
+      ],
+      "retrieved_intents": [
+        "account_billing",
+        "digital_kindle",
+        "account_billing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-068",
+      "thread_id": "9ff3f7dcf8a34d52",
+      "predicted_intent": "account_billing",
+      "expected_intent": "account_billing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "2609ebe911357342",
+        "9d6f0f94805fd09d",
+        "c31feaca25458e38"
+      ],
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-069",
+      "thread_id": "ddc983b3b471f230",
+      "predicted_intent": "account_billing",
+      "expected_intent": "account_billing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.52587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "bdf79dedb0dd3e83",
+        "81cb564e5d62dd44",
+        "5003a23fdbd274ea"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "account_billing",
+        "account_billing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-070",
+      "thread_id": "7906799da7f63453",
+      "predicted_intent": "digital_prime_video",
+      "expected_intent": "digital_prime_video",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3828277587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "cdff4c9de67876b0",
+        "4c9e57fa40361921",
+        "e6f0ae6e595f7b54"
+      ],
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-071",
+      "thread_id": "d0a24e717d769d53",
+      "predicted_intent": "digital_prime_video",
+      "expected_intent": "digital_prime_video",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 3.266334533691406e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "7b021bb7994cf848",
+        "b6a9e0cef016ff05",
+        "0da3b5c2ce22a1f1"
+      ],
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-072",
+      "thread_id": "d9eddd1b9db7e292",
+      "predicted_intent": "digital_prime_video",
+      "expected_intent": "digital_prime_video",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 5.793571472167969e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "6a9594f9a0673696",
+        "cee826e34e3a11fa",
+        "4cfa2444afaf7e39"
+      ],
+      "retrieved_intents": [
+        "product_availability",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-073",
+      "thread_id": "ceedfbc20a31c038",
+      "predicted_intent": "digital_prime_video",
+      "expected_intent": "digital_prime_video",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 7.176399230957031e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "b79e7388fc13a28a",
+        "aca87cefda0cebe7",
+        "676de17be74e3498"
+      ],
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-074",
+      "thread_id": "63cd9fc1dff215fe",
+      "predicted_intent": "digital_prime_video",
+      "expected_intent": "digital_prime_video",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 5.078315734863281e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "3f848973bcc9001b",
+        "cd7155ef09bc856c",
+        "9528f108293ccd59"
+      ],
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-075",
+      "thread_id": "0a0634610b8e0e15",
+      "predicted_intent": "digital_prime_video",
+      "expected_intent": "digital_prime_video",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.8848648071289062e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "fba0ba6b824844c5",
+        "29d97cca242fed55",
+        "fee961d788a4a05c"
+      ],
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-076",
+      "thread_id": "39e0d086c94789f5",
+      "predicted_intent": "digital_prime_video",
+      "expected_intent": "digital_prime_video",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 3.0040740966796875e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "d9cef2444d9b39c7",
+        "d846a3df9f7b6e88",
+        "8b21c59da9adf82f"
+      ],
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-077",
+      "thread_id": "e6aef6c530ba4876",
+      "predicted_intent": "other_support",
+      "expected_intent": "digital_prime_video",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 3.0040740966796875e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "9cd5dae3cb260d5d",
+        "c60af30032937c33",
+        "0ad31c884903d7aa"
+      ],
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-078",
+      "thread_id": "0f75cd0f5ec91604",
+      "predicted_intent": "digital_prime_video",
+      "expected_intent": "digital_prime_video",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 3.0040740966796875e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "128521b6886a4780",
+        "676de17be74e3498",
+        "3244cc708d18cc0b"
+      ],
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-079",
+      "thread_id": "e2c6b4110efb929a",
+      "predicted_intent": "digital_prime_video",
+      "expected_intent": "digital_prime_video",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.9325485229492188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "f7dcf17c189cc3f0",
+        "baa2188841e1ce96",
+        "acce728016445e0b"
+      ],
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-080",
+      "thread_id": "573ffd6be31435a7",
+      "predicted_intent": "digital_prime_video",
+      "expected_intent": "digital_prime_video",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.9325485229492188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "e9a6cc72f628ff63",
+        "e0973a5e9f0d8e91",
+        "baa2188841e1ce96"
+      ],
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-081",
+      "thread_id": "bf9c3cb5c69de4ea",
+      "predicted_intent": "digital_prime_video",
+      "expected_intent": "digital_prime_video",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.7894973754882812e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "e76f5f460845d113",
+        "2d33ba0362205272",
+        "cbdff8469275fa46"
+      ],
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-082",
+      "thread_id": "3bb93e2f47e6c826",
+      "predicted_intent": "digital_prime_video",
+      "expected_intent": "digital_prime_video",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.9087066650390625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "a950594d1d606ea6",
+        "7f795e91651d0612",
+        "bdbb59124dc89fa7"
+      ],
+      "retrieved_intents": [
+        "digital_prime_video",
+        "delivery_delayed",
+        "digital_prime_video"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-083",
+      "thread_id": "400491ccf469b530",
+      "predicted_intent": "digital_prime_video",
+      "expected_intent": "digital_prime_video",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.8848648071289062e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "ca2154bc2771ac2a",
+        "cf6209216c87fdfe",
+        "f6286f85457a4dca"
+      ],
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-084",
+      "thread_id": "e0e2bacc798bff2b",
+      "predicted_intent": "other_support",
+      "expected_intent": "digital_kindle",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 2.9802322387695312e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "50a628c8cb82d31d",
+        "aedf0c212239cbdf",
+        "0726b5607e478512"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-085",
+      "thread_id": "d773ff9dfa682357",
+      "predicted_intent": "digital_kindle",
+      "expected_intent": "digital_kindle",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.8848648071289062e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "c72fa5da63c4649d",
+        "5fd713c2cafae1eb",
+        "8a9c4e9a6aaf21c4"
+      ],
+      "retrieved_intents": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-086",
+      "thread_id": "51f7b73ff3175ac1",
+      "predicted_intent": "other_support",
+      "expected_intent": "digital_kindle",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 2.9087066650390625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "35af2253d47e63c6",
+        "2d2641631e44a0fb",
+        "cc2e58eaf0befb2c"
+      ],
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-087",
+      "thread_id": "d4bf43a13c2232a4",
+      "predicted_intent": "digital_kindle",
+      "expected_intent": "digital_kindle",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.9325485229492188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "beae06fce5bd69e8",
+        "54c69e67006137b7",
+        "d59a68c91c31b72d"
+      ],
+      "retrieved_intents": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-088",
+      "thread_id": "f3b9d9f09b657817",
+      "predicted_intent": "digital_kindle",
+      "expected_intent": "digital_kindle",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.9087066650390625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "567986494bf9d64a",
+        "1aec506f1366ad2f",
+        "ea5f35c60abf6f20"
+      ],
+      "retrieved_intents": [
+        "digital_kindle",
+        "delivery_delayed",
+        "digital_kindle"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-089",
+      "thread_id": "935824c4704c860b",
+      "predicted_intent": "digital_kindle",
+      "expected_intent": "digital_kindle",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.7894973754882812e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "c0fa3bed83dbf60e",
+        "b018e7b79c0ffe89",
+        "2a5e346c88e435b2"
+      ],
+      "retrieved_intents": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-090",
+      "thread_id": "875009abfa44529c",
+      "predicted_intent": "digital_kindle",
+      "expected_intent": "digital_kindle",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.7894973754882812e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "1d148e14bfb04ad3",
+        "9af92e09f6113d9c",
+        "1b71bfa936c24ff8"
+      ],
+      "retrieved_intents": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-091",
+      "thread_id": "17b4e0cd5b4ccece",
+      "predicted_intent": "digital_kindle",
+      "expected_intent": "digital_kindle",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 4.291534423828125e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "477e9445caf6fbb1",
+        "70d9cf973a4db6f4",
+        "7e908a616df1371a"
+      ],
+      "retrieved_intents": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-092",
+      "thread_id": "e4e2152608ade08d",
+      "predicted_intent": "digital_kindle",
+      "expected_intent": "digital_kindle",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.6927719116210938e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "e5d25ec43100bb59",
+        "e22c20347af92ad6",
+        "9466c9c2ec489c67"
+      ],
+      "retrieved_intents": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-093",
+      "thread_id": "24d6b4a375ee21d6",
+      "predicted_intent": "digital_kindle",
+      "expected_intent": "digital_kindle",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.5735626220703125e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "574a631d0a7627b2",
+        "a6cf8e2da57e63d1",
+        "b5a6ce979f971e09"
+      ],
+      "retrieved_intents": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-094",
+      "thread_id": "547be894014b4903",
+      "predicted_intent": "digital_kindle",
+      "expected_intent": "digital_kindle",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.5020370483398438e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "d23c80954c428358",
+        "e8dd22afed4e5cc0",
+        "eb4de59dfdfcb1cf"
+      ],
+      "retrieved_intents": [
+        "digital_kindle",
+        "echo_alexa",
+        "digital_kindle"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-095",
+      "thread_id": "39c418bf1848d060",
+      "predicted_intent": "digital_kindle",
+      "expected_intent": "digital_kindle",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.5020370483398438e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "fac52962e38b2dff",
+        "208c1c13f9bcc185",
+        "66c2bb05b4be804f"
+      ],
+      "retrieved_intents": [
+        "amazon_locker",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-096",
+      "thread_id": "a0cb92cfb35738bb",
+      "predicted_intent": "other_support",
+      "expected_intent": "digital_kindle",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 1.5020370483398438e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "dad5f50dc611e11a",
+        "fcccae7182b4a73d",
+        "f75e40393db0b6ee"
+      ],
+      "retrieved_intents": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-097",
+      "thread_id": "811b3d82afdfeb33",
+      "predicted_intent": "digital_kindle",
+      "expected_intent": "digital_kindle",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "7f5738d4b1b2968b",
+        "aae5a311c5c8171a",
+        "644128d1c896b5dd"
+      ],
+      "retrieved_intents": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-098",
+      "thread_id": "15f5c05258eab8c8",
+      "predicted_intent": "amazon_music",
+      "expected_intent": "amazon_music",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3828277587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "c512b321c0d0476f",
+        "1045132da494f9ed",
+        "a7cd5f2fc4261319"
+      ],
+      "retrieved_intents": [
+        "amazon_music",
+        "amazon_music",
+        "amazon_music"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-099",
+      "thread_id": "fa4e4850dc1714f0",
+      "predicted_intent": "amazon_music",
+      "expected_intent": "amazon_music",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 3.2901763916015625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "16e5025dc1fc6f21",
+        "77a90870af579d64",
+        "8c6fa15a54b274bc"
+      ],
+      "retrieved_intents": [
+        "amazon_music",
+        "amazon_music",
+        "amazon_music"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-100",
+      "thread_id": "07c5e73971f78e86",
+      "predicted_intent": "amazon_music",
+      "expected_intent": "amazon_music",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 7.510185241699219e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "fb0f6de13e3d25b2",
+        "813967cb54b99852",
+        "e075fee65080ec75"
+      ],
+      "retrieved_intents": [
+        "amazon_music",
+        "amazon_music",
+        "amazon_music"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-101",
+      "thread_id": "a6dbcc41eea15111",
+      "predicted_intent": "amazon_music",
+      "expected_intent": "amazon_music",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.8848648071289062e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "d3baeace6882828c",
+        "b63ec2ba6272ea16",
+        "e07f7620733f9491"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "echo_alexa",
+        "echo_alexa"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-102",
+      "thread_id": "f6a518e270c277ae",
+      "predicted_intent": "amazon_music",
+      "expected_intent": "amazon_music",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.9325485229492188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "49661a5d50a3ea5a",
+        "01f48b9aa458e0d3",
+        "e36f640b4c638659"
+      ],
+      "retrieved_intents": [
+        "amazon_music",
+        "amazon_music",
+        "amazon_music"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-103",
+      "thread_id": "63b3f781506205d3",
+      "predicted_intent": "amazon_music",
+      "expected_intent": "amazon_music",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 3.0040740966796875e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "813967cb54b99852",
+        "7e47dc86a360e0b2",
+        "fcf79841a500e004"
+      ],
+      "retrieved_intents": [
+        "amazon_music",
+        "amazon_music",
+        "amazon_music"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-104",
+      "thread_id": "acd6f1d0d28dc947",
+      "predicted_intent": "amazon_music",
+      "expected_intent": "amazon_music",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.8848648071289062e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "e85b6043735e20cc",
+        "48c3cd185ec070ea",
+        "a3b03563efb4bfe5"
+      ],
+      "retrieved_intents": [
+        "amazon_music",
+        "amazon_music",
+        "amazon_music"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-105",
+      "thread_id": "5d794124ada5a1f9",
+      "predicted_intent": "amazon_music",
+      "expected_intent": "amazon_music",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.8133392333984375e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "874ab84e718a85f1",
+        "b874b2252469f683",
+        "ee4df7cc4367e440"
+      ],
+      "retrieved_intents": [
+        "amazon_music",
+        "delivery_delayed",
+        "amazon_music"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-106",
+      "thread_id": "e91c71a242ee6355",
+      "predicted_intent": "amazon_music",
+      "expected_intent": "amazon_music",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.8133392333984375e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "5e09f09215862330",
+        "1045132da494f9ed",
+        "a7cd5f2fc4261319"
+      ],
+      "retrieved_intents": [
+        "amazon_music",
+        "amazon_music",
+        "amazon_music"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-107",
+      "thread_id": "6740224804dec314",
+      "predicted_intent": "amazon_music",
+      "expected_intent": "amazon_music",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.9087066650390625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "d7c30860d4e8e92b",
+        "af817e36dbc4b47f",
+        "62441bf565a3da3e"
+      ],
+      "retrieved_intents": [
+        "amazon_music",
+        "amazon_music",
+        "amazon_music"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-108",
+      "thread_id": "d8ba70b3c92b7b78",
+      "predicted_intent": "amazon_music",
+      "expected_intent": "amazon_music",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.7894973754882812e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "b0fb22c1cdfe3f27",
+        "19ff30e57e595a01",
+        "fbc75b772427ecf5"
+      ],
+      "retrieved_intents": [
+        "amazon_music",
+        "amazon_music",
+        "amazon_music"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-109",
+      "thread_id": "957c35145701a2e6",
+      "predicted_intent": "amazon_music",
+      "expected_intent": "amazon_music",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.8133392333984375e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "a9cf43565c9e04ca",
+        "ab0ca0935e3cc9a9",
+        "542e954ea3e92257"
+      ],
+      "retrieved_intents": [
+        "amazon_music",
+        "digital_kindle",
+        "amazon_music"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-110",
+      "thread_id": "48041061adba4897",
+      "predicted_intent": "amazon_music",
+      "expected_intent": "amazon_music",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.7894973754882812e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "55d9b31afb86f989",
+        "160351b48fa6e343",
+        "344007f66e268ffd"
+      ],
+      "retrieved_intents": [
+        "amazon_music",
+        "amazon_music",
+        "amazon_music"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-111",
+      "thread_id": "54def58a96d81403",
+      "predicted_intent": "amazon_music",
+      "expected_intent": "amazon_music",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.8848648071289062e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "b89764b43eb2fd93",
+        "7341c9c8ecc1d6be",
+        "813967cb54b99852"
+      ],
+      "retrieved_intents": [
+        "amazon_music",
+        "digital_kindle",
+        "amazon_music"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-112",
+      "thread_id": "d5047fc16cd0e349",
+      "predicted_intent": "echo_alexa",
+      "expected_intent": "echo_alexa",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.9325485229492188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "b9308e292dc42a2b",
+        "00bca4c6cd169aea",
+        "1bfbd8b4a30ebf80"
+      ],
+      "retrieved_intents": [
+        "echo_alexa",
+        "digital_prime_video",
+        "amazon_music"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-113",
+      "thread_id": "b7fe8e583253b111",
+      "predicted_intent": "echo_alexa",
+      "expected_intent": "echo_alexa",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.8848648071289062e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "a237419a9a43e7fe",
+        "5d37e7a092d53c2b",
+        "177242b97e6a0b98"
+      ],
+      "retrieved_intents": [
+        "amazon_music",
+        "echo_alexa",
+        "echo_alexa"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-114",
+      "thread_id": "124e29ffa7d5085f",
+      "predicted_intent": "echo_alexa",
+      "expected_intent": "echo_alexa",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.9087066650390625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "02685049f2b5c1ca",
+        "d8727a77cb7c03fa",
+        "a12571a1a006bf29"
+      ],
+      "retrieved_intents": [
+        "echo_alexa",
+        "echo_alexa",
+        "echo_alexa"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-115",
+      "thread_id": "cdc4792145fc1397",
+      "predicted_intent": "echo_alexa",
+      "expected_intent": "echo_alexa",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.9325485229492188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "831b39e763a04781",
+        "14f279576a6452e1",
+        "101575f16f9a8954"
+      ],
+      "retrieved_intents": [
+        "echo_alexa",
+        "echo_alexa",
+        "echo_alexa"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-116",
+      "thread_id": "0c7909fc4888fe37",
+      "predicted_intent": "echo_alexa",
+      "expected_intent": "echo_alexa",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 3.0040740966796875e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "81f7adfd377a003e",
+        "fe350fcd9432dbe9",
+        "eb993b0226832b4c"
+      ],
+      "retrieved_intents": [
+        "echo_alexa",
+        "echo_alexa",
+        "echo_alexa"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-117",
+      "thread_id": "0be61a30ba12a5e0",
+      "predicted_intent": "echo_alexa",
+      "expected_intent": "echo_alexa",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.8848648071289062e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "226f8bb656abbcd5",
+        "4679ebd56e331dcb",
+        "da254de2d7c412b0"
+      ],
+      "retrieved_intents": [
+        "echo_alexa",
+        "echo_alexa",
+        "echo_alexa"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-118",
+      "thread_id": "5869ba28a48cf763",
+      "predicted_intent": "echo_alexa",
+      "expected_intent": "echo_alexa",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.9087066650390625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "afb7ea117249258c",
+        "b486f91bacd34fb2",
+        "944bbc9cd13e5efb"
+      ],
+      "retrieved_intents": [
+        "echo_alexa",
+        "echo_alexa",
+        "echo_alexa"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-119",
+      "thread_id": "15417200d18d8247",
+      "predicted_intent": "echo_alexa",
+      "expected_intent": "echo_alexa",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 3.0040740966796875e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "18e2958723219595",
+        "64c9ac0a662fae9d",
+        "11ef434fb5e421a6"
+      ],
+      "retrieved_intents": [
+        "echo_alexa",
+        "echo_alexa",
+        "echo_alexa"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-120",
+      "thread_id": "b9757fe990e40db8",
+      "predicted_intent": "echo_alexa",
+      "expected_intent": "echo_alexa",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.9087066650390625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "fe350fcd9432dbe9",
+        "81f7adfd377a003e",
+        "02f22c1fff22fabe"
+      ],
+      "retrieved_intents": [
+        "echo_alexa",
+        "echo_alexa",
+        "echo_alexa"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-121",
+      "thread_id": "add56eb200cd4103",
+      "predicted_intent": "echo_alexa",
+      "expected_intent": "echo_alexa",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 7.081031799316406e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "b63ec2ba6272ea16",
+        "239befc04dd2b864",
+        "7508a95527ecfe59"
+      ],
+      "retrieved_intents": [
+        "echo_alexa",
+        "echo_alexa",
+        "echo_alexa"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-122",
+      "thread_id": "4c2ba68f8d6d8d01",
+      "predicted_intent": "other_support",
+      "expected_intent": "echo_alexa",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 2.8848648071289062e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "d835c9d52718d7be",
+        "b159bbd72883e878",
+        "6d784c834ba8f2f6"
+      ],
+      "retrieved_intents": [
+        "echo_alexa",
+        "delivery_delayed",
+        "echo_alexa"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-123",
+      "thread_id": "59b64538302cb337",
+      "predicted_intent": "other_support",
+      "expected_intent": "echo_alexa",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 1.621246337890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "bddccff8953fde43",
+        "8e6034ba3a8a8551",
+        "99130b7ab17223bf"
+      ],
+      "retrieved_intents": [
+        "echo_alexa",
+        "echo_alexa",
+        "amazon_music"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-124",
+      "thread_id": "c4dfa7c7bd5687f2",
+      "predicted_intent": "other_support",
+      "expected_intent": "echo_alexa",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 1.5020370483398438e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "9e7c15045c8da83d",
+        "647aaebf535664e9",
+        "c158d3191648203e"
+      ],
+      "retrieved_intents": [
+        "product_availability",
+        "account_access",
+        "echo_alexa"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-125",
+      "thread_id": "1dcf6340ae04e307",
+      "predicted_intent": "echo_alexa",
+      "expected_intent": "echo_alexa",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.1696090698242188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "31c1361384193f7c",
+        "bd0578a8d971dc5e",
+        "c5700155898a2f42"
+      ],
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-126",
+      "thread_id": "fbb7f3a219b04208",
+      "predicted_intent": "account_access",
+      "expected_intent": "account_access",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.621246337890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "e9f5ab124b85a264",
+        "8a174dccfc2b8091",
+        "dbf01117df980a90"
+      ],
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-127",
+      "thread_id": "c4943ba47c397940",
+      "predicted_intent": "account_access",
+      "expected_intent": "account_access",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 3.218650817871094e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "14c4f0f977b5aa6f",
+        "9d4938ec0323ce2d",
+        "e9f5ab124b85a264"
+      ],
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-128",
+      "thread_id": "7407c0dd1c4a8822",
+      "predicted_intent": "delivery_wrong_item",
+      "expected_intent": "account_access",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 2.8848648071289062e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "298d56f50ac42651",
+        "69a76dbd6a8aea44",
+        "f5217fe96aa14547"
+      ],
+      "retrieved_intents": [
+        "account_access",
+        "delivery_delayed",
+        "account_access"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-129",
+      "thread_id": "9df66edc158ef84e",
+      "predicted_intent": "account_access",
+      "expected_intent": "account_access",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.288818359375e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "5f91409e8e0c3679",
+        "963322be2ca7836c",
+        "9111453fad684e73"
+      ],
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-130",
+      "thread_id": "f96b9b10c4206c30",
+      "predicted_intent": "delivery_wrong_item",
+      "expected_intent": "delivery_wrong_item",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.52587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "daa708e541dbaa05",
+        "7bbf52335fb9166e",
+        "6b378e5b5f1a10de"
+      ],
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-131",
+      "thread_id": "e8d28e94aab63200",
+      "predicted_intent": "account_access",
+      "expected_intent": "account_access",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 3.1948089599609375e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "cff5385489e7f95e",
+        "b310a7ce0a90ec20",
+        "f53e83fff8e20471"
+      ],
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "delivery_wrong_item"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-132",
+      "thread_id": "424b7075b73da620",
+      "predicted_intent": "account_access",
+      "expected_intent": "account_access",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 6.413459777832031e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "7fb22ec25b81af0e",
+        "c21e4005e3f5b7b6",
+        "020c27520bbeecbe"
+      ],
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-133",
+      "thread_id": "086732e38ad7c1f5",
+      "predicted_intent": "account_access",
+      "expected_intent": "account_access",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.3126602172851562e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "b450c4138376be47",
+        "0fbfca7bc3090a75",
+        "9e6642430638787d"
+      ],
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-134",
+      "thread_id": "c763f518de8ef948",
+      "predicted_intent": "account_access",
+      "expected_intent": "account_access",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.5735626220703125e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "625156a2bd01be29",
+        "56ad5694344f9f23",
+        "11090aebeb4d3625"
+      ],
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-135",
+      "thread_id": "d1f22969cd0ed8e7",
+      "predicted_intent": "account_access",
+      "expected_intent": "account_access",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "7667d09ba06dbc5e",
+        "8867940f86d6a53e",
+        "1322cd522f2d2a97"
+      ],
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-136",
+      "thread_id": "b916108101eca175",
+      "predicted_intent": "delivery_wrong_item",
+      "expected_intent": "delivery_wrong_item",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "fba96c6eaae20464",
+        "2625443430c35e5d",
+        "1db2ce9703fa0605"
+      ],
+      "retrieved_intents": [
+        "account_access",
+        "account_billing",
+        "account_access"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-137",
+      "thread_id": "8b231a42dfff628d",
+      "predicted_intent": "account_access",
+      "expected_intent": "account_access",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "4796a80d99ecef51",
+        "3a75a3259606afbe",
+        "312a520ecc913722"
+      ],
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-138",
+      "thread_id": "6177b8cf868e7f36",
+      "predicted_intent": "account_access",
+      "expected_intent": "account_access",
+      "predicted_escalation": "human_review_recommended",
+      "expected_escalation": "human_review_recommended",
+      "correctness": true,
+      "latency_seconds": 1.3828277587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "10e7f84a46aa7dea",
+        "2d6a2cc180a8af46",
+        "599f7069552dbde5"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_missing",
+        "promotions_pricing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-139",
+      "thread_id": "7e10f8a5300df65c",
+      "predicted_intent": "delivery_wrong_item",
+      "expected_intent": "account_access",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "4beb6d70a899a0d3",
+        "a3505cc00e22b2f7",
+        "4147429456f830c3"
+      ],
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-140",
+      "thread_id": "7683932e67b489ea",
+      "predicted_intent": "promotions_pricing",
+      "expected_intent": "promotions_pricing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3828277587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "cb1a9a6fc211c672",
+        "1ba62038ffa2eddf",
+        "76dfd0285977f021"
+      ],
+      "retrieved_intents": [
+        "promotions_pricing",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-141",
+      "thread_id": "507a5d959193bd85",
+      "predicted_intent": "other_support",
+      "expected_intent": "promotions_pricing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 3.409385681152344e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "e8f33b26864da6d6",
+        "b72fc00a5ceceb5f",
+        "733c427b013b9130"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-142",
+      "thread_id": "271f08dfe4b24f20",
+      "predicted_intent": "promotions_pricing",
+      "expected_intent": "promotions_pricing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.8848648071289062e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "3eea64747fcc68ab",
+        "a60661a357b7e05d",
+        "26fa67aabe74c172"
+      ],
+      "retrieved_intents": [
+        "promotions_pricing",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-143",
+      "thread_id": "2d269faf8a58863e",
+      "predicted_intent": "promotions_pricing",
+      "expected_intent": "promotions_pricing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.09808349609375e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "d0cd69fbb14fdea6",
+        "86436c861a6b83b4",
+        "c35e07811c80233d"
+      ],
+      "retrieved_intents": [
+        "promotions_pricing",
+        "delivery_wrong_item",
+        "promotions_pricing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-144",
+      "thread_id": "a2bbc722057b5719",
+      "predicted_intent": "other_support",
+      "expected_intent": "promotions_pricing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 1.5020370483398438e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "3871737e89d3645c",
+        "7bc0c3167e9a0a80",
+        "cde5fc4723baa2cc"
+      ],
+      "retrieved_intents": [
+        "promotions_pricing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-145",
+      "thread_id": "94623b4fdd7ab5bf",
+      "predicted_intent": "promotions_pricing",
+      "expected_intent": "promotions_pricing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 3.314018249511719e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "ee30a5e89b507fad",
+        "ea3729b62afd94ca",
+        "e2ec4a7e940d0136"
+      ],
+      "retrieved_intents": [
+        "returns_refunds",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-146",
+      "thread_id": "663015f372cd3b8a",
+      "predicted_intent": "promotions_pricing",
+      "expected_intent": "promotions_pricing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.288818359375e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "9082f003e6e3b290",
+        "fb1ab8b547c95f2c",
+        "c9ef81f196dc3b5b"
+      ],
+      "retrieved_intents": [
+        "returns_refunds",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-147",
+      "thread_id": "f7cd418894688848",
+      "predicted_intent": "promotions_pricing",
+      "expected_intent": "promotions_pricing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.52587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "7fc04fbbc251256c",
+        "b0527c136a800f02",
+        "707b565b7104ed4c"
+      ],
+      "retrieved_intents": [
+        "account_billing",
+        "promotions_pricing",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-148",
+      "thread_id": "9f194783f7dbfae8",
+      "predicted_intent": "promotions_pricing",
+      "expected_intent": "promotions_pricing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "f700553d3921dda6",
+        "33a538674c137f9e",
+        "bd6328c02c163387"
+      ],
+      "retrieved_intents": [
+        "promotions_pricing",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-149",
+      "thread_id": "b881f26bc54d6db1",
+      "predicted_intent": "promotions_pricing",
+      "expected_intent": "promotions_pricing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3828277587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "32b6ece7544ff7c7",
+        "cfed7eb00c2a1640",
+        "e2ec4a7e940d0136"
+      ],
+      "retrieved_intents": [
+        "promotions_pricing",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-150",
+      "thread_id": "a3b31228d3f292c5",
+      "predicted_intent": "other_support",
+      "expected_intent": "promotions_pricing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 3.1948089599609375e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "a3043d7a2a7ccbc1",
+        "4765b6d534435b3e",
+        "3e77772e9c2357de"
+      ],
+      "retrieved_intents": [
+        "promotions_pricing",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-151",
+      "thread_id": "0f622e19186b5f24",
+      "predicted_intent": "promotions_pricing",
+      "expected_intent": "promotions_pricing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 6.389617919921875e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "483b1554f5fff51e",
+        "2e15d3ef2c65e86e",
+        "a59d71235b1fc4a9"
+      ],
+      "retrieved_intents": [
+        "promotions_pricing",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-152",
+      "thread_id": "f80ee1ce26d346fd",
+      "predicted_intent": "promotions_pricing",
+      "expected_intent": "promotions_pricing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 3.0040740966796875e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "53ecec473c907c52",
+        "b005e2dbcec0cf96",
+        "9662c1f621286d25"
+      ],
+      "retrieved_intents": [
+        "promotions_pricing",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-153",
+      "thread_id": "5d58b0bdefae1299",
+      "predicted_intent": "promotions_pricing",
+      "expected_intent": "promotions_pricing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.193450927734375e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "5ba5c83454c15212",
+        "a377010de6e318d1",
+        "973471dfb02da43f"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "product_availability",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-154",
+      "thread_id": "d766800f05f78196",
+      "predicted_intent": "amazon_locker",
+      "expected_intent": "amazon_locker",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "35cad4b478f803f7",
+        "6081890d8c620e93",
+        "e2f9ac332ff2b438"
+      ],
+      "retrieved_intents": [
+        "amazon_locker",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-155",
+      "thread_id": "9e9de62e088affbc",
+      "predicted_intent": "amazon_locker",
+      "expected_intent": "amazon_locker",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "7b3a610c8b173d3d",
+        "6081890d8c620e93",
+        "1f476a6d0b7a93da"
+      ],
+      "retrieved_intents": [
+        "amazon_locker",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-156",
+      "thread_id": "8311a3c79d0be7ff",
+      "predicted_intent": "amazon_locker",
+      "expected_intent": "amazon_locker",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "8509094f6b8234d3",
+        "6e399ce8e71843b8",
+        "220aee4d29d5c189"
+      ],
+      "retrieved_intents": [
+        "amazon_locker",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-157",
+      "thread_id": "962f87319795305d",
+      "predicted_intent": "amazon_locker",
+      "expected_intent": "amazon_locker",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3828277587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "3ad49a2445db9c54",
+        "5fdc53693c21d503",
+        "f2516277d2686f14"
+      ],
+      "retrieved_intents": [
+        "amazon_locker",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-158",
+      "thread_id": "e1e6809c33e1958c",
+      "predicted_intent": "amazon_locker",
+      "expected_intent": "amazon_locker",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "1e9ac52015c51442",
+        "35cad4b478f803f7",
+        "4a4dcd8f54e9c8b2"
+      ],
+      "retrieved_intents": [
+        "amazon_locker",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-159",
+      "thread_id": "20c1a80b2496fb80",
+      "predicted_intent": "amazon_locker",
+      "expected_intent": "delivery_missing",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 1.4781951904296875e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "762084e78eb55a5a",
+        "4388ab23658353e5",
+        "d276c502edbecd9d"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-160",
+      "thread_id": "1df63ea1d5a69936",
+      "predicted_intent": "amazon_locker",
+      "expected_intent": "amazon_locker",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "05f96bf8946f75e8",
+        "d5d1ef45a4c177ba",
+        "4cfbcdce7115efd5"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-161",
+      "thread_id": "88d34caa84fe33cf",
+      "predicted_intent": "amazon_locker",
+      "expected_intent": "amazon_locker",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "179b3ff739c5e57a",
+        "6e399ce8e71843b8",
+        "7b3a610c8b173d3d"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-162",
+      "thread_id": "b75b8aba4b7a9baf",
+      "predicted_intent": "amazon_locker",
+      "expected_intent": "amazon_locker",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3828277587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "dba2d1169332a82a",
+        "e2c0958c0322b0fc",
+        "815748513ef43290"
+      ],
+      "retrieved_intents": [
+        "amazon_locker",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-163",
+      "thread_id": "fc5e5ed945b5af36",
+      "predicted_intent": "amazon_locker",
+      "expected_intent": "amazon_locker",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 5.078315734863281e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "e619f2d819bcdcf3",
+        "bbd3ea88cd4cbba3",
+        "00dcb6085516f5e5"
+      ],
+      "retrieved_intents": [
+        "amazon_locker",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-164",
+      "thread_id": "e4b818ccb8232155",
+      "predicted_intent": "other_support",
+      "expected_intent": "amazon_locker",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 2.8848648071289062e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "ae77391b4eb50df9",
+        "59984309ee691de9",
+        "ef55b9b31acce339"
+      ],
+      "retrieved_intents": [
+        "amazon_locker",
+        "delivery_missing",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-165",
+      "thread_id": "0303b444819797be",
+      "predicted_intent": "amazon_locker",
+      "expected_intent": "amazon_locker",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.09808349609375e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "6894cf0a2cbd4b7f",
+        "aad1237e74ed9160",
+        "6d2f426796990784"
+      ],
+      "retrieved_intents": [
+        "amazon_locker",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-166",
+      "thread_id": "97d46e56ad05b8e3",
+      "predicted_intent": "amazon_locker",
+      "expected_intent": "amazon_locker",
+      "predicted_escalation": "human_review_recommended",
+      "expected_escalation": "human_review_recommended",
+      "correctness": true,
+      "latency_seconds": 3.814697265625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "bc704afb47fea520",
+        "2484fadcc8c01228",
+        "7b5a4bdc6747050c"
+      ],
+      "retrieved_intents": [
+        "amazon_locker",
+        "returns_refunds",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-167",
+      "thread_id": "baa82fe4c3c04a25",
+      "predicted_intent": "amazon_locker",
+      "expected_intent": "amazon_locker",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 3.0994415283203125e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "65b884fc57399160",
+        "b18680ebc8e52842",
+        "8e45b6473c0ca158"
+      ],
+      "retrieved_intents": [
+        "returns_refunds",
+        "returns_refunds",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-168",
+      "thread_id": "9d048a20fd47ab7f",
+      "predicted_intent": "grocery_fresh",
+      "expected_intent": "grocery_fresh",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.9788742065429688e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "859153d0ce8105dd",
+        "b0e413f5d9f07485",
+        "a9da7f16e4e2b638"
+      ],
+      "retrieved_intents": [
+        "returns_refunds",
+        "delivery_wrong_item",
+        "returns_refunds"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-169",
+      "thread_id": "8ce1398a13df32c7",
+      "predicted_intent": "grocery_fresh",
+      "expected_intent": "grocery_fresh",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.621246337890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "20f4c3ea21bfc409",
+        "15b5824393f78008",
+        "a69a2d03f8a2e176"
+      ],
+      "retrieved_intents": [
+        "grocery_fresh",
+        "grocery_fresh",
+        "grocery_fresh"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-170",
+      "thread_id": "4659bf7cb80e967a",
+      "predicted_intent": "grocery_fresh",
+      "expected_intent": "grocery_fresh",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "08c098be76b68acd",
+        "944eb846b50559ed",
+        "985e79a32630568b"
+      ],
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-171",
+      "thread_id": "3f38d0690064ea3e",
+      "predicted_intent": "grocery_fresh",
+      "expected_intent": "grocery_fresh",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3113021850585938e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "ffbd11a849584bd9",
+        "79f58506644e503f",
+        "88b6c61a42170b49"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "account_billing",
+        "delivery_wrong_item"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-172",
+      "thread_id": "416f367ae994e79c",
+      "predicted_intent": "grocery_fresh",
+      "expected_intent": "grocery_fresh",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3828277587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "a69a2d03f8a2e176",
+        "946fb080a3fdc611",
+        "d3487c950d46ccba"
+      ],
+      "retrieved_intents": [
+        "grocery_fresh",
+        "amazon_locker",
+        "grocery_fresh"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-173",
+      "thread_id": "16cfcf62900ef5ea",
+      "predicted_intent": "grocery_fresh",
+      "expected_intent": "grocery_fresh",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.5020370483398438e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "2451b419ba24f7db",
+        "ee6853462316c45a",
+        "35373544a9785cad"
+      ],
+      "retrieved_intents": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-174",
+      "thread_id": "51815e0ee9dcfccd",
+      "predicted_intent": "other_support",
+      "expected_intent": "grocery_fresh",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "2aab7ac323c9d018",
+        "92ebc16164900b1b",
+        "90a6a54f5b587e48"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_missing",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-175",
+      "thread_id": "cae806d1e13ba7df",
+      "predicted_intent": "grocery_fresh",
+      "expected_intent": "grocery_fresh",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "f93317fbbc29efff",
+        "2393740cdacd7ec7",
+        "672d2d4b6b5ee94a"
+      ],
+      "retrieved_intents": [
+        "digital_prime_video",
+        "grocery_fresh",
+        "account_billing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-176",
+      "thread_id": "5de6e76b4a73d660",
+      "predicted_intent": "grocery_fresh",
+      "expected_intent": "grocery_fresh",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3113021850585938e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "24b052c9761ad837",
+        "6ee45c90e122cb82",
+        "ac91b646dd11fe0b"
+      ],
+      "retrieved_intents": [
+        "grocery_fresh",
+        "grocery_fresh",
+        "grocery_fresh"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-177",
+      "thread_id": "632f0aed89f71a07",
+      "predicted_intent": "grocery_fresh",
+      "expected_intent": "grocery_fresh",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3828277587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "8b605c8d711d2487",
+        "e626440f44bc3bc0",
+        "5aa4cfd9533362ce"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "account_billing",
+        "promotions_pricing"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-178",
+      "thread_id": "f0cfad48f6a145b1",
+      "predicted_intent": "other_support",
+      "expected_intent": "grocery_fresh",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "02adc7f6381dde48",
+        "754ddf1d41250506",
+        "db097e98f2c37ad2"
+      ],
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-179",
+      "thread_id": "f3e2bfa73a8376a8",
+      "predicted_intent": "grocery_fresh",
+      "expected_intent": "grocery_fresh",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.3828277587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "f74462dc8308517e",
+        "b175be0d941431b2",
+        "fd57c451ace1e280"
+      ],
+      "retrieved_intents": [
+        "grocery_fresh",
+        "grocery_fresh",
+        "grocery_fresh"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-180",
+      "thread_id": "51a322d37e9a7679",
+      "predicted_intent": "grocery_fresh",
+      "expected_intent": "grocery_fresh",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.2874603271484375e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "d2ac4e81ac39a300",
+        "ad19c9434bf6b950",
+        "8a3714ab65d4ce9e"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-181",
+      "thread_id": "e84a7e6d5d4a4373",
+      "predicted_intent": "grocery_fresh",
+      "expected_intent": "grocery_fresh",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "20a1039d99515e18",
+        "5bcd7ab18c0b0ad3",
+        "177006dcf9935c66"
+      ],
+      "retrieved_intents": [
+        "returns_refunds",
+        "returns_refunds",
+        "delivery_delayed"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-182",
+      "thread_id": "7fa5ccca8702f290",
+      "predicted_intent": "other_support",
+      "expected_intent": "product_availability",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 1.430511474609375e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "287385078f4b94d2",
+        "24e600f623c148b6",
+        "626dfc9dcf3a8d09"
+      ],
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-183",
+      "thread_id": "a7d1b1328697f03f",
+      "predicted_intent": "product_availability",
+      "expected_intent": "product_availability",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.5020370483398438e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "09e6b5480a1451c8",
+        "4d7dc9468df0ca0f",
+        "bd28050d312cff49"
+      ],
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-184",
+      "thread_id": "220588c05e025c77",
+      "predicted_intent": "product_availability",
+      "expected_intent": "product_availability",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "80c06536a3220aec",
+        "acbd59f3652227e6",
+        "8d7704e34901f05c"
+      ],
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-185",
+      "thread_id": "fa37c61f8b78911c",
+      "predicted_intent": "product_availability",
+      "expected_intent": "product_availability",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 3.409385681152344e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "73f08bde7dca08f4",
+        "acbd59f3652227e6",
+        "b577bd157202d25f"
+      ],
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-186",
+      "thread_id": "451122bbe75eae6a",
+      "predicted_intent": "other_support",
+      "expected_intent": "product_availability",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 2.9087066650390625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "b63fd60f885b1e4c",
+        "87ca89fff377a938",
+        "30a68f4da362a282"
+      ],
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "amazon_music"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-187",
+      "thread_id": "1da537bb39d637d6",
+      "predicted_intent": "product_availability",
+      "expected_intent": "product_availability",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 2.193450927734375e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "1782054daa7f27d8",
+        "1aa1b65cbae09e36",
+        "b51a1276da92fd8a"
+      ],
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-188",
+      "thread_id": "ebefc67d2ab0c89b",
+      "predicted_intent": "product_availability",
+      "expected_intent": "product_availability",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.52587890625e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "f560d95553c5c344",
+        "983d2f4dd94b45f2",
+        "cc76868c63381b4f"
+      ],
+      "retrieved_intents": [
+        "echo_alexa",
+        "grocery_fresh",
+        "returns_refunds"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-189",
+      "thread_id": "058a1adda23bf491",
+      "predicted_intent": "other_support",
+      "expected_intent": "product_availability",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": false,
+      "latency_seconds": 1.811981201171875e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "4f7f84693e6e0979",
+        "caa5738902bd2a6e",
+        "12320c4f688019f7"
+      ],
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-190",
+      "thread_id": "b0889d80badcbecd",
+      "predicted_intent": "product_availability",
+      "expected_intent": "product_availability",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.5020370483398438e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "c0e098733d865028",
+        "d5f019e85647ee9a",
+        "aad50b751afdff8b"
+      ],
+      "retrieved_intents": [
+        "delivery_delayed",
+        "product_availability",
+        "product_availability"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-191",
+      "thread_id": "92a7b4c25fb7c2f3",
+      "predicted_intent": "product_availability",
+      "expected_intent": "product_availability",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.5974044799804688e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "ecda42e69cff04c8",
+        "d73656f268016c94",
+        "190522114d8d3fdd"
+      ],
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-192",
+      "thread_id": "a744ef56097b74a7",
+      "predicted_intent": "product_availability",
+      "expected_intent": "product_availability",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "c79ad9438ee438e5",
+        "f7677dfc33bce752",
+        "79f8beba9b22a4cf"
+      ],
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-193",
+      "thread_id": "8fac12fcb3126ce8",
+      "predicted_intent": "product_availability",
+      "expected_intent": "product_availability",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 1.4066696166992188e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "ae30f44c367eb074",
+        "e1dbde1888b3a149",
+        "3cb3c0adad3ec3d7"
+      ],
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-194",
+      "thread_id": "079b146a88a14dc0",
+      "predicted_intent": "product_availability",
+      "expected_intent": "product_availability",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 4.7206878662109375e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "aa6cb9d42da53444",
+        "36b5126d262052a4",
+        "b24e982a6b29760c"
+      ],
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "error": null
+    },
+    {
+      "example_id": "GS-195",
+      "thread_id": "c5f3c1301f833cc0",
+      "predicted_intent": "product_availability",
+      "expected_intent": "product_availability",
+      "predicted_escalation": "no_escalation",
+      "expected_escalation": "no_escalation",
+      "correctness": true,
+      "latency_seconds": 3.314018249511719e-05,
+      "retrieval_latency_seconds": 0.006193102622518734,
+      "retrieved_thread_ids": [
+        "07c9a02305516b66",
+        "a9bbe22e4ceea1dd",
+        "86b901680dfc75b9"
+      ],
+      "retrieved_intents": [
+        "promotions_pricing",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "benchmark_integrity": {
+    "golden_set_hash": "6d4e700bfe65f0134acb39aa1ec0dbb1ba4dfafcf1ae1f0c102858ab2d54610f",
+    "golden_set_size": 196,
+    "labels_modified": false,
+    "conversations_modified": false,
+    "escalations_modified": false,
+    "retrieval_corpus_modified": false,
+    "mnrl_model_modified": false
+  },
+  "prompt_verification": {
+    "prompt_version_loaded": "V2",
+    "prompt_file": "src/threadmind/llm/prompts/rag_classification_v2.txt"
+  },
+  "k1_results": {
+    "retrieval": {
+      "recall_1": 0.7245,
+      "recall_3": 0.7245,
+      "recall_5": 0.7245,
+      "mrr_3": 0.7245
+    },
+    "classification": {
+      "intent_accuracy": 0.8163,
+      "macro_f1": 0.8185
+    },
+    "escalation": {
+      "accuracy": 1.0
+    },
+    "robustness": {
+      "malformed_json": 0
+    }
+  },
+  "k3_results": {
+    "retrieval": {
+      "recall_1": 0.7245,
+      "recall_3": 0.8418,
+      "recall_5": 0.8418,
+      "mrr_3": 0.7772
+    },
+    "classification": {
+      "intent_accuracy": 0.8776,
+      "macro_f1": 0.8579
+    },
+    "escalation": {
+      "accuracy": 1.0
+    },
+    "robustness": {
+      "malformed_json": 0
+    }
+  },
+  "k5_results": {
+    "retrieval": {
+      "recall_1": 0.7245,
+      "recall_3": 0.8418,
+      "recall_5": 0.8571,
+      "mrr_3": 0.7772
+    },
+    "classification": {
+      "intent_accuracy": 0.8061,
+      "macro_f1": 0.8004
+    },
+    "escalation": {
+      "accuracy": 1.0
+    },
+    "robustness": {
+      "malformed_json": 0
+    }
+  },
+  "v1_to_v2_improvement_k5": {
+    "v1_accuracy": 0.6071,
+    "v2_accuracy": 0.8061,
+    "absolute_improvement": 0.1990,
+    "relative_improvement": 0.3277
+  },
+  "decision": "PROMOTE",
+  "recommended_k": 3
+}

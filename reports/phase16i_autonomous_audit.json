@@ -1,0 +1,253 @@
+{
+  "stats": {
+    "SUPPORTED": 0,
+    "WEAKLY_SUPPORTED": 0,
+    "CONTRADICTED": 2,
+    "GENUINELY_AMBIGUOUS": 22,
+    "INSUFFICIENT_EVIDENCE": 0
+  },
+  "results": [
+    {
+      "case_id": "GS-009",
+      "current_label": "returns_refunds",
+      "v2_prediction": "",
+      "autonomous_decision": "AMBIGUOUS_KEEP",
+      "proposed_label": "",
+      "confidence": "MEDIUM",
+      "audit_classification": "GENUINELY_AMBIGUOUS",
+      "reason": "The conversation primarily revolves around a refund issue, but the user also expresses frustration and asks about the status of their refund claim. The intent 'returns_refunds' is mentioned, but the user's primary concern seems to be the delay in receiving the refund, which is related to 'delivery_delayed'. However, the user also mentions that the issue was on Amazon's end, which could suggest 'other_support' as a competing intent. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-017",
+      "current_label": "delivery_missing",
+      "v2_prediction": "",
+      "autonomous_decision": "AMBIGUOUS_KEEP",
+      "proposed_label": "",
+      "confidence": "MEDIUM",
+      "audit_classification": "GENUINELY_AMBIGUOUS",
+      "reason": "The conversation expresses frustration with the delivery process, but the explicit requested outcome (checking a response link) and the primary operational request (complaint about a faulty phone) are not clearly aligned with the provided taxonomy labels. The Golden Label 'delivery_missing' seems to be a general label that doesn't capture the specific issue at hand. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-027",
+      "current_label": "delivery_missing",
+      "v2_prediction": "",
+      "autonomous_decision": "KEEP_CURRENT_LABEL",
+      "proposed_label": "",
+      "confidence": "HIGH",
+      "audit_classification": "CONTRADICTED",
+      "reason": "The customer explicitly states they received the order 'bang in time' and the agent responds with a positive confirmation, indicating that the delivery issue has been resolved. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-057",
+      "current_label": "account_billing",
+      "v2_prediction": "",
+      "autonomous_decision": "AMBIGUOUS_KEEP",
+      "proposed_label": "",
+      "confidence": "MEDIUM",
+      "audit_classification": "GENUINELY_AMBIGUOUS",
+      "reason": "The conversation lacks explicit mention of a primary operational request or a requested outcome, and multiple intents (account_billing, other_support) are present, but neither can be established as primary. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-064",
+      "current_label": "account_billing",
+      "v2_prediction": "",
+      "autonomous_decision": "AMBIGUOUS_KEEP",
+      "proposed_label": "",
+      "confidence": "MEDIUM",
+      "audit_classification": "GENUINELY_AMBIGUOUS",
+      "reason": "The conversation revolves around the price increase of a product, but the customer's primary request is unclear. The customer is disputing the price, but the intent behind the request is not explicitly stated. The intent 'account_billing' seems to be related to the price increase, but it's not clear if it's the primary intent. The intent 'promotions_pricing' is also relevant, but the customer's tone suggests a stronger emotional response than a straightforward request for information. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-077",
+      "current_label": "digital_prime_video",
+      "v2_prediction": "",
+      "autonomous_decision": "KEEP_CURRENT_LABEL",
+      "proposed_label": "",
+      "confidence": "HIGH",
+      "audit_classification": "CONTRADICTED",
+      "reason": "The conversation revolves around the customer's issue with their Prime Video subscription, and the resolution is confirmed. The Golden Label matches the intent, and there is no clear evidence to suggest a different intent. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-084",
+      "current_label": "digital_kindle",
+      "v2_prediction": "",
+      "autonomous_decision": "AMBIGUOUS_KEEP",
+      "proposed_label": "",
+      "confidence": "MEDIUM",
+      "audit_classification": "GENUINELY_AMBIGUOUS",
+      "reason": "The customer is asking for the location of their Kindle, but the provided context suggests a query about a delayed delivery. The intent 'digital_kindle' is not directly related to the customer's primary request, and the conversation lacks explicit evidence to establish a clear primary intent. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-086",
+      "current_label": "digital_kindle",
+      "v2_prediction": "",
+      "autonomous_decision": "AMBIGUOUS_KEEP",
+      "proposed_label": "",
+      "confidence": "MEDIUM",
+      "audit_classification": "GENUINELY_AMBIGUOUS",
+      "reason": "The customer's primary operational request is unclear, as they ask about the legitimacy of a site and report an issue, but also express gratitude for the system's attention. The explicit requested outcome is not explicitly stated. Competing intents include account billing and other support. Without more context, it is difficult to determine a clear primary intent or dominant intent. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-096",
+      "current_label": "digital_kindle",
+      "v2_prediction": "",
+      "autonomous_decision": "AMBIGUOUS_KEEP",
+      "proposed_label": "",
+      "confidence": "MEDIUM",
+      "audit_classification": "GENUINELY_AMBIGUOUS",
+      "reason": "The customer's primary operational request is to buy an ebook, but the intent 'digital_kindle' seems to focus on Kindle device availability rather than ebook purchase. The intent 'other_support' is also relevant, as the customer is seeking general support for their issue. Without more explicit information on the customer's desired outcome, it is unclear which intent is primary. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-122",
+      "current_label": "echo_alexa",
+      "v2_prediction": "",
+      "autonomous_decision": "AMBIGUOUS_KEEP",
+      "proposed_label": "",
+      "confidence": "MEDIUM",
+      "audit_classification": "GENUINELY_AMBIGUOUS",
+      "reason": "The conversation revolves around a birthday celebration and a skill issue, but the primary operational request (enabling the skill) and explicit requested outcome (a standard 'happy birthday' prompt) are not clearly established as primary. The intent 'echo_alexa' is present, but its classification as 'other_support' and the other intents like 'delivery_delayed' and 'account_access' are also relevant, making it difficult to determine a single primary intent. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-123",
+      "current_label": "echo_alexa",
+      "v2_prediction": "",
+      "autonomous_decision": "AMBIGUOUS_KEEP",
+      "proposed_label": "",
+      "confidence": "MEDIUM",
+      "audit_classification": "GENUINELY_AMBIGUOUS",
+      "reason": "The conversation revolves around a customer's disappointment with the quality of speakers on their Echo Plus device. While the user expresses frustration and disappointment, their primary concern is not explicitly stated as a specific intent. The conversation also mentions a request to forward feedback to the relevant team, but this action is more of a supportive gesture than a primary request. The intent 'echo_alexa' is present, but its classification as a support intent seems to be a secondary aspect of the conversation. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-124",
+      "current_label": "echo_alexa",
+      "v2_prediction": "",
+      "autonomous_decision": "AMBIGUOUS_KEEP",
+      "proposed_label": "",
+      "confidence": "MEDIUM",
+      "audit_classification": "GENUINELY_AMBIGUOUS",
+      "reason": "The conversation lacks a clear primary operational request and explicit requested outcome. The intents 'product_availability' and 'account_access' are both relevant, but neither can be established as primary. The intent 'echo_alexa' is also present, but its classification as a support intent makes it less relevant to the customer's primary request. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-128",
+      "current_label": "account_access",
+      "v2_prediction": "",
+      "autonomous_decision": "AMBIGUOUS_KEEP",
+      "proposed_label": "",
+      "confidence": "MEDIUM",
+      "audit_classification": "GENUINELY_AMBIGUOUS",
+      "reason": "The conversation lacks explicit evidence to determine the primary operational request. The user expresses dissatisfaction with the delivery service, but the intent classification suggests a focus on account access (account_access), which may not be the primary concern. Further analysis is required to determine the user's primary request. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-139",
+      "current_label": "account_access",
+      "v2_prediction": "",
+      "autonomous_decision": "AMBIGUOUS_KEEP",
+      "proposed_label": "",
+      "confidence": "MEDIUM",
+      "audit_classification": "GENUINELY_AMBIGUOUS",
+      "reason": "The conversation revolves around an account being blocked due to security reasons, but the user's primary concern is the pending verification for a \u00a320 purchase on Xbox. The intent 'account_access' seems to be the primary operational request, but the user's explicit requested outcome is not explicitly stated. The intent 'delivery_wrong_item' is also present, but it's unclear if it's the primary concern. Further clarification is needed to determine the correct intent. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-141",
+      "current_label": "promotions_pricing",
+      "v2_prediction": "",
+      "autonomous_decision": "AMBIGUOUS_KEEP",
+      "proposed_label": "",
+      "confidence": "MEDIUM",
+      "audit_classification": "GENUINELY_AMBIGUOUS",
+      "reason": "The conversation lacks explicit evidence to determine the primary operational request or the requested outcome. The user's complaint about the price of a product and the company's handling of it is not clearly aligned with any of the provided taxonomy labels. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-144",
+      "current_label": "promotions_pricing",
+      "v2_prediction": "",
+      "autonomous_decision": "AMBIGUOUS_KEEP",
+      "proposed_label": "",
+      "confidence": "MEDIUM",
+      "audit_classification": "GENUINELY_AMBIGUOUS",
+      "reason": "The conversation lacks explicit evidence to determine the primary operational request and the requested outcome. The user's request for a refund and the system's response about a preorder offer are not clearly connected. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-150",
+      "current_label": "promotions_pricing",
+      "v2_prediction": "",
+      "autonomous_decision": "AMBIGUOUS_KEEP",
+      "proposed_label": "",
+      "confidence": "MEDIUM",
+      "audit_classification": "GENUINELY_AMBIGUOUS",
+      "reason": "The customer's primary operational request is unclear, as they ask for a link to an article and express skepticism about a promotion, but also ask about the pricing of a specific product. The intent 'promotions_pricing' is not clearly dominant, as the customer's concerns about pricing and promotions are not explicitly stated as the primary reason for their inquiry. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-159",
+      "current_label": "delivery_missing",
+      "v2_prediction": "",
+      "autonomous_decision": "AMBIGUOUS_KEEP",
+      "proposed_label": "",
+      "confidence": "MEDIUM",
+      "audit_classification": "GENUINELY_AMBIGUOUS",
+      "reason": "The conversation mentions 'delivery_missing' and 'amazon_locker', but neither intent is clearly dominant. The customer is requesting help with a missing delivery, but the provided solution is to contact Amazon for a locker-related issue. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-164",
+      "current_label": "amazon_locker",
+      "v2_prediction": "",
+      "autonomous_decision": "AMBIGUOUS_KEEP",
+      "proposed_label": "",
+      "confidence": "MEDIUM",
+      "audit_classification": "GENUINELY_AMBIGUOUS",
+      "reason": "The customer's primary operational request is unclear, as they express frustration with a missed delivery but also mention rescheduling and picking up the package. The explicit requested outcome is not clearly stated. Competing intents include delivery_missing, delivery_delayed, and other_support. The Golden Label amazon_locker does not directly address the customer's concerns, and the conversation lacks sufficient evidence to determine a clear primary intent. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-174",
+      "current_label": "grocery_fresh",
+      "v2_prediction": "",
+      "autonomous_decision": "AMBIGUOUS_KEEP",
+      "proposed_label": "",
+      "confidence": "MEDIUM",
+      "audit_classification": "GENUINELY_AMBIGUOUS",
+      "reason": "The customer's primary operational request is unclear, as they express frustration with a delayed order, but also mention a specific product (grocery) that is not the main topic of the conversation. The explicit requested outcome is a delivery update, but the intent 'delivery_missing' has a lower confidence score than 'delivery_delayed'. Without more context, it is difficult to determine the primary intent. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-178",
+      "current_label": "grocery_fresh",
+      "v2_prediction": "",
+      "autonomous_decision": "AMBIGUOUS_KEEP",
+      "proposed_label": "",
+      "confidence": "MEDIUM",
+      "audit_classification": "GENUINELY_AMBIGUOUS",
+      "reason": "The conversation revolves around a customer's frustration with delivery issues, but the primary operational request (placing an order) and explicit requested outcome (resolution) are not explicitly stated. The intent 'delivery_missing' and 'delivery_delayed' are both mentioned, but neither can be established as primary. The Golden Label 'grocery_fresh' does not align with the conversation's content, suggesting it may be incorrect. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-182",
+      "current_label": "product_availability",
+      "v2_prediction": "",
+      "autonomous_decision": "AMBIGUOUS_KEEP",
+      "proposed_label": "",
+      "confidence": "MEDIUM",
+      "audit_classification": "GENUINELY_AMBIGUOUS",
+      "reason": "The conversation lacks explicit mention of a primary operational request or a requested outcome. The intent 'product_availability' is mentioned, but the user's concern is about changing location, which is not directly related to product availability. The intent 'other_support' is also mentioned, but it's unclear if it's a primary request or a secondary response. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-186",
+      "current_label": "product_availability",
+      "v2_prediction": "",
+      "autonomous_decision": "AMBIGUOUS_KEEP",
+      "proposed_label": "",
+      "confidence": "MEDIUM",
+      "audit_classification": "GENUINELY_AMBIGUOUS",
+      "reason": "The user's primary operational request is unclear, as they ask about pre-ordering an album and using a gift card balance, but the explicit requested outcome is not explicitly stated. Competing intents include account billing and product availability, but neither can be established as primary. Insufficient evidence exists to determine a clear intent. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    },
+    {
+      "case_id": "GS-189",
+      "current_label": "product_availability",
+      "v2_prediction": "",
+      "autonomous_decision": "AMBIGUOUS_KEEP",
+      "proposed_label": "",
+      "confidence": "MEDIUM",
+      "audit_classification": "GENUINELY_AMBIGUOUS",
+      "reason": "The conversation lacks a clear primary operational request and explicit requested outcome. The intent 'product_availability' is supported by the customer's issue with delayed orders, but other intents like 'delivery_delayed' and 'other_support' are also relevant. Without more context, it's difficult to determine a single dominant intent. (AUTONOMOUS QA DECISION NOT HUMAN APPROVAL)"
+    }
+  ],
+  "accuracy_delta": 0.0,
+  "macro_f1_delta": 0.0
+}

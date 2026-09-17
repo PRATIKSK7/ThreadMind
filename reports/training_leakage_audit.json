@@ -1,0 +1,8 @@
+{
+  "golden_set_size": 196,
+  "total_available_pool": 82360,
+  "training_set_size": 65888,
+  "validation_set_size": 16472,
+  "golden_threads_in_training": 0,
+  "golden_threads_in_validation": 0
+}

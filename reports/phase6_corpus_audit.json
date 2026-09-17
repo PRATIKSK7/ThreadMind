@@ -1,0 +1,26 @@
+{
+  "total_documents": 35247,
+  "duplicates": 0,
+  "short_documents": 0,
+  "invalid_intents_found": [],
+  "intent_distribution": {
+    "echo_alexa": 1655,
+    "digital_kindle": 1533,
+    "account_billing": 3387,
+    "delivery_delayed": 5469,
+    "delivery_missing": 9316,
+    "returns_refunds": 6098,
+    "promotions_pricing": 1769,
+    "account_access": 1193,
+    "amazon_music": 697,
+    "digital_prime_video": 1503,
+    "product_availability": 1470,
+    "delivery_wrong_item": 548,
+    "amazon_locker": 303,
+    "grocery_fresh": 306
+  },
+  "taxonomy_flags": {
+    "suspicious_account_access": 50,
+    "suspicious_amazon_locker": 0
+  }
+}

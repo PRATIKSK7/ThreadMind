@@ -1,0 +1,103 @@
+{
+  "golden_set_hash_before": "4b85791cbcf152dedbed75b3c32c6994a4d0660dd9e5612bf838299b38258964",
+  "repairs": [
+    {
+      "example_id": "GS-006",
+      "old_intent": "delivery_delayed",
+      "new_intent": "returns_refunds",
+      "reason": "Customer is waiting for money, not a package.",
+      "confidence": "HIGH"
+    },
+    {
+      "example_id": "GS-009",
+      "old_intent": "delivery_delayed",
+      "new_intent": "returns_refunds",
+      "reason": "Customer is waiting for money, not a package.",
+      "confidence": "HIGH"
+    },
+    {
+      "example_id": "GS-029",
+      "old_intent": "delivery_wrong_item",
+      "new_intent": "account_access",
+      "reason": "Customer mentions digital access keywords, not physical wrong items.",
+      "confidence": "HIGH"
+    },
+    {
+      "example_id": "GS-030",
+      "old_intent": "delivery_wrong_item",
+      "new_intent": "account_access",
+      "reason": "Customer mentions digital access keywords, not physical wrong items.",
+      "confidence": "HIGH"
+    },
+    {
+      "example_id": "GS-034",
+      "old_intent": "delivery_wrong_item",
+      "new_intent": "account_access",
+      "reason": "Customer mentions digital access keywords, not physical wrong items.",
+      "confidence": "HIGH"
+    },
+    {
+      "example_id": "GS-035",
+      "old_intent": "delivery_wrong_item",
+      "new_intent": "account_access",
+      "reason": "Customer mentions digital access keywords, not physical wrong items.",
+      "confidence": "HIGH"
+    },
+    {
+      "example_id": "GS-036",
+      "old_intent": "delivery_wrong_item",
+      "new_intent": "account_access",
+      "reason": "Customer mentions digital access keywords, not physical wrong items.",
+      "confidence": "HIGH"
+    },
+    {
+      "example_id": "GS-037",
+      "old_intent": "delivery_wrong_item",
+      "new_intent": "account_access",
+      "reason": "Customer mentions digital access keywords, not physical wrong items.",
+      "confidence": "HIGH"
+    },
+    {
+      "example_id": "GS-038",
+      "old_intent": "delivery_wrong_item",
+      "new_intent": "account_access",
+      "reason": "Customer mentions digital access keywords, not physical wrong items.",
+      "confidence": "HIGH"
+    },
+    {
+      "example_id": "GS-039",
+      "old_intent": "delivery_wrong_item",
+      "new_intent": "account_access",
+      "reason": "Customer mentions digital access keywords, not physical wrong items.",
+      "confidence": "HIGH"
+    },
+    {
+      "example_id": "GS-040",
+      "old_intent": "delivery_wrong_item",
+      "new_intent": "account_access",
+      "reason": "Customer mentions digital access keywords, not physical wrong items.",
+      "confidence": "HIGH"
+    },
+    {
+      "example_id": "GS-130",
+      "old_intent": "account_access",
+      "new_intent": "delivery_wrong_item",
+      "reason": "Customer mentions wrong physical item, not digital access.",
+      "confidence": "HIGH"
+    },
+    {
+      "example_id": "GS-136",
+      "old_intent": "account_access",
+      "new_intent": "delivery_wrong_item",
+      "reason": "Customer mentions wrong physical item, not digital access.",
+      "confidence": "HIGH"
+    },
+    {
+      "example_id": "GS-159",
+      "old_intent": "amazon_locker",
+      "new_intent": "delivery_missing",
+      "reason": "Locker was accessed but contents missing.",
+      "confidence": "HIGH"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "majority": {
+    "name": "Baseline 1: Majority Class",
+    "accuracy": 0.10714285714285714,
+    "macro_f1": 0.013824884792626727,
+    "micro_f1": 0.10714285714285714,
+    "weighted_f1": 0.020737327188940093,
+    "precision": 0.007653061224489796,
+    "recall": 0.07142857142857142
+  },
+  "nearest_example": {
+    "name": "Baseline 2: Nearest Example",
+    "accuracy": 0.49489795918367346,
+    "macro_f1": 0.47593681384688613,
+    "micro_f1": 0.49489795918367346,
+    "weighted_f1": 0.49059516646116585,
+    "precision": 0.5576063671082467,
+    "recall": 0.48186486132914697
+  },
+  "v2": {
+    "name": "Current System: ThreadMind V2",
+    "accuracy": 0.8469387755102041,
+    "macro_f1": 0.7897623062072449,
+    "micro_f1": 0.8469387755102041,
+    "weighted_f1": 0.8546528786763968,
+    "precision": 0.8072645981469512,
+    "recall": 0.7967063492063492
+  },
+  "worst_intents": [
+    {
+      "intent": "other_support",
+      "f1": 0
+    },
+    {
+      "intent": "delivery_wrong_item",
+      "f1": 0.4761904761904762
+    },
+    {
+      "intent": "account_access",
+      "f1": 0.7027027027027026
+    }
+  ],
+  "confusions": [
+    {
+      "true": "account_access",
+      "predicted": "delivery_wrong_item",
+      "count": 8
+    },
+    {
+      "true": "delivery_missing",
+      "predicted": "delivery_delayed",
+      "count": 2
+    },
+    {
+      "true": "delivery_wrong_item",
+      "predicted": "account_access",
+      "count": 2
+    },
+    {
+      "true": "returns_refunds",
+      "predicted": "delivery_delayed",
+      "count": 2
+    },
+    {
+      "true": "account_billing",
+      "predicted": "account_access",
+      "count": 1
+    }
+  ],
+  "per_intent": {
+    "account_access": {
+      "precision": 0.8125,
+      "recall": 0.6190476190476191,
+      "f1": 0.7027027027027026
+    },
+    "account_billing": {
+      "precision": 0.8461538461538461,
+      "recall": 0.7857142857142857,
+      "f1": 0.8148148148148148
+    },
+    "amazon_locker": {
+      "precision": 0.9285714285714286,
+      "recall": 1.0,
+      "f1": 0.962962962962963
+    },
+    "amazon_music": {
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1": 0.923076923076923
+    },
+    "delivery_delayed": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8
+    },
+    "delivery_missing": {
+      "precision": 1.0,
+      "recall": 0.7333333333333333,
+      "f1": 0.846153846153846
+    },
+    "delivery_wrong_item": {
+      "precision": 0.35714285714285715,
+      "recall": 0.7142857142857143,
+      "f1": 0.4761904761904762
+    },
+    "digital_kindle": {
+      "precision": 1.0,
+      "recall": 0.7857142857142857,
+      "f1": 0.88
+    },
+    "digital_prime_video": {
+      "precision": 1.0,
+      "recall": 0.7857142857142857,
+      "f1": 0.88
+    },
+    "echo_alexa": {
+      "precision": 0.8125,
+      "recall": 0.9285714285714286,
+      "f1": 0.8666666666666666
+    },
+    "grocery_fresh": {
+      "precision": 0.9333333333333333,
+      "recall": 1.0,
+      "f1": 0.9655172413793104
+    },
+    "other_support": {
+      "precision": 0.0,
+      "recall": 0,
+      "f1": 0
+    },
+    "product_availability": {
+      "precision": 0.8235294117647058,
+      "recall": 1.0,
+      "f1": 0.9032258064516129
+    },
+    "promotions_pricing": {
+      "precision": 0.9285714285714286,
+      "recall": 0.9285714285714286,
+      "f1": 0.9285714285714286
+    },
+    "returns_refunds": {
+      "precision": 1.0,
+      "recall": 0.8125,
+      "f1": 0.896551724137931
+    }
+  }
+}

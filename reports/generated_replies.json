@@ -1,0 +1,1570 @@
+[
+  {
+    "example_id": "GS-000",
+    "thread_id": "d3a37c0eb6a2e1af",
+    "predicted_intent": "delivery_delayed",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the delay in your delivery. We're here to help you understand what happened. Can you please DM us with the tracking ID for your order so we can look into this further?"
+  },
+  {
+    "example_id": "GS-001",
+    "thread_id": "6128774c272909e7",
+    "predicted_intent": "delivery_delayed",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We're glad to hear that our customer service representative, Anita S, was able to resolve your issue promptly. We apologize that your shipment is still delayed and appreciate your patience. Can you please DM us with your order number so we can look into this further and provide a more accurate update on the status of your shipment?"
+  },
+  {
+    "example_id": "GS-002",
+    "thread_id": "7dd3e41677eca8cf",
+    "predicted_intent": "delivery_delayed",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We're glad to hear that you received your item on time, Bryan! Thank you for sharing your positive experience with us. However, we're still investigating the delay for your order @115821. Can you please DM us with more details about your original order, such as the tracking number or order number, so we can look into this further?"
+  },
+  {
+    "example_id": "GS-003",
+    "thread_id": "421694ec25574621",
+    "predicted_intent": "delivery_delayed",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the delay in your order. We're here to help. Can you please DM us with your order number so we can look into this further?"
+  },
+  {
+    "example_id": "GS-004",
+    "thread_id": "ffdab40197f48de2",
+    "predicted_intent": "delivery_delayed",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the issues you're experiencing with your Prime order. We're here to help. Can you please DM us with your order number so we can look into this further?"
+  },
+  {
+    "example_id": "GS-005",
+    "thread_id": "66b6dfde5ea6a023",
+    "predicted_intent": "delivery_delayed",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your delivery. We're here to help. Can you please DM us with your order number so we can look into this further?"
+  },
+  {
+    "example_id": "GS-006",
+    "thread_id": "e5e227f6392f6343",
+    "predicted_intent": "returns_refunds",
+    "predicted_escalation": "clarification_needed",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the delay in processing your return. We'd like to clarify a few details to ensure we can assist you further. Could you please provide the tracking numbers for parcels PD74A000026 and PD74A000027, as well as your order number, so we can look into this matter for you?"
+  },
+  {
+    "example_id": "GS-007",
+    "thread_id": "6211a9e0735ee03b",
+    "predicted_intent": "delivery_delayed",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your delivery. We're here to help. Can you please provide us with your order number so we can look into this further?"
+  },
+  {
+    "example_id": "GS-008",
+    "thread_id": "1d34fe17e6385fba",
+    "predicted_intent": "delivery_delayed",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the frustration and inconvenience caused by the inconsistent delivery instructions. We understand that this has led to multiple escalations, and we're committed to finding a solution for you. Can you please provide us with your order number so we can look into this further?"
+  },
+  {
+    "example_id": "GS-009",
+    "thread_id": "136747dbfd949f68",
+    "predicted_intent": "delivery_delayed",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your delayed refund. We're here to help. Can you please DM us with more details about your order, including the order number and tracking information, so we can look into this further?"
+  },
+  {
+    "example_id": "GS-010",
+    "thread_id": "9bd9508fd74f46c4",
+    "predicted_intent": "delivery_delayed",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your recent delivery from amzl_us. We understand how frustrating it can be when packages are delayed or lost. Can you please provide us with your order number so we can look into this further and see what happened to your package?"
+  },
+  {
+    "example_id": "GS-011",
+    "thread_id": "da35f7dc09d3f8d2",
+    "predicted_intent": "delivery_delayed",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the frustration and inconvenience caused by the delayed delivery. We're here to help and want to make things right. Can you please DM us with your order number so we can look into this further and provide a more accurate update on your delivery status?"
+  },
+  {
+    "example_id": "GS-012",
+    "thread_id": "c329621fdd6a6860",
+    "predicted_intent": "delivery_delayed",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the delay in your delivery. We understand your frustration and appreciate you bringing this to our attention. To further assist you, could you please provide the tracking number associated with your order so we can look into this matter for you?"
+  },
+  {
+    "example_id": "GS-013",
+    "thread_id": "788e6b6ab3ad975f",
+    "predicted_intent": "delivery_delayed",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the delay in your delivery. We understand that you're expecting your order to arrive on time, and we're sorry that we haven't met that expectation. Can you please DM us with your order number so we can look into this further and provide a more accurate update on the status of your parcel?"
+  },
+  {
+    "example_id": "GS-014",
+    "thread_id": "564d4563079bdbfb",
+    "predicted_intent": "delivery_wrong_item",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you've experienced with your broken room heater. We'll look into this matter further. Can you please DM us with your order number so we can assist you better?"
+  },
+  {
+    "example_id": "GS-015",
+    "thread_id": "979bcf1ba7572381",
+    "predicted_intent": "delivery_missing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the mistake and any inconvenience it has caused. Can you please DM us with the tracking ID of the package that was delivered to you by mistake so we can assist you further?"
+  },
+  {
+    "example_id": "GS-016",
+    "thread_id": "c01dbc075c112a90",
+    "predicted_intent": "delivery_missing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your recent delivery. We're here to help and want to ensure that your order is handled correctly. Can you please DM us with more details about your order, such as the tracking number or order number, so we can look into this further for you?"
+  },
+  {
+    "example_id": "GS-017",
+    "thread_id": "9d4ee10b51d6518c",
+    "predicted_intent": "delivery_missing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your faulty phone delivery. We've reviewed your query and noticed that you've already been in touch with us about this issue. Can you please DM us with more details about the tracking number and order number associated with the delivery so we can assist you further?"
+  },
+  {
+    "example_id": "GS-018",
+    "thread_id": "26e37f657a9242c0",
+    "predicted_intent": "delivery_missing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience with your delivery. We'd like to help you investigate what happened with your order. Can you please DM us with the tracking ID for your order @115830 so we can look into this further?"
+  },
+  {
+    "example_id": "GS-019",
+    "thread_id": "d62bfab11ba69a91",
+    "predicted_intent": "delivery_missing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with the delivery agent. We're here to help. Can you please provide us with your order number so we can look into this further?"
+  },
+  {
+    "example_id": "GS-020",
+    "thread_id": "44e4104210bad607",
+    "predicted_intent": "delivery_missing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your missing delivery. We're here to help. Can you please DM us with your order details so we can look into this further?"
+  },
+  {
+    "example_id": "GS-021",
+    "thread_id": "1e9fb1462c55081f",
+    "predicted_intent": "delivery_delayed",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your delivery. It's disappointing to hear that the attempted delivery didn't go as planned. Can you please DM us with the tracking number for your parcel so we can look into this further?"
+  },
+  {
+    "example_id": "GS-022",
+    "thread_id": "3f03050f2ccd56e1",
+    "predicted_intent": "delivery_delayed",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you've experienced with your recent delivery. We're sorry to hear that you received incorrect items and that our returns process didn't fully resolve the issue. Can you please DM us with your order number so we can look into this further and provide a more detailed resolution?"
+  },
+  {
+    "example_id": "GS-023",
+    "thread_id": "1812ebbdb250a03e",
+    "predicted_intent": "delivery_missing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the frustration and inconvenience caused by the missing delivery. We understand that you're expecting same-day evening delivery, and it's disappointing that it hasn't arrived yet. Can you please provide us with your order number so we can look into this further and try to resolve the issue?"
+  },
+  {
+    "example_id": "GS-024",
+    "thread_id": "3a510b96266055de",
+    "predicted_intent": "delivery_missing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your orders. We understand how frustrating it can be to not receive your deliveries on time. Can you please provide us with the tracking numbers for both orders so we can look into this further?"
+  },
+  {
+    "example_id": "GS-025",
+    "thread_id": "c9b23242d5347d51",
+    "predicted_intent": "delivery_missing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your delivery. Can you please provide us with your order number or tracking ID so we can look into this further?"
+  },
+  {
+    "example_id": "GS-026",
+    "thread_id": "0d7053cbb502d63a",
+    "predicted_intent": "delivery_delayed",
+    "predicted_escalation": "human_review_recommended",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the poor experience you've had with your Luvabella doll order. We're sorry to hear that the delivery was delayed, and the communication from our team was not helpful. Can you please provide us with your Amazon account email so we can look into this further and see what happened with your order?"
+  },
+  {
+    "example_id": "GS-027",
+    "thread_id": "2555a8d9872a2f15",
+    "predicted_intent": "delivery_missing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We're glad to hear that the order was delivered on time. However, we noticed that you mentioned the product was missing. Can you please DM us with more details about the missing item, such as the product name or order number, so we can assist you further?"
+  },
+  {
+    "example_id": "GS-028",
+    "thread_id": "8e6ae6b8bb6ff8d9",
+    "predicted_intent": "delivery_wrong_item",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the frustrating experience you've had with our customer support. We understand that receiving the wrong item can be disappointing and time-consuming. We're committed to making things right. Can you please DM us with your order number so we can look into this further and provide a more accurate resolution?"
+  },
+  {
+    "example_id": "GS-029",
+    "thread_id": "971d58ab9348de04",
+    "predicted_intent": "delivery_delayed",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your delivery. We'd like to investigate further to understand the cause of the issue. Can you please DM us with more details about your order, such as the tracking number or order number, so we can look into this for you?"
+  },
+  {
+    "example_id": "GS-030",
+    "thread_id": "25ca3ab474dd691d",
+    "predicted_intent": "delivery_wrong_item",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "TFIDFBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Amazon app. We're here to help you resolve the issue. Can you please DM us with your Amazon account email and the exact error message you're seeing on the app so we can look into this further?"
+  },
+  {
+    "example_id": "GS-031",
+    "thread_id": "37bacc4a02a35a8b",
+    "predicted_intent": "delivery_wrong_item",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the incorrect delivery. Can you please DM us with your order number so we can look into this further?"
+  },
+  {
+    "example_id": "GS-032",
+    "thread_id": "5fc32478a3b63ac7",
+    "predicted_intent": "delivery_wrong_item",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience caused by the spelling error on our website. We appreciate your feedback and will make sure to correct the issue."
+  },
+  {
+    "example_id": "GS-033",
+    "thread_id": "72784fad0c2d64eb",
+    "predicted_intent": "delivery_wrong_item",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "TFIDFBaseline",
+    "generated_reply": "We apologize for the inconvenience you've experienced with receiving incorrect and damaged products from Amazon India. We'd like to help you resolve this issue. To assist you further, could you please DM us with more details about the recent deliveries, including the tracking numbers or order numbers for the affected items?"
+  },
+  {
+    "example_id": "GS-034",
+    "thread_id": "20cce9b10faebf82",
+    "predicted_intent": "delivery_wrong_item",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "TFIDFBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Amazon account. We're here to help you resolve the issue. Can you please DM us with your account email and the exact error message you're seeing so we can look into this further?"
+  },
+  {
+    "example_id": "GS-035",
+    "thread_id": "df577fc749f849fc",
+    "predicted_intent": "account_access",
+    "predicted_escalation": "clarification_needed",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your account. To better assist you, could you please provide us with your account email address associated with the order that was affected?"
+  },
+  {
+    "example_id": "GS-036",
+    "thread_id": "80daedda83f344bd",
+    "predicted_intent": "delivery_wrong_item",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you've experienced with receiving the wrong item twice in a row. We'd like to help you resolve this issue. Can you please provide us with the order number or the tracking ID for the most recent order so we can look into this further?"
+  },
+  {
+    "example_id": "GS-037",
+    "thread_id": "aa1845b17e22923e",
+    "predicted_intent": "delivery_wrong_item",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "TFIDFBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your recent orders and login issues. We'd like to help you resolve this further. Can you please DM us with more details about your recent orders, such as the order numbers or dates, so we can look into this for you?"
+  },
+  {
+    "example_id": "GS-038",
+    "thread_id": "d25f65835961b06a",
+    "predicted_intent": "delivery_wrong_item",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "TFIDFBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Amazon account. Can you please provide us with your order number so we can look into this further?"
+  },
+  {
+    "example_id": "GS-039",
+    "thread_id": "04f0d488a16c8b29",
+    "predicted_intent": "delivery_wrong_item",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the incorrect delivery of your order (#406-0293843-4945979). We understand that this can be frustrating, especially when our delivery staff and call center team are unable to assist. We're here to help and would like to make it right. Can you please provide us with your full name and email address associated with your Amazon account so we can look into this further?"
+  },
+  {
+    "example_id": "GS-040",
+    "thread_id": "62c4d90a25d0f418",
+    "predicted_intent": "delivery_delayed",
+    "predicted_escalation": "clarification_needed",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the frustration and inconvenience caused by the inconsistent information provided by our customer service representatives. We'd like to clarify a few details to ensure we assist you correctly. Can you please provide the tracking ID for the delayed shipment so we can look into this further?"
+  },
+  {
+    "example_id": "GS-041",
+    "thread_id": "dd3f0d83804bec2a",
+    "predicted_intent": "delivery_wrong_item",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your account access. Can you please provide us with your account email address so we can look into this further?"
+  },
+  {
+    "example_id": "GS-042",
+    "thread_id": "471d985ba341b408",
+    "predicted_intent": "returns_refunds",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience with your order. To help you with the return and potential replacement, we'd like to gather more information. Can you please DM us with the order number and a photo of the item you received?"
+  },
+  {
+    "example_id": "GS-043",
+    "thread_id": "09b03780f7d6795f",
+    "predicted_intent": "returns_refunds",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you've experienced with your returns. We understand that receiving a \"Address not found\" message for a Prime residential address can be frustrating, especially when returns are involved. Can you please provide us with the order number associated with the return at @115850 so we can look into this further?"
+  },
+  {
+    "example_id": "GS-044",
+    "thread_id": "507666bffe853255",
+    "predicted_intent": "returns_refunds",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the delay in processing your refund request. We understand your frustration with the situation, and we're committed to helping you resolve this issue. Can you please provide us with your order number so we can look into this further?"
+  },
+  {
+    "example_id": "GS-045",
+    "thread_id": "7537e113f152e797",
+    "predicted_intent": "returns_refunds",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Prime membership. We'd like to help you with your refund. Can you please DM us with more details about your account, such as your email address associated with your Prime membership?"
+  },
+  {
+    "example_id": "GS-046",
+    "thread_id": "9cae32f77fa87a38",
+    "predicted_intent": "account_billing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your order. We're here to help. Can you please DM us with more details about your order, such as the order number or your account email, so we can look into this further?"
+  },
+  {
+    "example_id": "GS-047",
+    "thread_id": "74d3d83c4ad45c3d",
+    "predicted_intent": "returns_refunds",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your defective USB cable order. We're sorry to hear that our customer care numbers couldn't assist you in finding your order or speaking with an executive. Can you please DM us with your order details so we can look into this further and provide a suitable resolution?"
+  },
+  {
+    "example_id": "GS-048",
+    "thread_id": "acbce372aa4fd05c",
+    "predicted_intent": "returns_refunds",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your recharge not being successful and not being refunded. We're here to help. Can you please DM us with your order details so we can assist you further?"
+  },
+  {
+    "example_id": "GS-049",
+    "thread_id": "deff7ff8ef25e07d",
+    "predicted_intent": "promotions_pricing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for any inconvenience caused by the price drop. Can you please provide us with the order number or tracking ID associated with the purchase so we can look into this further?"
+  },
+  {
+    "example_id": "GS-050",
+    "thread_id": "b614a28772a4ff9a",
+    "predicted_intent": "returns_refunds",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the delay in our response and the frustration it has caused. We're here to help and want to ensure that you receive the assistance you need. Can you please provide us with your order number or the email address associated with your account so we can look into your refund request?"
+  },
+  {
+    "example_id": "GS-051",
+    "thread_id": "583e80a133042b71",
+    "predicted_intent": "returns_refunds",
+    "predicted_escalation": "human_review_recommended",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with the return pickup. We've received your reports, and we're here to help. To further assist you, could you please share the tracking number or order number associated with your return so we can look into this matter?"
+  },
+  {
+    "example_id": "GS-052",
+    "thread_id": "f7b90627ea18d8f6",
+    "predicted_intent": "returns_refunds",
+    "predicted_escalation": "human_review_recommended",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the confusion and frustration caused by the inconsistent information regarding your Amazon balance refund. We're here to help and want to ensure that you receive the correct information. Can you please share the details from the Twitter conversation you mentioned earlier (https://t.co/i3wAQR77Zo) so we can review your case and provide a more accurate resolution?"
+  },
+  {
+    "example_id": "GS-053",
+    "thread_id": "5b8bf1ab06aa0f1a",
+    "predicted_intent": "account_access",
+    "predicted_escalation": "human_review_recommended",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your refund on a gift card purchase. We understand how frustrating it can be when issues arise with refunds. Can you please DM us with more details about your specific situation, such as the order number or the date of purchase, so we can look into this further?"
+  },
+  {
+    "example_id": "GS-054",
+    "thread_id": "6aae04ebe65fd679",
+    "predicted_intent": "returns_refunds",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with returning an item. We're happy to help you explore all available options. Can you please provide us with your Amazon account email so we can look into this further?"
+  },
+  {
+    "example_id": "GS-055",
+    "thread_id": "373f82ed0389646e",
+    "predicted_intent": "returns_refunds",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with returning the product. We're here to help. Can you please provide us with your Amazon account email address so we can look into this further?"
+  },
+  {
+    "example_id": "GS-056",
+    "thread_id": "78620867b16ba960",
+    "predicted_intent": "account_billing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your account billing. We're here to help and want to ensure that your issue is resolved as quickly as possible. Can you please DM us with more details about the issue, such as when you last saw the charge or any other relevant information?"
+  },
+  {
+    "example_id": "GS-057",
+    "thread_id": "548c4f7b87a573e3",
+    "predicted_intent": "account_billing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with adding money to AmazonPay using your DebitCard. We're here to help. Can you please DM us with more details about the issue, such as the exact error message you're seeing or any other relevant information?"
+  },
+  {
+    "example_id": "GS-058",
+    "thread_id": "2e3f3cc2c3e5aaf3",
+    "predicted_intent": "account_billing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the disappointing experience with your premium watch delivery in India. We're sorry to hear that it didn't meet your expectations. We take all concerns seriously and would like to investigate further. Can you please DM us with more details about your order, such as the order number or tracking information, so we can look into this matter for you?"
+  },
+  {
+    "example_id": "GS-059",
+    "thread_id": "1aa3e4f8f4a38d99",
+    "predicted_intent": "account_billing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the unexpected charge on your account. We'd be happy to help you investigate this further. To assist us in looking into this issue, could you please DM us with more details about the charge, such as the date it was made and any other relevant information?"
+  },
+  {
+    "example_id": "GS-060",
+    "thread_id": "afe31458331bf3e4",
+    "predicted_intent": "account_billing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your recent order. We'd like to help you further. Can you please DM us with more details about your order, such as the order number or the date you placed it?"
+  },
+  {
+    "example_id": "GS-061",
+    "thread_id": "363ab923a9cff990",
+    "predicted_intent": "account_billing",
+    "predicted_escalation": "human_review_recommended",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We appreciate you reaching out to us about your concerns regarding the beta launch of Football Manager. We're here to help clarify things for you. Can you please confirm your email address associated with your Amazon account so we can look into this further?"
+  },
+  {
+    "example_id": "GS-062",
+    "thread_id": "2516a81a039f9f65",
+    "predicted_intent": "account_billing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the confusion regarding the cashback offer for loading money in Amazon Pay. Can you please DM us with more details about the offer you're looking for, such as the specific amount or time frame you're interested in?"
+  },
+  {
+    "example_id": "GS-063",
+    "thread_id": "61d93d9d63543125",
+    "predicted_intent": "account_billing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Prime membership. We understand your frustration with the past issues, and we're here to help you resolve the current problem. Can you please DM us with more details about the issue you're facing, such as the specific error message or the steps you've taken so far?"
+  },
+  {
+    "example_id": "GS-064",
+    "thread_id": "5bdc103dceaa85cc",
+    "predicted_intent": "promotions_pricing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with the price of the book \"Black Money & Tax Heavens\". We appreciate you bringing this to our attention. Can you please DM us with the exact price you're seeing and the order number or tracking ID associated with your purchase?"
+  },
+  {
+    "example_id": "GS-065",
+    "thread_id": "c1b7a8c0f138c843",
+    "predicted_intent": "account_billing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you've experienced with your Prime membership. It sounds like you're frustrated with the process of finding a compatible credit card for your yearly fee. Can you please DM us with more details about the specific issue you're facing, such as the exact dates or amounts involved?"
+  },
+  {
+    "example_id": "GS-066",
+    "thread_id": "d6cf59dcf89bf508",
+    "predicted_intent": "account_access",
+    "predicted_escalation": "clarification_needed",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the concern and worry caused by the unsolicited email. To further assist you, could you please provide us with the email address associated with your Amazon account? This will help us investigate the matter and ensure your account security."
+  },
+  {
+    "example_id": "GS-067",
+    "thread_id": "0e5b9b2c0a94881f",
+    "predicted_intent": "product_availability",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your book's price. We understand your concern and would like to help. Can you please provide us with your Kindle email address associated with your account so we can look into this further?"
+  },
+  {
+    "example_id": "GS-068",
+    "thread_id": "9ff3f7dcf8a34d52",
+    "predicted_intent": "account_billing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your account billing. We'd like to help you resolve this issue. Can you please provide us with your Amazon.ca account email address so we can look into this further?"
+  },
+  {
+    "example_id": "GS-069",
+    "thread_id": "ddc983b3b471f230",
+    "predicted_intent": "account_billing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Amazon Pay balance. We're here to help. Can you please provide us with your Amazon account email address associated with the Amazon Pay balance so we can look into this further?"
+  },
+  {
+    "example_id": "GS-070",
+    "thread_id": "7906799da7f63453",
+    "predicted_intent": "echo_alexa",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Echo device. We'd like to understand this better and assist. Can you please provide us with the Alexa app version number and the device's serial number so we can look into this further?"
+  },
+  {
+    "example_id": "GS-071",
+    "thread_id": "d0a24e717d769d53",
+    "predicted_intent": "digital_prime_video",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with Amazon Video and Netflix. We'd like to help you troubleshoot the issue. Can you please DM us with more details about the error message you're seeing, such as the exact message or any error codes?"
+  },
+  {
+    "example_id": "GS-072",
+    "thread_id": "d9eddd1b9db7e292",
+    "predicted_intent": "digital_prime_video",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Prime Video streaming. It's unusual to see both @119625 and @115851 notifications, as they seem to be related to different titles. Can you please DM us with more details about the titles you're trying to stream and the error messages you're seeing?"
+  },
+  {
+    "example_id": "GS-073",
+    "thread_id": "ceedfbc20a31c038",
+    "predicted_intent": "digital_prime_video",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the issue with your Prime Video playlist. We appreciate your feedback and would like to help you add the Shubh Mangal Savdhan Movie to your playlist. Can you please DM us with more details about the issue you're experiencing, such as the exact playlist name or any error messages you're seeing?"
+  },
+  {
+    "example_id": "GS-074",
+    "thread_id": "63cd9fc1dff215fe",
+    "predicted_intent": "digital_prime_video",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We appreciate your creative idea for a monthly movie release poll. We're glad you're excited about the possibility of such a feature. Can you please DM us with more details about what you mean by \"conducting a poll every month\" and how you think it would work?"
+  },
+  {
+    "example_id": "GS-075",
+    "thread_id": "0a0634610b8e0e15",
+    "predicted_intent": "digital_prime_video",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We appreciate you sharing your feedback with us. We'll be sure to pass it along to our team for consideration in future updates. Would you be able to provide us with your Amazon Prime membership email address so we can ensure your feedback is properly documented?"
+  },
+  {
+    "example_id": "GS-076",
+    "thread_id": "39e0d086c94789f5",
+    "predicted_intent": "digital_prime_video",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with the Prime Video app. We're here to help you with your question about console 360 compatibility. Can you please DM us with more details about the console you're using and the error message you're seeing?"
+  },
+  {
+    "example_id": "GS-077",
+    "thread_id": "e6aef6c530ba4876",
+    "predicted_intent": "account_billing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your friend's Prime Video subscription. We'd like to investigate further to ensure the issue is fully resolved. Could you please share the account details mentioned in the tweet you shared earlier (https://t.co/beaaDm0muc) so we can look into this matter?"
+  },
+  {
+    "example_id": "GS-078",
+    "thread_id": "0f75cd0f5ec91604",
+    "predicted_intent": "digital_prime_video",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We appreciate your feedback and suggestions on adding Gujarati Movies and TV shows to our Prime Video content. We understand the importance of regional content in India and will take your input into consideration. We'll keep an eye out for any updates on this front."
+  },
+  {
+    "example_id": "GS-079",
+    "thread_id": "e2c6b4110efb929a",
+    "predicted_intent": "digital_prime_video",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the delay in updating the availability of Avatar The Last Airbender on Prime Video. Can you please DM us with your Prime Video account email so we can look into this further and provide you with a more accurate update on when the second and third seasons will be available?"
+  },
+  {
+    "example_id": "GS-080",
+    "thread_id": "573ffd6be31435a7",
+    "predicted_intent": "digital_prime_video",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We're glad you're excited about Batman: The Animated Series! Unfortunately, we can't provide you with the show's availability or pricing without more information. Could you please DM us with your Amazon account email and the region you're in? This will help us look into your account and provide a more accurate response."
+  },
+  {
+    "example_id": "GS-081",
+    "thread_id": "bf9c3cb5c69de4ea",
+    "predicted_intent": "digital_prime_video",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the limited content options in your Prime video library. We're glad to hear that you're expanding your content, and we appreciate your feedback. Can you please DM us with more details about the specific movies you're looking for, so we can better understand your request?"
+  },
+  {
+    "example_id": "GS-082",
+    "thread_id": "3bb93e2f47e6c826",
+    "predicted_intent": "product_availability",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with the Fire TV Stick with Alexa Voice Remote. We understand your concern about its compatibility with your parents' Amazon Prime account in India. Can you please confirm your parents' shipping address in India so we can assist you with finding a suitable alternative or solution?"
+  },
+  {
+    "example_id": "GS-083",
+    "thread_id": "400491ccf469b530",
+    "predicted_intent": "digital_prime_video",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We appreciate your feedback on our digital prime video content. We're glad you're enjoying the latest movies and TV shows we have available. If you have any specific Odia language movies you'd like to see added, please DM us with more details so we can consider your request."
+  },
+  {
+    "example_id": "GS-084",
+    "thread_id": "e0e2bacc798bff2b",
+    "predicted_intent": "digital_kindle",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the delay in receiving your Kindle. Can you please DM us with your order number so we can look into this further?"
+  },
+  {
+    "example_id": "GS-085",
+    "thread_id": "d773ff9dfa682357",
+    "predicted_intent": "digital_kindle",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Kindle Unlimited offer. We're here to help you resolve the issue. Can you please DM us with more details about the error message you're seeing and the last few steps you took before the price was reset?"
+  },
+  {
+    "example_id": "GS-086",
+    "thread_id": "51f7b73ff3175ac1",
+    "predicted_intent": "digital_kindle",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for any inconvenience you've experienced with seeing ads on Twitter and Facebook. We take these issues seriously and are committed to providing a safe and secure shopping experience for our customers. Can you please DM us with more details about the ad you're seeing, such as the exact URL or any other relevant information?"
+  },
+  {
+    "example_id": "GS-087",
+    "thread_id": "d4bf43a13c2232a4",
+    "predicted_intent": "digital_kindle",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Kindle registration. We'd like to try some real-time troubleshooting steps. Can you please DM us with your account email and the exact error message you're seeing on your Kindle?"
+  },
+  {
+    "example_id": "GS-088",
+    "thread_id": "f3b9d9f09b657817",
+    "predicted_intent": "digital_kindle",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with the Android Kindle app not updating to the latest version. Can you please DM us with your device's make and model, as well as the exact error message you're seeing, so we can better assist you?"
+  },
+  {
+    "example_id": "GS-089",
+    "thread_id": "935824c4704c860b",
+    "predicted_intent": "digital_kindle",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Kindle promo credit. Could you please DM us with more details about your purchase, including the date and order number, so we can look into this further?"
+  },
+  {
+    "example_id": "GS-090",
+    "thread_id": "875009abfa44529c",
+    "predicted_intent": "digital_kindle",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience with your boyfriend's Kindle order. It sounds like there was a misdelivery issue due to the address change. Can you please DM us with the order details, such as the order number or the email address used to place the order, so we can assist you further?"
+  },
+  {
+    "example_id": "GS-091",
+    "thread_id": "17b4e0cd5b4ccece",
+    "predicted_intent": "digital_kindle",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the frustration you're experiencing with your gift card query. We'd like to try to help. Can you please provide more details about the gift card you're trying to send, such as the amount and the specific product you'd like to purchase with it?"
+  },
+  {
+    "example_id": "GS-092",
+    "thread_id": "e4e2152608ade08d",
+    "predicted_intent": "digital_kindle",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Kindle purchase. We'd like to help you resolve the issue. Can you please DM us with your order number so we can look into this further?"
+  },
+  {
+    "example_id": "GS-093",
+    "thread_id": "24d6b4a375ee21d6",
+    "predicted_intent": "delivery_wrong_item",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience and thank you for reaching out to us. We're sorry to hear that our packages were left in your bin. Can you please DM us with the tracking number of the affected package so we can look into this further?"
+  },
+  {
+    "example_id": "GS-094",
+    "thread_id": "547be894014b4903",
+    "predicted_intent": "echo_alexa",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you've experienced with Alexa not showing as online and your Smarthome links being reset. We're glad to hear that you've been able to resolve the issue with the UK Kindle book. If you have any further questions or concerns, please don't hesitate to reach out."
+  },
+  {
+    "example_id": "GS-095",
+    "thread_id": "39c418bf1848d060",
+    "predicted_intent": "other_support",
+    "predicted_escalation": "human_review_recommended",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your orders. We appreciate you sharing the situation on Facebook, which will help us better understand the issue. Can you please provide us with the order numbers for the two orders that were switched, so we can look into this further?"
+  },
+  {
+    "example_id": "GS-096",
+    "thread_id": "a0cb92cfb35738bb",
+    "predicted_intent": "digital_kindle",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "TFIDFBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing in purchasing the Italian ebook \"La gente\" by Bianchi on Amazon UK. We understand your frustration and would like to help you find a solution. Can you please confirm your Amazon UK account email address so we can look into this further?"
+  },
+  {
+    "example_id": "GS-097",
+    "thread_id": "811b3d82afdfeb33",
+    "predicted_intent": "digital_kindle",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the mix-up with your Kindle order. It seems like a funny mistake, but we want to make sure you get the correct items. Can you please DM us with the order number so we can look into this further?"
+  },
+  {
+    "example_id": "GS-098",
+    "thread_id": "15f5c05258eab8c8",
+    "predicted_intent": "amazon_music",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "TFIDFBaseline",
+    "generated_reply": "We apologize for any frustration you're experiencing with Alexa. It can be overwhelming with all the features and commands available. We're happy to help you get started. Would you be willing to share your Alexa device's name or the account email associated with your Alexa account so we can look into this further?"
+  },
+  {
+    "example_id": "GS-099",
+    "thread_id": "fa4e4850dc1714f0",
+    "predicted_intent": "amazon_music",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the issues you're experiencing with Amazon Music. We'd love to help you get your music working again. Can you please DM us with more details about the issue, such as what specifically isn't working or if you've tried any troubleshooting steps?"
+  },
+  {
+    "example_id": "GS-100",
+    "thread_id": "07c5e73971f78e86",
+    "predicted_intent": "amazon_music",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "TFIDFBaseline",
+    "generated_reply": "We apologize for the inconvenience. We'd like to help you set up an alarm on your Echo that turns on music or SiriusXM. Can you please DM us with more details about your Echo device and the music service you'd like to use?"
+  },
+  {
+    "example_id": "GS-101",
+    "thread_id": "a6dbcc41eea15111",
+    "predicted_intent": "amazon_music",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your recent returns. To help us better assist you, could you please provide the comprobante de devoluci\u00f3n (devolution receipt) that you received from the transport service? This will help us verify the details of your returns and ensure that everything is processed correctly."
+  },
+  {
+    "example_id": "GS-102",
+    "thread_id": "f6a518e270c277ae",
+    "predicted_intent": "amazon_music",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We'd be happy to help you with Amazon Music Unlimited. Can you please DM us with more details about the issue you're experiencing?"
+  },
+  {
+    "example_id": "GS-103",
+    "thread_id": "63b3f781506205d3",
+    "predicted_intent": "amazon_music",
+    "predicted_escalation": "human_review_recommended",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Alexa music streaming. We understand how frustrating it can be to lose access to a feature you were paying for. We're here to help. Can you please DM us with more details about your issue, such as your Alexa device's serial number and the specific music streaming feature you're trying to access?"
+  },
+  {
+    "example_id": "GS-104",
+    "thread_id": "acd6f1d0d28dc947",
+    "predicted_intent": "amazon_music",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We're glad to hear that you're enjoying Amazon Music as a Prime member! It's great to know that you're taking advantage of the free service. Can you please DM us with more details about the issue you're experiencing with your music playback?"
+  },
+  {
+    "example_id": "GS-105",
+    "thread_id": "5d794124ada5a1f9",
+    "predicted_intent": "amazon_music",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Nokia 6 device and the delayed replacement process. We're here to help and want to ensure that you receive the support you need. Can you please provide us with your Amazon India account email so we can look into this further and expedite the replacement process for you?"
+  },
+  {
+    "example_id": "GS-106",
+    "thread_id": "e91c71a242ee6355",
+    "predicted_intent": "account_access",
+    "predicted_escalation": "clarification_needed",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We're happy to help you with your question about filling your home with music using Alexa. However, we can't access your order details on social platforms. Could you please DM us with your order number or account email so we can look into your concern further?"
+  },
+  {
+    "example_id": "GS-107",
+    "thread_id": "6740224804dec314",
+    "predicted_intent": "amazon_music",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for any inconvenience you're experiencing with Music Unlimited. To better assist you, could you please provide the order number or account email associated with your Music Unlimited subscription?"
+  },
+  {
+    "example_id": "GS-108",
+    "thread_id": "d8ba70b3c92b7b78",
+    "predicted_intent": "amazon_music",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We're glad you were able to resolve the issue with your stations. However, we're still here to help if you need anything else. Can you please DM us with more details about the issue you're experiencing, like what happened before it started playing one song on loop?"
+  },
+  {
+    "example_id": "GS-109",
+    "thread_id": "957c35145701a2e6",
+    "predicted_intent": "echo_alexa",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the frustration with your Alexa device. It sounds like you're having trouble getting a specific song to play. Can you please DM us with the song title and artist you're trying to play, as well as the Alexa device's serial number or the order number associated with the device? This will help us provide a more accurate solution."
+  },
+  {
+    "example_id": "GS-110",
+    "thread_id": "48041061adba4897",
+    "predicted_intent": "amazon_music",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Echo devices and Amazon Music. To better assist you, can you please confirm if all the Echos are registered to the same Amazon account?"
+  },
+  {
+    "example_id": "GS-111",
+    "thread_id": "54def58a96d81403",
+    "predicted_intent": "amazon_music",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We're sorry to hear that your Amazon Echo is playing unexpected sounds. Can you please tell us more about the issue, such as when it started and what you were doing when it happened?"
+  },
+  {
+    "example_id": "GS-112",
+    "thread_id": "d5047fc16cd0e349",
+    "predicted_intent": "echo_alexa",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the frustration with playing \"Momentz\" by Gorillaz. We're here to help. Can you please DM us with more details about the issue, such as the Alexa device you're using and the exact steps you took to try and play the song?"
+  },
+  {
+    "example_id": "GS-113",
+    "thread_id": "b7fe8e583253b111",
+    "predicted_intent": "echo_alexa",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We're glad to hear you're enjoying your Echo Plus! It sounds like you're taking advantage of its hands-free capabilities. Can you please DM us with more details about the issue you're experiencing, such as when it started or any error messages you're seeing?"
+  },
+  {
+    "example_id": "GS-114",
+    "thread_id": "124e29ffa7d5085f",
+    "predicted_intent": "echo_alexa",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing while trying to order your new Echo. Can you please DM us with more details about the error message you're seeing or the specific issue you're facing with the quantity update?"
+  },
+  {
+    "example_id": "GS-115",
+    "thread_id": "cdc4792145fc1397",
+    "predicted_intent": "echo_alexa",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Echo Dot. We'd like to help you get free Prime added to your account. Can you please DM us with more details about your order and the setup process so we can assist you further?"
+  },
+  {
+    "example_id": "GS-116",
+    "thread_id": "0c7909fc4888fe37",
+    "predicted_intent": "echo_alexa",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "Hallo! Wir entschuldigen uns f\u00fcr die Unklarheit. Wir k\u00f6nnen keine aktuellsten Informationen \u00fcber die Verf\u00fcgbarkeit von Deezer f\u00fcr den Echo anbieten, da diese nicht verf\u00fcgbar sind. Wir empfehlen Ihnen, sich bei Deezer oder Amazon Support zu erkundigen, um die neuesten Informationen zu erhalten."
+  },
+  {
+    "example_id": "GS-117",
+    "thread_id": "0be61a30ba12a5e0",
+    "predicted_intent": "echo_alexa",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Echo settings. We're here to help. Can you please DM us with more details about the error you're seeing, such as the exact message or any error codes?"
+  },
+  {
+    "example_id": "GS-118",
+    "thread_id": "5869ba28a48cf763",
+    "predicted_intent": "echo_alexa",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We're glad to hear that your Echo is installed and you're enjoying it! If you have any questions or need further assistance with your device, feel free to DM us and we'll be happy to help."
+  },
+  {
+    "example_id": "GS-119",
+    "thread_id": "15417200d18d8247",
+    "predicted_intent": "echo_alexa",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the issues you're experiencing with the Alexa app on your Android Note 8. We're here to help. Can you please DM us with more details about the issue, such as when you first noticed the app was showing as \"offline\" and if you've tried any troubleshooting steps?"
+  },
+  {
+    "example_id": "GS-120",
+    "thread_id": "b9757fe990e40db8",
+    "predicted_intent": "echo_alexa",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Amazon Echo Dot. We understand how frustrating it can be to miss out on notifications for the black version. Can you please DM us with more details about your current setup and the issue you're facing with the black Echo Dot?"
+  },
+  {
+    "example_id": "GS-121",
+    "thread_id": "add56eb200cd4103",
+    "predicted_intent": "echo_alexa",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you've experienced with your recent order. We're here to help. Can you please provide us with your order email or account email so we can look into this further?"
+  },
+  {
+    "example_id": "GS-122",
+    "thread_id": "4c2ba68f8d6d8d01",
+    "predicted_intent": "echo_alexa",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with Alexa's birthday app. We're here to help you celebrate Alexa's special day. Can you please DM us with more details about the issue you're facing, such as the specific units you've tried and any error messages you've received?"
+  },
+  {
+    "example_id": "GS-123",
+    "thread_id": "59b64538302cb337",
+    "predicted_intent": "echo_alexa",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the disappointing experience with your Echo Plus device. We understand that the quality of the speaker is not meeting your expectations. We're sorry to hear that you're disappointed and we're committed to making it right. Can you please DM us with more details about your order number and the specific issues you're experiencing with the speaker?"
+  },
+  {
+    "example_id": "GS-124",
+    "thread_id": "c4dfa7c7bd5687f2",
+    "predicted_intent": "echo_alexa",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the delay in processing your order. We're here to help you with any concerns you may have. To better assist you, could you please provide us with your order number or the email address associated with your Amazon account?"
+  },
+  {
+    "example_id": "GS-125",
+    "thread_id": "1dcf6340ae04e307",
+    "predicted_intent": "delivery_delayed",
+    "predicted_escalation": "clarification_needed",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the confusion and frustration caused by the delayed delivery. We understand that you've been waiting since November 15th and have seen the product as available in stock for over a week. To better assist you, could you please provide us with your order number so we can look into this further and provide a more accurate update on the status of your delivery?"
+  },
+  {
+    "example_id": "GS-126",
+    "thread_id": "fbb7f3a219b04208",
+    "predicted_intent": "account_access",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We're so sorry to hear that your account has been hacked and you're unable to log in. We want to help you regain access to your account. To assist you further, could you please DM us with more details about the issue, such as the email address associated with your account?"
+  },
+  {
+    "example_id": "GS-127",
+    "thread_id": "c4943ba47c397940",
+    "predicted_intent": "account_access",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the security breach on your account. We're here to help you regain control. Can you please DM us with your account email and the exact review left by the unauthorized user so we can investigate this further?"
+  },
+  {
+    "example_id": "GS-128",
+    "thread_id": "7407c0dd1c4a8822",
+    "predicted_intent": "account_access",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the poor delivery experience you had today. We're sorry that our delivery service didn't meet your expectations. Can you please DM us with your delivery address and a photo of the package that was left at the roadside?"
+  },
+  {
+    "example_id": "GS-129",
+    "thread_id": "9df66edc158ef84e",
+    "predicted_intent": "account_access",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with logging into your account. We'd like to help you resolve the issue. Can you please DM us with more details about the error message you're seeing or any other relevant information?"
+  },
+  {
+    "example_id": "GS-130",
+    "thread_id": "f96b9b10c4206c30",
+    "predicted_intent": "account_access",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your account. We'd like to help you regain access. Have you received an email from our Account Specialist team? Be sure to check your junk/spam folder."
+  },
+  {
+    "example_id": "GS-131",
+    "thread_id": "e8d28e94aab63200",
+    "predicted_intent": "account_access",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the frustration you're experiencing with logging into your account. We've tried resetting your password multiple times, but it seems we're still having trouble. Can you please DM us with your account email address associated with the account you're trying to access?"
+  },
+  {
+    "example_id": "GS-132",
+    "thread_id": "424b7075b73da620",
+    "predicted_intent": "delivery_delayed",
+    "predicted_escalation": "clarification_needed",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your delivery instructions. We'd like to clarify a few details to help us better assist you. Could you please provide the access code used for the phone call you mentioned? This will help us look into the issue and ensure that the correct instructions are provided for your order."
+  },
+  {
+    "example_id": "GS-133",
+    "thread_id": "086732e38ad7c1f5",
+    "predicted_intent": "account_access",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with accessing your account. We're here to help. Can you please provide us with your account email address so we can look into this further?"
+  },
+  {
+    "example_id": "GS-134",
+    "thread_id": "c763f518de8ef948",
+    "predicted_intent": "account_access",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for any inconvenience you're experiencing with your Amazon Fire HD tablet. To help you better, could you please DM us with more details about the issue you're facing with accessing the Google Play store?"
+  },
+  {
+    "example_id": "GS-135",
+    "thread_id": "d1f22969cd0ed8e7",
+    "predicted_intent": "account_access",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your account lock. We're here to help. Can you please provide us with the email address associated with your account so we can look into this further?"
+  },
+  {
+    "example_id": "GS-136",
+    "thread_id": "b916108101eca175",
+    "predicted_intent": "account_access",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Amazon Pay Balance and the issue with your mobile number being blocked. We're here to help. Can you please DM us with more details about your account, such as your email address associated with your Amazon account, so we can assist you further?"
+  },
+  {
+    "example_id": "GS-137",
+    "thread_id": "8b231a42dfff628d",
+    "predicted_intent": "account_access",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with accessing your profile on Amazon.com.au. We can't find any information about your current login credentials, could you please DM us with the email address associated with your Amazon account?"
+  },
+  {
+    "example_id": "GS-138",
+    "thread_id": "6177b8cf868e7f36",
+    "predicted_intent": "account_access",
+    "predicted_escalation": "human_review_recommended",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the issues you've experienced with your account access. We're committed to helping you resolve this matter. To better assist you, could you please provide us with your account email address or the email associated with your account? This will enable us to look into the issue and provide a more accurate solution."
+  },
+  {
+    "example_id": "GS-139",
+    "thread_id": "7e10f8a5300df65c",
+    "predicted_intent": "account_access",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience with your account being blocked due to security reasons. We're here to help you resolve the issue. Can you please DM us with more details about the \u00a320 purchase on Xbox, such as the order number or the date you attempted to make the purchase?"
+  },
+  {
+    "example_id": "GS-140",
+    "thread_id": "7683932e67b489ea",
+    "predicted_intent": "promotions_pricing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the confusion with the pricing of the product. We understand that you're seeing different prices for the same item from different sellers. As a marketplace for individual sellers, prices are set by them. Would you be able to provide us with the exact product name or the seller's name so we can look into this further?"
+  },
+  {
+    "example_id": "GS-141",
+    "thread_id": "507a5d959193bd85",
+    "predicted_intent": "promotions_pricing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for any frustration caused by the price of the 32GB SD card. We understand that our prices can vary and may not always be the lowest. We appreciate your feedback and would like to provide more information about our pricing policy. Could you please DM us with your Amazon.in account email so we can look into this further?"
+  },
+  {
+    "example_id": "GS-142",
+    "thread_id": "271f08dfe4b24f20",
+    "predicted_intent": "promotions_pricing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the disappointing experience with your recent order. We understand that you're concerned about the false commitments made by our customer service team and the escalation team. We're here to help and want to ensure that you receive the assistance you need. Can you please provide us with more details about your order, such as the order date and any communication you've had with our team?"
+  },
+  {
+    "example_id": "GS-143",
+    "thread_id": "2d269faf8a58863e",
+    "predicted_intent": "promotions_pricing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you've experienced with your order. We're here to help. Can you please confirm your order number so we can look into this further?"
+  },
+  {
+    "example_id": "GS-144",
+    "thread_id": "a2bbc722057b5719",
+    "predicted_intent": "promotions_pricing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the frustration and inconvenience caused by the preorder offer issue. We're here to help and want to make it right. Can you please provide us with your Amazon account email address associated with the orders @115850 and @115851 so we can look into this further?"
+  },
+  {
+    "example_id": "GS-145",
+    "thread_id": "94623b4fdd7ab5bf",
+    "predicted_intent": "promotions_pricing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the delay in getting back to you regarding the Guess the Price Contest. We understand your concern and would like to help. Can you please DM us with more details about your contest entry, such as the product name and your entry number, so we can look into this further?"
+  },
+  {
+    "example_id": "GS-146",
+    "thread_id": "663015f372cd3b8a",
+    "predicted_intent": "promotions_pricing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for any inconvenience you're experiencing with your LG refrigerator purchase. To help you with your question, could you please DM us with more details about your order, such as your order number or the specific product you purchased? This will allow us to look into your warranty options and provide a more accurate answer."
+  },
+  {
+    "example_id": "GS-147",
+    "thread_id": "f7cd418894688848",
+    "predicted_intent": "promotions_pricing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We're glad to hear that you had a positive experience with @115821 and that you've already completed the survey. We appreciate your feedback and would like to help you with any other questions or concerns you may have. Can you please DM us with more details about your issue so we can assist you further?"
+  },
+  {
+    "example_id": "GS-148",
+    "thread_id": "9f194783f7dbfae8",
+    "predicted_intent": "promotions_pricing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the price difference you've noticed for the Bose Solo 5. We strive to provide accurate and competitive pricing for our customers. Can you please DM us with more details about your order, such as your order number or the specific product you're interested in, so we can look into this further?"
+  },
+  {
+    "example_id": "GS-149",
+    "thread_id": "b881f26bc54d6db1",
+    "predicted_intent": "promotions_pricing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the price increase on your item. We'd be happy to help you with this issue. Could you please provide us with the order number so we can look into this further?"
+  },
+  {
+    "example_id": "GS-150",
+    "thread_id": "a3b31228d3f292c5",
+    "predicted_intent": "promotions_pricing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "Bonjour, nous sommes d\u00e9sol\u00e9s pour la confusion caus\u00e9e par le prix. Nous allons v\u00e9rifier cela pour vous. Pour nous aider \u00e0 trouver la r\u00e9ponse, pouvez-vous s'il vous pla\u00eet fournir le lien de l'article sur notre site ?"
+  },
+  {
+    "example_id": "GS-151",
+    "thread_id": "0f622e19186b5f24",
+    "predicted_intent": "promotions_pricing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the disappointing experience during our current sale. We understand that you were unable to purchase the Havells areole fans and were expecting better offers. Can you please DM us with more details about the specific items you were interested in and the prices you were expecting?"
+  },
+  {
+    "example_id": "GS-152",
+    "thread_id": "f80ee1ce26d346fd",
+    "predicted_intent": "promotions_pricing",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with the promotions page on Blu-ray movies. We've checked on the issue and it seems like it might be related to your browser or cookies. Can you please try clearing your browser's cookies and then try accessing the page again? If the issue persists, we'd be happy to help you troubleshoot further."
+  },
+  {
+    "example_id": "GS-153",
+    "thread_id": "5d58b0bdefae1299",
+    "predicted_intent": "delivery_delayed",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "DenseRAG_LLM",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your delayed shipment. We're here to help and want to ensure that you receive your item as soon as possible. Can you please provide us with your order number so we can look into this further?"
+  },
+  {
+    "example_id": "GS-154",
+    "thread_id": "d766800f05f78196",
+    "predicted_intent": "amazon_locker",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Prime Membership and delivery issues. We understand your frustration and would like to help resolve the problem. Could you please provide us with your order number so we can look into this further?"
+  },
+  {
+    "example_id": "GS-155",
+    "thread_id": "9e9de62e088affbc",
+    "predicted_intent": "amazon_locker",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Amazon Locker delivery. We appreciate your feedback about the navigation and would like to help resolve the issue. Can you please DM us with more details about the issue you're facing with your order, such as the tracking number or any specific problems you're encountering?"
+  },
+  {
+    "example_id": "GS-156",
+    "thread_id": "8311a3c79d0be7ff",
+    "predicted_intent": "amazon_locker",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Amazon Locker issue. We're here to help and want to ensure that the issue is resolved as quickly as possible. Can you please DM us with your order details so we can look into this further?"
+  },
+  {
+    "example_id": "GS-157",
+    "thread_id": "962f87319795305d",
+    "predicted_intent": "amazon_locker",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with ordering an oil diffuser. We're here to help. Can you please DM us with more details about the item you're trying to order, such as the product name and your preferred shipping address?"
+  },
+  {
+    "example_id": "GS-158",
+    "thread_id": "e1e6809c33e1958c",
+    "predicted_intent": "amazon_locker",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Prime parcel pickup. We're here to help you resolve the issue. Can you please DM us with more details about your order, including the tracking number and the specific issue you're facing with the pickup location?"
+  },
+  {
+    "example_id": "GS-159",
+    "thread_id": "20c1a80b2496fb80",
+    "predicted_intent": "amazon_locker",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your locker collection. We'll need to investigate this issue further. Can you please provide us with the locker location where you collected the item?"
+  },
+  {
+    "example_id": "GS-160",
+    "thread_id": "1df63ea1d5a69936",
+    "predicted_intent": "amazon_locker",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Amazon Prime package delivery. We understand your frustration and appreciate your feedback. We're here to help, and we'd like to make things right. Can you please DM us with more details about your order, such as the order number or tracking information, so we can assist you further?"
+  },
+  {
+    "example_id": "GS-161",
+    "thread_id": "88d34caa84fe33cf",
+    "predicted_intent": "amazon_locker",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Amazon Locker pickup. We're here to help. Could you please provide us with the order number associated with your locker so we can look into this further?"
+  },
+  {
+    "example_id": "GS-162",
+    "thread_id": "b75b8aba4b7a9baf",
+    "predicted_intent": "amazon_locker",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you've experienced with your Amazon Locker. It sounds like there was a disruption in the address change process due to your phone plan. Can you please DM us with more details about the issue, such as the date and time of the 30-minute phone call, so we can assist you further?"
+  },
+  {
+    "example_id": "GS-163",
+    "thread_id": "fc5e5ed945b5af36",
+    "predicted_intent": "amazon_locker",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your Amazon Locker. We're here to help you track the status of your locker. Can you please provide us with the barcode number associated with your locker so we can look into this further?"
+  },
+  {
+    "example_id": "GS-164",
+    "thread_id": "e4b818ccb8232155",
+    "predicted_intent": "amazon_locker",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the frustration you're experiencing with your package delivery. We understand how disappointing it can be when packages don't arrive as expected. Can you please provide us with the tracking number for your package so we can look into this further?"
+  },
+  {
+    "example_id": "GS-165",
+    "thread_id": "0303b444819797be",
+    "predicted_intent": "amazon_locker",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you've experienced with Amazon Locker. It's disappointing to hear that the carriers didn't understand how the service works, leading to repeated delivery attempts without anyone being present to receive the package. We're sorry that our response didn't provide the clarity you needed to resolve the issue. Can you please provide more details about your order number and the specific conversation you had with our Service team?"
+  },
+  {
+    "example_id": "GS-166",
+    "thread_id": "97d46e56ad05b8e3",
+    "predicted_intent": "amazon_locker",
+    "predicted_escalation": "human_review_recommended",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the issues you've experienced with your J7 phone order. We're sorry to hear that our customer support team was unable to assist you in resolving the issue. Can you please provide us with your order email so we can look into this further and provide a suitable resolution?"
+  },
+  {
+    "example_id": "GS-167",
+    "thread_id": "baa82fe4c3c04a25",
+    "predicted_intent": "amazon_locker",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your pickup service. We've reviewed your conversation history and noticed that you've already filled the form and provided additional information. However, we need a few more details to assist you further. Could you please provide the tracking ID or order number associated with your parcel so we can look into the issue of the pickup service?"
+  },
+  {
+    "example_id": "GS-168",
+    "thread_id": "9d048a20fd47ab7f",
+    "predicted_intent": "grocery_fresh",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with the auto refresh feature on your wish list page. We appreciate your feedback and would like to learn more about your concerns. Can you please DM us with more details about the issue you're facing, such as the specific page or product that's causing the problem?"
+  },
+  {
+    "example_id": "GS-169",
+    "thread_id": "8ce1398a13df32c7",
+    "predicted_intent": "grocery_fresh",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We appreciate you bringing this to our attention and thank you for taking the time to share your concerns about the packaging of our grocery items. We're sorry to hear that you're concerned about the use of plastic. We're committed to reducing our environmental impact and will take your feedback into consideration. Would you be able to DM us with more details about your order, such as the order number or the specific product(s) you received?"
+  },
+  {
+    "example_id": "GS-170",
+    "thread_id": "4659bf7cb80e967a",
+    "predicted_intent": "grocery_fresh",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with the delivery fee. It seems like you're unsure about the tipping policy. Can you please DM us with more details about your order, such as the order number or the specific product you're concerned about?"
+  },
+  {
+    "example_id": "GS-171",
+    "thread_id": "3f38d0690064ea3e",
+    "predicted_intent": "grocery_fresh",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We appreciate your feedback on our user interface. We're glad to hear that you prefer Flipkart's UI in India. We're constantly working to improve our services and appreciate your input."
+  },
+  {
+    "example_id": "GS-172",
+    "thread_id": "416f367ae994e79c",
+    "predicted_intent": "grocery_fresh",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the excessive packaging in your recent grocery delivery. We're committed to reducing waste and minimizing our environmental impact. We appreciate your feedback and would like to learn more about your experience. Could you please DM us with more details about the specific product and order number so we can look into this further?"
+  },
+  {
+    "example_id": "GS-173",
+    "thread_id": "16cfcf62900ef5ea",
+    "predicted_intent": "grocery_fresh",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We're glad you're excited about AmazonFresh! Thank you for sharing the information about the paper bag packaging. We appreciate your feedback. Can you please DM us with more details about your recent AmazonFresh order so we can assist you better?"
+  },
+  {
+    "example_id": "GS-174",
+    "thread_id": "51815e0ee9dcfccd",
+    "predicted_intent": "grocery_fresh",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the delay in your order's arrival. We're happy to help you with your concerns. Can you please DM us with more details about your order, such as the order number or tracking information, so we can look into this further?"
+  },
+  {
+    "example_id": "GS-175",
+    "thread_id": "cae806d1e13ba7df",
+    "predicted_intent": "grocery_fresh",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with the Action Conditions for your @117093 Fresh Gutschein 25FRESH. We're here to help. Can you please DM us with more details about the issue you're facing, such as the specific product(s) you're trying to purchase or the error message you're seeing?"
+  },
+  {
+    "example_id": "GS-176",
+    "thread_id": "5de6e76b4a73d660",
+    "predicted_intent": "grocery_fresh",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the issue with your fresh bananas. Can you please DM us with more details about the order, including your order number and the specific bananas that arrived in a poor condition?"
+  },
+  {
+    "example_id": "GS-177",
+    "thread_id": "632f0aed89f71a07",
+    "predicted_intent": "grocery_fresh",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you've experienced with your Amazon Fresh service. We understand how frustrating it can be to receive issues with your orders. Can you please DM us with more details about your recent issues, such as the dates of the affected orders and any specific problems you've encountered?"
+  },
+  {
+    "example_id": "GS-178",
+    "thread_id": "f0cfad48f6a145b1",
+    "predicted_intent": "grocery_fresh",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the frustration you've experienced with your recent order. We understand that guaranteed delivery times are not met, and we're sorry for the inconvenience this has caused. Can you please DM us with more details about your order, including the order number and the tracking information, so we can look into this further?"
+  },
+  {
+    "example_id": "GS-179",
+    "thread_id": "f3e2bfa73a8376a8",
+    "predicted_intent": "grocery_fresh",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the poor delivery experience. We chose delivery on doorstep, and it seems like the delivery guy left the groceries at your doorstep, but didn't report the delivery attempt. Can you please confirm your address and the date of delivery so we can look into this further?"
+  },
+  {
+    "example_id": "GS-180",
+    "thread_id": "51a322d37e9a7679",
+    "predicted_intent": "grocery_fresh",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the disappointing experience with your Prime Now orders, Alejandra. We're sorry to hear that the produce was wrong, spoiled, and that the pizza bagels were not what you ordered. Can you please DM us with more details about your most recent order, such as the order date and any other relevant information?"
+  },
+  {
+    "example_id": "GS-181",
+    "thread_id": "e84a7e6d5d4a4373",
+    "predicted_intent": "grocery_fresh",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you've experienced with your recent purchase. We appreciate you bringing this to our attention and would like to help resolve the issue. Can you please provide us with your Amazon account email address associated with the order so we can look into this further?"
+  },
+  {
+    "example_id": "GS-182",
+    "thread_id": "7fa5ccca8702f290",
+    "predicted_intent": "product_availability",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with changing your device location to India. We're unable to assist with location changes outside of the US. Can you please DM us with your account email so we can look into this further?"
+  },
+  {
+    "example_id": "GS-183",
+    "thread_id": "a7d1b1328697f03f",
+    "predicted_intent": "product_availability",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your delivery. We're here to help. Can you please DM us with your order number so we can look into this further?"
+  },
+  {
+    "example_id": "GS-184",
+    "thread_id": "220588c05e025c77",
+    "predicted_intent": "product_availability",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with Episode 3-6 not being available. We understand your disappointment. Can you please DM us with more details about your order, such as your order number or the email address associated with your account?"
+  },
+  {
+    "example_id": "GS-185",
+    "thread_id": "fa37c61f8b78911c",
+    "predicted_intent": "product_availability",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience regarding the availability of Thor: Ragnarok. We'd like to know more about the specific DVD version you're looking for, as it's not available for pre-order on our site. Could you please DM us with more details about the DVD version you're interested in, such as the edition or retailer?"
+  },
+  {
+    "example_id": "GS-186",
+    "thread_id": "451122bbe75eae6a",
+    "predicted_intent": "product_availability",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your pre-order. Our policy is to charge for pre-orders as soon as they're available, but we don't automatically apply gift card balances. To help us better assist you, could you please DM us with the gift card balance amount and your pre-order order number?"
+  },
+  {
+    "example_id": "GS-187",
+    "thread_id": "1da537bb39d637d6",
+    "predicted_intent": "product_availability",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience. Can you please DM us with the order number associated with your @120474 product, so we can look into the availability for your @146898 presale tomorrow?"
+  },
+  {
+    "example_id": "GS-188",
+    "thread_id": "ebefc67d2ab0c89b",
+    "predicted_intent": "product_availability",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the damage to your pre-ordered book. We'd like to help you with a return or replacement. Could you please DM us with your pre-order number so we can assist you further?"
+  },
+  {
+    "example_id": "GS-189",
+    "thread_id": "058a1adda23bf491",
+    "predicted_intent": "product_availability",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your orders. We can have a further look into this with you. To help us better assist you, could you please provide the order number for the affected orders so we can investigate the issue further?"
+  },
+  {
+    "example_id": "GS-190",
+    "thread_id": "b0889d80badcbecd",
+    "predicted_intent": "product_availability",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with your pre-ordered game. Since you're unable to change your shipping and delivery options on the mobile website, we'd like to know your order number so we can assist you further. Could you please DM us with your order number?"
+  },
+  {
+    "example_id": "GS-191",
+    "thread_id": "92a7b4c25fb7c2f3",
+    "predicted_intent": "product_availability",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with the COD option. It seems that the option has been removed from the product link you provided. Can you please DM us with the exact product link and your order number so we can assist you further?"
+  },
+  {
+    "example_id": "GS-192",
+    "thread_id": "a744ef56097b74a7",
+    "predicted_intent": "product_availability",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the inconvenience you're experiencing with the product availability. We're here to help. Can you please DM us with more details about your order, such as your order number or the product you're trying to purchase?"
+  },
+  {
+    "example_id": "GS-193",
+    "thread_id": "8fac12fcb3126ce8",
+    "predicted_intent": "product_availability",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the initial issue with the product availability. We're glad you were able to find the products you were looking for. However, we're still unable to confirm the availability of @132976. Can you please DM us with more details about the product, such as the product category or the specific reason you're looking for it?"
+  },
+  {
+    "example_id": "GS-194",
+    "thread_id": "079b146a88a14dc0",
+    "predicted_intent": "product_availability",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for the frustration you're experiencing with your pre-ordered item not shipping on release day. We understand your concern and would like to clarify a few details. Can you please provide us with your order number so we can look into this further?"
+  },
+  {
+    "example_id": "GS-195",
+    "thread_id": "c5f3c1301f833cc0",
+    "predicted_intent": "product_availability",
+    "predicted_escalation": "no_escalation",
+    "routed_via": "RuleBaseline",
+    "generated_reply": "We apologize for any confusion caused by the differing product descriptions. Can you please confirm the order number or product ID for the \u20b9400+ and \u20b91k+ editions so we can look into this further for you?"
+  }
+]

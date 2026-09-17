@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ThreadMind — Review Complete</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    
+    <div class="bg-glow"></div>
+
+    <div class="sidebar">
+        <div class="brand">
+            <i data-lucide="hexagon" class="brand-icon"></i>
+            <div class="brand-text">
+                <span class="brand-title">ThreadMind</span>
+                <span class="brand-subtitle">AI Support Intelligence</span>
+            </div>
+        </div>
+        
+        <div class="sidebar-nav">
+            <a href="/dashboard" class="nav-item">
+                <i data-lucide="layout-dashboard" style="width:18px;height:18px;"></i> Dashboard
+            </a>
+            <a href="#" class="nav-item">
+                <i data-lucide="sparkles" style="width:18px;height:18px;"></i> AI Playground
+            </a>
+            <a href="#" class="nav-item">
+                <i data-lucide="message-circle" style="width:18px;height:18px;"></i> Conversations
+            </a>
+            <a href="#" class="nav-item">
+                <i data-lucide="search" style="width:18px;height:18px;"></i> Retrieval Explorer
+            </a>
+            <a href="#" class="nav-item">
+                <i data-lucide="git-branch" style="width:18px;height:18px;"></i> Intent Classifier
+            </a>
+            
+            <div class="nav-divider"></div>
+            
+            <a href="/case/0" class="nav-item active">
+                <i data-lucide="beaker" style="width:18px;height:18px;"></i> Evaluation Lab
+            </a>
+            <a href="#" class="nav-item">
+                <i data-lucide="database" style="width:18px;height:18px;"></i> Knowledge Base
+            </a>
+            <a href="#" class="nav-item">
+                <i data-lucide="activity" style="width:18px;height:18px;"></i> System Monitoring
+            </a>
+            <a href="#" class="nav-item">
+                <i data-lucide="settings" style="width:18px;height:18px;"></i> Settings
+            </a>
+        </div>
+        
+        <div class="sidebar-bottom">
+            <div class="sidebar-quote">
+                "Different Questions.<br>Same Human Needs.<br>Connected by Threads."<br><br>
+                <span style="color: var(--blue); font-weight: 500;">ThreadMind</span>
+            </div>
+            <div class="sys-status-list">
+                <div class="sys-status-row">
+                    <span class="sys-label"><span class="dot"></span> Ollama (LLM)</span>
+                    <span class="sys-value">Online</span>
+                </div>
+                <div class="sys-status-row">
+                    <span class="sys-label"><span class="dot"></span> FAISS Index</span>
+                    <span class="sys-value">Loaded</span>
+                </div>
+                <div class="sys-status-row">
+                    <span class="sys-label"><span class="dot"></span> MNRL Model</span>
+                    <span class="sys-value">Ready</span>
+                </div>
+                <div class="sys-status-row">
+                    <span class="sys-label"><span class="dot"></span> API Server</span>
+                    <span class="sys-value">Running</span>
+                </div>
+                <div class="sys-status-row">
+                    <span class="sys-label"><span class="dot"></span> Database</span>
+                    <span class="sys-value">Connected</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-wrapper">
+        <div class="top-header">
+            <div class="search-bar">
+                <i data-lucide="search" style="width:16px;height:16px;opacity:0.5;"></i>
+                <input type="text" placeholder="Search conversations, intents, or documents..." name="search" aria-label="Search">
+                <span class="search-shortcut">⌘ K</span>
+            </div>
+            
+            <div class="header-right">
+                <div class="health-indicator">
+                    <div class="health-dot"></div>
+                    <div>
+                        <div class="health-text-main">System Healthy</div>
+                        <div class="health-text-sub">All AI services operational</div>
+                    </div>
+                </div>
+                
+                <div class="icon-btn"><i data-lucide="bell" style="width:18px;height:18px;"></i></div>
+                
+                <div class="model-selector">
+                    <div class="model-main">V2 (Production) <i data-lucide="chevron-down" style="width:14px;height:14px;"></i></div>
+                    <div class="model-sub">Ollama · llama3.1</div>
+                </div>
+                
+                <div class="user-profile">
+                    <div class="avatar">PK</div>
+                    <div>
+                        <div style="font-weight: 500; font-size: 0.85rem; display:flex; align-items:center; gap:4px;">Pratik S Kanoj <i data-lucide="chevron-down" style="width:14px;height:14px; color:var(--text-secondary)"></i></div>
+                        <div style="font-size: 0.7rem; color: var(--text-secondary)">AIML Engineer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+            <div class="done-container">
+                <div class="done-badge">
+                    <i data-lucide="check-circle" style="width:40px;height:40px;"></i>
+                </div>
+                <h1 class="done-title title">REVIEWED</h1>
+                <p class="done-subtitle">All cases in the Golden Set have been successfully REVIEWED and verified.</p>
+                
+                <div class="done-status-row">
+                    <div class="done-status-pill">
+                        <i data-lucide="check-square" style="width:16px;height:16px;color:var(--success)"></i>
+                        Completed: <span>{{ completed }}</span>
+                    </div>
+                    <div class="done-status-pill">
+                        <i data-lucide="layers" style="width:16px;height:16px;color:var(--blue)"></i>
+                        Total Set: <span>{{ total }}</span>
+                    </div>
+                </div>
+                
+                <a href="/dashboard" class="btn-primary" style="padding: 16px 32px; font-size: 1rem;">RETURN TO CONSOLE <i data-lucide="arrow-right" style="width:20px;height:20px;margin-left:8px;"></i></a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

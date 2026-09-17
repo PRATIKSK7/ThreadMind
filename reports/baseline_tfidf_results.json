@@ -1,0 +1,1578 @@
+{
+  "metrics": {
+    "total_examples": 196,
+    "intent_accuracy": 0.8469387755102041,
+    "abstention_rate": 0.0,
+    "error_rate": 0.0
+  },
+  "predictions": [
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.9807054807447525,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-000"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.6839319848506775,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-001"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.6219088221546158,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-002"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.7011933124280574,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-003"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.4458401847841189,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-004"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.9443724722277739,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-005"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.8668229374906191,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-006"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.8360633868519856,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-007"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.38081798047548543,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-008"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.6673462992205265,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-009"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.5343100702726117,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-010"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.4977572611056846,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-011"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.36669484274564934,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-012"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.664367236368576,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-013"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.8768514680141798,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-014"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.8427217460101819,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-015"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.8983650910741043,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-016"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.9875661739304364,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-017"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.8920900192135981,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-018"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.7800531400237177,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-019"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.8837311577034176,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-020"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.6826373669909741,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-021"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.7314994520049887,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-022"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.7698564814193771,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-023"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.9744193636884739,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-024"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.9722621755590808,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-025"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.2615185683524201,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-026"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.9509582571539519,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-027"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.9857388891988124,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-028"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.815648030629032,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-029"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.9798359229734364,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-030"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.2544237073809466,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-031"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.9829177752309428,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-032"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.9774656147172401,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-033"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.9985988143558564,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-034"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.7030288769139059,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-035"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.9574831810425637,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-036"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.9883094774157924,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-037"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.9866633207520094,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-038"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.9395895065402429,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-039"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.8538701503528947,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-040"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.9571237814419259,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-041"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.5970424172394372,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-042"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.4522449684256459,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-043"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.8729308507084664,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-044"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.595829989778727,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-045"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.8568702184475484,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-046"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.45699587210565296,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-047"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.6712625095068595,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-048"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.8196762239195743,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-049"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.6047578759742877,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-050"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.7054373977696743,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-051"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.45537309004683496,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-052"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.6531980962644531,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-053"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.341753975248153,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-054"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.8195248896102121,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-055"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.9544148010953343,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-056"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.6658845120485762,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-057"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.836931155419531,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-058"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.6465174371800763,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-059"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.9851100078937908,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-060"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.4543179131888798,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-061"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.968540111021595,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-062"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.4816111198861582,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-063"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.9375543316383063,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-064"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.6601032778162246,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-065"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.7307582234707465,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-066"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.33793314134335833,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-067"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.7529724872014489,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-068"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.5442655385570861,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-069"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.6389509105394898,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-070"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.9654950886368964,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-071"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.9029045816472798,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-072"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.9561178083777451,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-073"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.8236871938125614,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-074"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.9042545467414359,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-075"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.6296666112578347,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-076"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.6549478476419305,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-077"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.9973655278267362,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-078"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.9904640213556936,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-079"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.9251813852323915,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-080"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.9378279078432853,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-081"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.3897175858165244,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-082"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.9882498770999817,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-083"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.999999583060627,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-084"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.7978543233194642,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-085"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.7821021359171616,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-086"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.9089735224806341,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-087"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.9548804634499141,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-088"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.8793354185211366,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-089"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.7632626860734635,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-090"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.37425891573972553,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-091"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.8812153481591094,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-092"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.7288470849405478,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-093"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.5721627800603212,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-094"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.3586276348585895,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-095"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.9568828163619556,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-096"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.15915397502741155,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-097"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.9628409482557836,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-098"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.9661596285295214,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-099"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.9678343310076299,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-100"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.46953937683977,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-101"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.9999094829788681,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-102"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.7579358905052506,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-103"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.7029739703411819,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-104"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.23646200967952546,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-105"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.4423726024941109,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-106"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.9100263725260187,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-107"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.7410150566036052,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-108"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.6358589471144491,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-109"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.9032858139464558,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-110"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.6298044471036822,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-111"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.777685656789644,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-112"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.6950552994292123,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-113"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.8356907286414211,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-114"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.35694993877090864,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-115"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.8105082044561226,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-116"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.8556276392190028,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-117"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.821553670585261,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-118"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.41054987246945646,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-119"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.9407107569379393,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-120"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.5985172492787081,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-121"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.2887384410709027,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-122"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.7847179039912072,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-123"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.9017736887476089,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-124"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.6715204796009605,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-125"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.9374022171722599,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-126"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.9402990363091102,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-127"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.34162176253694987,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-128"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.8083172659303601,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-129"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.9513397164438717,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-130"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.6215273322132224,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-131"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.8706516061131462,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-132"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.36484898245306996,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-133"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.6612030626644414,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-134"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.7997711004617677,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-135"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.5860130175088245,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-136"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.6492390897588448,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-137"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.1597445470028751,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-138"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.8657347218848859,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-139"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.9822168462249184,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-140"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.5933246741095346,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-141"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.7677551694397841,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-142"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.5227642907458598,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-143"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.4661273312299114,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-144"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.5283603012482807,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-145"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.29583757488458895,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-146"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.5233616858565743,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-147"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.9647911411416569,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-148"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.8582219696739795,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-149"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.33334885901939715,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-150"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.5484462069501781,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-151"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.3322823215233772,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-152"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.254674405362425,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-153"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.7072632493846396,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-154"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.8397571847527887,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-155"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.8244303541017682,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-156"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.9142149233858898,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-157"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.9974699019708307,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-158"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.78790860047014,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-159"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.8396055904623184,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-160"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.45399150617855355,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-161"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.8573087892644006,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-162"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.47393163408255834,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-163"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.31699987214697717,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-164"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.3237843392782625,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-165"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.26498270322271344,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-166"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.17339137912351676,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-167"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.21733617473877373,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-168"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.8719006444582578,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-169"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.803695524155275,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-170"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.5327738520821028,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-171"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.48650747758558455,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-172"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.29294500668542733,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-173"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.8490677418214019,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-174"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.6806707079920541,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-175"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.9850472394669243,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-176"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.9749730672525545,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-177"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.2780580708084465,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-178"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.7414973071752334,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-179"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.4474762235473333,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-180"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.2913829383654706,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-181"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.7946864095818948,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-182"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.8486428697187659,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-183"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.9693359588111716,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-184"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.9995411172582086,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-185"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.6925149145759406,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-186"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.9775940437887319,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-187"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.7594616200036128,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-188"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.6968324495689232,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-189"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.5175832048161283,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-190"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.6982818052613662,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-191"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.41862155502736953,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-192"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.9455854066288811,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-193"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.8219204650995228,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-194"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.3215536135230152,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "TF-IDF Logistic Regression prediction.",
+      "error": null,
+      "example_id": "GS-195"
+    }
+  ]
+}

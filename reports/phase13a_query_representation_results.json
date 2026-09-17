@@ -1,0 +1,255 @@
+{
+  "results": {
+    "BASELINE": {
+      "Recall@1": 0.6479591836734694,
+      "Recall@3": 0.7755102040816326,
+      "Recall@5": 0.7959183673469388,
+      "MRR@3": 0.7083333333333333
+    },
+    "QUERY_ONLY": {
+      "Recall@1": 0.6428571428571429,
+      "Recall@3": 0.7704081632653061,
+      "Recall@5": 0.8010204081632653,
+      "MRR@3": 0.7032312925170067
+    },
+    "USER_AGENT": {
+      "Recall@1": 0.6479591836734694,
+      "Recall@3": 0.7755102040816326,
+      "Recall@5": 0.7959183673469388,
+      "MRR@3": 0.7083333333333333
+    },
+    "STRUCTURED": {
+      "Recall@1": 0.6377551020408163,
+      "Recall@3": 0.7857142857142857,
+      "Recall@5": 0.8163265306122449,
+      "MRR@3": 0.7032312925170067
+    },
+    "KEYWORD-AUGMENTED": {
+      "Recall@1": 0.6581632653061225,
+      "Recall@3": 0.7755102040816326,
+      "Recall@5": 0.8061224489795918,
+      "MRR@3": 0.7151360544217686
+    },
+    "LAST-USER-TURN": {
+      "Recall@1": 0.20408163265306123,
+      "Recall@3": 0.32142857142857145,
+      "Recall@5": 0.3877551020408163,
+      "MRR@3": 0.2534013605442177
+    }
+  },
+  "paired": {
+    "QUERY_ONLY": {
+      "improved": 19,
+      "regressed": 17,
+      "unchanged": 160,
+      "net": 2
+    },
+    "USER_AGENT": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 196,
+      "net": 0
+    },
+    "STRUCTURED": {
+      "improved": 15,
+      "regressed": 16,
+      "unchanged": 165,
+      "net": -1
+    },
+    "KEYWORD-AUGMENTED": {
+      "improved": 8,
+      "regressed": 5,
+      "unchanged": 183,
+      "net": 3
+    },
+    "LAST-USER-TURN": {
+      "improved": 15,
+      "regressed": 117,
+      "unchanged": 64,
+      "net": -102
+    }
+  },
+  "confusions": {
+    "BASELINE": {
+      "account_access <-> delivery_wrong_item": {
+        "confusions": 9,
+        "total": 28
+      },
+      "account_access <-> delivery_missing": {
+        "confusions": 4,
+        "total": 36
+      },
+      "account_access <-> delivery_delayed": {
+        "confusions": 2,
+        "total": 33
+      },
+      "grocery_fresh <-> returns_refunds": {
+        "confusions": 8,
+        "total": 30
+      },
+      "account_billing <-> grocery_fresh": {
+        "confusions": 4,
+        "total": 28
+      },
+      "amazon_locker <-> delivery_missing": {
+        "confusions": 3,
+        "total": 28
+      },
+      "delivery_delayed <-> returns_refunds": {
+        "confusions": 5,
+        "total": 28
+      }
+    },
+    "QUERY_ONLY": {
+      "account_access <-> delivery_wrong_item": {
+        "confusions": 8,
+        "total": 28
+      },
+      "account_access <-> delivery_missing": {
+        "confusions": 5,
+        "total": 36
+      },
+      "account_access <-> delivery_delayed": {
+        "confusions": 2,
+        "total": 33
+      },
+      "grocery_fresh <-> returns_refunds": {
+        "confusions": 6,
+        "total": 30
+      },
+      "account_billing <-> grocery_fresh": {
+        "confusions": 4,
+        "total": 28
+      },
+      "amazon_locker <-> delivery_missing": {
+        "confusions": 6,
+        "total": 28
+      },
+      "delivery_delayed <-> returns_refunds": {
+        "confusions": 3,
+        "total": 28
+      }
+    },
+    "USER_AGENT": {
+      "account_access <-> delivery_wrong_item": {
+        "confusions": 9,
+        "total": 28
+      },
+      "account_access <-> delivery_missing": {
+        "confusions": 4,
+        "total": 36
+      },
+      "account_access <-> delivery_delayed": {
+        "confusions": 2,
+        "total": 33
+      },
+      "grocery_fresh <-> returns_refunds": {
+        "confusions": 8,
+        "total": 30
+      },
+      "account_billing <-> grocery_fresh": {
+        "confusions": 4,
+        "total": 28
+      },
+      "amazon_locker <-> delivery_missing": {
+        "confusions": 3,
+        "total": 28
+      },
+      "delivery_delayed <-> returns_refunds": {
+        "confusions": 5,
+        "total": 28
+      }
+    },
+    "STRUCTURED": {
+      "account_access <-> delivery_wrong_item": {
+        "confusions": 8,
+        "total": 28
+      },
+      "account_access <-> delivery_missing": {
+        "confusions": 4,
+        "total": 36
+      },
+      "account_access <-> delivery_delayed": {
+        "confusions": 2,
+        "total": 33
+      },
+      "grocery_fresh <-> returns_refunds": {
+        "confusions": 8,
+        "total": 30
+      },
+      "account_billing <-> grocery_fresh": {
+        "confusions": 3,
+        "total": 28
+      },
+      "amazon_locker <-> delivery_missing": {
+        "confusions": 6,
+        "total": 28
+      },
+      "delivery_delayed <-> returns_refunds": {
+        "confusions": 5,
+        "total": 28
+      }
+    },
+    "KEYWORD-AUGMENTED": {
+      "account_access <-> delivery_wrong_item": {
+        "confusions": 8,
+        "total": 28
+      },
+      "account_access <-> delivery_missing": {
+        "confusions": 4,
+        "total": 36
+      },
+      "account_access <-> delivery_delayed": {
+        "confusions": 2,
+        "total": 33
+      },
+      "grocery_fresh <-> returns_refunds": {
+        "confusions": 10,
+        "total": 30
+      },
+      "account_billing <-> grocery_fresh": {
+        "confusions": 6,
+        "total": 28
+      },
+      "amazon_locker <-> delivery_missing": {
+        "confusions": 3,
+        "total": 28
+      },
+      "delivery_delayed <-> returns_refunds": {
+        "confusions": 4,
+        "total": 28
+      }
+    },
+    "LAST-USER-TURN": {
+      "account_access <-> delivery_wrong_item": {
+        "confusions": 2,
+        "total": 28
+      },
+      "account_access <-> delivery_missing": {
+        "confusions": 13,
+        "total": 36
+      },
+      "account_access <-> delivery_delayed": {
+        "confusions": 9,
+        "total": 33
+      },
+      "grocery_fresh <-> returns_refunds": {
+        "confusions": 12,
+        "total": 30
+      },
+      "account_billing <-> grocery_fresh": {
+        "confusions": 3,
+        "total": 28
+      },
+      "amazon_locker <-> delivery_missing": {
+        "confusions": 7,
+        "total": 28
+      },
+      "delivery_delayed <-> returns_refunds": {
+        "confusions": 10,
+        "total": 28
+      }
+    }
+  },
+  "decision": "PROMOTE"
+}

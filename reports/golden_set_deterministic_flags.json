@@ -1,0 +1,842 @@
+[
+  {
+    "example_id": "GS-002",
+    "assigned_intent": "delivery_delayed",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-006",
+    "assigned_intent": "delivery_delayed",
+    "suspected_intent": "returns_refunds",
+    "confidence": "high",
+    "reason": "Customer is waiting for money, not a package.",
+    "evidence": "refund mentioned",
+    "source": "deterministic_rule",
+    "category": "CLEAR_MISLABEL"
+  },
+  {
+    "example_id": "GS-009",
+    "assigned_intent": "delivery_delayed",
+    "suspected_intent": "returns_refunds",
+    "confidence": "high",
+    "reason": "Customer is waiting for money, not a package.",
+    "evidence": "refund mentioned",
+    "source": "deterministic_rule",
+    "category": "CLEAR_MISLABEL"
+  },
+  {
+    "example_id": "GS-016",
+    "assigned_intent": "delivery_missing",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-022",
+    "assigned_intent": "delivery_missing",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-028",
+    "assigned_intent": "delivery_wrong_item",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-029",
+    "assigned_intent": "delivery_wrong_item",
+    "suspected_intent": "account_access",
+    "confidence": "high",
+    "reason": "Customer mentions digital access keywords, not physical wrong items.",
+    "evidence": "password/login mentioned",
+    "source": "deterministic_rule",
+    "category": "CLEAR_MISLABEL"
+  },
+  {
+    "example_id": "GS-030",
+    "assigned_intent": "delivery_wrong_item",
+    "suspected_intent": "account_access",
+    "confidence": "high",
+    "reason": "Customer mentions digital access keywords, not physical wrong items.",
+    "evidence": "password/login mentioned",
+    "source": "deterministic_rule",
+    "category": "CLEAR_MISLABEL"
+  },
+  {
+    "example_id": "GS-032",
+    "assigned_intent": "delivery_wrong_item",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-034",
+    "assigned_intent": "delivery_wrong_item",
+    "suspected_intent": "account_access",
+    "confidence": "high",
+    "reason": "Customer mentions digital access keywords, not physical wrong items.",
+    "evidence": "password/login mentioned",
+    "source": "deterministic_rule",
+    "category": "CLEAR_MISLABEL"
+  },
+  {
+    "example_id": "GS-035",
+    "assigned_intent": "delivery_wrong_item",
+    "suspected_intent": "account_access",
+    "confidence": "high",
+    "reason": "Customer mentions digital access keywords, not physical wrong items.",
+    "evidence": "password/login mentioned",
+    "source": "deterministic_rule",
+    "category": "CLEAR_MISLABEL"
+  },
+  {
+    "example_id": "GS-036",
+    "assigned_intent": "delivery_wrong_item",
+    "suspected_intent": "account_access",
+    "confidence": "high",
+    "reason": "Customer mentions digital access keywords, not physical wrong items.",
+    "evidence": "password/login mentioned",
+    "source": "deterministic_rule",
+    "category": "CLEAR_MISLABEL"
+  },
+  {
+    "example_id": "GS-037",
+    "assigned_intent": "delivery_wrong_item",
+    "suspected_intent": "account_access",
+    "confidence": "high",
+    "reason": "Customer mentions digital access keywords, not physical wrong items.",
+    "evidence": "password/login mentioned",
+    "source": "deterministic_rule",
+    "category": "CLEAR_MISLABEL"
+  },
+  {
+    "example_id": "GS-038",
+    "assigned_intent": "delivery_wrong_item",
+    "suspected_intent": "account_access",
+    "confidence": "high",
+    "reason": "Customer mentions digital access keywords, not physical wrong items.",
+    "evidence": "password/login mentioned",
+    "source": "deterministic_rule",
+    "category": "CLEAR_MISLABEL"
+  },
+  {
+    "example_id": "GS-039",
+    "assigned_intent": "delivery_wrong_item",
+    "suspected_intent": "account_access",
+    "confidence": "high",
+    "reason": "Customer mentions digital access keywords, not physical wrong items.",
+    "evidence": "password/login mentioned",
+    "source": "deterministic_rule",
+    "category": "CLEAR_MISLABEL"
+  },
+  {
+    "example_id": "GS-040",
+    "assigned_intent": "delivery_wrong_item",
+    "suspected_intent": "account_access",
+    "confidence": "high",
+    "reason": "Customer mentions digital access keywords, not physical wrong items.",
+    "evidence": "password/login mentioned",
+    "source": "deterministic_rule",
+    "category": "CLEAR_MISLABEL"
+  },
+  {
+    "example_id": "GS-041",
+    "assigned_intent": "delivery_wrong_item",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-042",
+    "assigned_intent": "returns_refunds",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-044",
+    "assigned_intent": "returns_refunds",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-045",
+    "assigned_intent": "returns_refunds",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-047",
+    "assigned_intent": "returns_refunds",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-049",
+    "assigned_intent": "returns_refunds",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-051",
+    "assigned_intent": "returns_refunds",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-052",
+    "assigned_intent": "returns_refunds",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-053",
+    "assigned_intent": "returns_refunds",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-058",
+    "assigned_intent": "account_billing",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-061",
+    "assigned_intent": "account_billing",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-064",
+    "assigned_intent": "account_billing",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-066",
+    "assigned_intent": "account_billing",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-070",
+    "assigned_intent": "digital_prime_video",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-079",
+    "assigned_intent": "digital_prime_video",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-082",
+    "assigned_intent": "digital_prime_video",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-086",
+    "assigned_intent": "digital_kindle",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-090",
+    "assigned_intent": "digital_kindle",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-092",
+    "assigned_intent": "digital_kindle",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-093",
+    "assigned_intent": "digital_kindle",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-094",
+    "assigned_intent": "digital_kindle",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-095",
+    "assigned_intent": "digital_kindle",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-097",
+    "assigned_intent": "digital_kindle",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-101",
+    "assigned_intent": "amazon_music",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-103",
+    "assigned_intent": "amazon_music",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-105",
+    "assigned_intent": "amazon_music",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-106",
+    "assigned_intent": "amazon_music",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-109",
+    "assigned_intent": "amazon_music",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-121",
+    "assigned_intent": "echo_alexa",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-124",
+    "assigned_intent": "echo_alexa",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-125",
+    "assigned_intent": "echo_alexa",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-128",
+    "assigned_intent": "account_access",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-130",
+    "assigned_intent": "account_access",
+    "suspected_intent": "delivery_wrong_item",
+    "confidence": "high",
+    "reason": "Customer mentions wrong physical item, not digital access.",
+    "evidence": "wrong item mentioned without login",
+    "source": "deterministic_rule",
+    "category": "CLEAR_MISLABEL"
+  },
+  {
+    "example_id": "GS-134",
+    "assigned_intent": "account_access",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-136",
+    "assigned_intent": "account_access",
+    "suspected_intent": "delivery_wrong_item",
+    "confidence": "high",
+    "reason": "Customer mentions wrong physical item, not digital access.",
+    "evidence": "wrong item mentioned without login",
+    "source": "deterministic_rule",
+    "category": "CLEAR_MISLABEL"
+  },
+  {
+    "example_id": "GS-142",
+    "assigned_intent": "promotions_pricing",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-143",
+    "assigned_intent": "promotions_pricing",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-144",
+    "assigned_intent": "promotions_pricing",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-145",
+    "assigned_intent": "promotions_pricing",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-146",
+    "assigned_intent": "promotions_pricing",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-147",
+    "assigned_intent": "promotions_pricing",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-153",
+    "assigned_intent": "promotions_pricing",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-154",
+    "assigned_intent": "amazon_locker",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-155",
+    "assigned_intent": "amazon_locker",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-156",
+    "assigned_intent": "amazon_locker",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-157",
+    "assigned_intent": "amazon_locker",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-159",
+    "assigned_intent": "amazon_locker",
+    "suspected_intent": "delivery_missing",
+    "confidence": "high",
+    "reason": "Locker was accessed but contents missing.",
+    "evidence": "empty locker",
+    "source": "deterministic_rule",
+    "category": "CLEAR_MISLABEL"
+  },
+  {
+    "example_id": "GS-160",
+    "assigned_intent": "amazon_locker",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-161",
+    "assigned_intent": "amazon_locker",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-162",
+    "assigned_intent": "amazon_locker",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-164",
+    "assigned_intent": "amazon_locker",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-165",
+    "assigned_intent": "amazon_locker",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-166",
+    "assigned_intent": "amazon_locker",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-167",
+    "assigned_intent": "amazon_locker",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-168",
+    "assigned_intent": "grocery_fresh",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-170",
+    "assigned_intent": "grocery_fresh",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-171",
+    "assigned_intent": "grocery_fresh",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-174",
+    "assigned_intent": "grocery_fresh",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-175",
+    "assigned_intent": "grocery_fresh",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-178",
+    "assigned_intent": "grocery_fresh",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-179",
+    "assigned_intent": "grocery_fresh",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-180",
+    "assigned_intent": "grocery_fresh",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-181",
+    "assigned_intent": "grocery_fresh",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-182",
+    "assigned_intent": "product_availability",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-183",
+    "assigned_intent": "product_availability",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-186",
+    "assigned_intent": "product_availability",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-188",
+    "assigned_intent": "product_availability",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  },
+  {
+    "example_id": "GS-195",
+    "assigned_intent": "product_availability",
+    "suspected_intent": null,
+    "confidence": "high",
+    "reason": "Assigned label appears correct based on rules, so this is a genuine model failure.",
+    "evidence": "Failed prediction but no deterministic mislabel flag. Bottleneck: None",
+    "source": "deterministic_rule",
+    "category": "MODEL_ERROR"
+  }
+]

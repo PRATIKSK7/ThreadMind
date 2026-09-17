@@ -1,0 +1,1579 @@
+{
+  "metrics": {
+    "total_examples": 196,
+    "intent_accuracy": 0.9897959183673469,
+    "escalation_accuracy": 1.0,
+    "abstention_rate": 0.0,
+    "error_rate": 0.0
+  },
+  "predictions": [
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-000"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-001"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-002"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-003"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-004"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-005"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-006"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-007"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-008"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-009"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-010"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-011"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-012"
+    },
+    {
+      "predicted_intent": "delivery_delayed",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-013"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-014"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-015"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-016"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-017"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-018"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-019"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-020"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-021"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-022"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-023"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-024"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-025"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-026"
+    },
+    {
+      "predicted_intent": "delivery_missing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-027"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-028"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-029"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-030"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-031"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-032"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-033"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-034"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-035"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-036"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-037"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-038"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-039"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.8,
+      "predicted_escalation": "human_review_recommended",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-040"
+    },
+    {
+      "predicted_intent": "delivery_wrong_item",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-041"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-042"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-043"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-044"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-045"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.8,
+      "predicted_escalation": "human_review_recommended",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-046"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-047"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-048"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-049"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-050"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-051"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.8,
+      "predicted_escalation": "human_review_recommended",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-052"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-053"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-054"
+    },
+    {
+      "predicted_intent": "returns_refunds",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-055"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-056"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-057"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-058"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-059"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-060"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.8,
+      "predicted_escalation": "human_review_recommended",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-061"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-062"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-063"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-064"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-065"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-066"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-067"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-068"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-069"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-070"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-071"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-072"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-073"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-074"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-075"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-076"
+    },
+    {
+      "predicted_intent": "account_billing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-077"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-078"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-079"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-080"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-081"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-082"
+    },
+    {
+      "predicted_intent": "digital_prime_video",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-083"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-084"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-085"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-086"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-087"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-088"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-089"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-090"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-091"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-092"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-093"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-094"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-095"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-096"
+    },
+    {
+      "predicted_intent": "digital_kindle",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-097"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-098"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-099"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-100"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-101"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-102"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-103"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-104"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-105"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-106"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-107"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-108"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-109"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-110"
+    },
+    {
+      "predicted_intent": "amazon_music",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-111"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-112"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-113"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-114"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-115"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-116"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-117"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-118"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-119"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-120"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-121"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-122"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-123"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-124"
+    },
+    {
+      "predicted_intent": "echo_alexa",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-125"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-126"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-127"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-128"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-129"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-130"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-131"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-132"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-133"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-134"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-135"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-136"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-137"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.8,
+      "predicted_escalation": "human_review_recommended",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-138"
+    },
+    {
+      "predicted_intent": "account_access",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-139"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-140"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-141"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-142"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-143"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-144"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-145"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-146"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-147"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-148"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-149"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-150"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-151"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-152"
+    },
+    {
+      "predicted_intent": "promotions_pricing",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-153"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-154"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-155"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-156"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-157"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-158"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-159"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-160"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-161"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-162"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-163"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-164"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-165"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.8,
+      "predicted_escalation": "human_review_recommended",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-166"
+    },
+    {
+      "predicted_intent": "amazon_locker",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-167"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-168"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-169"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-170"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-171"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-172"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-173"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-174"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-175"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-176"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-177"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-178"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-179"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-180"
+    },
+    {
+      "predicted_intent": "grocery_fresh",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-181"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-182"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-183"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-184"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-185"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-186"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-187"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-188"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-189"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-190"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-191"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-192"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-193"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-194"
+    },
+    {
+      "predicted_intent": "product_availability",
+      "confidence": 0.8,
+      "predicted_escalation": "no_escalation",
+      "reasoning_summary": "Keyword matching heuristics. Intent matched: True",
+      "error": null,
+      "example_id": "GS-195"
+    }
+  ]
+}

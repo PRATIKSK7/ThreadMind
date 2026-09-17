@@ -1,0 +1,9 @@
+{
+  "v1_document_count": 35247,
+  "v2_document_count": 35247,
+  "embedding_dimension": 384,
+  "index_dimension": 384,
+  "metadata_count": 35247,
+  "index_vector_count": 35247,
+  "document_id_uniqueness": true
+}

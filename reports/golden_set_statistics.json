@@ -1,0 +1,52 @@
+{
+  "total_examples": 196,
+  "examples_per_intent": {
+    "delivery_delayed": 14,
+    "delivery_missing": 14,
+    "delivery_wrong_item": 14,
+    "returns_refunds": 14,
+    "account_billing": 14,
+    "digital_prime_video": 14,
+    "digital_kindle": 14,
+    "amazon_music": 14,
+    "echo_alexa": 14,
+    "account_access": 14,
+    "promotions_pricing": 14,
+    "amazon_locker": 14,
+    "grocery_fresh": 14,
+    "product_availability": 14
+  },
+  "turn_distribution": {
+    "2": 98,
+    "4": 47,
+    "3": 23,
+    "12": 1,
+    "10": 2,
+    "8": 3,
+    "5": 8,
+    "6": 8,
+    "7": 3,
+    "9": 2,
+    "11": 1
+  },
+  "difficulty_distribution": {
+    "easy": 91,
+    "medium": 56,
+    "ambiguous": 39,
+    "hard": 10
+  },
+  "escalation_distribution": {
+    "no_escalation": 190,
+    "human_review_recommended": 6
+  },
+  "average_conversation_length": 3.7551020408163267,
+  "median_conversation_length": 3.0,
+  "p90_conversation_length": 7.0,
+  "semantic_ambiguity_count": 11,
+  "structural_complexity": {
+    "simple": 156,
+    "incomplete": 40
+  },
+  "context_dependent_count": 44,
+  "intent_conflict_count": 11
+}

@@ -1,0 +1,821 @@
+{
+  "summary": {
+    "total_queries": 5000,
+    "failures_at_k3": 996,
+    "failure_rate_k3": 0.1992,
+    "failures_by_intent": {
+      "delivery_delayed": 193,
+      "returns_refunds": 157,
+      "account_billing": 129,
+      "product_availability": 128,
+      "promotions_pricing": 118,
+      "delivery_missing": 60,
+      "account_access": 53,
+      "digital_prime_video": 30,
+      "echo_alexa": 29,
+      "amazon_locker": 28,
+      "grocery_fresh": 28,
+      "digital_kindle": 21,
+      "delivery_wrong_item": 12,
+      "amazon_music": 10
+    }
+  },
+  "per_intent": {
+    "account_access": {
+      "recall_at_1": 0.5611,
+      "recall_at_3": 0.7602,
+      "recall_at_5": 0.7964,
+      "total_queries": 221,
+      "failures_at_k3": 53,
+      "faiss_docs": 1193
+    },
+    "account_billing": {
+      "recall_at_1": 0.5493,
+      "recall_at_3": 0.7598,
+      "recall_at_5": 0.8119,
+      "total_queries": 537,
+      "failures_at_k3": 129,
+      "faiss_docs": 3387
+    },
+    "amazon_locker": {
+      "recall_at_1": 0.3396,
+      "recall_at_3": 0.4717,
+      "recall_at_5": 0.5283,
+      "total_queries": 53,
+      "failures_at_k3": 28,
+      "faiss_docs": 303
+    },
+    "amazon_music": {
+      "recall_at_1": 0.7206,
+      "recall_at_3": 0.8529,
+      "recall_at_5": 0.8971,
+      "total_queries": 68,
+      "failures_at_k3": 10,
+      "faiss_docs": 697
+    },
+    "delivery_delayed": {
+      "recall_at_1": 0.4079,
+      "recall_at_3": 0.7286,
+      "recall_at_5": 0.8397,
+      "total_queries": 711,
+      "failures_at_k3": 193,
+      "faiss_docs": 5469
+    },
+    "delivery_missing": {
+      "recall_at_1": 0.7398,
+      "recall_at_3": 0.9454,
+      "recall_at_5": 0.9791,
+      "total_queries": 1099,
+      "failures_at_k3": 60,
+      "faiss_docs": 9316
+    },
+    "delivery_wrong_item": {
+      "recall_at_1": 0.3438,
+      "recall_at_3": 0.625,
+      "recall_at_5": 0.6562,
+      "total_queries": 32,
+      "failures_at_k3": 12,
+      "faiss_docs": 548
+    },
+    "digital_kindle": {
+      "recall_at_1": 0.7298,
+      "recall_at_3": 0.9153,
+      "recall_at_5": 0.9355,
+      "total_queries": 248,
+      "failures_at_k3": 21,
+      "faiss_docs": 1533
+    },
+    "digital_prime_video": {
+      "recall_at_1": 0.739,
+      "recall_at_3": 0.8795,
+      "recall_at_5": 0.9157,
+      "total_queries": 249,
+      "failures_at_k3": 30,
+      "faiss_docs": 1503
+    },
+    "echo_alexa": {
+      "recall_at_1": 0.7391,
+      "recall_at_3": 0.903,
+      "recall_at_5": 0.9264,
+      "total_queries": 299,
+      "failures_at_k3": 29,
+      "faiss_docs": 1655
+    },
+    "grocery_fresh": {
+      "recall_at_1": 0.2326,
+      "recall_at_3": 0.3488,
+      "recall_at_5": 0.3953,
+      "total_queries": 43,
+      "failures_at_k3": 28,
+      "faiss_docs": 306
+    },
+    "product_availability": {
+      "recall_at_1": 0.3275,
+      "recall_at_3": 0.5493,
+      "recall_at_5": 0.6373,
+      "total_queries": 284,
+      "failures_at_k3": 128,
+      "faiss_docs": 1470
+    },
+    "promotions_pricing": {
+      "recall_at_1": 0.4502,
+      "recall_at_3": 0.6206,
+      "recall_at_5": 0.6849,
+      "total_queries": 311,
+      "failures_at_k3": 118,
+      "faiss_docs": 1769
+    },
+    "returns_refunds": {
+      "recall_at_1": 0.5822,
+      "recall_at_3": 0.8142,
+      "recall_at_5": 0.8769,
+      "total_queries": 845,
+      "failures_at_k3": 157,
+      "faiss_docs": 6098
+    }
+  },
+  "confusion_matrix_top20": [
+    {
+      "true": "delivery_delayed",
+      "predicted": "delivery_missing",
+      "count": 379
+    },
+    {
+      "true": "returns_refunds",
+      "predicted": "delivery_missing",
+      "count": 259
+    },
+    {
+      "true": "product_availability",
+      "predicted": "delivery_missing",
+      "count": 149
+    },
+    {
+      "true": "account_billing",
+      "predicted": "delivery_missing",
+      "count": 132
+    },
+    {
+      "true": "promotions_pricing",
+      "predicted": "delivery_missing",
+      "count": 110
+    },
+    {
+      "true": "returns_refunds",
+      "predicted": "delivery_delayed",
+      "count": 110
+    },
+    {
+      "true": "account_billing",
+      "predicted": "returns_refunds",
+      "count": 92
+    },
+    {
+      "true": "product_availability",
+      "predicted": "delivery_delayed",
+      "count": 88
+    },
+    {
+      "true": "account_billing",
+      "predicted": "delivery_delayed",
+      "count": 85
+    },
+    {
+      "true": "promotions_pricing",
+      "predicted": "delivery_delayed",
+      "count": 84
+    },
+    {
+      "true": "delivery_missing",
+      "predicted": "delivery_delayed",
+      "count": 83
+    },
+    {
+      "true": "delivery_delayed",
+      "predicted": "returns_refunds",
+      "count": 67
+    },
+    {
+      "true": "promotions_pricing",
+      "predicted": "returns_refunds",
+      "count": 66
+    },
+    {
+      "true": "account_access",
+      "predicted": "delivery_missing",
+      "count": 65
+    },
+    {
+      "true": "delivery_delayed",
+      "predicted": "account_billing",
+      "count": 52
+    },
+    {
+      "true": "promotions_pricing",
+      "predicted": "account_billing",
+      "count": 42
+    },
+    {
+      "true": "delivery_missing",
+      "predicted": "returns_refunds",
+      "count": 40
+    },
+    {
+      "true": "product_availability",
+      "predicted": "returns_refunds",
+      "count": 36
+    },
+    {
+      "true": "amazon_locker",
+      "predicted": "delivery_missing",
+      "count": 36
+    },
+    {
+      "true": "grocery_fresh",
+      "predicted": "delivery_missing",
+      "count": 35
+    }
+  ],
+  "failure_characteristics": {
+    "mean_query_len_failures": 121.9,
+    "mean_query_len_successes": 89.2,
+    "mean_top1_score_failures": 0.7736,
+    "mean_top1_score_successes": 0.7723,
+    "short_query_failures": 1,
+    "single_message_failures": 229
+  },
+  "failure_examples": [
+    {
+      "thread_id": "3b220a1f52927f6f",
+      "intent": "promotions_pricing",
+      "query_len_tokens": 101,
+      "num_messages": 5,
+      "top3_intents": [
+        "delivery_missing",
+        "delivery_delayed",
+        "returns_refunds"
+      ],
+      "top3_scores": [
+        0.8017280101776123,
+        0.7797845005989075,
+        0.7709057331085205
+      ],
+      "top1_score": 0.8017280101776123,
+      "hit_k3": false,
+      "query_preview": "User: @115850 please look into the concern of my Order # 407-1789089-4688337. I did not get upfront discount for No Cost EMI offer.\nAgent: @638622 Apologies, Rohan. I\u2019d like to assist you. Please fill this form:  https://t.co/beaaDm0muc and I\u2019ll contact you soon. 1/2 ^NK\nUser: @AmazonHelp I have fil"
+    },
+    {
+      "thread_id": "66d75db8f7bdefff",
+      "intent": "account_billing",
+      "query_len_tokens": 36,
+      "num_messages": 2,
+      "top3_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "top3_scores": [
+        0.6670575141906738,
+        0.6656128168106079,
+        0.6635051965713501
+      ],
+      "top1_score": 0.6670575141906738,
+      "hit_k3": false,
+      "query_preview": "User: @119625 Are you going to launch TV app for Smart TVs like VU? Netflix has done it and it seemed to increase their subscription.\nAgent: @305630 We haven't announced anything yet. Kindly stay tuned. ^PS"
+    },
+    {
+      "thread_id": "88a18be38aa707b2",
+      "intent": "promotions_pricing",
+      "query_len_tokens": 38,
+      "num_messages": 2,
+      "top3_intents": [
+        "delivery_delayed",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "top3_scores": [
+        0.6251062750816345,
+        0.6155140399932861,
+        0.5880403518676758
+      ],
+      "top1_score": 0.6251062750816345,
+      "hit_k3": false,
+      "query_preview": "User: Thank u @115850 for this lovely #purse whc I got at n awesm price!\n#prebirthday gift to myself https://t.co/NMLgdwPA0V\nAgent: @459891 Dayuuummm!! That looks awesome. I bet everyone is gonna give you a second look \ud83d\ude0d\ud83d\ude0d ^SV"
+    },
+    {
+      "thread_id": "fbd53f99300fb429",
+      "intent": "returns_refunds",
+      "query_len_tokens": 161,
+      "num_messages": 5,
+      "top3_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "top3_scores": [
+        0.7940402626991272,
+        0.7841031551361084,
+        0.7834892272949219
+      ],
+      "top1_score": 0.7940402626991272,
+      "hit_k3": false,
+      "query_preview": "User: @115830 @AmazonHelp I am extremely unhappy. Next day delivery? Lol. Now out of pocket and with no items and I go away in 3 days! Yeah cheers.\nAgent: @786829 I am sorry to hear you are still waiting for this, Joe. What was the delivery day given in the tracking? Who is the carrier for this orde"
+    },
+    {
+      "thread_id": "3c53ea4f319edc54",
+      "intent": "delivery_delayed",
+      "query_len_tokens": 244,
+      "num_messages": 6,
+      "top3_intents": [
+        "delivery_missing",
+        "delivery_wrong_item",
+        "delivery_missing"
+      ],
+      "top3_scores": [
+        0.7714291214942932,
+        0.747370183467865,
+        0.7453900575637817
+      ],
+      "top1_score": 0.7714291214942932,
+      "hit_k3": false,
+      "query_preview": "User: When buying from @115821  i wish I lived in a rural area where I would never have to see anything shipped via AMZL.  There is maybe a 50% chance of ever seeing what I ordered when shipped locally in the Atlanta area.\nAgent: @214403 I'm sorry for the trouble with your deliveries! I'd like to ha"
+    },
+    {
+      "thread_id": "efd32665fc639a34",
+      "intent": "product_availability",
+      "query_len_tokens": 47,
+      "num_messages": 2,
+      "top3_intents": [
+        "delivery_delayed",
+        "promotions_pricing",
+        "digital_prime_video"
+      ],
+      "top3_scores": [
+        0.6791234016418457,
+        0.6709998250007629,
+        0.6465355157852173
+      ],
+      "top1_score": 0.6791234016418457,
+      "hit_k3": false,
+      "query_preview": "User: @115828 Thanks to the asshole over there that canceled my pre-order of Wolfenstein II for no reason or without sending an email why.\nAgent: @419103 We're here to help, but we cannot access your account info on Twitter. Please give us a call here: https://t.co/hApLpMlfHN ^JD"
+    },
+    {
+      "thread_id": "e068fa47cbb0ecbb",
+      "intent": "digital_kindle",
+      "query_len_tokens": 102,
+      "num_messages": 4,
+      "top3_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "top3_scores": [
+        0.889107346534729,
+        0.8879761695861816,
+        0.8637009859085083
+      ],
+      "top1_score": 0.889107346534729,
+      "hit_k3": false,
+      "query_preview": "User: @115830 my kindle seems to have died for good! Not charging or turning on? It is a few years old but wondered if you could help please?\nAgent: @263271 I'm terribly sorry your Kindle isn't turning on! Let's try pressing and holding the power button for 20 seconds and then charging the device fo"
+    },
+    {
+      "thread_id": "9b2239bce1aeb4b8",
+      "intent": "account_billing",
+      "query_len_tokens": 51,
+      "num_messages": 2,
+      "top3_intents": [
+        "delivery_missing",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "top3_scores": [
+        0.8355252742767334,
+        0.826639711856842,
+        0.8236126899719238
+      ],
+      "top1_score": 0.8355252742767334,
+      "hit_k3": false,
+      "query_preview": "User: How dare @115821 tell me that they lost my package. Go find it?? I don\u2019t pay all this money for amazon prime for y\u2019all to be doing this.\nAgent: @477280 I'm sorry you haven't received your package! Please reach out to us here: https://t.co/hApLpMlfHN so we can explore options. ^TN"
+    },
+    {
+      "thread_id": "62d12e9cfe4cdd13",
+      "intent": "account_access",
+      "query_len_tokens": 126,
+      "num_messages": 7,
+      "top3_intents": [
+        "promotions_pricing",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "top3_scores": [
+        0.5856723785400391,
+        0.5651353001594543,
+        0.5598331689834595
+      ],
+      "top1_score": 0.5856723785400391,
+      "hit_k3": false,
+      "query_preview": "User: Just bought some @79058 Dome Flax speakers from @115821 and the speaker and accessories are missing. \ud83d\ude24 https://t.co/JrWIkWRzv2\nUser: @118355 @79058 @115821 Dude you are going to love those bad boys. I am jealous \ud83e\udd29\nUser: @573403 @79058 @115821 How am I going to love them when I don't even have "
+    },
+    {
+      "thread_id": "cb8239fcf272768c",
+      "intent": "account_billing",
+      "query_len_tokens": 204,
+      "num_messages": 6,
+      "top3_intents": [
+        "delivery_delayed",
+        "returns_refunds",
+        "delivery_delayed"
+      ],
+      "top3_scores": [
+        0.7750579714775085,
+        0.7728735208511353,
+        0.7655171751976013
+      ],
+      "top1_score": 0.7750579714775085,
+      "hit_k3": false,
+      "query_preview": "User: Is \u20b92500 a easy money for you? It's been 2 days and no resolution has been taken yet. I would never recommend @115850 to any of my friends and relatives anymore.Just take this used product back and send me a replacement and I would never ever come back to Amazon. @AmazonHelp\nAgent: @285435 I g"
+    },
+    {
+      "thread_id": "c9ae5715a4a32dcd",
+      "intent": "amazon_locker",
+      "query_len_tokens": 142,
+      "num_messages": 8,
+      "top3_intents": [
+        "echo_alexa",
+        "echo_alexa",
+        "returns_refunds"
+      ],
+      "top3_scores": [
+        0.8117765188217163,
+        0.8090810775756836,
+        0.7944560050964355
+      ],
+      "top1_score": 0.8117765188217163,
+      "hit_k3": false,
+      "query_preview": "User: Estoy pagando un servicio \u201cpremium\u201d de @116928 que se convierte siempre en una mala experiencia por culpa de @80 \n\nNecesito soluci\u00f3n.\nAgent: @507569 Hola Ra\u00fal, \u00bfen el momento tienes un pedido pendiente de entrega con @130687? ^DA\nUser: @AmazonHelp @130687 Si, estaba esta ma\u00f1ana en reparto, y d"
+    },
+    {
+      "thread_id": "e84df5ca8b8dd7be",
+      "intent": "account_billing",
+      "query_len_tokens": 106,
+      "num_messages": 4,
+      "top3_intents": [
+        "returns_refunds",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "top3_scores": [
+        0.812891960144043,
+        0.8049408793449402,
+        0.7933221459388733
+      ],
+      "top1_score": 0.812891960144043,
+      "hit_k3": false,
+      "query_preview": "User: @AmazonHelp I have been billed for 2 items I have previously cancelled. I just spent 15mins on the phone before it got cut off. PLEASE HELP\nAgent: @134319 Hi, without providing any personal information. Can you let me know when you canceled these items? ^KI\nUser: @AmazonHelp August, I can no l"
+    },
+    {
+      "thread_id": "c52d108bca4a873e",
+      "intent": "product_availability",
+      "query_len_tokens": 76,
+      "num_messages": 4,
+      "top3_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "top3_scores": [
+        0.7892424464225769,
+        0.785057783126831,
+        0.7821571826934814
+      ],
+      "top1_score": 0.7892424464225769,
+      "hit_k3": false,
+      "query_preview": "User: @115830 @129773 @AmazonHelp  wanted to settle down and watch Arrival... where are the subtitles?\nAgent: @196521 Hey there, which device are you streaming from? Here's how you can turn them on in app: https://t.co/GTAymnS0jA ^DW\nUser: @AmazonHelp I know how to switch them on when the option is "
+    },
+    {
+      "thread_id": "94a6be39e6d1d2ba",
+      "intent": "delivery_delayed",
+      "query_len_tokens": 94,
+      "num_messages": 6,
+      "top3_intents": [
+        "account_access",
+        "account_billing",
+        "account_billing"
+      ],
+      "top3_scores": [
+        0.7282835841178894,
+        0.720612108707428,
+        0.7158188223838806
+      ],
+      "top1_score": 0.7282835841178894,
+      "hit_k3": false,
+      "query_preview": "User: De mieux en mieux mon colis @120533 ... https://t.co/UUFQ8hHEdA\nAgent: @324105 Bonjour, d\u00e9sol\u00e9e d'apprendre cela :/ je vous prie de le signaler \u00e0 notre SAV via ce lien  https://t.co/hgIrz98cdI ^SN\nUser: @AmazonHelp W\u00e9 comme d'hab', peut-\u00eatre qu'ils me le renverront une troisi\u00e8me fois et qu'il "
+    },
+    {
+      "thread_id": "624b90667919d473",
+      "intent": "delivery_delayed",
+      "query_len_tokens": 65,
+      "num_messages": 3,
+      "top3_intents": [
+        "returns_refunds",
+        "account_billing",
+        "delivery_missing"
+      ],
+      "top3_scores": [
+        0.7432042956352234,
+        0.7410774827003479,
+        0.7383413910865784
+      ],
+      "top1_score": 0.7432042956352234,
+      "hit_k3": false,
+      "query_preview": "User: @115821  25 min of trying to get help for my SELLER account.  The dumb broad thinks I can't get n2 my PRIME account.... #frustrated #fedup\nAgent: @513968 I'm sorry for your poor experience! Have you tried reaching out to our Seller Support team here: https://t.co/CkkspV6iXg ^ZW\nUser: @AmazonHe"
+    },
+    {
+      "thread_id": "663198146de19c37",
+      "intent": "account_billing",
+      "query_len_tokens": 34,
+      "num_messages": 2,
+      "top3_intents": [
+        "grocery_fresh",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "top3_scores": [
+        0.5285708904266357,
+        0.509523868560791,
+        0.46254733204841614
+      ],
+      "top1_score": 0.5285708904266357,
+      "hit_k3": false,
+      "query_preview": "User: @115850 orderd for a gopro dual battery charger, I received assembling screws https://t.co/8ZREYxUbwh\nAgent: @307998 Sorry for the hassle. Please report this to our support team here: https://t.co/vlvfJr4nN9 and we'll check this. ^HN"
+    },
+    {
+      "thread_id": "bba5d2b92d4f87ea",
+      "intent": "account_access",
+      "query_len_tokens": 50,
+      "num_messages": 2,
+      "top3_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "top3_scores": [
+        0.7588295936584473,
+        0.752123236656189,
+        0.7516056299209595
+      ],
+      "top1_score": 0.7588295936584473,
+      "hit_k3": false,
+      "query_preview": "User: @115850 status since morning unchanged. Exp the normal reply of not being at home or door locked from your agents. no sense of a prime ac https://t.co/6FymLt7Kzu\nAgent: @192130 We deliver the packages until 8 pm. Kindly wait until then and I'm positive your order will be delivered. ^SH"
+    },
+    {
+      "thread_id": "35ff3d9a8a7fdb50",
+      "intent": "account_billing",
+      "query_len_tokens": 150,
+      "num_messages": 7,
+      "top3_intents": [
+        "delivery_missing",
+        "promotions_pricing",
+        "delivery_missing"
+      ],
+      "top3_scores": [
+        0.8686487078666687,
+        0.868190586566925,
+        0.865532398223877
+      ],
+      "top1_score": 0.8686487078666687,
+      "hit_k3": false,
+      "query_preview": "User: @AmazonHelp @115850 @115851 This is the real amazon. Think twice before using it. My money they cheated. Others please beware. Fraud https://t.co/mk3UE8HMl6\nAgent: @215402 Kindly revert to our email correspondence with further query on this and we'll be happy to take it over from there. 1/2 ^A"
+    },
+    {
+      "thread_id": "31113f6a5ad4a03a",
+      "intent": "delivery_delayed",
+      "query_len_tokens": 74,
+      "num_messages": 2,
+      "top3_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "top3_scores": [
+        0.8170351982116699,
+        0.8005857467651367,
+        0.7958106994628906
+      ],
+      "top1_score": 0.8170351982116699,
+      "hit_k3": false,
+      "query_preview": "User: @115850 hi Amazon. I haven\u2019t received an order that I placed #407-4807696-5197169. The scheduled delivery date was 25th. I delayed pickup till 27th but still haven\u2019t received it.\nAgent: @120170 Sorry for the delay in delivering the order. Kindly get in touch with us here: https://t.co/SkOtFiqc"
+    },
+    {
+      "thread_id": "07067746b32ef5d5",
+      "intent": "delivery_delayed",
+      "query_len_tokens": 50,
+      "num_messages": 2,
+      "top3_intents": [
+        "delivery_wrong_item",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "top3_scores": [
+        0.6083645224571228,
+        0.6078133583068848,
+        0.6068223714828491
+      ],
+      "top1_score": 0.6083645224571228,
+      "hit_k3": false,
+      "query_preview": "User: Yo @115821 y\u2019all have been letting me down lately with the service... I ordered a poster and y\u2019all just balled it up and threw it on truck\nAgent: @184670 I'm sorry to hear about this. Have you had a chance to view return / replacement options here: https://t.co/q4LAMZ3tbE? ^GR"
+    }
+  ],
+  "success_examples": [
+    {
+      "thread_id": "7bf3f858543d17b8",
+      "intent": "digital_kindle",
+      "query_len_tokens": 91,
+      "num_messages": 6,
+      "top3_intents": [
+        "digital_prime_video",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "top3_scores": [
+        0.8276197910308838,
+        0.815331220626831,
+        0.8114293813705444
+      ],
+      "top1_score": 0.8276197910308838,
+      "hit_k3": true,
+      "query_preview": "User: Hey @115821, is there something wrong with digital services? Can't buy any Kindle books at the moment.\nAgent: @127027 Hey Doug, have you tried logging out an in again? ^BD\nUser: @AmazonHelp Just did. There are no buy options for some reason. https://t.co/b0WgwmXbee\nUser: @127027 @AmazonHelp Th"
+    },
+    {
+      "thread_id": "615aaf454dceb734",
+      "intent": "digital_prime_video",
+      "query_len_tokens": 144,
+      "num_messages": 8,
+      "top3_intents": [
+        "digital_prime_video",
+        "account_billing",
+        "promotions_pricing"
+      ],
+      "top3_scores": [
+        0.7121297121047974,
+        0.6634761095046997,
+        0.6377023458480835
+      ],
+      "top1_score": 0.7121297121047974,
+      "hit_k3": true,
+      "query_preview": "User: @AmazonHelp All the voices in Amazon movies sound like gerbils. All the words are very fast. Tried restarting firestick, Pausing, rew, ff\nAgent: @193751 We'd like to try some real-time troubleshooting with you. Please reach out to us via phone/chat here: https://t.co/hApLpMlfHN ^KP\nUser: @Amaz"
+    },
+    {
+      "thread_id": "7bbe3407adfa1bfa",
+      "intent": "product_availability",
+      "query_len_tokens": 104,
+      "num_messages": 5,
+      "top3_intents": [
+        "digital_prime_video",
+        "product_availability",
+        "delivery_delayed"
+      ],
+      "top3_scores": [
+        0.7861418128013611,
+        0.7339999675750732,
+        0.6452792286872864
+      ],
+      "top1_score": 0.7861418128013611,
+      "hit_k3": true,
+      "query_preview": "User: @116618 bought Dirk gently season 2 pass, should be able to watch episode one now but says it's not available. What's going on?\nAgent: @393314 I'm sorry it isn't available. I'll let our Video team know. Please check back on the website for any updates.  ^AF\nUser: @AmazonHelp I can't cancel and"
+    },
+    {
+      "thread_id": "4e37037679f97cec",
+      "intent": "account_billing",
+      "query_len_tokens": 58,
+      "num_messages": 2,
+      "top3_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "top3_scores": [
+        0.7832692265510559,
+        0.7625576853752136,
+        0.7566242218017578
+      ],
+      "top1_score": 0.7832692265510559,
+      "hit_k3": true,
+      "query_preview": "User: I'm not sure who is the problem, @103620 or @115823 it seemed to process a order without confirming the payment. Now I've been charged for 2 orders.\nAgent: @755178 I was able to find the contact information for @103620 here: https://t.co/uGpWQkzLEX. If you need any help after speaking with the"
+    },
+    {
+      "thread_id": "efd2fe59ffeab1b3",
+      "intent": "promotions_pricing",
+      "query_len_tokens": 113,
+      "num_messages": 5,
+      "top3_intents": [
+        "delivery_missing",
+        "promotions_pricing",
+        "product_availability"
+      ],
+      "top3_scores": [
+        0.7139981985092163,
+        0.6886388063430786,
+        0.6817307472229004
+      ],
+      "top1_score": 0.7139981985092163,
+      "hit_k3": true,
+      "query_preview": "User: @115850 Why are false news posted in the app and put customers in trouble. This has created loads of hassles to me. https://t.co/pafXEVu5zH\nAgent: @202193 The requested variant is currently not available with any of the sellers inventory.  Please stay tuned. ^YP\nUser: @202193 @115850 I dont th"
+    },
+    {
+      "thread_id": "272ca2ecf3705e8a",
+      "intent": "echo_alexa",
+      "query_len_tokens": 35,
+      "num_messages": 2,
+      "top3_intents": [
+        "echo_alexa",
+        "echo_alexa",
+        "echo_alexa"
+      ],
+      "top3_scores": [
+        0.7668660879135132,
+        0.7623869180679321,
+        0.7581685781478882
+      ],
+      "top1_score": 0.7668660879135132,
+      "hit_k3": true,
+      "query_preview": "User: @121284 how do I connect my Fire TV stick to Echo Plus? @AmazonHelp\nAgent: @460282 Kindly reach out to us via: https://t.co/tc3VJIYzxn and select the option of devices. Our team will assist you. ^NR"
+    },
+    {
+      "thread_id": "473998e3ea2f5e8c",
+      "intent": "delivery_missing",
+      "query_len_tokens": 70,
+      "num_messages": 4,
+      "top3_intents": [
+        "delivery_missing",
+        "returns_refunds",
+        "delivery_missing"
+      ],
+      "top3_scores": [
+        0.7252140045166016,
+        0.7241314053535461,
+        0.7091116905212402
+      ],
+      "top1_score": 0.7252140045166016,
+      "hit_k3": true,
+      "query_preview": "User: @AmazonHelp Please, my Package damaged and will not be delivered. I receive this mensage. what I need to do? was there in Brazil at that moment. Thank you\nAgent: @118102 Hello Ale, we are very sorry to hear that you had this experience. Please, contact our Customer Support so they can check th"
+    },
+    {
+      "thread_id": "76a128416a770a1e",
+      "intent": "delivery_missing",
+      "query_len_tokens": 162,
+      "num_messages": 5,
+      "top3_intents": [
+        "delivery_delayed",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "top3_scores": [
+        0.8408631086349487,
+        0.8370646834373474,
+        0.8367103338241577
+      ],
+      "top1_score": 0.8408631086349487,
+      "hit_k3": true,
+      "query_preview": "User: @AmazonHelp update.  AMZL delivered one package that was supposed to be delivered yesterday and my other package that was supposed to be delivered Friday has now been lost in transit.\nUser: @AmazonHelp This is also what I get when I try to contact @115821 @AmazonHelp https://t.co/xc05LFmWMf\nAg"
+    },
+    {
+      "thread_id": "342defd7ee90c4cc",
+      "intent": "echo_alexa",
+      "query_len_tokens": 44,
+      "num_messages": 2,
+      "top3_intents": [
+        "echo_alexa",
+        "digital_kindle",
+        "echo_alexa"
+      ],
+      "top3_scores": [
+        0.7154768109321594,
+        0.7010796070098877,
+        0.6912341117858887
+      ],
+      "top1_score": 0.7154768109321594,
+      "hit_k3": true,
+      "query_preview": "User: sono INCAZZATISSIMA !! ecco il bel servizio di @120540  per chi acquista!!! preparare le sostituzioni di OGNI prodotto! io le robe trattate coi piedi non le tengo!! CHE SCHIFO! #AMAZON https://t.co/bxaADa2i55\nAgent: @226069 Mi spiace, hai segnalato l'accaduto al nostro Servizio Clienti? ^GA"
+    },
+    {
+      "thread_id": "dad57d161b27da1f",
+      "intent": "delivery_missing",
+      "query_len_tokens": 111,
+      "num_messages": 8,
+      "top3_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "top3_scores": [
+        0.8792660236358643,
+        0.8733951449394226,
+        0.8676493167877197
+      ],
+      "top1_score": 0.8792660236358643,
+      "hit_k3": true,
+      "query_preview": "User: @115850 @AmazonHelp @115821 Order #407-5204215-5105149 placed 11 days back has not been delivered yet,really dissatisfied,Pathetic\nAgent: @582670 Sorry to hear that, Puneet. Please fill this form: https://t.co/beaaDm0muc and I\u2019ll contact you at the earliest. 1/2 ^NK\nUser: @AmazonHelp Filled\nAg"
+    }
+  ]
+}

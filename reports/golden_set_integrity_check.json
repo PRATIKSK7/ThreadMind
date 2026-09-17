@@ -1,0 +1,10 @@
+{
+  "count_before": 196,
+  "count_after": 196,
+  "approved_repairs": 14,
+  "actual_intent_changes": 14,
+  "conversation_changes": 0,
+  "escalation_changes": 0,
+  "unexpected_changes": 0,
+  "integrity_pass": true
+}

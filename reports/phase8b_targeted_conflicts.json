@@ -1,0 +1,92 @@
+[
+  {
+    "document_id": "f5217fe96aa14547",
+    "old_label": "account_access",
+    "new_candidate_label": "delivery_missing",
+    "confidence": 0.85,
+    "reason": "mocked",
+    "retrieval_frequency": 2,
+    "highest_rank": 3
+  },
+  {
+    "document_id": "7fb22ec25b81af0e",
+    "old_label": "account_access",
+    "new_candidate_label": "delivery_missing",
+    "confidence": 0.85,
+    "reason": "mocked",
+    "retrieval_frequency": 3,
+    "highest_rank": 1
+  },
+  {
+    "document_id": "29986532006dfa45",
+    "old_label": "account_access",
+    "new_candidate_label": "delivery_missing",
+    "confidence": 0.85,
+    "reason": "mocked",
+    "retrieval_frequency": 1,
+    "highest_rank": 5
+  },
+  {
+    "document_id": "301a99a5765fb9f6",
+    "old_label": "account_access",
+    "new_candidate_label": "delivery_missing",
+    "confidence": 0.85,
+    "reason": "mocked",
+    "retrieval_frequency": 1,
+    "highest_rank": 5
+  },
+  {
+    "document_id": "2e3a9afe67df1fbb",
+    "old_label": "account_access",
+    "new_candidate_label": "delivery_missing",
+    "confidence": 0.85,
+    "reason": "mocked",
+    "retrieval_frequency": 1,
+    "highest_rank": 4
+  },
+  {
+    "document_id": "e0c93e54ab944af1",
+    "old_label": "account_access",
+    "new_candidate_label": "delivery_missing",
+    "confidence": 0.85,
+    "reason": "mocked",
+    "retrieval_frequency": 2,
+    "highest_rank": 3
+  },
+  {
+    "document_id": "ed341d21b7245704",
+    "old_label": "account_access",
+    "new_candidate_label": "delivery_missing",
+    "confidence": 0.85,
+    "reason": "mocked",
+    "retrieval_frequency": 2,
+    "highest_rank": 3
+  },
+  {
+    "document_id": "a44546f8bcde8741",
+    "old_label": "account_access",
+    "new_candidate_label": "delivery_missing",
+    "confidence": 0.85,
+    "reason": "mocked",
+    "retrieval_frequency": 3,
+    "highest_rank": 1
+  },
+  {
+    "document_id": "6b378e5b5f1a10de",
+    "old_label": "account_access",
+    "new_candidate_label": "delivery_missing",
+    "confidence": 0.85,
+    "reason": "mocked",
+    "retrieval_frequency": 2,
+    "highest_rank": 3
+  },
+  {
+    "document_id": "e9f5ab124b85a264",
+    "old_label": "account_access",
+    "new_candidate_label": "delivery_missing",
+    "confidence": 0.85,
+    "reason": "mocked",
+    "retrieval_frequency": 5,
+    "highest_rank": 1
+  }
+]

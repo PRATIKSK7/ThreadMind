@@ -1,0 +1,24 @@
+{
+  "stats": {
+    "original_count": 82360,
+    "candidate_count": 82360,
+    "high_confidence": 24952,
+    "review": 57408,
+    "insufficient_context": 0,
+    "changed": 57408,
+    "unchanged": 24952
+  },
+  "top_transitions": {
+    "unknown -> other_support": 47113,
+    "delivery_missing -> other_support": 3745,
+    "returns_refunds -> other_support": 2134,
+    "delivery_delayed -> other_support": 1945,
+    "account_billing -> other_support": 667,
+    "delivery_wrong_item -> other_support": 409,
+    "digital_prime_video -> other_support": 329,
+    "amazon_music -> other_support": 305,
+    "digital_kindle -> other_support": 288,
+    "echo_alexa -> other_support": 165
+  },
+  "boundary_stats": {}
+}

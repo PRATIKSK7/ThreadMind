@@ -1,0 +1,350 @@
+[
+  {
+    "type": "IMPROVEMENT",
+    "thread_id": "9d4ee10b51d6518c",
+    "expected": "delivery_missing",
+    "v2_predicted": "amazon_locker",
+    "conservative_predicted": "delivery_missing",
+    "top3": [
+      "delivery_missing",
+      "delivery_missing",
+      "delivery_missing"
+    ]
+  },
+  {
+    "type": "IMPROVEMENT",
+    "thread_id": "2555a8d9872a2f15",
+    "expected": "delivery_missing",
+    "v2_predicted": "amazon_locker",
+    "conservative_predicted": "delivery_missing",
+    "top3": [
+      "delivery_missing",
+      "delivery_missing",
+      "delivery_missing"
+    ]
+  },
+  {
+    "type": "REGRESSION",
+    "thread_id": "37bacc4a02a35a8b",
+    "expected": "delivery_wrong_item",
+    "v2_predicted": "delivery_wrong_item",
+    "conservative_predicted": "delivery_missing",
+    "top3": [
+      "delivery_missing",
+      "delivery_missing",
+      "delivery_delayed"
+    ]
+  },
+  {
+    "type": "REGRESSION",
+    "thread_id": "72784fad0c2d64eb",
+    "expected": "delivery_wrong_item",
+    "v2_predicted": "delivery_wrong_item",
+    "conservative_predicted": "delivery_missing",
+    "top3": [
+      "delivery_wrong_item",
+      "delivery_missing",
+      "delivery_missing"
+    ]
+  },
+  {
+    "type": "IMPROVEMENT",
+    "thread_id": "548c4f7b87a573e3",
+    "expected": "account_billing",
+    "v2_predicted": "other_support",
+    "conservative_predicted": "account_billing",
+    "top3": [
+      "account_billing",
+      "account_billing",
+      "account_billing"
+    ]
+  },
+  {
+    "type": "IMPROVEMENT",
+    "thread_id": "5bdc103dceaa85cc",
+    "expected": "account_billing",
+    "v2_predicted": "other_support",
+    "conservative_predicted": "account_billing",
+    "top3": [
+      "account_billing",
+      "account_billing",
+      "account_billing"
+    ]
+  },
+  {
+    "type": "REGRESSION",
+    "thread_id": "d6cf59dcf89bf508",
+    "expected": "account_billing",
+    "v2_predicted": "account_billing",
+    "conservative_predicted": "account_access",
+    "top3": [
+      "delivery_wrong_item",
+      "account_access",
+      "account_access"
+    ]
+  },
+  {
+    "type": "IMPROVEMENT",
+    "thread_id": "e6aef6c530ba4876",
+    "expected": "digital_prime_video",
+    "v2_predicted": "other_support",
+    "conservative_predicted": "digital_prime_video",
+    "top3": [
+      "digital_prime_video",
+      "digital_prime_video",
+      "digital_prime_video"
+    ]
+  },
+  {
+    "type": "REGRESSION",
+    "thread_id": "39c418bf1848d060",
+    "expected": "digital_kindle",
+    "v2_predicted": "digital_kindle",
+    "conservative_predicted": "amazon_locker",
+    "top3": [
+      "amazon_locker",
+      "amazon_locker",
+      "amazon_locker"
+    ]
+  },
+  {
+    "type": "IMPROVEMENT",
+    "thread_id": "a0cb92cfb35738bb",
+    "expected": "digital_kindle",
+    "v2_predicted": "other_support",
+    "conservative_predicted": "digital_kindle",
+    "top3": [
+      "digital_kindle",
+      "digital_kindle",
+      "digital_kindle"
+    ]
+  },
+  {
+    "type": "REGRESSION",
+    "thread_id": "a6dbcc41eea15111",
+    "expected": "amazon_music",
+    "v2_predicted": "amazon_music",
+    "conservative_predicted": "echo_alexa",
+    "top3": [
+      "delivery_delayed",
+      "echo_alexa",
+      "echo_alexa"
+    ]
+  },
+  {
+    "type": "IMPROVEMENT",
+    "thread_id": "4c2ba68f8d6d8d01",
+    "expected": "echo_alexa",
+    "v2_predicted": "other_support",
+    "conservative_predicted": "echo_alexa",
+    "top3": [
+      "echo_alexa",
+      "delivery_delayed",
+      "echo_alexa"
+    ]
+  },
+  {
+    "type": "IMPROVEMENT",
+    "thread_id": "59b64538302cb337",
+    "expected": "echo_alexa",
+    "v2_predicted": "other_support",
+    "conservative_predicted": "echo_alexa",
+    "top3": [
+      "echo_alexa",
+      "echo_alexa",
+      "amazon_music"
+    ]
+  },
+  {
+    "type": "IMPROVEMENT",
+    "thread_id": "7407c0dd1c4a8822",
+    "expected": "account_access",
+    "v2_predicted": "delivery_wrong_item",
+    "conservative_predicted": "account_access",
+    "top3": [
+      "account_access",
+      "delivery_delayed",
+      "account_access"
+    ]
+  },
+  {
+    "type": "REGRESSION",
+    "thread_id": "f96b9b10c4206c30",
+    "expected": "delivery_wrong_item",
+    "v2_predicted": "delivery_wrong_item",
+    "conservative_predicted": "account_access",
+    "top3": [
+      "account_access",
+      "account_access",
+      "account_access"
+    ]
+  },
+  {
+    "type": "REGRESSION",
+    "thread_id": "b916108101eca175",
+    "expected": "delivery_wrong_item",
+    "v2_predicted": "delivery_wrong_item",
+    "conservative_predicted": "account_access",
+    "top3": [
+      "account_access",
+      "account_billing",
+      "account_access"
+    ]
+  },
+  {
+    "type": "IMPROVEMENT",
+    "thread_id": "7e10f8a5300df65c",
+    "expected": "account_access",
+    "v2_predicted": "delivery_wrong_item",
+    "conservative_predicted": "account_access",
+    "top3": [
+      "account_access",
+      "account_access",
+      "account_access"
+    ]
+  },
+  {
+    "type": "IMPROVEMENT",
+    "thread_id": "507a5d959193bd85",
+    "expected": "promotions_pricing",
+    "v2_predicted": "other_support",
+    "conservative_predicted": "promotions_pricing",
+    "top3": [
+      "delivery_delayed",
+      "promotions_pricing",
+      "promotions_pricing"
+    ]
+  },
+  {
+    "type": "REGRESSION",
+    "thread_id": "663015f372cd3b8a",
+    "expected": "promotions_pricing",
+    "v2_predicted": "promotions_pricing",
+    "conservative_predicted": "returns_refunds",
+    "top3": [
+      "returns_refunds",
+      "returns_refunds",
+      "returns_refunds"
+    ]
+  },
+  {
+    "type": "IMPROVEMENT",
+    "thread_id": "a3b31228d3f292c5",
+    "expected": "promotions_pricing",
+    "v2_predicted": "other_support",
+    "conservative_predicted": "promotions_pricing",
+    "top3": [
+      "promotions_pricing",
+      "promotions_pricing",
+      "promotions_pricing"
+    ]
+  },
+  {
+    "type": "REGRESSION",
+    "thread_id": "1df63ea1d5a69936",
+    "expected": "amazon_locker",
+    "v2_predicted": "amazon_locker",
+    "conservative_predicted": "delivery_missing",
+    "top3": [
+      "delivery_missing",
+      "delivery_missing",
+      "delivery_missing"
+    ]
+  },
+  {
+    "type": "REGRESSION",
+    "thread_id": "baa82fe4c3c04a25",
+    "expected": "amazon_locker",
+    "v2_predicted": "amazon_locker",
+    "conservative_predicted": "returns_refunds",
+    "top3": [
+      "returns_refunds",
+      "returns_refunds",
+      "delivery_delayed"
+    ]
+  },
+  {
+    "type": "REGRESSION",
+    "thread_id": "9d048a20fd47ab7f",
+    "expected": "grocery_fresh",
+    "v2_predicted": "grocery_fresh",
+    "conservative_predicted": "returns_refunds",
+    "top3": [
+      "returns_refunds",
+      "delivery_wrong_item",
+      "returns_refunds"
+    ]
+  },
+  {
+    "type": "REGRESSION",
+    "thread_id": "4659bf7cb80e967a",
+    "expected": "grocery_fresh",
+    "v2_predicted": "grocery_fresh",
+    "conservative_predicted": "account_billing",
+    "top3": [
+      "account_billing",
+      "account_billing",
+      "account_billing"
+    ]
+  },
+  {
+    "type": "REGRESSION",
+    "thread_id": "51a322d37e9a7679",
+    "expected": "grocery_fresh",
+    "v2_predicted": "grocery_fresh",
+    "conservative_predicted": "returns_refunds",
+    "top3": [
+      "delivery_delayed",
+      "returns_refunds",
+      "returns_refunds"
+    ]
+  },
+  {
+    "type": "REGRESSION",
+    "thread_id": "e84a7e6d5d4a4373",
+    "expected": "grocery_fresh",
+    "v2_predicted": "grocery_fresh",
+    "conservative_predicted": "returns_refunds",
+    "top3": [
+      "returns_refunds",
+      "returns_refunds",
+      "delivery_delayed"
+    ]
+  },
+  {
+    "type": "IMPROVEMENT",
+    "thread_id": "7fa5ccca8702f290",
+    "expected": "product_availability",
+    "v2_predicted": "other_support",
+    "conservative_predicted": "product_availability",
+    "top3": [
+      "product_availability",
+      "product_availability",
+      "product_availability"
+    ]
+  },
+  {
+    "type": "IMPROVEMENT",
+    "thread_id": "058a1adda23bf491",
+    "expected": "product_availability",
+    "v2_predicted": "other_support",
+    "conservative_predicted": "product_availability",
+    "top3": [
+      "product_availability",
+      "product_availability",
+      "product_availability"
+    ]
+  },
+  {
+    "type": "REGRESSION",
+    "thread_id": "c5f3c1301f833cc0",
+    "expected": "product_availability",
+    "v2_predicted": "product_availability",
+    "conservative_predicted": "promotions_pricing",
+    "top3": [
+      "promotions_pricing",
+      "promotions_pricing",
+      "promotions_pricing"
+    ]
+  }
+]

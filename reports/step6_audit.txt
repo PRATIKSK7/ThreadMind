@@ -1,0 +1,104 @@
+# Final Step 6 RAG Audit Report
+
+## 11. Golden Set Leakage Check
+- Golden Threads in Retrieval Corpus: 0
+- Status: Passed
+
+## 12. Full Pytest Result
+- Pytest tests/test_rag.py: PASSED
+
+## 13. Exact Artifacts Generated
+- data/processed/retrieval_corpus.jsonl
+- src/threadmind/rag/tfidf_retriever.py
+- scripts/evaluate_retriever.py
+- scripts/evaluate_rag_baseline.py
+- reports/baseline_rag_k1_results.json
+- reports/baseline_rag_k3_results.json
+- reports/baseline_rag_k5_results.json
+- reports/baseline_rag_results.md
+
+## 4 & 5. Retrieval Recall@K and MRR
+- Recall@1: 38.78% | MRR: 0.3878
+- Recall@3: 60.20% | MRR: 0.4813
+- Recall@5: 67.86% | MRR: 0.4991
+
+======================================
+       RAG K=1 Configuration
+======================================
+
+### 1 & 2 & 3. Global Metrics
+- Intent Accuracy: 39.80%
+- Intent Macro F1: 0.3827
+- Escalation Accuracy: 64.29%
+
+### 6 & 7. Success and Failures
+- Retrieval Failures: 0 (TF-IDF index never fails to return K elements)
+- API Failures: 0
+- Malformed Responses: 0
+- Successful LLM Calls: 196
+
+### 8. Latency
+- Average Latency per request: 15.32s
+- Total Compute Latency: 3002.82s (50.05m)
+
+### 9. Results by Turn-Length Bucket
+- 1-2 Turns: 39.80% (39/98)
+- 3-4 Turns: 44.29% (31/70)
+- 5+ Turns:  28.57% (8/28)
+
+### 10. Results for Difficult Tags
+
+======================================
+       RAG K=3 Configuration
+======================================
+
+### 1 & 2 & 3. Global Metrics
+- Intent Accuracy: 43.88%
+- Intent Macro F1: 0.3920
+- Escalation Accuracy: 65.31%
+
+### 6 & 7. Success and Failures
+- Retrieval Failures: 0 (TF-IDF index never fails to return K elements)
+- API Failures: 0
+- Malformed Responses: 0
+- Successful LLM Calls: 196
+
+### 8. Latency
+- Average Latency per request: 18.49s
+- Total Compute Latency: 3624.14s (60.40m)
+
+### 9. Results by Turn-Length Bucket
+- 1-2 Turns: 48.98% (48/98)
+- 3-4 Turns: 41.43% (29/70)
+- 5+ Turns:  32.14% (9/28)
+
+### 10. Results for Difficult Tags
+
+======================================
+       RAG K=5 Configuration
+======================================
+
+### 1 & 2 & 3. Global Metrics
+- Intent Accuracy: 41.84%
+- Intent Macro F1: 0.3165
+- Escalation Accuracy: 67.86%
+
+### 6 & 7. Success and Failures
+- Retrieval Failures: 0 (TF-IDF index never fails to return K elements)
+- API Failures: 0
+- Malformed Responses: 0
+- Successful LLM Calls: 196
+
+### 8. Latency
+- Average Latency per request: 20.78s
+- Total Compute Latency: 4072.32s (67.87m)
+
+### 9. Results by Turn-Length Bucket
+- 1-2 Turns: 44.90% (44/98)
+- 3-4 Turns: 40.00% (28/70)
+- 5+ Turns:  35.71% (10/28)
+
+### 10. Results for Difficult Tags
+
+## 14. Primary Configuration Selection
+Based on the Intent Accuracy (1: 39.8%, 3: 43.88%, 5: 41.84%) and LLM context limits (latency drop-offs at K=5), K=3 should be strictly locked as the primary RAG configuration.

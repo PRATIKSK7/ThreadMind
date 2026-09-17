@@ -1,0 +1,6407 @@
+{
+  "d70b055ca357e82b": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2a5e346c88e435b2": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f70854b5baf396f0": {
+    "old_intent": "grocery_fresh",
+    "new_intent": "grocery_fresh",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "983d2f4dd94b45f2": {
+    "old_intent": "grocery_fresh",
+    "new_intent": "grocery_fresh",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "36119e9abe9652fc": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "e8cc4fff691f0cdf": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "addc194a3956e2d5": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "26fa67aabe74c172": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4c4bac21353ede0b": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "bec1cb60c2fc458b": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "733c427b013b9130": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "caa5738902bd2a6e": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a9b56c5a431741b4": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d846a3df9f7b6e88": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e64d56353ac6b281": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6367f95908227523": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f702aa036bde7ee7": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "35cad4b478f803f7": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "aae5a311c5c8171a": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d5de0aaaebe11dc3": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "574a631d0a7627b2": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c72fa5da63c4649d": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b1740572df7bf11a": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "30cef5eda8fb4227": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c0fa3bed83dbf60e": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a9cf43565c9e04ca": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "0fa5ba8d687f0f1c": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "dad5f50dc611e11a": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "923e9014ae56c6a5": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "298337395f9bbf2f": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "ba0e9772ec1be75f": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "baa2188841e1ce96": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a75da4f1abb0153e": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5292a0cc959d829b": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "729b334644be4baa": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ae296af40628c4f7": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "aad50b751afdff8b": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "72cb8b54cf55a170": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e2f9ac332ff2b438": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9111453fad684e73": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8414122babad3112": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4fa9175ce8dcbce0": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f0d343906e664cd8": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "25af89795b3095f1": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "11090aebeb4d3625": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "95d16c6eb318e060": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "aa88a80cf823d098": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "0d8b2010bc4eb103": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "90788b3220e0aa04": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "72a0ca115fa97627": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "62441bf565a3da3e": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8aaa6740a2c991ec": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2f05eedc64904f06": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5814e38b1fdb7d5c": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d0b8b48a306d0048": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e626440f44bc3bc0": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "957c2a44b05153e1": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f559c5c5c61684f4": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "985e79a32630568b": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a9bbe22e4ceea1dd": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "312a520ecc913722": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7ab1e987ab5c50cf": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "df0d0fd18517f075": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d262d9cbeef7de24": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "65b884fc57399160": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "1fe39ddcfe937273": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "1c46a33eff37ae1e": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "3244cc708d18cc0b": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "75cd22a11a802281": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5bcd7ab18c0b0ad3": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "483b1554f5fff51e": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "0e273720b792b660": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b0fb22c1cdfe3f27": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9dca147fe85b7d34": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4c68cd2416b9fc79": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fcccae7182b4a73d": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4c6767f6c2d2da95": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "208c1c13f9bcc185": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "3d42cec6dc30b53e": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "cee826e34e3a11fa": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "83697ce67605a1fe": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a86a2d7dfa19645a": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a6cf8e2da57e63d1": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fee961d788a4a05c": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "01f48b9aa458e0d3": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f2ca7e5488c9d089": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "49661a5d50a3ea5a": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f53e83fff8e20471": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7def50106bab29c9": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9d6f0f94805fd09d": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "494f945dda349d20": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d9aa6b8e776afe7f": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8a174dccfc2b8091": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "3ad8a639d6e7b22a": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f1d623628bbe6ab7": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "73892b28225dbd65": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "0da3b5c2ce22a1f1": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5f13a845a603f2f9": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "1045891f1cbc77d9": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c6f88c5b50868c02": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "09e6b5480a1451c8": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e8dd22afed4e5cc0": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d415afdc49b58dc4": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "79a524b67ba513ba": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c099f6c42eb548cc": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5cb4d06e69eca85e": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f487bbd10af0bc9f": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7e908a616df1371a": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6894cf0a2cbd4b7f": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e075fee65080ec75": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2625443430c35e5d": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6969da9ef25a7e8c": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a8f11fcc204c2aae": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f413fb8e8d45e07b": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2b3de8c090d63b41": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "73e93cab8843c992": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "254f53bbb4542631": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "1b71bfa936c24ff8": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9662c1f621286d25": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "599f7069552dbde5": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "92ebc16164900b1b": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "672d2d4b6b5ee94a": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e8f33b26864da6d6": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "24aa0cbdb540d3f7": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "e22c20347af92ad6": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ab0c518f60179630": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f1ef58591600790a": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e9a6cc72f628ff63": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e85b6043735e20cc": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "3e2672d5c96cfcf1": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2243b8c0e00efaec": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ae31ce9cd45865fc": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "daa708e541dbaa05": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "70e133287648ad28": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c3eed727f8ba3657": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "69f66f118f55fb10": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "00bca4c6cd169aea": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7668dbd5f093263e": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "bcc2dcded981d78c": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "0726b5607e478512": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5def1cfe6bcc3b32": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "92ac6bfcdc4e1ce5": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a961481b86923f3e": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "18e2958723219595": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "89ee0ce088a3c4f3": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "cd8d321924451bc0": {
+    "old_intent": "grocery_fresh",
+    "new_intent": "grocery_fresh",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "711ec2856fa799a5": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "acbd59f3652227e6": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d908238ecb7d9055": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "859153d0ce8105dd": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "1d148e14bfb04ad3": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "dce799824bcaee33": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "19ff30e57e595a01": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c45ed0804807fb2a": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fbfcaec4af2ad0f2": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "02f22c1fff22fabe": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6c4eefa39da72e3b": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ae77391b4eb50df9": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9bae86f0b8be6047": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "cacad3ba234c582c": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "bbd3ea88cd4cbba3": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "ee4df7cc4367e440": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4765b6d534435b3e": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b69720d43e1060f1": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "0fbfca7bc3090a75": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e5d25ec43100bb59": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d23c80954c428358": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "cf3efb6ac28069f0": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "384a6748058de4bc": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e8c1cf1ca7cffaa3": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "08c098be76b68acd": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "27182c63862e4305": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fa07fa6d0d98af81": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "40a31d3bd38ca2e9": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "dc84cd5de0a2ab64": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "3bacc90b3dba7212": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a3043d7a2a7ccbc1": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "33ce624c097c137a": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6f382fd6182945a3": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "294c750cb97ee701": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2f07df1a067147e0": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "b450c4138376be47": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ec0e5beba846a047": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b83323e0796fba6d": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "3cb3c0adad3ec3d7": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "160351b48fa6e343": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "81cb564e5d62dd44": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a3b03563efb4bfe5": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "0c4eec139bc656dc": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "20a1039d99515e18": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c58a34f003356c07": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "67b1bf9e58f8e21b": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "da74b378407aae39": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "f7677dfc33bce752": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e619f2d819bcdcf3": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "e8b53164438b692e": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b0527c136a800f02": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7191c13a025b126f": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "de2c314286277229": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "84ce16b84980789b": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d0be400bdf6b93a5": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b70c4b984c3b374e": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7667d09ba06dbc5e": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c9ef81f196dc3b5b": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "cde5fc4723baa2cc": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8867940f86d6a53e": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "07a489df2543f2dc": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "40401f14af616678": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "70d9cf973a4db6f4": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "bb06331df7bb4cdf": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "aca635a642736ad3": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e2d72494384fc0d3": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e76f5f460845d113": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "bd6328c02c163387": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "da33d6b95cbbbc7b": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4d7dc9468df0ca0f": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "eb993b0226832b4c": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "944eb846b50559ed": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b577bd157202d25f": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "a9bed0cfd7bd8725": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "815748513ef43290": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "707b565b7104ed4c": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "14da9b2c55f9775c": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "676de17be74e3498": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "476ab302d5d33795": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8ad3245b5ae7d9f2": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b310a7ce0a90ec20": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7d14a0d20ebef158": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "aac6594130f4d19a": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "265f0fe3038f93cf": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "1f568c3454b7ab71": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ba8eca86f97536ec": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "02685049f2b5c1ca": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "feace36bf0d2933c": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "bdc6f3c718db7df7": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "14f279576a6452e1": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "10bb002b52974603": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "da254de2d7c412b0": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "1ea9b5e20603b913": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "dd4a17514b74dd01": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ef55b9b31acce339": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e432c0601c386994": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a62d4a6e9264e837": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "73f08bde7dca08f4": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4b3f7c5d3ba9fff0": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7fb41a1434c3ebfc": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7353fd400d4e2f1c": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2efd3229cc457b59": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e26a9f187fd705b2": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "be63fe3c62d572cc": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e8272d49c18738f0": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "518606ef7b161adf": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5f0850facd553e44": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4bf0400c303791a6": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "3046b5b5d15fb8ca": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ee6853462316c45a": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "180d6e9eca0ffe73": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "1a1446b69df3cc6f": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "53e29e925ea102a2": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "07c9a02305516b66": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "cd2e3dcb1a3a5703": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "cfed7eb00c2a1640": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8bb704f549beadf1": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "18c4787a6438d12f": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8e45b6473c0ca158": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "274334b08eda8d04": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4cfa2444afaf7e39": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "94495204a51373c4": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "cb1a9a6fc211c672": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "dfd0de32b8afa6cd": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7bbf52335fb9166e": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b486f91bacd34fb2": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "cff5385489e7f95e": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "59984309ee691de9": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d083a1e12879f431": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "693dbba85d9b2267": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d0c8705543cca89b": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fb1ab8b547c95f2c": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2d33ba0362205272": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b89764b43eb2fd93": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9ee9d150129906c6": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8509094f6b8234d3": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b5ebf7556a2e52e0": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8b605c8d711d2487": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c66d5e495339b011": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "6a40bd4af496ab14": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "cdff4c9de67876b0": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d3487c950d46ccba": {
+    "old_intent": "grocery_fresh",
+    "new_intent": "grocery_fresh",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9d4938ec0323ce2d": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "088c27e81d8b41a4": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c158d3191648203e": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6f88277f4aa8002b": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "64c9ac0a662fae9d": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "3e77772e9c2357de": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "701943081b3df23a": {
+    "old_intent": "grocery_fresh",
+    "new_intent": "grocery_fresh",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "02e3a13a4e0446d3": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "1f476a6d0b7a93da": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "60201190858137c6": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "17a0bc7f975da742": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "649ba51caf37b379": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5d37e7a092d53c2b": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "944bbc9cd13e5efb": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f93fc8d21caad905": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "3ad49a2445db9c54": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5162fd7d383e6ac0": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "35af2253d47e63c6": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "625156a2bd01be29": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d0897d35195e8e46": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "cf2867371201ee66": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "dba2d1169332a82a": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f6286f85457a4dca": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "3f848973bcc9001b": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "f5217fe96aa14547": {
+    "old_intent": "account_access",
+    "new_intent": "delivery_missing",
+    "decision": "REVIEW",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "d8deff596e787846": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6ee45c90e122cb82": {
+    "old_intent": "grocery_fresh",
+    "new_intent": "grocery_fresh",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6302ede137057392": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d2462fc219efc137": {
+    "old_intent": "grocery_fresh",
+    "new_intent": "grocery_fresh",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "37581440bc94f377": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5ef99b626563e8eb": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ee30a5e89b507fad": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9b15fd595c39b44e": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e31f97d644de2597": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "177242b97e6a0b98": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8c6fa15a54b274bc": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a68e81b01c21dd9d": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6239a24f1db88023": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c3796fc671781761": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c71bc3c3b35f9458": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8ebdea26459ac765": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a12571a1a006bf29": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a60661a357b7e05d": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d3c34f8b56856f84": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "226f8bb656abbcd5": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c31feaca25458e38": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "15b5824393f78008": {
+    "old_intent": "grocery_fresh",
+    "new_intent": "grocery_fresh",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5e8bf41adaf087cf": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "ae30f44c367eb074": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "db097e98f2c37ad2": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2d05aed0824f6ad4": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b5f3ee3c06895254": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "e8ad7e084b59be32": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b0d77ac6085ad4fe": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e2c0958c0322b0fc": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "b44c77d807654462": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "52f590684bddb256": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "83277080bfa0d8ad": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b51a1276da92fd8a": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "aa6cb9d42da53444": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "478ac91b815f828a": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d3baeace6882828c": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "98d4a771be2ad00d": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fb0f6de13e3d25b2": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e36f640b4c638659": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b090aaa0ed554d48": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fd57c451ace1e280": {
+    "old_intent": "grocery_fresh",
+    "new_intent": "grocery_fresh",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ab0ca0935e3cc9a9": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "0d6185855366473f": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "cc76868c63381b4f": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "87ca89fff377a938": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2d0c5396433ae579": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "567986494bf9d64a": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e5f74ca5b6f7911a": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "beae06fce5bd69e8": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "3a75a3259606afbe": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "04250f998ee1c786": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a54e0a18a3af829b": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7494b04d58b7646e": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "6b9e041a44456780": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a51ce1d41afcaa1c": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8f178a6d911f7bf8": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6c1ddfa75ab95661": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4404204e87da82f4": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fd710558f63ad96d": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8ea2324f496c7a1f": {
+    "old_intent": "grocery_fresh",
+    "new_intent": "grocery_fresh",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a1c30c4becc306d8": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b63ec2ba6272ea16": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6e399ce8e71843b8": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8a9c4e9a6aaf21c4": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "06e99233dda15313": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "977688de28ea312a": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "1782054daa7f27d8": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "344007f66e268ffd": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "1b0b4d8bb73a678d": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "477e9445caf6fbb1": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "386ebf618a1ccc76": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "55492856e807e514": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e11489493987e694": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "38be6eea3bfaf272": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e1dbde1888b3a149": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ea083b7d99d5732d": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "77c0b20f26a40d89": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2dd72d5595b251d8": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "69a76dbd6a8aea44": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "de6739d885de1d9f": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "874ab84e718a85f1": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6eeb7b0b1cb8ae80": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ff4c72980a9ea69b": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b18cbe70130a136a": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ed318b5d807a7031": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e41bbfcb849ef0c1": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e670c1da3ddeb566": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c9242fe3804a06e4": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fba96c6eaae20464": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e35f1c2ffebef20b": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fdfc3638bd5ba49c": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6d98410799b010d7": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "eb4de59dfdfcb1cf": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9d192f585090690c": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b18680ebc8e52842": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8e6034ba3a8a8551": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "cfe5874de6678ce9": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4d37764b67a8f088": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "020c27520bbeecbe": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "17d79eaf587536c6": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d73656f268016c94": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8aacc47c866fa73a": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "f74462dc8308517e": {
+    "old_intent": "grocery_fresh",
+    "new_intent": "grocery_fresh",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d59a68c91c31b72d": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "acce728016445e0b": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "531a63ecc41020e2": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "1c070d1509d46da2": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "0b70309c19a6a81d": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9e29e63fc19afdf3": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b14c26d452718329": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5a86350410885136": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f05fb1baaa69b0c4": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8b21c59da9adf82f": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "30db8e39bc6ebfc8": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6a5e43e7bd1117c8": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b01d53dfbdb27a5c": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a2e1b32e13cb7f97": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "29c38a6ffef347b8": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "120d2b469e1c365e": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "23e05758c6da8d08": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2393740cdacd7ec7": {
+    "old_intent": "grocery_fresh",
+    "new_intent": "grocery_fresh",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ee2c6801b232646f": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "645f795f9fda8152": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6d784c834ba8f2f6": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8d7704e34901f05c": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "146d160fcdb187fe": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "3e7eec595e87b974": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d9cef2444d9b39c7": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "05f96bf8946f75e8": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5fc851327097e50d": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "3f3bc4b25b88109c": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "85767dc96d590cd1": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b9308e292dc42a2b": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "77a90870af579d64": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5ebf50a6b737b80e": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8438ffd4393de049": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "bd61fe32f5dc342b": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "220aee4d29d5c189": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "1e9ac52015c51442": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d2cc17bff81f76cc": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "30ddc7705adbced3": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5944b02a189431c0": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7fb22ec25b81af0e": {
+    "old_intent": "account_access",
+    "new_intent": "delivery_missing",
+    "decision": "REVIEW",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "bfdf09974831f4aa": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7e9152a208898a49": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "179b3ff739c5e57a": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d5ca1553fcf8c705": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "3eea64747fcc68ab": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "86b901680dfc75b9": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5e1fcbed7ec6af84": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "4ac3fe9d2acc986e": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f8129f9805fba434": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "3445cb0c55a9cde5": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "eb253a73d64a70b6": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "62aa0e4f680b4a6c": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "45a3504649059e9f": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "aedf0c212239cbdf": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "1e67b57cf99f038d": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "14c4f0f977b5aa6f": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "03a283dfd342dc2a": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "c4f360f8a86948c4": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9a1253d9ccc2f186": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c60af30032937c33": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "622bcf60d6fca8e2": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f4bd360a8f63cd57": {
+    "old_intent": "grocery_fresh",
+    "new_intent": "grocery_fresh",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2095bf714c23b3ff": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "359b72e5e93d92db": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4f7f84693e6e0979": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d5f019e85647ee9a": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "abe1ad35a16b58ac": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9bb08c3b4c8ec88d": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a1976cb79f2967e5": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d7cf83df6d8d2157": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "56ad5694344f9f23": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e2616921aaa86eb4": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "aa3e9b0954739efb": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "38247c52c55eee7f": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c230a79e53eeeda2": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "29f5c81733909ced": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "eecd93b549f11046": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "29986532006dfa45": {
+    "old_intent": "account_access",
+    "new_intent": "delivery_missing",
+    "decision": "REVIEW",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "644128d1c896b5dd": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "301a99a5765fb9f6": {
+    "old_intent": "account_access",
+    "new_intent": "delivery_missing",
+    "decision": "REVIEW",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "cde183ecb9f0bbc3": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8db3cdb6aa16e9bc": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "1ba62038ffa2eddf": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "44ee77c449a93271": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a94de223f9390c28": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d3680904634a9826": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "48c3cd185ec070ea": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d4991c01d8aa1184": {
+    "old_intent": "grocery_fresh",
+    "new_intent": "grocery_fresh",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "1aec506f1366ad2f": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "692ab297d89fa36c": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "eb5d2bc90b072a18": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "39785970ba4e9272": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b56a96c7f57129bf": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "cdcfd4ddc107ffa1": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a7972382560d4c76": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ff1e59916f20d58b": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d7c30860d4e8e92b": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2eec3ef84ac463eb": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7fc04fbbc251256c": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4c9e57fa40361921": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "f560d95553c5c344": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fad1b9e9491664a4": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "03e2ed1ddeaaad39": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4a4dcd8f54e9c8b2": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "89d33c6f0a0149cf": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "920d0834fd7129b8": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fe350fcd9432dbe9": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "dec2b835cc88324a": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "99130b7ab17223bf": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b6a9e0cef016ff05": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5db469b54318ea19": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fe4c5e1656ac9909": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "1b828fd9b04de4e5": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4c81b9f4a0e1e27a": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "37f30f8eed8eedc7": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "13851103eae53708": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "12320c4f688019f7": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2e3a9afe67df1fbb": {
+    "old_intent": "account_access",
+    "new_intent": "delivery_missing",
+    "decision": "REVIEW",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "11fd71441e11f600": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c4b4e56c46904bc5": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "3912ee8fa641bb92": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ea5f35c60abf6f20": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9e930de2fc77e2a7": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "faf981a36b3b2b46": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "1479c41ed51248e4": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "dbf01117df980a90": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f93317fbbc29efff": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b1690ba952b53954": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e0c93e54ab944af1": {
+    "old_intent": "account_access",
+    "new_intent": "delivery_missing",
+    "decision": "REVIEW",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "d276c502edbecd9d": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2394fcd2efcea2f4": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9985476a7718b02a": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "32b6ece7544ff7c7": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "bdbb59124dc89fa7": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "3c697981a6aec6ee": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "53ecec473c907c52": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f593eccd3b2efbc2": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "613f6b0d365ecc93": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b874b2252469f683": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "33a538674c137f9e": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ed341d21b7245704": {
+    "old_intent": "account_access",
+    "new_intent": "delivery_missing",
+    "decision": "REVIEW",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "2ebdd5281e8fe89f": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f10989ede7a7746b": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "15f399dd509fb8b3": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "40f3c6600b4ff42d": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "cbdff8469275fa46": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f79809bfee190dd9": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f3b547cb5be76078": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ac91b646dd11fe0b": {
+    "old_intent": "grocery_fresh",
+    "new_intent": "grocery_fresh",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6e96785f92bfc8e7": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7db902677f9740d0": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c07906ac7a8cd951": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6b6602d03d11ea72": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "098c15f339931e2d": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ba95a1239a84a7dd": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "7f795e91651d0612": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9ef57ae0232838a1": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7e47dc86a360e0b2": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b695b93b996be4f4": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "12a6bea844416ce7": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c40e0e63af01a30f": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2d2641631e44a0fb": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a23eb34f4493de89": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6417325e79837481": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a69a2d03f8a2e176": {
+    "old_intent": "grocery_fresh",
+    "new_intent": "grocery_fresh",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "3eb44f256b934996": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "fcf79841a500e004": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ec3b269fc32bb903": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "55d9b31afb86f989": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "05a3ff0133f4497b": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4147429456f830c3": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4beb6d70a899a0d3": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6fc371542c3bb5b6": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "571cea4de6d05eed": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b5a6ce979f971e09": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "23e5a509eef73031": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6771abd3c56d0f1e": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "10e7f84a46aa7dea": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "36b5126d262052a4": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "963322be2ca7836c": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "bddccff8953fde43": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d0cd69fbb14fdea6": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a3f5c0559f0f764e": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "50ce720d926e9176": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f37030407597d1a5": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a6fffb3926055c3f": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f75e40393db0b6ee": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "54c2bb5023026c94": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d8727a77cb7c03fa": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fba0ba6b824844c5": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8db41cbe7e9992bf": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "724efadf111122b6": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "541144c76bc962dc": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "738a68a079fd80fe": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a99bb29d81fe478e": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "05bad44b612f7877": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "61029148eecdb838": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "86436c861a6b83b4": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "0a116fcbd9062fa5": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "813967cb54b99852": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "f62e5baaa4c846e5": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2484fadcc8c01228": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "50f3ef72dbf37ccc": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7dfdf0ca0c881afd": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f7dcf17c189cc3f0": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7b3a610c8b173d3d": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "9af92e09f6113d9c": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "592caeded0e0ea63": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "81f7adfd377a003e": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "1d58c344995fa30f": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e0973a5e9f0d8e91": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b79e7388fc13a28a": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "cec917dc574d9a46": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "b2792663b312fd3f": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "bdf79dedb0dd3e83": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "31c1361384193f7c": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "101575f16f9a8954": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "3f00cf18f674e526": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d2cc7173c5e20028": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "57fc082dd8423bf1": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b01ada41aa7e933f": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "caababc69a7303be": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d2ac4e81ac39a300": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "88b6c61a42170b49": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "836cc558ec642bde": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b018e7b79c0ffe89": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "aa5f38dd9dbf2e3a": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "586413dbe5323781": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8ca1a9fc15e40fea": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f145a79ae2f2916b": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2e15d3ef2c65e86e": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "be32af1e35e31065": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b159bbd72883e878": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f2f23d1998bf203c": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e31feec89dfcdfcd": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "9f26d8dee676f650": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "913dafb121a1ab72": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "24b052c9761ad837": {
+    "old_intent": "grocery_fresh",
+    "new_intent": "grocery_fresh",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "3c3f3a0a2639229b": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fc6e24eda2ff1465": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6f0ed8aeefaf9b17": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ec71c265c989ae78": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8a1dc07f58a9aa56": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "eda768e80e39a411": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "68dff71db8d9721f": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "128521b6886a4780": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "0ad31c884903d7aa": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c307b6dc7fdaa288": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ecda42e69cff04c8": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e043fb60e6e923a5": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b8f8d203d240c9e1": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5fdc53693c21d503": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "79f8beba9b22a4cf": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b348a0c9e2f4a724": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9b2239bce1aeb4b8": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fc3e9aacd554952f": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5e09f09215862330": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4388ab23658353e5": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "3583e7b9529715ea": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "19e44b05c6f8ab21": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "afb7ea117249258c": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d5d1ef45a4c177ba": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b24e982a6b29760c": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "bf82185772e5ba05": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "39799c8b8302921f": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2451b419ba24f7db": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "ea7f2f8823276afa": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "bd0578a8d971dc5e": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9c28394568998922": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "decc8ea488884960": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2378724508759a51": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "889830eec17524d7": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f059b0cb92856c3c": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c5700155898a2f42": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "cf7d4f720068d906": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "287385078f4b94d2": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b0e413f5d9f07485": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fab4ddd2001dd8c4": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c79ad9438ee438e5": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c08d6ec8949f17c9": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8e7894e8b538ba9b": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "197e461ff669ed72": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c21e4005e3f5b7b6": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7f5738d4b1b2968b": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c2da28d9b99a7b6a": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "643077da01a31fca": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8a3714ab65d4ce9e": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "bb38fabf30ed7ddb": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "973471dfb02da43f": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b345f1747617c56a": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "48ec1d680d09562d": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "1322cd522f2d2a97": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "af6f9df1c27161e3": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a2db07e83bdafd6c": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "78d1e3d9b211629c": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ab480df76a1adbf9": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "573a3c1585860a27": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "713505cf1593d69b": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "831b39e763a04781": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "1bfbd8b4a30ebf80": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f407d66c2136b091": {
+    "old_intent": "grocery_fresh",
+    "new_intent": "grocery_fresh",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "70404c66061997b9": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "cf6209216c87fdfe": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4cfbcdce7115efd5": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a70276783c04a531": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "679dfb2298bc2352": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e77a993193a06b2b": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "79f58506644e503f": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e47ef35f6dd7dd8f": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a950594d1d606ea6": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9cd5dae3cb260d5d": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "35373544a9785cad": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "760f83920674ad9f": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ea3729b62afd94ca": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7c778d6ec789f99f": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "43b03ea7ba885925": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "333c3651ba90cd4e": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "acb00e4b1b08c91b": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "298d56f50ac42651": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4796a80d99ecef51": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4e10df15717ba5cc": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "239befc04dd2b864": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "4679ebd56e331dcb": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f3f325d497f76853": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "61cf53866fd4f0c8": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9b70a761d7ab137e": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "746d6aec5d1380b7": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "3505dfd192dfd0cb": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8c90dd608492b63e": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6081890d8c620e93": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4759df656f38fdfa": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "a44546f8bcde8741": {
+    "old_intent": "account_access",
+    "new_intent": "delivery_missing",
+    "decision": "REVIEW",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "e947f6d18c80530c": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d835c9d52718d7be": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4ec6c8b1a25900ea": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5aa4cfd9533362ce": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "853e8a18a4ee9378": {
+    "old_intent": "delivery_wrong_item",
+    "new_intent": "delivery_wrong_item",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6a9594f9a0673696": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "190522114d8d3fdd": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "66c2bb05b4be804f": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a237419a9a43e7fe": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "1045132da494f9ed": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2e32bb06b5445ea6": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "29d97cca242fed55": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9e7c15045c8da83d": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c480f2aa1fe3d2d4": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "565aaa51e0a9f412": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6d3114c336dcf5e7": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2b492ee6aee6d3c5": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "50a628c8cb82d31d": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fe95017cdd52538f": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c0e098733d865028": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9466c9c2ec489c67": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "3af1c863f12bb9a8": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "48ee67b05bf121f4": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "80c06536a3220aec": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "eed158d202722e26": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "3fce4f6902dd39e7": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "cdad812b212acd1e": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "38752d6dfcb08d75": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "2aab7ac323c9d018": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "40916c3e9a0a7099": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "542e954ea3e92257": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "aad1237e74ed9160": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "30a68f4da362a282": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "1781c4eb3da9fe1d": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "14b2584ef65922f7": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6b378e5b5f1a10de": {
+    "old_intent": "account_access",
+    "new_intent": "delivery_missing",
+    "decision": "REVIEW",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "11ef434fb5e421a6": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "cc2e58eaf0befb2c": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f73890a126840c29": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e21de1792f8fccf8": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7b5a4bdc6747050c": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "a7eba67c1a50dae8": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "76dfd0285977f021": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "27d745434bf8e263": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9d2110ece70c5060": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "df516e9c60d2cb15": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "61c2e118a8616dbe": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "bc704afb47fea520": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fac52962e38b2dff": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "bbc31494ade6fe49": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a3505cc00e22b2f7": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c512b321c0d0476f": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "24e600f623c148b6": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "621eb07bde694c44": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "80895de6cc24526b": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "3cb122823d80430f": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "754ddf1d41250506": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c35e07811c80233d": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f2516277d2686f14": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "38ca3367eed2e676": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "864a8dd8b33f0115": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6d2f426796990784": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6ff4fe16d5c8b8b9": {
+    "old_intent": "grocery_fresh",
+    "new_intent": "grocery_fresh",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c9d7641aa248ac89": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "8a31f79bda8979b2": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "11bfee8b85e6cc41": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9009151fd9a606a2": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "434de72cfdf5ec2e": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "20f4c3ea21bfc409": {
+    "old_intent": "grocery_fresh",
+    "new_intent": "grocery_fresh",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "0c22a4be08ed6d94": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a4b9ffeb5c2796a7": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c6e0d61316e288f4": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ad19c9434bf6b950": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "54f9048b403b234b": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "dded40aa005c250d": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "77bd7bc2bf82cba5": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "1d08af6c44326320": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "1aa1b65cbae09e36": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a7cd5f2fc4261319": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9b088bd0b0d89670": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "90a6a54f5b587e48": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "16e5025dc1fc6f21": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "efcc719543633733": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e2ec4a7e940d0136": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "37713993d3447a34": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "91308e6fd58b6d79": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5fd713c2cafae1eb": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "af817e36dbc4b47f": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "c6963aa989790ff0": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "15231ee5a170090d": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "cd7155ef09bc856c": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fcd867a982cceca2": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "042db69b15a84e83": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "02adc7f6381dde48": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e997ed535ce6c54a": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "bd28050d312cff49": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2e6136c9725c2bc4": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2609ebe911357342": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fbc75b772427ecf5": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "aca87cefda0cebe7": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a377010de6e318d1": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9cf4a840a6eac266": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "946fb080a3fdc611": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7dcb6aadeae9aa64": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "bc6cd73033c48ec1": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "dc8c19df4f33705b": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9082f003e6e3b290": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "e4594b6eaaf3b2b0": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fcdebfd38305f5f1": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "893cebfb73cdb4e8": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7b021bb7994cf848": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "2d6a2cc180a8af46": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "647aaebf535664e9": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "3871737e89d3645c": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "626dfc9dcf3a8d09": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5ba5c83454c15212": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e6f0ae6e595f7b54": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7d2249db11905ae4": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9ec3dcd73c584349": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "755b0d134c294ef7": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "00dcb6085516f5e5": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7508a95527ecfe59": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7bc0c3167e9a0a80": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ca2154bc2771ac2a": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9528f108293ccd59": {
+    "old_intent": "digital_prime_video",
+    "new_intent": "digital_prime_video",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "0dba4eba926d6710": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ce93dbd6148825a9": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e9f5ab124b85a264": {
+    "old_intent": "account_access",
+    "new_intent": "delivery_missing",
+    "decision": "REVIEW",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "b005e2dbcec0cf96": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "32fa90372511f908": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "000a04c28f5aa2b0": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "d3826feaf50a2e47": {
+    "old_intent": "amazon_music",
+    "new_intent": "amazon_music",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "324dc8fb531ca2c1": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f700553d3921dda6": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "1928231cf12e45cc": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "54c69e67006137b7": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5f91409e8e0c3679": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b63fd60f885b1e4c": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6b8ad450951dff76": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "177006dcf9935c66": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "5003a23fdbd274ea": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "52e65a09e77e6f01": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "6ef1276775127354": {
+    "old_intent": "product_availability",
+    "new_intent": "product_availability",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a9da7f16e4e2b638": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fa66093ab899a36e": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "bea72cdbbd8e5a6c": {
+    "old_intent": "amazon_locker",
+    "new_intent": "amazon_locker",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "09ddc5f2967dc2c3": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "f9b05bd51b4d49b3": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "762084e78eb55a5a": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "1db2ce9703fa0605": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "b175be0d941431b2": {
+    "old_intent": "grocery_fresh",
+    "new_intent": "grocery_fresh",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ead902764b39295c": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "fa451cc43c941f41": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ffbd11a849584bd9": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "7341c9c8ecc1d6be": {
+    "old_intent": "digital_kindle",
+    "new_intent": "digital_kindle",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "e07f7620733f9491": {
+    "old_intent": "echo_alexa",
+    "new_intent": "echo_alexa",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "f8a57ff984232c98": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9066c0d04a96a80e": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "9e6642430638787d": {
+    "old_intent": "account_access",
+    "new_intent": "account_access",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "21e1611fc21551d0": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "aebefba87eadfd5c": {
+    "old_intent": "delivery_missing",
+    "new_intent": "delivery_missing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "a59d71235b1fc4a9": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.85
+  },
+  "b72fc00a5ceceb5f": {
+    "old_intent": "promotions_pricing",
+    "new_intent": "promotions_pricing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "28db7e29ba3887a3": {
+    "old_intent": "delivery_delayed",
+    "new_intent": "delivery_delayed",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "4b32c648adf8bdd3": {
+    "old_intent": "returns_refunds",
+    "new_intent": "returns_refunds",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  },
+  "ed8e04442ded11d0": {
+    "old_intent": "account_billing",
+    "new_intent": "account_billing",
+    "decision": "ACCEPT",
+    "reason": "mocked",
+    "confidence": 0.95
+  }
+}

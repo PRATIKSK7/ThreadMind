@@ -1,0 +1,910 @@
+{
+  "improvements": [
+    {
+      "id": "2555a8d9872a2f15",
+      "expected_intent": "delivery_missing",
+      "v2_prediction": "amazon_locker",
+      "v3_prediction": "delivery_missing",
+      "retrieved_candidates": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "v2_correct": false,
+      "v3_correct": true,
+      "failure_category": "CLASSIFIER_IGNORED_CORRECT",
+      "v3_reasoning": "User explicitly mentions that the package was delivered but didn't receive it, indicating a missing package issue."
+    },
+    {
+      "id": "548c4f7b87a573e3",
+      "expected_intent": "account_billing",
+      "v2_prediction": "other_support",
+      "v3_prediction": "account_billing",
+      "retrieved_candidates": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "v2_correct": false,
+      "v3_correct": true,
+      "failure_category": "CLASSIFIER_IGNORED_CORRECT",
+      "v3_reasoning": "User is experiencing an issue with adding money to Amazon Pay using a debit card, which is a billing-related problem, and is requesting assistance from the support team."
+    },
+    {
+      "id": "a0cb92cfb35738bb",
+      "expected_intent": "digital_kindle",
+      "v2_prediction": "other_support",
+      "v3_prediction": "digital_kindle",
+      "retrieved_candidates": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "v2_correct": false,
+      "v3_correct": true,
+      "failure_category": "CLASSIFIER_IGNORED_CORRECT",
+      "v3_reasoning": "The user is trying to purchase an Italian ebook, La gente by Bianchi, but is unable to do so because it's only available on amazon.it and the user's account is in the UK. The user is looking for a way to access the ebook on Amazon UK, and the agent is providing guidance on how to proceed."
+    },
+    {
+      "id": "7e10f8a5300df65c",
+      "expected_intent": "account_access",
+      "v2_prediction": "delivery_wrong_item",
+      "v3_prediction": "account_access",
+      "retrieved_candidates": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "v2_correct": false,
+      "v3_correct": true,
+      "failure_category": "CLASSIFIER_IGNORED_CORRECT",
+      "v3_reasoning": "The user's account has been blocked due to security reasons, and they are seeking assistance with the verification process, which is a common issue with account access. Competing intents were rejected because the user's concerns are related to their account login and verification process, not a physical package or delivery issue."
+    },
+    {
+      "id": "a3b31228d3f292c5",
+      "expected_intent": "promotions_pricing",
+      "v2_prediction": "other_support",
+      "v3_prediction": "promotions_pricing",
+      "retrieved_candidates": [
+        "promotions_pricing",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "v2_correct": false,
+      "v3_correct": true,
+      "failure_category": "CLASSIFIER_IGNORED_CORRECT",
+      "v3_reasoning": "The user is questioning the legitimacy of a promotional price, suggesting that it may be a price increase rather than a genuine discount. The agent should request more context to clarify the issue, such as the order number or product details, to determine the correct course of action."
+    },
+    {
+      "id": "4c2ba68f8d6d8d01",
+      "expected_intent": "echo_alexa",
+      "v2_prediction": "other_support",
+      "v3_prediction": "echo_alexa",
+      "retrieved_candidates": [
+        "echo_alexa",
+        "delivery_delayed",
+        "echo_alexa"
+      ],
+      "v2_correct": false,
+      "v3_correct": true,
+      "failure_category": "CONFLICTING_EVIDENCE",
+      "v3_reasoning": "User is experiencing issues with Alexa's birthday feature, specifically the 'happy birthday' prompt not working as expected. This is a technical issue with the Alexa skill, not a problem with the device or account."
+    },
+    {
+      "id": "59b64538302cb337",
+      "expected_intent": "echo_alexa",
+      "v2_prediction": "other_support",
+      "v3_prediction": "echo_alexa",
+      "retrieved_candidates": [
+        "echo_alexa",
+        "echo_alexa",
+        "amazon_music"
+      ],
+      "v2_correct": false,
+      "v3_correct": true,
+      "failure_category": "CONFLICTING_EVIDENCE",
+      "v3_reasoning": "User is expressing disappointment with the quality of speakers on Echo Plus and asking for an update on when better speakers will be available, indicating a concern with the device itself, which aligns with the intent for Echo-related issues."
+    },
+    {
+      "id": "507a5d959193bd85",
+      "expected_intent": "promotions_pricing",
+      "v2_prediction": "other_support",
+      "v3_prediction": "promotions_pricing",
+      "retrieved_candidates": [
+        "delivery_delayed",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "v2_correct": false,
+      "v3_correct": true,
+      "failure_category": "CONFLICTING_EVIDENCE",
+      "v3_reasoning": "The user is expressing frustration with a price discrepancy on an SD card, but the agent's response indicates that the pricing is set by the sellers and is subject to market fluctuations, suggesting that the intent is related to promotions and pricing rather than a delivery issue."
+    },
+    {
+      "id": "20c1a80b2496fb80",
+      "expected_intent": "delivery_missing",
+      "v2_prediction": "amazon_locker",
+      "v3_prediction": "delivery_missing",
+      "retrieved_candidates": [
+        "delivery_missing",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "v2_correct": false,
+      "v3_correct": true,
+      "failure_category": "CONFLICTING_EVIDENCE",
+      "v3_reasoning": "The user is reporting that they received an empty package, which suggests a delivery issue. The intent `delivery_missing` is preferred over `delivery_wrong_item` because the user explicitly mentions receiving an empty package, which is a common cause of `delivery_missing`. The conversation does not indicate that the user is requesting a refund or asking about product availability, which are characteristics of `returns_refunds` and `product_availability`, respectively."
+    },
+    {
+      "id": "e0e2bacc798bff2b",
+      "expected_intent": "digital_kindle",
+      "v2_prediction": "other_support",
+      "v3_prediction": "digital_kindle",
+      "retrieved_candidates": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "v2_correct": false,
+      "v3_correct": true,
+      "failure_category": "RETRIEVAL_MISSING",
+      "v3_reasoning": "The user is asking about a Kindle device, which is a digital product, and is seeking information about its delivery status. The intent is digital_kindle because the user is inquiring about a specific digital product, and the conversation does not indicate a delivery issue or a problem with the Kindle itself. The confidence is 0.9 because the conversation strongly suggests the intent of digital_kindle, with the user explicitly mentioning a Kindle device and asking about its delivery status."
+    },
+    {
+      "id": "451122bbe75eae6a",
+      "expected_intent": "product_availability",
+      "v2_prediction": "other_support",
+      "v3_prediction": "product_availability",
+      "retrieved_candidates": [
+        "account_billing",
+        "account_billing",
+        "amazon_music"
+      ],
+      "v2_correct": false,
+      "v3_correct": true,
+      "failure_category": "RETRIEVAL_MISSING",
+      "v3_reasoning": "The user is asking about the behavior of pre-ordering an item with a gift card balance, which is a product availability issue, and the agent's response provides information on how pre-orders work with gift cards."
+    }
+  ],
+  "regressions": [
+    {
+      "id": "d6cf59dcf89bf508",
+      "expected_intent": "account_billing",
+      "v2_prediction": "account_billing",
+      "v3_prediction": "account_access",
+      "retrieved_candidates": [
+        "delivery_wrong_item",
+        "account_access",
+        "account_access"
+      ],
+      "v2_correct": true,
+      "v3_correct": false,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is concerned about account security after receiving an unsolicited email about a free trial of Amazon Prime. They are seeking clarification on how the trial was activated and whether their account was compromised. Competing intents were rejected because the user's primary concern is account security, which aligns with the intent for account_access."
+    },
+    {
+      "id": "add56eb200cd4103",
+      "expected_intent": "echo_alexa",
+      "v2_prediction": "echo_alexa",
+      "v3_prediction": "delivery_missing",
+      "retrieved_candidates": [
+        "echo_alexa",
+        "echo_alexa",
+        "echo_alexa"
+      ],
+      "v2_correct": true,
+      "v3_correct": false,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is reporting a missing package, as they were not notified of its delivery and were unable to retrieve it from the locker. The primary issue is the missing package, and competing intents were rejected due to the explicit mention of a missing package and the lack of information about a physical order problem."
+    },
+    {
+      "id": "663015f372cd3b8a",
+      "expected_intent": "promotions_pricing",
+      "v2_prediction": "promotions_pricing",
+      "v3_prediction": "product_availability",
+      "retrieved_candidates": [
+        "returns_refunds",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "v2_correct": true,
+      "v3_correct": false,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is asking about the availability of a specific product (LG refrigerator) and its warranty, indicating a product-related inquiry rather than a delivery or billing issue."
+    },
+    {
+      "id": "373f82ed0389646e",
+      "expected_intent": "returns_refunds",
+      "v2_prediction": "returns_refunds",
+      "v3_prediction": "delivery_wrong_item",
+      "retrieved_candidates": [
+        "returns_refunds",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "v2_correct": true,
+      "v3_correct": false,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is unable to return a product due to the system not allowing it, and they are frustrated with the response, indicating a need for a supervisor's review."
+    },
+    {
+      "id": "baa82fe4c3c04a25",
+      "expected_intent": "amazon_locker",
+      "v2_prediction": "amazon_locker",
+      "v3_prediction": "delivery_delayed",
+      "retrieved_candidates": [
+        "returns_refunds",
+        "returns_refunds",
+        "delivery_delayed"
+      ],
+      "v2_correct": true,
+      "v3_correct": false,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is expressing frustration with the delayed pickup of their package, mentioning that they have contacted the customer service team multiple times and are seeking assistance to resolve the issue."
+    },
+    {
+      "id": "7dd3e41677eca8cf",
+      "expected_intent": "delivery_delayed",
+      "v2_prediction": "delivery_delayed",
+      "v3_prediction": "account_access",
+      "retrieved_candidates": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "v2_correct": true,
+      "v3_correct": false,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is expressing gratitude for customer service and acknowledging the issue with their order, indicating that the primary problem is with their account access, not the delivery itself."
+    },
+    {
+      "id": "b916108101eca175",
+      "expected_intent": "delivery_wrong_item",
+      "v2_prediction": "delivery_wrong_item",
+      "v3_prediction": "account_access",
+      "retrieved_candidates": [
+        "account_access",
+        "account_billing",
+        "account_access"
+      ],
+      "v2_correct": true,
+      "v3_correct": false,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "User is experiencing issues with their Amazon Pay Balance and mobile number being blocked, indicating a problem with their account access."
+    },
+    {
+      "id": "962f87319795305d",
+      "expected_intent": "amazon_locker",
+      "v2_prediction": "amazon_locker",
+      "v3_prediction": "product_availability",
+      "retrieved_candidates": [
+        "amazon_locker",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "v2_correct": true,
+      "v3_correct": false,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is inquiring about the availability of an item, specifically an oil diffuser, which is not a physical product that can be shipped to a PO BOX, home address, or Amazon Locker. The user's frustration with the shipping options is not the primary issue, but rather the unavailability of the product."
+    },
+    {
+      "id": "7906799da7f63453",
+      "expected_intent": "digital_prime_video",
+      "v2_prediction": "digital_prime_video",
+      "v3_prediction": "echo_alexa",
+      "retrieved_candidates": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "v2_correct": true,
+      "v3_correct": false,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is expressing frustration with the limitations of their Echo device, specifically the lack of video integration and other features, which suggests a need for human review to understand the issue and provide a suitable solution."
+    },
+    {
+      "id": "f80ee1ce26d346fd",
+      "expected_intent": "promotions_pricing",
+      "v2_prediction": "promotions_pricing",
+      "v3_prediction": "digital_kindle",
+      "retrieved_candidates": [
+        "promotions_pricing",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "v2_correct": true,
+      "v3_correct": false,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "User is experiencing issues with eBook downloads on their Kindle device, with no mention of Prime Video or other digital services. The conversation focuses on troubleshooting eBook-related problems, making digital_kindle the most appropriate intent."
+    },
+    {
+      "id": "564d4563079bdbfb",
+      "expected_intent": "delivery_missing",
+      "v2_prediction": "delivery_missing",
+      "v3_prediction": "delivery_wrong_item",
+      "retrieved_candidates": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "v2_correct": true,
+      "v3_correct": false,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user explicitly mentioned a problem with their physical order (broken room heater), which is a delivery issue, not an account access issue."
+    },
+    {
+      "id": "d773ff9dfa682357",
+      "expected_intent": "digital_kindle",
+      "v2_prediction": "digital_kindle",
+      "v3_prediction": "digital_prime_video",
+      "retrieved_candidates": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "v2_correct": true,
+      "v3_correct": false,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is experiencing an issue with the Prime Video streaming service, specifically with the pricing, which suggests a digital service issue. However, the user's request for help and the agent's offer to investigate further via phone or chat indicate a need for clarification on the order number or other details to accurately diagnose the issue."
+    },
+    {
+      "id": "271f08dfe4b24f20",
+      "expected_intent": "promotions_pricing",
+      "v2_prediction": "promotions_pricing",
+      "v3_prediction": "delivery_delayed",
+      "retrieved_candidates": [
+        "promotions_pricing",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "v2_correct": true,
+      "v3_correct": false,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "User is expressing frustration with delayed delivery and requesting assistance, but the conversation lacks a specific order number, which is a critical piece of information needed to resolve the issue."
+    },
+    {
+      "id": "7537e113f152e797",
+      "expected_intent": "returns_refunds",
+      "v2_prediction": "returns_refunds",
+      "v3_prediction": "account_billing",
+      "retrieved_candidates": [
+        "returns_refunds",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "v2_correct": true,
+      "v3_correct": false,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is questioning an unauthorized Prime membership charge, indicating a billing issue, which is best handled by the account billing intent."
+    },
+    {
+      "id": "04f0d488a16c8b29",
+      "expected_intent": "account_access",
+      "v2_prediction": "account_access",
+      "v3_prediction": "delivery_wrong_item",
+      "retrieved_candidates": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "v2_correct": true,
+      "v3_correct": false,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is reporting a physical product issue with an incorrect item being delivered, which is a delivery issue, not an account access issue. The conversation involves a request for assistance with the incorrect delivery, which is a delivery issue, and the user's concern about the labeling and the lack of response from the delivery staff and the call center, which further supports the delivery_wrong_item intent."
+    },
+    {
+      "id": "c763f518de8ef948",
+      "expected_intent": "account_access",
+      "v2_prediction": "account_access",
+      "v3_prediction": "other_support",
+      "retrieved_candidates": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "v2_correct": true,
+      "v3_correct": false,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is asking about compatibility with a non-Amazon device, which doesn't fit the provided intents. The conversation doesn't involve a physical package, digital service, locker, billing charge, or account login, making it an out-of-scope issue."
+    },
+    {
+      "id": "3bb93e2f47e6c826",
+      "expected_intent": "digital_prime_video",
+      "v2_prediction": "digital_prime_video",
+      "v3_prediction": "product_availability",
+      "retrieved_candidates": [
+        "digital_prime_video",
+        "delivery_delayed",
+        "digital_prime_video"
+      ],
+      "v2_correct": true,
+      "v3_correct": false,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "User is asking about the availability of a specific product (Fire TV Stick with Alexa Voice Remote) in India, and the agent is providing information about the product's geo-location specificity and suggesting alternative options."
+    },
+    {
+      "id": "dd3f0d83804bec2a",
+      "expected_intent": "delivery_wrong_item",
+      "v2_prediction": "delivery_wrong_item",
+      "v3_prediction": "account_access",
+      "retrieved_candidates": [
+        "delivery_wrong_item",
+        "account_access",
+        "account_billing"
+      ],
+      "v2_correct": true,
+      "v3_correct": false,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is experiencing login issues and receiving error messages, indicating a problem with their account access. The conversation requires clarification on the user's account status and potential actions to resolve the issue."
+    },
+    {
+      "id": "3f38d0690064ea3e",
+      "expected_intent": "grocery_fresh",
+      "v2_prediction": "grocery_fresh",
+      "v3_prediction": "account_access",
+      "retrieved_candidates": [
+        "delivery_missing",
+        "account_billing",
+        "delivery_wrong_item"
+      ],
+      "v2_correct": true,
+      "v3_correct": false,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "User is expressing frustration with the UI of Flipkart, but the conversation is about Amazon's UI, indicating a problem with account access or login, rather than a delivery issue or product availability."
+    }
+  ],
+  "both_correct": [
+    {
+      "id": "72784fad0c2d64eb",
+      "expected_intent": "delivery_wrong_item",
+      "v2_prediction": "delivery_wrong_item",
+      "v3_prediction": "delivery_wrong_item",
+      "retrieved_candidates": [
+        "delivery_wrong_item",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "v2_correct": true,
+      "v3_correct": true,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "User reports receiving incorrect products and damaged products in two months, indicating a delivery issue. The strongest evidence is the user's explicit mention of incorrect products and damaged products, which aligns with the intent for delivery_wrong_item."
+    },
+    {
+      "id": "416f367ae994e79c",
+      "expected_intent": "grocery_fresh",
+      "v2_prediction": "grocery_fresh",
+      "v3_prediction": "grocery_fresh",
+      "retrieved_candidates": [
+        "grocery_fresh",
+        "amazon_locker",
+        "grocery_fresh"
+      ],
+      "v2_correct": true,
+      "v3_correct": true,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is expressing frustration with the excessive packaging used for grocery delivery, which is a common issue with Amazon Fresh. The intent is grocery_fresh as the primary problem, and no_escalation is recommended as the escalation level."
+    },
+    {
+      "id": "220588c05e025c77",
+      "expected_intent": "product_availability",
+      "v2_prediction": "product_availability",
+      "v3_prediction": "product_availability",
+      "retrieved_candidates": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "v2_correct": true,
+      "v3_correct": true,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is expressing disappointment about the availability of specific episodes of a show, and the agent is acknowledging the issue and requesting the user to wait for further updates."
+    },
+    {
+      "id": "ddc983b3b471f230",
+      "expected_intent": "account_billing",
+      "v2_prediction": "account_billing",
+      "v3_prediction": "account_billing",
+      "retrieved_candidates": [
+        "delivery_delayed",
+        "account_billing",
+        "account_billing"
+      ],
+      "v2_correct": true,
+      "v3_correct": true,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is experiencing issues with their Amazon Pay balance, specifically being unable to add money and unable to connect with support. The primary problem is related to account billing, and the user's frustration and disappointment suggest a need for escalation to a supervisor."
+    },
+    {
+      "id": "16cfcf62900ef5ea",
+      "expected_intent": "grocery_fresh",
+      "v2_prediction": "grocery_fresh",
+      "v3_prediction": "grocery_fresh",
+      "retrieved_candidates": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "v2_correct": true,
+      "v3_correct": true,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is discussing Amazon Fresh delivery and mentions a specific issue with the packaging, indicating a problem with the grocery delivery service. The intent is prioritized over other options due to the context of the conversation."
+    },
+    {
+      "id": "fc5e5ed945b5af36",
+      "expected_intent": "amazon_locker",
+      "v2_prediction": "amazon_locker",
+      "v3_prediction": "amazon_locker",
+      "retrieved_candidates": [
+        "amazon_locker",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "v2_correct": true,
+      "v3_correct": true,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "User is asking about the availability of a new Amazon Locker and experiencing issues with the locker's information not being available. Competing intents were rejected due to the user's focus on the locker's functionality and technical issues."
+    },
+    {
+      "id": "1e9fb1462c55081f",
+      "expected_intent": "delivery_missing",
+      "v2_prediction": "delivery_missing",
+      "v3_prediction": "delivery_missing",
+      "retrieved_candidates": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "v2_correct": true,
+      "v3_correct": true,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user's issue is about a missing package with no attempted delivery note, and they are concerned about the delayed delivery. The intent is delivery_missing because the user explicitly mentions that Hermes attempted delivery, but no note was left, and the package is still delayed. The agent's response suggests that the issue is with the attempted delivery, not with the package itself, which further supports this intent."
+    },
+    {
+      "id": "17b4e0cd5b4ccece",
+      "expected_intent": "digital_kindle",
+      "v2_prediction": "digital_kindle",
+      "v3_prediction": "digital_kindle",
+      "retrieved_candidates": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "v2_correct": true,
+      "v3_correct": true,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is asking about gifting Kindle books, specifically about the process of sending a gift card from the UK to Australia, and their concern is about the availability of Kindle books in Australia. The intent is not about a missing or damaged item, but rather about the functionality of the Kindle service."
+    },
+    {
+      "id": "d0a24e717d769d53",
+      "expected_intent": "digital_prime_video",
+      "v2_prediction": "digital_prime_video",
+      "v3_prediction": "digital_prime_video",
+      "retrieved_candidates": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "v2_correct": true,
+      "v3_correct": true,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is experiencing streaming issues with Prime Video, which is a digital service. The strongest evidence is the user's mention of error messages and the fact that other apps like Netflix work fine, indicating a problem with Prime Video specifically."
+    },
+    {
+      "id": "48041061adba4897",
+      "expected_intent": "amazon_music",
+      "v2_prediction": "amazon_music",
+      "v3_prediction": "amazon_music",
+      "retrieved_candidates": [
+        "amazon_music",
+        "amazon_music",
+        "amazon_music"
+      ],
+      "v2_correct": true,
+      "v3_correct": true,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "User is asking about playing music from multiple Spotify accounts on multiple Echos, which is a common issue. The agent's response suggests that the Echos need to be registered to the same account to access Prime Music, and the user is seeking clarification on this. Competing intents were rejected because the user's issue is not about a technical failure with the Echo device, but rather about the functionality of Prime Music with multiple accounts."
+    },
+    {
+      "id": "9cae32f77fa87a38",
+      "expected_intent": "returns_refunds",
+      "v2_prediction": "returns_refunds",
+      "v3_prediction": "returns_refunds",
+      "retrieved_candidates": [
+        "returns_refunds",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "v2_correct": true,
+      "v3_correct": true,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "User is requesting a refund for a product they received, despite the agent's request to return the product. The primary issue is the refund, not the return of the product."
+    },
+    {
+      "id": "424b7075b73da620",
+      "expected_intent": "account_access",
+      "v2_prediction": "account_access",
+      "v3_prediction": "account_access",
+      "retrieved_candidates": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "v2_correct": true,
+      "v3_correct": true,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is expressing frustration with the delivery process and the need for clarification on the delivery instructions, which were already included. The intent is not about a physical package, but rather about the customer's experience with the delivery process and the need for human review to resolve the issue."
+    },
+    {
+      "id": "d62bfab11ba69a91",
+      "expected_intent": "delivery_missing",
+      "v2_prediction": "delivery_missing",
+      "v3_prediction": "delivery_missing",
+      "retrieved_candidates": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "v2_correct": true,
+      "v3_correct": true,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is expressing frustration with the delivery process, stating that the delivery boy called them in the morning and said they don't work with Amazon, and the customer service is giving the same answer without making progress. The user is asking for help and wants to provide more details to resolve the issue."
+    },
+    {
+      "id": "d3a37c0eb6a2e1af",
+      "expected_intent": "delivery_delayed",
+      "v2_prediction": "delivery_delayed",
+      "v3_prediction": "delivery_delayed",
+      "retrieved_candidates": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "v2_correct": true,
+      "v3_correct": true,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is expressing confusion about the meaning of 2-day shipping, which implies that the item will arrive within 2 days after it dispatches, not immediately. This aligns with the definition of 2-day shipping, which is a transit time, not a guaranteed delivery date."
+    },
+    {
+      "id": "b0889d80badcbecd",
+      "expected_intent": "product_availability",
+      "v2_prediction": "product_availability",
+      "v3_prediction": "product_availability",
+      "retrieved_candidates": [
+        "delivery_delayed",
+        "product_availability",
+        "product_availability"
+      ],
+      "v2_correct": true,
+      "v3_correct": true,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is asking about the expected delivery date of a pre-ordered item, and the agent provided a standard response about delivery times. The user's request for changing delivery options was not relevant to the primary issue of the pre-order date."
+    },
+    {
+      "id": "78620867b16ba960",
+      "expected_intent": "account_billing",
+      "v2_prediction": "account_billing",
+      "v3_prediction": "account_billing",
+      "retrieved_candidates": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "v2_correct": true,
+      "v3_correct": true,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is expressing frustration about a billing issue, but the conversation is missing critical context (order number or account details). A clarification is needed to determine the exact nature of the problem and provide a suitable escalation level."
+    },
+    {
+      "id": "421694ec25574621",
+      "expected_intent": "delivery_delayed",
+      "v2_prediction": "delivery_delayed",
+      "v3_prediction": "delivery_delayed",
+      "retrieved_candidates": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "v2_correct": true,
+      "v3_correct": true,
+      "failure_category": "CORRECT_V2",
+      "v3_reasoning": "The user is expressing frustration about the delayed arrival of their package, and the agent is asking for the delivery date from the order confirmation email to troubleshoot the issue. The intent is delivery_delayed because the user is waiting for a package that was supposed to arrive, and the agent is providing a standard troubleshooting response."
+    }
+  ],
+  "both_wrong": [
+    {
+      "id": "9d4ee10b51d6518c",
+      "expected_intent": "delivery_missing",
+      "v2_prediction": "amazon_locker",
+      "v3_prediction": "delivery_wrong_item",
+      "retrieved_candidates": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "v2_correct": false,
+      "v3_correct": false,
+      "failure_category": "CLASSIFIER_IGNORED_CORRECT",
+      "v3_reasoning": "The user is expressing a problem with a physical product (faulty phone) that was delivered by mistake, which is a delivery issue. The intent is delivery_wrong_item because the user is specifically mentioning a problem with the physical order, not an account or billing issue."
+    },
+    {
+      "id": "5bdc103dceaa85cc",
+      "expected_intent": "account_billing",
+      "v2_prediction": "other_support",
+      "v3_prediction": "promotions_pricing",
+      "retrieved_candidates": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "v2_correct": false,
+      "v3_correct": false,
+      "failure_category": "CLASSIFIER_IGNORED_CORRECT",
+      "v3_reasoning": "The user is concerned about a price increase in a book on Amazon, and the agent's response suggests that the price is subject to change and may not be locked in, which is a common pricing strategy for online retailers."
+    },
+    {
+      "id": "e6aef6c530ba4876",
+      "expected_intent": "digital_prime_video",
+      "v2_prediction": "other_support",
+      "v3_prediction": "account_access",
+      "retrieved_candidates": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "v2_correct": false,
+      "v3_correct": false,
+      "failure_category": "CLASSIFIER_IGNORED_CORRECT",
+      "v3_reasoning": "The user is experiencing an issue with their Prime membership activation, which is a billing-related problem. The intent is not delivery-related, as the user mentions a subscription issue, not a package problem."
+    },
+    {
+      "id": "7fa5ccca8702f290",
+      "expected_intent": "product_availability",
+      "v2_prediction": "other_support",
+      "v3_prediction": "echo_alexa",
+      "retrieved_candidates": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "v2_correct": false,
+      "v3_correct": false,
+      "failure_category": "CLASSIFIER_IGNORED_CORRECT",
+      "v3_reasoning": "The user is experiencing an issue with their Echo device's location settings, which is a hardware-related problem. The agent's response suggests a troubleshooting approach, indicating that the issue is not related to account access or billing, and therefore does not require escalation to a human reviewer."
+    },
+    {
+      "id": "058a1adda23bf491",
+      "expected_intent": "product_availability",
+      "v2_prediction": "other_support",
+      "v3_prediction": "delivery_delayed",
+      "retrieved_candidates": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "v2_correct": false,
+      "v3_correct": false,
+      "failure_category": "CLASSIFIER_IGNORED_CORRECT",
+      "v3_reasoning": "The user is expressing frustration with delayed delivery dates and a lack of communication from Amazon. The intent is delivery_delayed because the user is concerned about the delay in receiving their order, and the conversation involves checking delivery dates and seeking further assistance."
+    },
+    {
+      "id": "136747dbfd949f68",
+      "expected_intent": "returns_refunds",
+      "v2_prediction": "other_support",
+      "v3_prediction": "delivery_delayed",
+      "retrieved_candidates": [
+        "delivery_delayed",
+        "returns_refunds",
+        "delivery_delayed"
+      ],
+      "v2_correct": false,
+      "v3_correct": false,
+      "failure_category": "CONFLICTING_EVIDENCE",
+      "v3_reasoning": "User is expressing frustration with the delay in receiving their refund, which is a delivery issue, and is seeking clarification on the status of their refund."
+    },
+    {
+      "id": "c4dfa7c7bd5687f2",
+      "expected_intent": "echo_alexa",
+      "v2_prediction": "other_support",
+      "v3_prediction": "delivery_delayed",
+      "retrieved_candidates": [
+        "product_availability",
+        "account_access",
+        "echo_alexa"
+      ],
+      "v2_correct": false,
+      "v3_correct": false,
+      "failure_category": "CONFLICTING_EVIDENCE",
+      "v3_reasoning": "User is expressing concern about the delayed delivery of their package, requesting an update on the estimated delivery date. The intent is delivery_delayed, but clarification is needed to determine the specific issue and escalate accordingly."
+    },
+    {
+      "id": "7407c0dd1c4a8822",
+      "expected_intent": "account_access",
+      "v2_prediction": "delivery_wrong_item",
+      "v3_prediction": "delivery_delayed",
+      "retrieved_candidates": [
+        "account_access",
+        "delivery_delayed",
+        "account_access"
+      ],
+      "v2_correct": false,
+      "v3_correct": false,
+      "failure_category": "CONFLICTING_EVIDENCE",
+      "v3_reasoning": "The user is expressing frustration with a delayed delivery, as the van arrived but the driver drove off without attempting to deliver the package. This indicates a delivery issue, not an account access problem."
+    },
+    {
+      "id": "a2bbc722057b5719",
+      "expected_intent": "promotions_pricing",
+      "v2_prediction": "other_support",
+      "v3_prediction": "delivery_missing",
+      "retrieved_candidates": [
+        "promotions_pricing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "v2_correct": false,
+      "v3_correct": false,
+      "failure_category": "CONFLICTING_EVIDENCE",
+      "v3_reasoning": "User reports missing package despite tracking update, and agent is asked to escalate the issue."
+    },
+    {
+      "id": "e4b818ccb8232155",
+      "expected_intent": "amazon_locker",
+      "v2_prediction": "other_support",
+      "v3_prediction": "delivery_delayed",
+      "retrieved_candidates": [
+        "amazon_locker",
+        "delivery_missing",
+        "delivery_delayed"
+      ],
+      "v2_correct": false,
+      "v3_correct": false,
+      "failure_category": "CONFLICTING_EVIDENCE",
+      "v3_reasoning": "The user is frustrated with a missed delivery and is questioning the reliability of the Prime service, but the primary issue is the delayed delivery of a book, which is a physical package. The user's language and context suggest a problem with the delivery timing, rather than a billing or account issue."
+    },
+    {
+      "id": "51f7b73ff3175ac1",
+      "expected_intent": "digital_kindle",
+      "v2_prediction": "other_support",
+      "v3_prediction": "account_access",
+      "retrieved_candidates": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "v2_correct": false,
+      "v3_correct": false,
+      "failure_category": "RETRIEVAL_MISSING",
+      "v3_reasoning": "User is concerned about seeing ads on Twitter and Facebook, indicating a potential issue with their account, which is classified as an account_access issue."
+    },
+    {
+      "id": "51815e0ee9dcfccd",
+      "expected_intent": "grocery_fresh",
+      "v2_prediction": "other_support",
+      "v3_prediction": "delivery_delayed",
+      "retrieved_candidates": [
+        "delivery_delayed",
+        "delivery_missing",
+        "delivery_delayed"
+      ],
+      "v2_correct": false,
+      "v3_correct": false,
+      "failure_category": "RETRIEVAL_MISSING",
+      "v3_reasoning": "The user is asking about the status of their order, which is delayed, and is seeking an update on when it will arrive."
+    },
+    {
+      "id": "f0cfad48f6a145b1",
+      "expected_intent": "grocery_fresh",
+      "v2_prediction": "other_support",
+      "v3_prediction": "delivery_delayed",
+      "retrieved_candidates": [
+        "delivery_missing",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "v2_correct": false,
+      "v3_correct": false,
+      "failure_category": "RETRIEVAL_MISSING",
+      "v3_reasoning": "The user is expressing frustration with the delivery service, specifically mentioning that a guaranteed delivery time was not met. The conversation revolves around the issue with the delivery, which aligns with the intent for delivery_delayed. The user's repeated attempts to report the issue and the lack of resolution from Amazon's customer service team further supports this intent."
+    }
+  ]
+}

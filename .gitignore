@@ -1,0 +1,43 @@
+# Python environments and caches
+.venv/
+venv/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and OS files
+.env
+.DS_Store
+
+# Local model/index/cache artifacts
+.cache/
+
+# Local runtime logs
+*.log
+
+# Raw and large datasets
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*.jsonl
+data/processed/*.joblib
+!data/processed/.gitkeep
+
+# Generic large data files
+*.csv
+*.parquet
+
+# Generated experiment artifacts
+experiments/runs/*
+!experiments/runs/.gitkeep
+
+# Nested project environments
+**/.venv/
+
+# Local/temporary files
+hiver-sde-intern/
+mnrl_out*.txt
+test_fit.py
+test_trainer.py
+walkthrough.md
+implementation_plan.md

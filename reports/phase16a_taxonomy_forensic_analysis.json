@@ -1,0 +1,530 @@
+[
+  {
+    "example_id": "GS-009",
+    "thread_id": "136747dbfd949f68",
+    "expected_intent": "returns_refunds",
+    "v2_predicted_intent": "other_support",
+    "top_3_retrieved_intents": [
+      "delivery_delayed",
+      "returns_refunds",
+      "delivery_delayed"
+    ],
+    "retrieval_similarity_scores": [
+      0.9449585676193237,
+      0.9393183588981628,
+      0.939152181148529
+    ],
+    "expected_in_top_3": true,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "This example might be suspicious or difficult because the classifier guessed 'other_support' despite the conversation being about a refund, which is a specific topic. The top-3 retrieved examples include 'delivery_delayed' and 'returns_refunds', which are related to the topic, but the classifier still chose a different label.",
+    "competing_intent": "returns_refunds"
+  },
+  {
+    "example_id": "GS-017",
+    "thread_id": "9d4ee10b51d6518c",
+    "expected_intent": "delivery_missing",
+    "v2_predicted_intent": "amazon_locker",
+    "top_3_retrieved_intents": [
+      "delivery_missing",
+      "delivery_missing",
+      "delivery_missing"
+    ],
+    "retrieval_similarity_scores": [
+      0.9331766366958618,
+      0.9201962351799011,
+      0.9196209907531738
+    ],
+    "expected_in_top_3": true,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "This example might be suspicious or difficult because the classifier guessed 'amazon_locker' despite the user explicitly mentioning 'delivery_missing' and 'faulty phone', which suggests a clear intent related to delivery issues. The top-3 retrieved examples are all 'delivery_missing', which could indicate that the model is over-relying on this label or struggling to distinguish between related but distinct intents.",
+    "competing_intent": "delivery_issue"
+  },
+  {
+    "example_id": "GS-027",
+    "thread_id": "2555a8d9872a2f15",
+    "expected_intent": "delivery_missing",
+    "v2_predicted_intent": "amazon_locker",
+    "top_3_retrieved_intents": [
+      "delivery_missing",
+      "delivery_missing",
+      "delivery_missing"
+    ],
+    "retrieval_similarity_scores": [
+      0.9353843927383423,
+      0.9231410026550293,
+      0.9214577078819275
+    ],
+    "expected_in_top_3": true,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "This example might be suspicious or difficult because the classifier guessed 'amazon_locker' despite the user explicitly stating that the product was delivered 'bang in time', which contradicts the definition of an 'amazon_locker' as a secure location for package delivery.",
+    "competing_intent": "delivery_received"
+  },
+  {
+    "example_id": "GS-057",
+    "thread_id": "548c4f7b87a573e3",
+    "expected_intent": "account_billing",
+    "v2_predicted_intent": "other_support",
+    "top_3_retrieved_intents": [
+      "account_billing",
+      "account_billing",
+      "account_billing"
+    ],
+    "retrieval_similarity_scores": [
+      0.9469398856163025,
+      0.9464626908302307,
+      0.9394469261169434
+    ],
+    "expected_in_top_3": true,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "The conversation might be suspicious or difficult because the user is reporting an issue with adding money to AmazonPay using a DebitCard, but the classifier guessed 'other_support' which is a broad category that doesn't specifically relate to payment issues. The top-3 retrieved examples are all 'account_billing', which suggests that the classifier is over-relying on this label and not considering the specific context of the conversation.",
+    "competing_intent": "account_billing"
+  },
+  {
+    "example_id": "GS-064",
+    "thread_id": "5bdc103dceaa85cc",
+    "expected_intent": "account_billing",
+    "v2_predicted_intent": "other_support",
+    "top_3_retrieved_intents": [
+      "account_billing",
+      "account_billing",
+      "account_billing"
+    ],
+    "retrieval_similarity_scores": [
+      0.9153305292129517,
+      0.9030941724777222,
+      0.9006351232528687
+    ],
+    "expected_in_top_3": true,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "This example might be suspicious or difficult because the classifier guessed 'other_support' despite the conversation being about a price increase on a product, which is a clear and specific issue that could be related to 'account_billing'. The top-3 retrieved examples were all 'account_billing', which suggests that the classifier was over-relying on this label and not considering the context of the conversation.",
+    "competing_intent": "account_billing"
+  },
+  {
+    "example_id": "GS-077",
+    "thread_id": "e6aef6c530ba4876",
+    "expected_intent": "digital_prime_video",
+    "v2_predicted_intent": "other_support",
+    "top_3_retrieved_intents": [
+      "digital_prime_video",
+      "digital_prime_video",
+      "digital_prime_video"
+    ],
+    "retrieval_similarity_scores": [
+      0.8938703536987305,
+      0.8895843029022217,
+      0.8851688504219055
+    ],
+    "expected_in_top_3": true,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "This example might be suspicious or difficult because the classifier guessed 'other_support' despite the clear mention of 'Prime videos' in the conversation, indicating a strong intent related to Amazon Prime video subscription. The top-3 retrieved examples are all 'digital_prime_video', which suggests that the model is overfitting to this specific label.",
+    "competing_intent": "amazon_prime_video_subscription"
+  },
+  {
+    "example_id": "GS-084",
+    "thread_id": "e0e2bacc798bff2b",
+    "expected_intent": "digital_kindle",
+    "v2_predicted_intent": "other_support",
+    "top_3_retrieved_intents": [
+      "delivery_delayed",
+      "delivery_delayed",
+      "delivery_delayed"
+    ],
+    "retrieval_similarity_scores": [
+      0.8410353660583496,
+      0.8402255177497864,
+      0.8387489318847656
+    ],
+    "expected_in_top_3": false,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "The example might be suspicious or difficult because the classifier guessed 'other_support' instead of the expected 'digital_kindle', and the top-3 retrieved examples are all variations of 'delivery_delayed', which is unrelated to the user's question about their Kindle.",
+    "competing_intent": "product_info"
+  },
+  {
+    "example_id": "GS-086",
+    "thread_id": "51f7b73ff3175ac1",
+    "expected_intent": "digital_kindle",
+    "v2_predicted_intent": "other_support",
+    "top_3_retrieved_intents": [
+      "account_billing",
+      "account_billing",
+      "account_billing"
+    ],
+    "retrieval_similarity_scores": [
+      0.85796719789505,
+      0.8537827134132385,
+      0.8530888557434082
+    ],
+    "expected_in_top_3": false,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "This example might be suspicious or difficult because the user is asking about the legitimacy of a website, but the classifier guessed a support conversation about a billing issue, which is unrelated to the user's question. The top-3 retrieved examples are all billing-related, which suggests that the classifier may have been biased towards this intent.",
+    "competing_intent": "legitimacy_of_website"
+  },
+  {
+    "example_id": "GS-096",
+    "thread_id": "a0cb92cfb35738bb",
+    "expected_intent": "digital_kindle",
+    "v2_predicted_intent": "other_support",
+    "top_3_retrieved_intents": [
+      "digital_kindle",
+      "digital_kindle",
+      "digital_kindle"
+    ],
+    "retrieval_similarity_scores": [
+      0.906688928604126,
+      0.9011340737342834,
+      0.8993411064147949
+    ],
+    "expected_in_top_3": true,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "This example might be suspicious or difficult because the classifier guessed 'other_support' despite the user explicitly mentioning 'ebook' and 'Kindle', which are strong indicators of the true intent. The classifier's guess seems to be unrelated to the user's query about buying an ebook.",
+    "competing_intent": "buy_ebook"
+  },
+  {
+    "example_id": "GS-122",
+    "thread_id": "4c2ba68f8d6d8d01",
+    "expected_intent": "echo_alexa",
+    "v2_predicted_intent": "other_support",
+    "top_3_retrieved_intents": [
+      "echo_alexa",
+      "delivery_delayed",
+      "echo_alexa"
+    ],
+    "retrieval_similarity_scores": [
+      0.9200084805488586,
+      0.9176813364028931,
+      0.9162073731422424
+    ],
+    "expected_in_top_3": true,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "POSSIBLY_MISLABELED",
+    "explanation": "This example might be suspicious or difficult because the user is expressing frustration and disappointment with the Alexa skill, which could lead to a more nuanced and context-dependent intent than a simple 'echo_alexa' label.",
+    "competing_intent": "complaint_about_alexa_skill"
+  },
+  {
+    "example_id": "GS-123",
+    "thread_id": "59b64538302cb337",
+    "expected_intent": "echo_alexa",
+    "v2_predicted_intent": "other_support",
+    "top_3_retrieved_intents": [
+      "echo_alexa",
+      "echo_alexa",
+      "amazon_music"
+    ],
+    "retrieval_similarity_scores": [
+      0.9324939250946045,
+      0.9287726879119873,
+      0.9253297448158264
+    ],
+    "expected_in_top_3": true,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "This example might be suspicious or difficult because the classifier guessed 'other_support' instead of the expected 'echo_alexa', and the top-3 retrieved examples are all variations of 'echo_alexa', which suggests that the model is over-relying on this intent. The context of the conversation also implies that the user is discussing a specific product (Echo Plus) and is expressing disappointment with its quality, which is not typical of general support conversations.",
+    "competing_intent": "general_support"
+  },
+  {
+    "example_id": "GS-124",
+    "thread_id": "c4dfa7c7bd5687f2",
+    "expected_intent": "echo_alexa",
+    "v2_predicted_intent": "other_support",
+    "top_3_retrieved_intents": [
+      "product_availability",
+      "account_access",
+      "echo_alexa"
+    ],
+    "retrieval_similarity_scores": [
+      0.9002453088760376,
+      0.8712779879570007,
+      0.8707875609397888
+    ],
+    "expected_in_top_3": true,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "This example might be suspicious or difficult because the classifier guessed 'other_support' despite the top-3 retrieved examples being related to 'echo_alexa', which is a specific intent for Alexa devices, while the conversation is about a general issue with a customer's order.",
+    "competing_intent": "echo_alexa"
+  },
+  {
+    "example_id": "GS-128",
+    "thread_id": "7407c0dd1c4a8822",
+    "expected_intent": "account_access",
+    "v2_predicted_intent": "delivery_wrong_item",
+    "top_3_retrieved_intents": [
+      "account_access",
+      "delivery_delayed",
+      "account_access"
+    ],
+    "retrieval_similarity_scores": [
+      0.8716715574264526,
+      0.8532477617263794,
+      0.8488761782646179
+    ],
+    "expected_in_top_3": true,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "This example might be suspicious or difficult because the user is describing a specific issue with the delivery service, but the classifier guessed a label that is not directly related to the issue at hand. The user's description does not contain any keywords or phrases that would suggest the label 'account_access', but rather focuses on the delivery process and the company's failure to fulfill its obligations.",
+    "competing_intent": "account_access"
+  },
+  {
+    "example_id": "GS-139",
+    "thread_id": "7e10f8a5300df65c",
+    "expected_intent": "account_access",
+    "v2_predicted_intent": "delivery_wrong_item",
+    "top_3_retrieved_intents": [
+      "account_access",
+      "account_access",
+      "account_access"
+    ],
+    "retrieval_similarity_scores": [
+      0.9017435312271118,
+      0.8891456127166748,
+      0.8843434453010559
+    ],
+    "expected_in_top_3": true,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "This example might be suspicious or difficult because the user is describing a specific security-related issue with their account, but the classifier guessed a different intent ('delivery_wrong_item') that is unrelated to the context of the conversation. The top-3 retrieved examples are all 'account_access', which suggests that the model is over-relying on this label and not considering other plausible options.",
+    "competing_intent": "account_problem"
+  },
+  {
+    "example_id": "GS-141",
+    "thread_id": "507a5d959193bd85",
+    "expected_intent": "promotions_pricing",
+    "v2_predicted_intent": "other_support",
+    "top_3_retrieved_intents": [
+      "delivery_delayed",
+      "promotions_pricing",
+      "promotions_pricing"
+    ],
+    "retrieval_similarity_scores": [
+      0.8951706886291504,
+      0.8792407512664795,
+      0.8781062364578247
+    ],
+    "expected_in_top_3": true,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "This example might be suspicious or difficult because the user's tone is aggressive and accusatory, using phrases like 'WTF' and 'STOP TRAPPING INNOCENT PEOPLE'. This could indicate that the classifier is struggling to accurately identify the intent behind the user's message, as the language is emotive and not directly related to the product or pricing information.",
+    "competing_intent": "complaints_about_prices"
+  },
+  {
+    "example_id": "GS-144",
+    "thread_id": "a2bbc722057b5719",
+    "expected_intent": "promotions_pricing",
+    "v2_predicted_intent": "other_support",
+    "top_3_retrieved_intents": [
+      "promotions_pricing",
+      "delivery_missing",
+      "delivery_missing"
+    ],
+    "retrieval_similarity_scores": [
+      0.9012398719787598,
+      0.8811377882957458,
+      0.8809977173805237
+    ],
+    "expected_in_top_3": true,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "This example might be suspicious or difficult because the classifier guessed 'other_support' despite the conversation being about a preorder offer and a promo, which is a specific type of promotion. The top-3 retrieved examples include 'promotions_pricing', which is the expected label, but the classifier chose a different label. This suggests that the classifier may not have fully understood the context of the conversation.",
+    "competing_intent": "promotions_pricing"
+  },
+  {
+    "example_id": "GS-150",
+    "thread_id": "a3b31228d3f292c5",
+    "expected_intent": "promotions_pricing",
+    "v2_predicted_intent": "other_support",
+    "top_3_retrieved_intents": [
+      "promotions_pricing",
+      "promotions_pricing",
+      "promotions_pricing"
+    ],
+    "retrieval_similarity_scores": [
+      0.9370699524879456,
+      0.9244974255561829,
+      0.9241569638252258
+    ],
+    "expected_in_top_3": true,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "This example might be suspicious or difficult because the classifier guessed 'other_support' despite the conversation being about promotions and pricing, and the top-3 retrieved examples were all related to 'promotions_pricing'. This suggests that the classifier may not have fully understood the context of the conversation or may have been misled by the presence of other related but distinct topics.",
+    "competing_intent": "promotions_pricing"
+  },
+  {
+    "example_id": "GS-159",
+    "thread_id": "20c1a80b2496fb80",
+    "expected_intent": "delivery_missing",
+    "v2_predicted_intent": "amazon_locker",
+    "top_3_retrieved_intents": [
+      "delivery_missing",
+      "amazon_locker",
+      "amazon_locker"
+    ],
+    "retrieval_similarity_scores": [
+      0.903884768486023,
+      0.899826169013977,
+      0.8944842219352722
+    ],
+    "expected_in_top_3": true,
+    "predicted_in_top_3": true,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "This example might be suspicious or difficult because the user explicitly mentions 'collection at a locker' in their message, which is a specific context that might not be well-represented in the model's training data. This could lead to the classifier guessing a label that is not the intended meaning.",
+    "competing_intent": "delivery_missing"
+  },
+  {
+    "example_id": "GS-164",
+    "thread_id": "e4b818ccb8232155",
+    "expected_intent": "amazon_locker",
+    "v2_predicted_intent": "other_support",
+    "top_3_retrieved_intents": [
+      "amazon_locker",
+      "delivery_missing",
+      "delivery_delayed"
+    ],
+    "retrieval_similarity_scores": [
+      0.8583084344863892,
+      0.8561914563179016,
+      0.8504761457443237
+    ],
+    "expected_in_top_3": true,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "This example might be suspicious or difficult because the user's tone is aggressive and sarcastic, which can make it challenging for the classifier to accurately identify the intent behind the message. The user's frustration with the delivery issue and the perceived failure of Amazon's Prime service makes it difficult for the classifier to distinguish between the true intent and other possible intents.",
+    "competing_intent": "complaint"
+  },
+  {
+    "example_id": "GS-174",
+    "thread_id": "51815e0ee9dcfccd",
+    "expected_intent": "grocery_fresh",
+    "v2_predicted_intent": "other_support",
+    "top_3_retrieved_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_delayed"
+    ],
+    "retrieval_similarity_scores": [
+      0.8763971924781799,
+      0.8600615859031677,
+      0.8527288436889648
+    ],
+    "expected_in_top_3": false,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "This example might be suspicious or difficult because the user is expressing frustration and sarcasm towards the grocery store, which makes it challenging for the classifier to accurately identify the intent behind the message.",
+    "competing_intent": "grocery_fresh"
+  },
+  {
+    "example_id": "GS-178",
+    "thread_id": "f0cfad48f6a145b1",
+    "expected_intent": "grocery_fresh",
+    "v2_predicted_intent": "other_support",
+    "top_3_retrieved_intents": [
+      "delivery_missing",
+      "delivery_delayed",
+      "delivery_delayed"
+    ],
+    "retrieval_similarity_scores": [
+      0.8562769293785095,
+      0.8502965569496155,
+      0.8501577377319336
+    ],
+    "expected_in_top_3": false,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "This example might be suspicious or difficult because the user is expressing frustration and disappointment with the service, using strong language like 'pathetic' and 'lie', which can make it challenging to accurately identify the intent behind the message.",
+    "competing_intent": "complaint"
+  },
+  {
+    "example_id": "GS-182",
+    "thread_id": "7fa5ccca8702f290",
+    "expected_intent": "product_availability",
+    "v2_predicted_intent": "other_support",
+    "top_3_retrieved_intents": [
+      "product_availability",
+      "product_availability",
+      "product_availability"
+    ],
+    "retrieval_similarity_scores": [
+      0.8869276642799377,
+      0.8764824867248535,
+      0.8705329298973083
+    ],
+    "expected_in_top_3": true,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "This example might be suspicious or difficult because the classifier guessed 'other_support' despite the conversation being about product availability, and the top-3 retrieved examples were all 'product_availability'. This suggests that the classifier may not have fully understood the context of the conversation, leading to an incorrect label.",
+    "competing_intent": "product_availability"
+  },
+  {
+    "example_id": "GS-186",
+    "thread_id": "451122bbe75eae6a",
+    "expected_intent": "product_availability",
+    "v2_predicted_intent": "other_support",
+    "top_3_retrieved_intents": [
+      "account_billing",
+      "account_billing",
+      "amazon_music"
+    ],
+    "retrieval_similarity_scores": [
+      0.8720964789390564,
+      0.863773763179779,
+      0.8626340627670288
+    ],
+    "expected_in_top_3": false,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "This example might be suspicious or difficult because the classifier guessed 'other_support' despite the conversation being about product availability, and the top-3 retrieved examples are all related to account billing, which is not relevant to the user's question about pre-ordering an album.",
+    "competing_intent": "product_availability"
+  },
+  {
+    "example_id": "GS-189",
+    "thread_id": "058a1adda23bf491",
+    "expected_intent": "product_availability",
+    "v2_predicted_intent": "other_support",
+    "top_3_retrieved_intents": [
+      "product_availability",
+      "product_availability",
+      "product_availability"
+    ],
+    "retrieval_similarity_scores": [
+      0.9304636716842651,
+      0.929894208908081,
+      0.9276256561279297
+    ],
+    "expected_in_top_3": true,
+    "predicted_in_top_3": false,
+    "is_ambiguous": true,
+    "label_quality": "STRONGLY_MISLABELED",
+    "explanation": "This example might be suspicious or difficult because the classifier guessed 'other_support' despite the conversation being about order delays and shipping, which is not a typical support topic. The top-3 retrieved examples were all 'product_availability', which suggests that the model is over-relying on this label and not considering other relevant options.",
+    "competing_intent": "product_availability"
+  }
+]

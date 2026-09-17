@@ -1,0 +1,245 @@
+{
+  "status": "PASS",
+  "decisions": [
+    {
+      "case_id": "GS-009",
+      "current_label": "returns_refunds",
+      "proposed_label": "",
+      "human_decision": "KEEP_CURRENT_LABEL",
+      "human_reason": "E2E browser verification: KEEP_CURRENT_LABEL workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:16.288907"
+    },
+    {
+      "case_id": "GS-017",
+      "current_label": "delivery_missing",
+      "proposed_label": "account_billing",
+      "human_decision": "CHANGE_LABEL",
+      "human_reason": "E2E browser verification: CHANGE_LABEL workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:16.719322"
+    },
+    {
+      "case_id": "GS-027",
+      "current_label": "delivery_missing",
+      "proposed_label": "",
+      "human_decision": "AMBIGUOUS_KEEP",
+      "human_reason": "E2E browser verification: AMBIGUOUS_KEEP workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:17.065540"
+    },
+    {
+      "case_id": "GS-057",
+      "current_label": "account_billing",
+      "proposed_label": "",
+      "human_decision": "INSUFFICIENT_EVIDENCE",
+      "human_reason": "E2E browser verification: INSUFFICIENT_EVIDENCE workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:17.394022"
+    },
+    {
+      "case_id": "GS-064",
+      "current_label": "account_billing",
+      "proposed_label": "",
+      "human_decision": "KEEP_CURRENT_LABEL",
+      "human_reason": "E2E browser verification: KEEP_CURRENT_LABEL workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:17.600541"
+    },
+    {
+      "case_id": "GS-077",
+      "current_label": "digital_prime_video",
+      "proposed_label": "account_billing",
+      "human_decision": "CHANGE_LABEL",
+      "human_reason": "E2E browser verification: CHANGE_LABEL workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:17.943817"
+    },
+    {
+      "case_id": "GS-084",
+      "current_label": "digital_kindle",
+      "proposed_label": "",
+      "human_decision": "AMBIGUOUS_KEEP",
+      "human_reason": "E2E browser verification: AMBIGUOUS_KEEP workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:18.229551"
+    },
+    {
+      "case_id": "GS-086",
+      "current_label": "digital_kindle",
+      "proposed_label": "",
+      "human_decision": "INSUFFICIENT_EVIDENCE",
+      "human_reason": "E2E browser verification: INSUFFICIENT_EVIDENCE workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:18.533886"
+    },
+    {
+      "case_id": "GS-096",
+      "current_label": "digital_kindle",
+      "proposed_label": "",
+      "human_decision": "KEEP_CURRENT_LABEL",
+      "human_reason": "E2E browser verification: KEEP_CURRENT_LABEL workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:18.720388"
+    },
+    {
+      "case_id": "GS-122",
+      "current_label": "echo_alexa",
+      "proposed_label": "account_billing",
+      "human_decision": "CHANGE_LABEL",
+      "human_reason": "E2E browser verification: CHANGE_LABEL workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:19.060334"
+    },
+    {
+      "case_id": "GS-123",
+      "current_label": "echo_alexa",
+      "proposed_label": "",
+      "human_decision": "AMBIGUOUS_KEEP",
+      "human_reason": "E2E browser verification: AMBIGUOUS_KEEP workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:19.381421"
+    },
+    {
+      "case_id": "GS-124",
+      "current_label": "echo_alexa",
+      "proposed_label": "",
+      "human_decision": "INSUFFICIENT_EVIDENCE",
+      "human_reason": "E2E browser verification: INSUFFICIENT_EVIDENCE workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:19.687706"
+    },
+    {
+      "case_id": "GS-128",
+      "current_label": "account_access",
+      "proposed_label": "",
+      "human_decision": "KEEP_CURRENT_LABEL",
+      "human_reason": "E2E browser verification: KEEP_CURRENT_LABEL workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:19.892014"
+    },
+    {
+      "case_id": "GS-139",
+      "current_label": "account_access",
+      "proposed_label": "account_billing",
+      "human_decision": "CHANGE_LABEL",
+      "human_reason": "E2E browser verification: CHANGE_LABEL workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:20.214268"
+    },
+    {
+      "case_id": "GS-141",
+      "current_label": "promotions_pricing",
+      "proposed_label": "",
+      "human_decision": "AMBIGUOUS_KEEP",
+      "human_reason": "E2E browser verification: AMBIGUOUS_KEEP workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:20.537990"
+    },
+    {
+      "case_id": "GS-144",
+      "current_label": "promotions_pricing",
+      "proposed_label": "",
+      "human_decision": "INSUFFICIENT_EVIDENCE",
+      "human_reason": "E2E browser verification: INSUFFICIENT_EVIDENCE workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:20.931730"
+    },
+    {
+      "case_id": "GS-150",
+      "current_label": "promotions_pricing",
+      "proposed_label": "",
+      "human_decision": "KEEP_CURRENT_LABEL",
+      "human_reason": "E2E browser verification: KEEP_CURRENT_LABEL workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:21.161821"
+    },
+    {
+      "case_id": "GS-159",
+      "current_label": "delivery_missing",
+      "proposed_label": "account_billing",
+      "human_decision": "CHANGE_LABEL",
+      "human_reason": "E2E browser verification: CHANGE_LABEL workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:21.912284"
+    },
+    {
+      "case_id": "GS-164",
+      "current_label": "amazon_locker",
+      "proposed_label": "",
+      "human_decision": "AMBIGUOUS_KEEP",
+      "human_reason": "E2E browser verification: AMBIGUOUS_KEEP workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:22.296658"
+    },
+    {
+      "case_id": "GS-174",
+      "current_label": "grocery_fresh",
+      "proposed_label": "",
+      "human_decision": "INSUFFICIENT_EVIDENCE",
+      "human_reason": "E2E browser verification: INSUFFICIENT_EVIDENCE workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:22.642408"
+    },
+    {
+      "case_id": "GS-178",
+      "current_label": "grocery_fresh",
+      "proposed_label": "",
+      "human_decision": "KEEP_CURRENT_LABEL",
+      "human_reason": "E2E browser verification: KEEP_CURRENT_LABEL workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:22.851204"
+    },
+    {
+      "case_id": "GS-182",
+      "current_label": "product_availability",
+      "proposed_label": "account_billing",
+      "human_decision": "CHANGE_LABEL",
+      "human_reason": "E2E browser verification: CHANGE_LABEL workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:23.192519"
+    },
+    {
+      "case_id": "GS-186",
+      "current_label": "product_availability",
+      "proposed_label": "",
+      "human_decision": "AMBIGUOUS_KEEP",
+      "human_reason": "E2E browser verification: AMBIGUOUS_KEEP workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:23.496146"
+    },
+    {
+      "case_id": "GS-189",
+      "current_label": "product_availability",
+      "proposed_label": "",
+      "human_decision": "INSUFFICIENT_EVIDENCE",
+      "human_reason": "E2E browser verification: INSUFFICIENT_EVIDENCE workflow.",
+      "confidence": "HIGH",
+      "reviewer": "E2E_TEST",
+      "timestamp": "2026-09-16T19:49:23.800344"
+    }
+  ]
+}

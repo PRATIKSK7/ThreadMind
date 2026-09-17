@@ -1,0 +1,8 @@
+{
+  "total_corpus": 82360,
+  "indexed_documents": 35247,
+  "excluded_documents": 47113,
+  "index_metadata_count": 35247,
+  "embedding_count": 35247,
+  "document_id_alignment": true
+}

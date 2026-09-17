@@ -1,0 +1,278 @@
+{
+  "summary": {
+    "KEEP_CURRENT_LABEL": 0,
+    "CHANGE_LABEL": 13,
+    "TAXONOMY_RULE_NEEDED": 11,
+    "INSUFFICIENT_CONTEXT": 0
+  },
+  "grouped_decisions": {
+    "other_support \u2194 returns_refunds": [
+      {
+        "example_id": "GS-009",
+        "boundary": "other_support \u2194 returns_refunds",
+        "old_label": "returns_refunds",
+        "v2_prediction": "other_support",
+        "decision": "CHANGE_LABEL",
+        "proposed_new_label": "returns_refunds",
+        "human_reasoning": "The conversation does not provide sufficient context to determine the cause of the error and whether the refund was processed correctly. The user's frustration and request for a more detailed explanation suggest that a more specific label is needed.",
+        "policy_question": "Was the refund processed correctly and was the cause of the error clearly communicated to the customer?"
+      }
+    ],
+    "amazon_locker \u2194 delivery_missing": [
+      {
+        "example_id": "GS-017",
+        "boundary": "amazon_locker \u2194 delivery_missing",
+        "old_label": "delivery_missing",
+        "v2_prediction": "amazon_locker",
+        "decision": "CHANGE_LABEL",
+        "proposed_new_label": "delivery_error",
+        "human_reasoning": "The customer's experience of being tortured for 3 days due to a faulty phone delivery suggests a more severe issue than a simple missing item. A more descriptive label is needed to reflect the severity of the issue.",
+        "policy_question": "Does the customer's experience indicate a more severe issue than a simple missing item?"
+      },
+      {
+        "example_id": "GS-027",
+        "boundary": "amazon_locker \u2194 delivery_missing",
+        "old_label": "delivery_missing",
+        "v2_prediction": "amazon_locker",
+        "decision": "CHANGE_LABEL",
+        "proposed_new_label": "delivery_on_time",
+        "human_reasoning": "The customer has confirmed that the product was delivered bang in time, which contradicts the current label 'delivery_missing'.",
+        "policy_question": "Is the 'delivery_missing' label applicable when the customer has confirmed delivery?"
+      },
+      {
+        "example_id": "GS-159",
+        "boundary": "amazon_locker \u2194 delivery_missing",
+        "old_label": "delivery_missing",
+        "v2_prediction": "amazon_locker",
+        "decision": "CHANGE_LABEL",
+        "proposed_new_label": "amazon_locker_not_delivered",
+        "human_reasoning": "The customer received an empty cardboard sleeve, which is not a typical packaging for a locker delivery. This suggests that the item was not actually delivered to the locker.",
+        "policy_question": "Is the item missing from the locker due to a failure of the locker system or is it a misdelivered item?"
+      }
+    ],
+    "account_billing \u2194 other_support": [
+      {
+        "example_id": "GS-057",
+        "boundary": "account_billing \u2194 other_support",
+        "old_label": "account_billing",
+        "v2_prediction": "other_support",
+        "decision": "TAXONOMY_RULE_NEEDED",
+        "proposed_new_label": null,
+        "human_reasoning": "The conversation does not provide sufficient context to determine the root cause of the issue with adding money to AmazonPay using DebitCard. A taxonomy rule is needed to further investigate and resolve the issue.",
+        "policy_question": "Is the issue related to a specific product or service, or is it a general issue with AmazonPay using DebitCard?"
+      },
+      {
+        "example_id": "GS-064",
+        "boundary": "account_billing \u2194 other_support",
+        "old_label": "account_billing",
+        "v2_prediction": "other_support",
+        "decision": "CHANGE_LABEL",
+        "proposed_new_label": "account_billing",
+        "human_reasoning": "The customer is reporting a price increase of over 100 INR in a short period, which is unusual and may indicate a pricing error. The current label 'account_billing' does not seem to address the customer's concern, and changing the label to 'account_billing' would not provide a clear resolution to the issue.",
+        "policy_question": "Is the price increase due to a legitimate business decision or a technical error?"
+      }
+    ],
+    "digital_prime_video \u2194 other_support": [
+      {
+        "example_id": "GS-077",
+        "boundary": "digital_prime_video \u2194 other_support",
+        "old_label": "digital_prime_video",
+        "v2_prediction": "other_support",
+        "decision": "CHANGE_LABEL",
+        "proposed_new_label": "digital_prime_video_service",
+        "human_reasoning": "The conversation started with a specific issue related to Prime Video, but the resolution was found in customer care. The current label is too specific and doesn't capture the full scope of the issue.",
+        "policy_question": "Is the issue related to Prime Video subscription activation?"
+      }
+    ],
+    "digital_kindle \u2194 other_support": [
+      {
+        "example_id": "GS-084",
+        "boundary": "digital_kindle \u2194 other_support",
+        "old_label": "digital_kindle",
+        "v2_prediction": "other_support",
+        "decision": "TAXONOMY_RULE_NEEDED",
+        "proposed_new_label": null,
+        "human_reasoning": "The conversation does not provide sufficient context to determine the correct label for the customer's issue. The user is asking for the location of their Kindle, but the conversation is not clear on whether it is a lost or misplaced item, or if it is a delivery issue.",
+        "policy_question": "Is the customer's issue related to a lost or misplaced item, or a delivery issue?"
+      },
+      {
+        "example_id": "GS-086",
+        "boundary": "digital_kindle \u2194 other_support",
+        "old_label": "digital_kindle",
+        "v2_prediction": "other_support",
+        "decision": "TAXONOMY_RULE_NEEDED",
+        "proposed_new_label": null,
+        "human_reasoning": "The conversation does not provide sufficient context to determine the legitimacy of the Amazon website. The user is reporting seeing ads on Twitter and Facebook, but this information alone is not enough to confirm whether the reported page is an official Amazon account page or not. A more detailed investigation is needed to determine the accuracy of the report.",
+        "policy_question": "What are the criteria for determining the legitimacy of an Amazon website?"
+      },
+      {
+        "example_id": "GS-096",
+        "boundary": "digital_kindle \u2194 other_support",
+        "old_label": "digital_kindle",
+        "v2_prediction": "other_support",
+        "decision": "TAXONOMY_RULE_NEEDED",
+        "proposed_new_label": null,
+        "human_reasoning": "The conversation does not provide sufficient context to determine the correct taxonomy rule. The user is trying to purchase an ebook in the UK, but the item is only available on Amazon.it. The user is not asking for a specific product, but rather a general solution to access the ebook. A more detailed analysis of the user's request is needed to determine the correct taxonomy rule.",
+        "policy_question": "Is the item available on Amazon.it for users with a UK account?"
+      }
+    ],
+    "echo_alexa \u2194 other_support": [
+      {
+        "example_id": "GS-122",
+        "boundary": "echo_alexa \u2194 other_support",
+        "old_label": "echo_alexa",
+        "v2_prediction": "other_support",
+        "decision": "TAXONOMY_RULE_NEEDED",
+        "proposed_new_label": null,
+        "human_reasoning": "The conversation does not provide sufficient context to determine the correct label for the Alexa support topic. The user is experiencing issues with the 'happy birthday' skill, but the conversation does not provide enough information to determine the root cause of the problem or the correct label for the topic.",
+        "policy_question": "Is the 'happy birthday' skill a standard skill that should be enabled by default, and if so, why is it not working as expected?"
+      },
+      {
+        "example_id": "GS-123",
+        "boundary": "echo_alexa \u2194 other_support",
+        "old_label": "echo_alexa",
+        "v2_prediction": "other_support",
+        "decision": "TAXONOMY_RULE_NEEDED",
+        "proposed_new_label": null,
+        "human_reasoning": "The conversation does not provide sufficient context to determine the correct taxonomy. The user's expectation is related to the quality of speakers on Echo Plus, but the conversation does not specify the exact product or issue. A taxonomy rule is needed to accurately categorize the conversation.",
+        "policy_question": "Is the issue with the Echo Plus speaker quality related to a specific product or is it a general concern?"
+      },
+      {
+        "example_id": "GS-124",
+        "boundary": "echo_alexa \u2194 other_support",
+        "old_label": "echo_alexa",
+        "v2_prediction": "other_support",
+        "decision": "CHANGE_LABEL",
+        "proposed_new_label": "otro_problema_con_el_pedido",
+        "human_reasoning": "El usuario est\u00e1 reportando un problema con su pedido que no est\u00e1 relacionado con la disponibilidad de los productos, sino con el proceso de pago y la actualizaci\u00f3n de la fecha estimada de entrega.",
+        "policy_question": "\u00bfEl pedido est\u00e1 pendiente despu\u00e9s de m\u00e1s de 3 d\u00edas desde la fecha de env\u00edo estimada?"
+      }
+    ],
+    "account_access \u2194 delivery_wrong_item": [
+      {
+        "example_id": "GS-128",
+        "boundary": "account_access \u2194 delivery_wrong_item",
+        "old_label": "account_access",
+        "v2_prediction": "delivery_wrong_item",
+        "decision": "CHANGE_LABEL",
+        "proposed_new_label": "delivery_service_problem",
+        "human_reasoning": "The customer's experience with the delivery service was poor, as the van arrived but did not attempt to deliver the package. This suggests a problem with the delivery service, rather than a mistake with the item itself.",
+        "policy_question": "Does the delivery service team have a process in place to ensure that packages are delivered to the correct location, and if not, what steps will be taken to rectify the situation?"
+      },
+      {
+        "example_id": "GS-139",
+        "boundary": "account_access \u2194 delivery_wrong_item",
+        "old_label": "account_access",
+        "v2_prediction": "delivery_wrong_item",
+        "decision": "CHANGE_LABEL",
+        "proposed_new_label": "account_security",
+        "human_reasoning": "The customer is experiencing a security-related issue with their account, and the current label does not accurately reflect the nature of the problem. Changing the label to 'account_security' will allow for more targeted support and resolution.",
+        "policy_question": "Does the customer's account have any known security issues or suspicious activity?"
+      }
+    ],
+    "other_support \u2194 promotions_pricing": [
+      {
+        "example_id": "GS-141",
+        "boundary": "other_support \u2194 promotions_pricing",
+        "old_label": "promotions_pricing",
+        "v2_prediction": "other_support",
+        "decision": "CHANGE_LABEL",
+        "proposed_new_label": "promotions_pricing",
+        "human_reasoning": "The conversation is about a pricing issue on Amazon.in, which falls under the promotions_pricing taxonomy. The user's concern is about a product price being too high, which is a common issue in this taxonomy.",
+        "policy_question": "Is the pricing of products on Amazon.in subject to change due to new data from suppliers?"
+      },
+      {
+        "example_id": "GS-144",
+        "boundary": "other_support \u2194 promotions_pricing",
+        "old_label": "promotions_pricing",
+        "v2_prediction": "other_support",
+        "decision": "CHANGE_LABEL",
+        "proposed_new_label": "promotions_pricing",
+        "human_reasoning": "The conversation started with a complaint about a preorder offer, which is a pricing-related issue. The current label 'other_support' is not specific enough to address this issue. Changing the label to 'promotions_pricing' would allow the auditor to focus on pricing-related issues and potentially resolve the customer's concern more efficiently.",
+        "policy_question": "Is the customer's concern related to a pricing issue, and should it be handled under the 'promotions_pricing' label?"
+      },
+      {
+        "example_id": "GS-150",
+        "boundary": "other_support \u2194 promotions_pricing",
+        "old_label": "promotions_pricing",
+        "v2_prediction": "other_support",
+        "decision": "TAXONOMY_RULE_NEEDED",
+        "proposed_new_label": null,
+        "human_reasoning": "The conversation indicates that the customer is suspicious of a potential price increase before a promotion, and the Amazon support team is not providing a clear answer on whether the product is under promotion or not. This suggests a need for a taxonomy rule to clarify the pricing policy and provide a clear definition for what constitutes a promotion.",
+        "policy_question": "What is the criteria for a product to be considered under promotion on Amazon?"
+      }
+    ],
+    "amazon_locker \u2194 other_support": [
+      {
+        "example_id": "GS-164",
+        "boundary": "amazon_locker \u2194 other_support",
+        "old_label": "amazon_locker",
+        "v2_prediction": "other_support",
+        "decision": "TAXONOMY_RULE_NEEDED",
+        "proposed_new_label": null,
+        "human_reasoning": "The conversation does not provide sufficient context to determine the root cause of the issue, and the customer's frustration suggests a deeper problem with the delivery process. A taxonomy rule is needed to guide the resolution process.",
+        "policy_question": "Is the customer's issue related to a known issue with USPS delivery or is it a new issue that requires further investigation?"
+      }
+    ],
+    "grocery_fresh \u2194 other_support": [
+      {
+        "example_id": "GS-174",
+        "boundary": "grocery_fresh \u2194 other_support",
+        "old_label": "grocery_fresh",
+        "v2_prediction": "other_support",
+        "decision": "CHANGE_LABEL",
+        "proposed_new_label": "grocery_fresh",
+        "human_reasoning": "The conversation mentions a grocery order, which is a specific type of order that requires a different label than general support.",
+        "policy_question": "Is the grocery_fresh label applicable to all grocery-related orders?"
+      },
+      {
+        "example_id": "GS-178",
+        "boundary": "grocery_fresh \u2194 other_support",
+        "old_label": "grocery_fresh",
+        "v2_prediction": "other_support",
+        "decision": "CHANGE_LABEL",
+        "proposed_new_label": "grocery_fresh",
+        "human_reasoning": "The conversation indicates a clear issue with the customer service team's response to @115850's repeated reports, and the current label does not accurately reflect the nature of the issue.",
+        "policy_question": "Does the customer service team's response to repeated reports of issues warrant a change in the label to indicate a failure to resolve the issue?"
+      }
+    ],
+    "other_support \u2194 product_availability": [
+      {
+        "example_id": "GS-182",
+        "boundary": "other_support \u2194 product_availability",
+        "old_label": "product_availability",
+        "v2_prediction": "other_support",
+        "decision": "TAXONOMY_RULE_NEEDED",
+        "proposed_new_label": null,
+        "human_reasoning": "The conversation is related to product availability, but the user is trying to change their device location, which is a different context. A taxonomy rule is needed to determine the correct label.",
+        "policy_question": "Is the user's request to change device location related to product availability or a different context?"
+      },
+      {
+        "example_id": "GS-186",
+        "boundary": "other_support \u2194 product_availability",
+        "old_label": "product_availability",
+        "v2_prediction": "other_support",
+        "decision": "TAXONOMY_RULE_NEEDED",
+        "proposed_new_label": null,
+        "human_reasoning": "The conversation does not provide sufficient context to determine the correct label. The user is asking about the behavior of pre-ordering an MP3 album with a gift card balance, but the current label 'product_availability' does not capture the nuances of the question.",
+        "policy_question": "What is the behavior of pre-ordering an MP3 album with a gift card balance?"
+      },
+      {
+        "example_id": "GS-189",
+        "boundary": "other_support \u2194 product_availability",
+        "old_label": "product_availability",
+        "v2_prediction": "other_support",
+        "decision": "TAXONOMY_RULE_NEEDED",
+        "proposed_new_label": null,
+        "human_reasoning": "The conversation does not provide sufficient context to determine the reason for the delay in the order. The user has not received any messages regarding the delay, and the expected shipping/delivery date is changing in their list of orders. A taxonomy rule is needed to determine the correct course of action.",
+        "policy_question": "What is the procedure for handling delayed orders with changing expected shipping/delivery dates when no messages are received from the customer?"
+      }
+    ]
+  },
+  "benchmark_impact": {
+    "current_accuracy": 0.8775510204081632,
+    "simulated_accuracy": 0.8775510204081632,
+    "current_macro_f1": 0.857859366042162,
+    "simulated_macro_f1": 0.5955775138839656
+  }
+}

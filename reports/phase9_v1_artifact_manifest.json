@@ -1,0 +1,7 @@
+{
+  "v1_corpus_sha256": "1bb7edb5d4f73f0563d7d3daad7c89fbb1e62f93409f88ff995ff1041e94e3f4",
+  "mnrl_model_path": "/Users/pratikskanoj/ThreadMind/.cache/rag_dense_mnrl",
+  "embedding_dimension": 384,
+  "faiss_index_size": 35247,
+  "document_count": 35247
+}

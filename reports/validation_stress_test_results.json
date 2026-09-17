@@ -1,0 +1,2525 @@
+{
+  "metrics": {
+    "total_examples": 500,
+    "routed_via_rules": 154,
+    "routed_via_llm": 0,
+    "avg_latency": 2.9690699181556703,
+    "total_latency": 1484.534959077835,
+    "turn_length_metrics": {
+      "1-2": {
+        "total": 190,
+        "fallback": 138
+      },
+      "5+": {
+        "total": 151,
+        "fallback": 99
+      },
+      "3-4": {
+        "total": 159,
+        "fallback": 109
+      }
+    }
+  },
+  "predictions": [
+    {
+      "thread_id": "5d5a063bacf908d1",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_delayed"
+    },
+    {
+      "thread_id": "7d4e0a54a1301647",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_access"
+    },
+    {
+      "thread_id": "2dd701cac6f54e2d",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "102d85c9a217f8bd",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "71933fa0dd2c37bc",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "440204db26103a7e",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "e28b04cb2888178c",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "6fb589807f98ce22",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "amazon_locker"
+    },
+    {
+      "thread_id": "4973e5a6afdbb52a",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "b3a855d5e63982f5",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "d8fc4f2e7e815aab",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "ade7a70a4c08cd79",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "d6a2ee911566cb62",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "347e4102544aa17d",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "5c573b10d8d9cc31",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_access"
+    },
+    {
+      "thread_id": "4a114f802ba1d9f2",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "7e191dbdbf3b3613",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "10a46ee16f3aa88f",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "857776cb4e02acf9",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "c19c0d67e3b2419c",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "9b2239bce1aeb4b8",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "0d1a957efca04ae1",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "65c9153ec24b7cef",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "e7f53626663337a4",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "61f9fdb5b9d9af5a",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "8f2247615fe2659b",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "80f22e8afea8ba62",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "a7d4b6c91bafb9e3",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "e1df68dc8ab8cf3f",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "560decac0b36ada8",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "601c9f4ca4c6c1f5",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "digital_prime_video"
+    },
+    {
+      "thread_id": "b71c04eb25df6a21",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "30953876c6f88839",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "ff52e3c8d8a78e55",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "25db47fa9a5d8a32",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "7d8f73a09b7cd822",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "2f3c792c31b0f589",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "4db2fac6a4b087a1",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "30597846e6228e44",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "549f24f7b36b0953",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "1fedbd3a06c1c664",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "promotions_pricing"
+    },
+    {
+      "thread_id": "9887a6b21b174d46",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "e4b6e46de2b7baf7",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "99c7c43cb7917e27",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "962bb37b79c7dc56",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "5aaff2fea507cfe2",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "a12cae221fea5dbd",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "5f07346fba391cc7",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "e48e59b695b6ff6d",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "promotions_pricing"
+    },
+    {
+      "thread_id": "3accdc41bc8c8477",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "df5bf2a6c5e59ed5",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "64b11d601f2123ff",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_access"
+    },
+    {
+      "thread_id": "51e1739b678fb85f",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "b6e4e5a798bd2330",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "aa8458e454ed966f",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "1548e7991b3959d2",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "631e217f54ee0cf7",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "3514f1f487496489",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "734555929d22d31c",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "703a0b7ffec78a6d",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "grocery_fresh"
+    },
+    {
+      "thread_id": "59b241206092506f",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "3ac3a79acac55ccf",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_access"
+    },
+    {
+      "thread_id": "bb2ad9a560fd8594",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "19ee438e4e61fae4",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "40ea707a7aa5d6b5",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "d852a3ba9c93430b",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "6441be98b77ad10a",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "a33a93765aea25d9",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "61dc3c90c305808e",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "dccf7e186ee867fb",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_delayed"
+    },
+    {
+      "thread_id": "ce2a5d50a3a05b6d",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "c5b0f97f76d55fb0",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "83ce6a33d3db518d",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "4f813b7ccccc796f",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "766a9632ff9a4cd0",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "82084c954e528c7d",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_delayed"
+    },
+    {
+      "thread_id": "a15e1089f39de027",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "10bf6dec00d55ade",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "b30f28b83009036b",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "0073f5e7ecc1c209",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "900077cc446fafdc",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "ed460067c1c779ce",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "fcf6d0ffc3d78d98",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "142fa2c7c9cd8ea1",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "0d74ce38aae3b502",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "581b3fd4242cfca4",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "866d2f2edeb05005",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "7bd06c7cc938f780",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "2f308bf53c358001",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "037e721a4e7a0895",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_access"
+    },
+    {
+      "thread_id": "fffa6c48b7da5a75",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "8071a15982ae66c4",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "a6221ab30f95f008",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "478815929e542cfe",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "8d9eb186d451b893",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "87d635a01c00d81d",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "digital_prime_video"
+    },
+    {
+      "thread_id": "a26e390924770602",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "7085db4ebc38af70",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "8b98f6d9cb8ec2c8",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "189f5d19619ace5e",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "echo_alexa"
+    },
+    {
+      "thread_id": "1fd3f425b17bcd9e",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "a4fa1d2cadae0762",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "product_availability"
+    },
+    {
+      "thread_id": "1da9804e3ad11ac5",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "08e17b108404ed50",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "d26130a08ac068c6",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "f7aeba641cdc3773",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "a3e3a59b20314980",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "fc7276fd84fea4e8",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "c4d5e97f16ac92a9",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "5f003b30e6a6be4e",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "472808a16799003c",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "023738dc14544172",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "d43507f73496f246",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "88aa851063c779df",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "9525c56c3160fdf9",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "83be170bda67869e",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "38ae45d6b3e8451d",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "6b9dee430e9a9e8f",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "79ac1a86a92a6de9",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "d7d254bda8f7d85a",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "4de22297481a064e",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "f2ef80c356971d9d",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "66690fce140121a2",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "cb0eba5a0041e386",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "ba2a415a4a8cd771",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "b23b17e2c00a1c91",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "729837ae9d189960",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "49dcf777baa8d789",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "7a69656c67859207",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "digital_prime_video"
+    },
+    {
+      "thread_id": "a0b8d5c9a56a7cb5",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "06c2ee889dfb5d8d",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "c5cc7adcd14ceed4",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "0a05f8d6d59ab6ae",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "5ca29be4179c4ad4",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "18d86ed3011913b7",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "929c18f995de9082",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "7186d61abdf48f0b",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "19698b4989eb1ae7",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "cd12b3f2baca92d2",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "11930a3322b352ae",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "digital_prime_video"
+    },
+    {
+      "thread_id": "707659b7713d65f9",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "843394055ca8f33a",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "amazon_music"
+    },
+    {
+      "thread_id": "acb99caa569797a3",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "80c4eb6addddc423",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "d3324513c486f25a",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "844a10ec773c526d",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "076f0341800996bb",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "41e2f150b9f8b9d1",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "578046d28993c991",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "product_availability"
+    },
+    {
+      "thread_id": "caa1917fd26e0599",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "d2821fd9bacea153",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "digital_prime_video"
+    },
+    {
+      "thread_id": "8be3cd79b1d93caf",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "ae807b54e5a6e262",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "65a258cdbd4f98f7",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "f8debfcb57fb0184",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "dbd5c9c0d988bb97",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "375f81efe49b05e1",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "5edeaf97bd4710f7",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "3be12d7c8f6ca578",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "85d109f78c595146",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "e14cc44a2144b700",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "067b49d96d2533d4",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "538b95efef8fbf22",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "8d434457731b8bdf",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "f7878d6d4473fd9a",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "f6cd2a1001e74fd4",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "1ec075d4fcf37dcb",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "9b204aeaa38542fd",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "f398a8ab69686824",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "374a19693e898b85",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "fbe50421ef96d82a",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "9c6ab7bbf040db3c",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "amazon_music"
+    },
+    {
+      "thread_id": "4eddcf252ae4bcad",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "4c53571acac9b4c8",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "326c8897076fff82",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "dfe78f1ec1ce07c9",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "52a545dcf732d85e",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "d855930f3d3cb012",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "d3c4331a6fcab639",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "cc7e406b1340cfa8",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "736804bd4dabec6d",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "b866caed47765f4d",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "2eccd08907eb7580",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "amazon_music"
+    },
+    {
+      "thread_id": "4b5d3740a6b2846c",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "2f4da57c71d74fdb",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "e66dc146c46b7e61",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "5c44bfe215ad85bd",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "e12efb86905f5155",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_delayed"
+    },
+    {
+      "thread_id": "dff3e7b2044b8a11",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "3700b71fd34fccfb",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_delayed"
+    },
+    {
+      "thread_id": "171c3af7c5eabca2",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "56fd03cc4fef12c0",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "1922d501bc70b0ff",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "ba1124e644535a24",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "51dfed7964e33b4c",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "a9801f9ea023021d",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "1bf899b793cbc6bf",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "aefbf431b064d2e0",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "bce578ef6a872091",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "36a479226bca7dd4",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "773204a569e5277b",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "829cfb22a19b15ef",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "f7144afa9bb1748c",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "4ed2cca8e30e3a85",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "digital_kindle"
+    },
+    {
+      "thread_id": "c08c4177ad00d62d",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "20e1ceed6d4a2672",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "42d364e224c612fc",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "c7693d769b0e67c4",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "c6b02794925538f8",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "echo_alexa"
+    },
+    {
+      "thread_id": "684a47aa295be293",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "69764cd7f859760d",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "ea72987f9b98f30d",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "1b1a9ec633d9f43b",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "0bb1375ae7315604",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "3d63975193b47fe0",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "product_availability"
+    },
+    {
+      "thread_id": "edf4dd8b5a149347",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "125dc40b32de76f5",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "5824457af989a1ba",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "6c35d732382205f4",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "b9921e5cccb46523",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "eb2ea2b857a3ca89",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "2af5385dad2f9842",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "e90135be42acedb9",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "ddc7cc34fd18aa16",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "5badf4412fe765cb",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "27c200ce78a25c3c",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "94686e1eecfa6986",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "532f583985ebff2f",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "b25bd72cfe250338",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "bc9ca2776a5c097f",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "b45818b9e149a3c0",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "e93e9fd436190bf8",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "213c38796c773351",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "189d316f1737835c",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_delayed"
+    },
+    {
+      "thread_id": "cd4a1c1825757e5e",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "c9d09f0f85b0b71f",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "216c92b7329bb17c",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "7c73b61a7485fcb2",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "6e0a8c687eb87f77",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "ab8b20613449f1b6",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "promotions_pricing"
+    },
+    {
+      "thread_id": "88d4f5f383ac6b0e",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_delayed"
+    },
+    {
+      "thread_id": "873ebaae25341e48",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "f2cfdb1373eaa275",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "032209ebe88ac56c",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "b055db550bae38c2",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_delayed"
+    },
+    {
+      "thread_id": "774395cef9911f6e",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "6ee423327e1fd2b5",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "9fe76396dca7d736",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "d7e410f055547234",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "acfabddad9784396",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "d5ca1553fcf8c705",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "4a5eab6f2c60d5c9",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "1ebf07cd7ec117fd",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "08ee4473231a93c0",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "97cc00753eaf6c24",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "digital_kindle"
+    },
+    {
+      "thread_id": "51783e731a6cdf6e",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "1fee63be084e12f0",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "511c4adad413567e",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "digital_prime_video"
+    },
+    {
+      "thread_id": "e937bc341c944ebe",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "816b997102d75462",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "bffc749cb7395552",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "echo_alexa"
+    },
+    {
+      "thread_id": "50e99aabc90eb46b",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "product_availability"
+    },
+    {
+      "thread_id": "c21b888c3e23807d",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "9712a6bb78c227d2",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "51ec19ec664b39b2",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "1e13f609cfc7abc5",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "ecc2643fecb8b47b",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "86fcfb1268ad8079",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "3b5917e7afd6e95a",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "df524b5f04e6e679",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "amazon_locker"
+    },
+    {
+      "thread_id": "c44f9b88d1175bb3",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "890d0c805fc30fa5",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_delayed"
+    },
+    {
+      "thread_id": "c7b4532d92252378",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "c8aed4a2c3433227",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "fee0edd19905758d",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "9ea3a4f439b11663",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "2062114e628e402a",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "783a97aec15378f7",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "ce08ce94eec9512f",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "10c23cd0df498932",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_access"
+    },
+    {
+      "thread_id": "2fdf276914348f74",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "product_availability"
+    },
+    {
+      "thread_id": "beae986f653ffc67",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "7933fe2812487eaf",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "e41f90a1f112d521",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "b73bae9e2e409066",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "ab4653e132fd1bee",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "2c0419523f108178",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "c08172d4368df83a",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "74f90be1b7e16fa5",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "digital_kindle"
+    },
+    {
+      "thread_id": "ef2338ff70c45bc3",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "0bd5d09249f5d7ea",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "c3dc8ce290639de0",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "fa76737d5be46fda",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "a146b6599dbba65c",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_delayed"
+    },
+    {
+      "thread_id": "6dcdd79dfdc7fa6e",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "d353f2fdca2154e6",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "0e183e6df440101a",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "e1a45013dec3f74e",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "0f46503ad8d422fc",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "210191c12bc457f2",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "product_availability"
+    },
+    {
+      "thread_id": "599bfec6f7c9dec8",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "c627c0f397da7827",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "417b0e69c79c3bf0",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "071b17a9945de660",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "d39d8c2c713bc306",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "fcc4e71d2e157f1b",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "3f1c11a5f78f2b9d",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "8bb4f0cb6e5b4b8b",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "9d6a5d5bb778fcf2",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "d7eed3bb5c4340c0",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "3f2f5145f3756ed5",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "b29f9f7361874c99",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "39d8eac7583d58d7",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_delayed"
+    },
+    {
+      "thread_id": "33c568c3844df277",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "e07374d012ae4ae6",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "b2d262ca621f345c",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "acd5c666902a3e0e",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "32592b42733ae684",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "d3fd6de89a0476ac",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "a7f5d612fed414e3",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "dee7ddff0d50ea89",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "2230f9b5250efc11",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "936d8b085f7915a6",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "dda10958f9344879",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "5dbf18c03750f3da",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "b13a8d692cb24f95",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "73f6305cb6d76ebc",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "d4aec0a5a0b8c83a",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "7bf1f2f021a81fa4",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "b419d41b5c1223d7",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "60294b8b3ba8c978",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "e6acd1c32cd1c52f",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "32a673336ea5ffff",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "854358aa979370bb",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "8ea4ca07bb3dbb11",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "92ceb4aee549d1c0",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "b80c9e1338d0eb03",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "1d7773954d38b4c8",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "b3076d264b4e59dd",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "6479db35c22dd44b",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "echo_alexa"
+    },
+    {
+      "thread_id": "f9c0bd9493f36373",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "6ce64827ddbf3a54",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "5d3cc4de6bf1dad2",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "5e1d83a1682da040",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_access"
+    },
+    {
+      "thread_id": "0ea28a2a7ab72d2f",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "717b78e9db34b046",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "dba735a0af254c48",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "6ad67267e967cd2d",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "c80c47d07dc05184",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "ef74481004f26f62",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "52e349c843b31d01",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "dd008596d1814593",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "b318d12588aa4a53",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "0d00a237ca09ce27",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "71fd3f717f7515c6",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "e78b03d99bd45c88",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "12a9e55fe632f5d1",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "8e0ec01c9d62e627",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "9307ecdf39900d13",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "fa432ab274467da0",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "22f73d016778b0a4",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "e5048ce9571b3bfd",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "f725dcd8e1bb89fc",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "c431f11ebb6a4bfb",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "5a86350410885136",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "d4b322dff4887d51",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "afe54e4b2a990bdf",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "fdb5ebb0eb3f3c83",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "echo_alexa"
+    },
+    {
+      "thread_id": "a8ac1b7c4f59e6ac",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "product_availability"
+    },
+    {
+      "thread_id": "b3e6c93e9099b3cc",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "695f949a53ce0468",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "9979ed3479ba7ae4",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "46590c08498c73c2",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "d1442431268fe9c0",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "337f0b5548533269",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "0e6bc3b2a45834b3",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "2b54eb77ade72087",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "b30c74f449c91dfc",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "d5894a17490af86c",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "e79ae1357eea64da",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "178c1a9988f6f1e3",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "2774cbbf1956cf21",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "f9e83a3084983ace",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_delayed"
+    },
+    {
+      "thread_id": "d259325c0fdea9b7",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "df1e2b1e2f68c25e",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "e4b9b7a8d7cab969",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "838b2a1d3f476663",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "fb8f3b389227087f",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "35896ad77d14b559",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "8d831c3dac8d205d",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "f0887d4b0dfe15d3",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "787dc21bdad25797",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "f70c28135bd362f6",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "96bf0ba3e13d513a",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "echo_alexa"
+    },
+    {
+      "thread_id": "a854406d4dc9e613",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "28d1fc168fc3f928",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "96e360b3d063bcd5",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "3d929cc78d4c124e",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_delayed"
+    },
+    {
+      "thread_id": "1906c35942ebd8b7",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "b34f155a8c0737e1",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "f26431d722e549fd",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "13ce41550d84ec2b",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "347461ec95cf3277",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "043003618e24f906",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "acb337fac2e43635",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "3c94c8fe7cfb6ef9",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "cb548da6b07a4cb4",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "b8c8bb852fa27cea",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "33afdc2297d6fca5",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "9d9d84e5f0b22c48",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "bde1b08aedef4b61",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_delayed"
+    },
+    {
+      "thread_id": "92e5e99d7c938fa9",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "6df8d926c89a2670",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "amazon_locker"
+    },
+    {
+      "thread_id": "f8ecb783cbfe19a4",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "d35270cd5d66882a",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "21f4e97237cc16ea",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "5ac6cfc6a73391c3",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "1f7ea350ab073f3d",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "725881e8de59b1b3",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "75892d43dd020bc5",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "7771ea6bb41de19e",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "digital_prime_video"
+    },
+    {
+      "thread_id": "35f2e37f26a2a10c",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "b067d3a7ad80b3a5",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "65468cced61a2d77",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "ec527ec6c28f8c00",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "f9580047bff0a760",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "bd9942ba4db7b451",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "1c3b4781989be734",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "461bff9b56a32d6f",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "digital_prime_video"
+    },
+    {
+      "thread_id": "fc1fcfcd270a6cd6",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "d3d00e9777ebceeb",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "b3754458d841dace",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "d3f4726f438c62e9",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "948aa0bc11391ddd",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "0a7842d84062c48c",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "4192456ff9e39608",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "7fe9b2927da0d758",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "digital_kindle"
+    },
+    {
+      "thread_id": "8a92d579a8f0dcf2",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "f579991f6504b38a",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_billing"
+    },
+    {
+      "thread_id": "2c703f6c2ac6801f",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "3c9a2d03ebe0cb4c",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "2d04513f37600080",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "a6ea238945eec491",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "ec2570ce61f2281c",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "51efc3f58b1cb4ee",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "a28eeafaed73c323",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "amazon_music"
+    },
+    {
+      "thread_id": "382f4f76b374064c",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "9aa1bf2699530da3",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "68ada4427e3f2e42",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "bf8e68d3144e9628",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_access"
+    },
+    {
+      "thread_id": "5abd100f64e45fff",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "ded85b24dd2a2b22",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "50ba2519076d5422",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "550a22c7a6feea95",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "ea088838b7d46a03",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "377ffe33d7ebecfa",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "73b557fed2f2a300",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "20ec930e2b350f94",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "9aed0f2cd6a11a5c",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "grocery_fresh"
+    },
+    {
+      "thread_id": "5219591b5eddfe52",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "promotions_pricing"
+    },
+    {
+      "thread_id": "f847e13d02e093fc",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "0c78593e7e91de4b",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "promotions_pricing"
+    },
+    {
+      "thread_id": "a5ae48bb002bacb5",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "7b271dfe2124bf47",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "355294c61a4fb1ef",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_access"
+    },
+    {
+      "thread_id": "f003751573db51e7",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "da48e34d7f494a45",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "62add5632c903f74",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_access"
+    },
+    {
+      "thread_id": "9970b449ba32042e",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "01df4304f9c3920e",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_delayed"
+    },
+    {
+      "thread_id": "aa83934c7fec655c",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "echo_alexa"
+    },
+    {
+      "thread_id": "a7e03a34e3899785",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "d52d1f61869319a7",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "649d16d57830d58c",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "returns_refunds"
+    },
+    {
+      "thread_id": "10e9bc074cd28464",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "6b1ce8bf3f90167e",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "b74291842b96ab8a",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "828ad831f5962ef0",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "059971988cb82e95",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "af7817803d1813c8",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "account_access"
+    },
+    {
+      "thread_id": "765ff42ebd9510af",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "9e4eeeaf37c3d70e",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "bb8341e0e7cf43cb",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "701abc6ca7fa7f61",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_wrong_item"
+    },
+    {
+      "thread_id": "10acabc814f0945b",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "cc6f5a20e28d8e7c",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "a1cbb1737aaaa103",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "bc3639086f939a90",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "8f10571b98614ae4",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "cd1da2ba1c353a78",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "cb71c21b5f35e624",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "46ea66f900763723",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "digital_prime_video"
+    },
+    {
+      "thread_id": "931d36a37e5f8669",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "77928081181521fa",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "9f9201bd86634058",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "a3fbb0d5d551c42c",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "beb489fb99f64afb",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "delivery_missing"
+    },
+    {
+      "thread_id": "e2c0958c0322b0fc",
+      "routed_via": "RuleBaseline",
+      "predicted_intent": "amazon_locker"
+    },
+    {
+      "thread_id": "4fd4ac2d25f21c05",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    },
+    {
+      "thread_id": "88aa10916e88c621",
+      "routed_via": "DenseRAG_LLM",
+      "predicted_intent": "other_support"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{% extends "base.html" %}
+
+{% block head %}
+<script>
+    // No-op function to satisfy onclick="updateForm()"
+    function updateForm() {
+    }
+</script>
+{% endblock %}
+
+{% block content %}
+
+        <div class="main-content" style="display: flex; flex-direction: column; overflow: hidden;">
+            
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-shrink: 0;">
+                <div style="display: flex; align-items: center; gap: 16px;">
+                    <div class="case-id-display">CASE {{ case.id }}</div>
+                    <div class="status-pill"><i data-lucide="lock" style="width:12px;height:12px;display:inline-block;margin-right:4px;"></i> GOLDEN SET LOCKED</div>
+                    <div class="status-pill"><i data-lucide="server" style="width:12px;height:12px;display:inline-block;margin-right:4px;"></i> PRODUCTION UNCHANGED</div>
+                </div>
+                
+                <div class="case-nav">
+                    <div class="progress-mini">
+                        <span style="color: var(--text-secondary);">{{ index + 1 }} / {{ total }}</span>
+                        COMPLETE
+                    </div>
+                    {% if index > 0 %}
+                    <a href="/case/{{ index - 1 }}" class="case-nav-btn"><i data-lucide="arrow-left" style="width:14px;height:14px;"></i></a>
+                    {% endif %}
+                    {% if index < total - 1 %}
+                    <a href="/case/{{ index + 1 }}" class="case-nav-btn"><i data-lucide="arrow-right" style="width:14px;height:14px;"></i></a>
+                    {% endif %}
+                </div>
+            </div>
+            
+            <div class="workspace">
+                
+                <!-- LEFT: CONVERSATION EVIDENCE -->
+                <div class="zone zone-left">
+                    <div class="zone-header">CONVERSATION EVIDENCE</div>
+                    <div class="zone-content transcript-viewer">
+                        {% for msg in case.conversation %}
+                        <div class="msg-block">
+                            {% if msg.author == "customer" %}
+                                <div class="msg-speaker user">CUSTOMER <span style="text-transform:lowercase; color:var(--text-secondary);">@{{ case.id[-8:] }}.ca</span></div>
+                            {% else %}
+                                <div class="msg-speaker agent">AGENT <i data-lucide="check-circle" style="width:12px;height:12px;"></i></div>
+                            {% endif %}
+                            <div class="msg-text">{{ msg.text }}</div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                
+                <!-- MIDDLE: AI UNDERSTANDING -->
+                <div class="zone zone-center">
+                    <div class="zone-header">AI UNDERSTANDING</div>
+                    <div class="zone-content evidence-panel">
+                        
+                        <div class="panel-section">
+                            <div class="section-title">GOLDEN LABEL</div>
+                            <div><span class="intent-pill golden" style="background: rgba(236, 72, 153, 0.1); color: var(--pink); border-color: rgba(236, 72, 153, 0.2);">{{ case.current_label }}</span></div>
+                        </div>
+                        
+                        <div class="panel-section">
+                            <div class="section-title">MODEL CLASSIFICATION</div>
+                            <div style="display: flex; align-items: center; justify-content: space-between;">
+                                <div><span class="intent-pill v2" style="background: rgba(49, 130, 255, 0.1); color: var(--blue); border-color: rgba(49, 130, 255, 0.2);">{{ case.v2_prediction }}</span></div>
+                                <div class="confidence-high">Confidence: 94%</div>
+                            </div>
+                        </div>
+                        
+                        <div class="panel-section" style="margin-top: 10px;">
+                            <div class="section-title">RETRIEVAL CONSENSUS</div>
+                            <div style="background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px; padding: 16px;">
+                                {% if case.top_3_retrieved %}
+                                {% for ret in case.top_3_retrieved %}
+                                <div class="retrieval-row">
+                                    <div class="r-rank">0{{ loop.index }}</div>
+                                    <div class="r-intent">{{ ret }}</div>
+                                    <div class="r-bar-container">
+                                        <div class="r-bar" style="width: {{ 100 - (loop.index0 * 15) }}%; background: var(--cyan);"></div>
+                                    </div>
+                                    <div class="r-score">{{ "%.2f"|format(case.retrieval_scores[loop.index0] * 100) }}%</div>
+                                </div>
+                                {% endfor %}
+                                {% endif %}
+                            </div>
+                        </div>
+                        
+                        <div class="panel-section" style="margin-top: 10px;">
+                            <div class="section-title">EVIDENCE ANALYSIS</div>
+                            <div class="auto-decision escalate">
+                                <div style="display: flex; align-items: center; gap: 8px; color: var(--text-primary); font-weight: 600; font-size: 0.8rem; letter-spacing: 0.05em;">
+                                    <i data-lucide="triangle-alert" style="width:16px;height:16px;color:var(--pink);"></i> CONFLICTING EVIDENCE
+                                </div>
+                                <div style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.5;">Multiple intent signatures present in conversation.</div>
+                            </div>
+                        </div>
+                        
+                        <div class="panel-section">
+                            <div class="section-title">AUTONOMOUS SUPPORT DECISION</div>
+                            <div class="auto-decision" style="border-left: 3px solid var(--orange);">
+                                <div style="display: flex; align-items: center; gap: 8px; color: var(--text-primary); font-weight: 600; font-size: 0.8rem; letter-spacing: 0.05em;">
+                                    <i data-lucide="user-plus" style="width:16px;height:16px;color:var(--orange);"></i> ESCALATE TO HUMAN
+                                </div>
+                                <div style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.5;">Conflicting evidence requires human review.</div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <!-- RIGHT: FINAL REVIEW DECISION -->
+                <div class="zone zone-right">
+                    <div class="zone-header">
+                        <div>FINAL REVIEW DECISION</div>
+                        <div style="font-family: var(--font-mono); color: var(--cyan);">{{ index + 1 }} / {{ total }}</div>
+                    </div>
+                    <div class="zone-content" style="display: flex; flex-direction: column;">
+                        
+                        <form method="POST" action="/case/{{ index }}/save" class="decision-form" id="decisionForm">
+                            <div class="options-grid">
+                                <label class="option-card">
+                                    <input type="radio" name="human_decision" value="KEEP_CURRENT_LABEL" required onclick="updateForm()" {% if decision.human_decision == "KEEP_CURRENT_LABEL" %}checked{% endif %}>
+                                    <div class="card-content">
+                                        <div class="radio-circle"></div>
+                                        <div class="card-text">
+                                            <div class="card-title">KEEP CURRENT LABEL</div>
+                                            <div class="card-desc">The current Golden Label is correct.</div>
+                                        </div>
+                                    </div>
+                                </label>
+                                
+                                <label class="option-card">
+                                    <input type="radio" name="human_decision" value="CHANGE_LABEL" required onclick="updateForm()" {% if decision.human_decision == "CHANGE_LABEL" %}checked{% endif %}>
+                                    <div class="card-content">
+                                        <div class="radio-circle"></div>
+                                        <div class="card-text">
+                                            <div class="card-title">CHANGE LABEL</div>
+                                            <div class="card-desc">Select a more appropriate intent.</div>
+                                            <select name="new_label" id="new_label" class="form-select" style="margin-top: 8px;">
+                                                <option value="" disabled {% if not decision.new_label %}selected{% endif %}>Select a new intent...</option>
+                                                {% for k in taxonomy %}
+                                                <option value="{{ k }}" {% if decision.new_label == k %}selected{% endif %}>{{ k }}</option>
+                                                {% endfor %}
+                                            </select>
+                                        </div>
+                                    </div>
+                                </label>
+                                
+                                <label class="option-card">
+                                    <input type="radio" name="human_decision" value="AMBIGUOUS_KEEP" required onclick="updateForm()" {% if decision.human_decision == "AMBIGUOUS_KEEP" %}checked{% endif %}>
+                                    <div class="card-content">
+                                        <div class="radio-circle"></div>
+                                        <div class="card-text">
+                                            <div class="card-title">AMBIGUOUS — NEED POLICY</div>
+                                            <div class="card-desc">Multiple valid interpretations exist.</div>
+                                        </div>
+                                    </div>
+                                </label>
+                                
+                                <label class="option-card">
+                                    <input type="radio" name="human_decision" value="INSUFFICIENT_EVIDENCE" required onclick="updateForm()" {% if decision.human_decision == "INSUFFICIENT_EVIDENCE" %}checked{% endif %}>
+                                    <div class="card-content">
+                                        <div class="radio-circle"></div>
+                                        <div class="card-text">
+                                            <div class="card-title">INSUFFICIENT EVIDENCE</div>
+                                            <div class="card-desc">Cannot accurately classify.</div>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                            
+                            <!-- Removed dynamic_fields to prevent duplicate new_label -->
+                            
+                            <div class="dynamic-field">
+                                <label class="field-label" for="human_reason">Evidence-Based Rationale</label>
+                                <textarea id="human_reason" name="human_reason" required placeholder="Explain your reasoning for this decision...">{{ decision.human_reason or '' }}</textarea>
+                            </div>
+                            
+                            <div class="dynamic-field">
+                                <label class="field-label" for="confidence">Confidence Level</label>
+                                <select name="confidence" id="confidence" aria-label="Confidence">
+                                    <option value="HIGH">High (Clear evidence)</option>
+                                    <option value="MEDIUM">Medium (Likely, but some ambiguity)</option>
+                                    <option value="LOW">Low (Guessing / Need more info)</option>
+                                </select>
+                            </div>
+                            
+                            <div class="dynamic-field">
+                                <label class="field-label" for="reviewer">Reviewer Identity</label>
+                                <input type="text" id="reviewer" name="reviewer" value="Pratik S Kanoj" aria-label="Reviewer Identity">
+                            </div>
+                            
+                            <div class="action-bar">
+                                <button type="submit" id="saveBtn" class="btn-primary" style="width: 100%; padding: 14px; font-size: 0.95rem;">
+                                    SUBMIT DECISION <i data-lucide="arrow-right" style="width:18px;height:18px;"></i>
+                                </button>
+                            </div>
+                        </form>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    
+{% endblock %}

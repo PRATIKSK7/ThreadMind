@@ -1,0 +1,6 @@
+{
+  "golden_set_size": 196,
+  "retrieval_pool_size": 82360,
+  "golden_threads_in_retrieval": 0,
+  "data_leakage_status": "Passed"
+}

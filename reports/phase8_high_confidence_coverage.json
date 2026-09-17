@@ -1,0 +1,120 @@
+{
+  "intents": {
+    "delivery_delayed": {
+      "golden_set_examples": 12,
+      "full_corpus_count": 5469,
+      "high_confidence_count": 3524,
+      "retention_percentage": 64.44
+    },
+    "returns_refunds": {
+      "golden_set_examples": 16,
+      "full_corpus_count": 6098,
+      "high_confidence_count": 3964,
+      "retention_percentage": 65.0
+    },
+    "delivery_missing": {
+      "golden_set_examples": 15,
+      "full_corpus_count": 9316,
+      "high_confidence_count": 5571,
+      "retention_percentage": 59.8
+    },
+    "delivery_wrong_item": {
+      "golden_set_examples": 7,
+      "full_corpus_count": 548,
+      "high_confidence_count": 139,
+      "retention_percentage": 25.36
+    },
+    "account_access": {
+      "golden_set_examples": 21,
+      "full_corpus_count": 1193,
+      "high_confidence_count": 1069,
+      "retention_percentage": 89.61
+    },
+    "account_billing": {
+      "golden_set_examples": 14,
+      "full_corpus_count": 3387,
+      "high_confidence_count": 2720,
+      "retention_percentage": 80.31
+    },
+    "digital_prime_video": {
+      "golden_set_examples": 14,
+      "full_corpus_count": 1503,
+      "high_confidence_count": 1174,
+      "retention_percentage": 78.11
+    },
+    "digital_kindle": {
+      "golden_set_examples": 14,
+      "full_corpus_count": 1533,
+      "high_confidence_count": 1245,
+      "retention_percentage": 81.21
+    },
+    "amazon_music": {
+      "golden_set_examples": 14,
+      "full_corpus_count": 697,
+      "high_confidence_count": 392,
+      "retention_percentage": 56.24
+    },
+    "echo_alexa": {
+      "golden_set_examples": 14,
+      "full_corpus_count": 1655,
+      "high_confidence_count": 1490,
+      "retention_percentage": 90.03
+    },
+    "promotions_pricing": {
+      "golden_set_examples": 14,
+      "full_corpus_count": 1769,
+      "high_confidence_count": 1613,
+      "retention_percentage": 91.18
+    },
+    "amazon_locker": {
+      "golden_set_examples": 13,
+      "full_corpus_count": 303,
+      "high_confidence_count": 282,
+      "retention_percentage": 93.07
+    },
+    "grocery_fresh": {
+      "golden_set_examples": 14,
+      "full_corpus_count": 306,
+      "high_confidence_count": 299,
+      "retention_percentage": 97.71
+    },
+    "product_availability": {
+      "golden_set_examples": 14,
+      "full_corpus_count": 1470,
+      "high_confidence_count": 1470,
+      "retention_percentage": 100.0
+    }
+  },
+  "dangerous_flags": [
+    {
+      "intent": "delivery_delayed",
+      "retention": 64.44,
+      "level": "< 80%"
+    },
+    {
+      "intent": "returns_refunds",
+      "retention": 65.0,
+      "level": "< 80%"
+    },
+    {
+      "intent": "delivery_missing",
+      "retention": 59.8,
+      "level": "< 60%"
+    },
+    {
+      "intent": "delivery_wrong_item",
+      "retention": 25.36,
+      "level": "< 40%"
+    },
+    {
+      "intent": "digital_prime_video",
+      "retention": 78.11,
+      "level": "< 80%"
+    },
+    {
+      "intent": "amazon_music",
+      "retention": 56.24,
+      "level": "< 60%"
+    }
+  ]
+}

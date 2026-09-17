@@ -1,0 +1,12 @@
+{
+  "brand": "AmazonHelp",
+  "selection_date": "2026-09-12",
+  "selection_basis": {
+    "support_volume": 82545,
+    "multiturn_conversations": 82545,
+    "deep_threads_3plus": 45841,
+    "median_thread_length": 3.0,
+    "p90_thread_length": 8.0,
+    "unique_customers": 73259
+  }
+}

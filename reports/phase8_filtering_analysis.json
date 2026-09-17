@@ -1,0 +1,29 @@
+{
+  "full_corpus_size": 82360,
+  "high_confidence_size": 24952,
+  "retention_percentage": 30.3,
+  "strategies": [
+    {
+      "strategy": "Option A: HIGH_CONFIDENCE ONLY",
+      "docs": 24952,
+      "label_quality": "High",
+      "coverage": "Poor (Many intents < 20%)",
+      "risk": "High (Coverage Collapse)"
+    },
+    {
+      "strategy": "Option B: HIGH_CONFIDENCE + TRUSTED ORIGINAL",
+      "docs": 35247,
+      "label_quality": "Mixed",
+      "coverage": "Excellent",
+      "risk": "Moderate (Originals are noisy)"
+    },
+    {
+      "strategy": "Option C: THRESHOLD FILTERING",
+      "docs": "N/A",
+      "label_quality": "N/A",
+      "coverage": "N/A",
+      "risk": "Threshold-based filtering cannot be evaluated from available metadata."
+    }
+  ],
+  "decision": "REQUIRES_TARGETED_RELABELING"
+}

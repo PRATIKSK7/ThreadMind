@@ -1,0 +1,196 @@
+{
+  "baseline": {
+    "Recall@1": 0.7244897959183674,
+    "Recall@3": 0.8418367346938775,
+    "Recall@5": 0.8571428571428571,
+    "MRR@3": 0.7772108843537414
+  },
+  "pilot": {
+    "Recall@1": 0.7346938775510204,
+    "Recall@3": 0.8418367346938775,
+    "Recall@5": 0.8571428571428571,
+    "MRR@3": 0.7857142857142857
+  },
+  "improvements": 14,
+  "regressions": 11,
+  "improved_details": [
+    {
+      "id": "136747dbfd949f68",
+      "intent": "returns_refunds",
+      "base_rank": 2,
+      "pilot_rank": 1
+    },
+    {
+      "id": "25ca3ab474dd691d",
+      "intent": "account_access",
+      "base_rank": 2,
+      "pilot_rank": 1
+    },
+    {
+      "id": "b614a28772a4ff9a",
+      "intent": "returns_refunds",
+      "base_rank": 2,
+      "pilot_rank": 1
+    },
+    {
+      "id": "583e80a133042b71",
+      "intent": "returns_refunds",
+      "base_rank": 4,
+      "pilot_rank": 1
+    },
+    {
+      "id": "f7b90627ea18d8f6",
+      "intent": "returns_refunds",
+      "base_rank": 2,
+      "pilot_rank": 1
+    },
+    {
+      "id": "c1b7a8c0f138c843",
+      "intent": "account_billing",
+      "base_rank": 3,
+      "pilot_rank": 2
+    },
+    {
+      "id": "b7fe8e583253b111",
+      "intent": "echo_alexa",
+      "base_rank": 2,
+      "pilot_rank": 1
+    },
+    {
+      "id": "c4dfa7c7bd5687f2",
+      "intent": "echo_alexa",
+      "base_rank": 3,
+      "pilot_rank": 2
+    },
+    {
+      "id": "94623b4fdd7ab5bf",
+      "intent": "promotions_pricing",
+      "base_rank": 2,
+      "pilot_rank": 1
+    },
+    {
+      "id": "51815e0ee9dcfccd",
+      "intent": "grocery_fresh",
+      "base_rank": 5,
+      "pilot_rank": 2
+    },
+    {
+      "id": "632f0aed89f71a07",
+      "intent": "grocery_fresh",
+      "base_rank": 999,
+      "pilot_rank": 2
+    },
+    {
+      "id": "451122bbe75eae6a",
+      "intent": "product_availability",
+      "base_rank": 999,
+      "pilot_rank": 2
+    },
+    {
+      "id": "b0889d80badcbecd",
+      "intent": "product_availability",
+      "base_rank": 2,
+      "pilot_rank": 1
+    },
+    {
+      "id": "c5f3c1301f833cc0",
+      "intent": "product_availability",
+      "base_rank": 999,
+      "pilot_rank": 4
+    }
+  ],
+  "regressed_details": [
+    {
+      "id": "3f03050f2ccd56e1",
+      "intent": "delivery_missing",
+      "base_rank": 1,
+      "pilot_rank": 4
+    },
+    {
+      "id": "8e6ae6b8bb6ff8d9",
+      "intent": "delivery_wrong_item",
+      "base_rank": 3,
+      "pilot_rank": 999
+    },
+    {
+      "id": "5fc32478a3b63ac7",
+      "intent": "delivery_wrong_item",
+      "base_rank": 3,
+      "pilot_rank": 999
+    },
+    {
+      "id": "471d985ba341b408",
+      "intent": "returns_refunds",
+      "base_rank": 1,
+      "pilot_rank": 2
+    },
+    {
+      "id": "74d3d83c4ad45c3d",
+      "intent": "returns_refunds",
+      "base_rank": 3,
+      "pilot_rank": 5
+    },
+    {
+      "id": "51f7b73ff3175ac1",
+      "intent": "digital_kindle",
+      "base_rank": 4,
+      "pilot_rank": 999
+    },
+    {
+      "id": "547be894014b4903",
+      "intent": "digital_kindle",
+      "base_rank": 1,
+      "pilot_rank": 2
+    },
+    {
+      "id": "c763f518de8ef948",
+      "intent": "account_access",
+      "base_rank": 1,
+      "pilot_rank": 2
+    },
+    {
+      "id": "f7cd418894688848",
+      "intent": "promotions_pricing",
+      "base_rank": 2,
+      "pilot_rank": 3
+    },
+    {
+      "id": "20c1a80b2496fb80",
+      "intent": "delivery_missing",
+      "base_rank": 1,
+      "pilot_rank": 2
+    },
+    {
+      "id": "079b146a88a14dc0",
+      "intent": "product_availability",
+      "base_rank": 1,
+      "pilot_rank": 2
+    }
+  ],
+  "weak_intent_analysis": {
+    "grocery_fresh": {
+      "baseline_recall5": 0.42857142857142855,
+      "pilot_recall5": 0.5,
+      "baseline_recall3": 0.35714285714285715,
+      "pilot_recall3": 0.5
+    },
+    "account_access": {
+      "baseline_recall5": 0.7619047619047619,
+      "pilot_recall5": 0.7619047619047619,
+      "baseline_recall3": 0.7619047619047619,
+      "pilot_recall3": 0.7619047619047619
+    },
+    "delivery_wrong_item": {
+      "baseline_recall5": 0.5714285714285714,
+      "pilot_recall5": 0.2857142857142857,
+      "baseline_recall3": 0.5714285714285714,
+      "pilot_recall3": 0.2857142857142857
+    }
+  },
+  "decision": "REJECT",
+  "training_loss": 2.4190709040715146,
+  "training_runtime_sec": 122.23,
+  "production_model_modified": false,
+  "production_faiss_modified": false,
+  "golden_set_modified": false
+}

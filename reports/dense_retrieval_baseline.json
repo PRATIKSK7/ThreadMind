@@ -1,0 +1,103 @@
+{
+  "evaluation_metadata": {
+    "date": "2026-09-12",
+    "embedding_model": "all-MiniLM-L6-v2",
+    "faiss_index_type": "IndexFlatIP (cosine similarity via L2-normalized inner product)",
+    "faiss_indexed_documents": 35247,
+    "query_source": "val_split.jsonl (non-other_support, present in FAISS index)",
+    "evaluation_queries": 5000,
+    "self_exclusion": true,
+    "self_excluded_count": 5000,
+    "golden_set_leakage": 0,
+    "relevance_criterion": "Retrieved document shares same rule-baseline intent as query"
+  },
+  "metrics": {
+    "recall_at_1": 0.5842,
+    "mrr_at_1": 0.5842,
+    "hits_at_1": 2921,
+    "recall_at_3": 0.8008,
+    "mrr_at_3": 0.6816,
+    "hits_at_3": 4004,
+    "recall_at_5": 0.8568,
+    "mrr_at_5": 0.6944,
+    "hits_at_5": 4284
+  },
+  "per_intent": {
+    "account_access": {
+      "recall_at_3": 0.7602,
+      "hits": 168,
+      "total": 221
+    },
+    "account_billing": {
+      "recall_at_3": 0.7598,
+      "hits": 408,
+      "total": 537
+    },
+    "amazon_locker": {
+      "recall_at_3": 0.4717,
+      "hits": 25,
+      "total": 53
+    },
+    "amazon_music": {
+      "recall_at_3": 0.8529,
+      "hits": 58,
+      "total": 68
+    },
+    "delivery_delayed": {
+      "recall_at_3": 0.7286,
+      "hits": 518,
+      "total": 711
+    },
+    "delivery_missing": {
+      "recall_at_3": 0.9454,
+      "hits": 1039,
+      "total": 1099
+    },
+    "delivery_wrong_item": {
+      "recall_at_3": 0.625,
+      "hits": 20,
+      "total": 32
+    },
+    "digital_kindle": {
+      "recall_at_3": 0.9153,
+      "hits": 227,
+      "total": 248
+    },
+    "digital_prime_video": {
+      "recall_at_3": 0.8795,
+      "hits": 219,
+      "total": 249
+    },
+    "echo_alexa": {
+      "recall_at_3": 0.903,
+      "hits": 270,
+      "total": 299
+    },
+    "grocery_fresh": {
+      "recall_at_3": 0.3488,
+      "hits": 15,
+      "total": 43
+    },
+    "product_availability": {
+      "recall_at_3": 0.5493,
+      "hits": 156,
+      "total": 284
+    },
+    "promotions_pricing": {
+      "recall_at_3": 0.6206,
+      "hits": 193,
+      "total": 311
+    },
+    "returns_refunds": {
+      "recall_at_3": 0.8142,
+      "hits": 688,
+      "total": 845
+    }
+  },
+  "latency_ms": {
+    "mean": 18.8,
+    "median": 17.0,
+    "p95": 28.7,
+    "p99": 50.0
+  }
+}

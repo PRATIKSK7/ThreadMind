@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="main-content" style="padding: 30px; max-width: 1000px; margin: 0 auto;">
+    <h1 style="color: var(--cyan); margin-bottom: 20px; font-weight: 300; font-size: 2rem;">RETRIEVAL EXPLORER</h1>
+    <p style="color: var(--text-secondary); margin-bottom: 30px;">
+        Search the historical FAISS index containing over 35,000 Amazon customer support conversations.
+    </p>
+
+    <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-bottom: 24px;">
+        <form method="POST" action="/retrieval">
+            <div style="margin-bottom: 20px;">
+                <label style="display: block; color: var(--text-secondary); font-size: 0.85rem; letter-spacing: 0.05em; margin-bottom: 10px;">SEARCH KNOWLEDGE BASE</label>
+                <input type="text" name="query" style="width: 100%; background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px; padding: 16px; color: white; font-family: var(--font-sans); outline: none;" placeholder="Search for historical resolutions..." required>
+            </div>
+            
+            <div style="display: flex; justify-content: flex-end;">
+                <button type="submit" class="btn-primary" style="background: var(--blue); color: white; border: none; padding: 12px 24px; border-radius: 6px; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 8px;">
+                    <i data-lucide="search" style="width: 16px; height: 16px;"></i> SEARCH
+                </button>
+            </div>
+        </form>
+    </div>
+
+    {% if result %}
+    <div style="margin-bottom: 20px; color: var(--text-secondary); font-size: 0.9rem;">
+        Returned <span style="color: var(--text-primary); font-weight: bold;">{{ result.docs|length }}</span> results in <span style="color: var(--cyan);">{{ result.latency }}s</span>.
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 16px;">
+        {% for doc, score in result.docs %}
+        <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; display: flex; gap: 20px;">
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 60px; flex-shrink: 0; border-right: 1px solid var(--border); padding-right: 20px;">
+                <div style="color: var(--text-secondary); font-size: 0.8rem; margin-bottom: 4px;">RANK</div>
+                <div style="font-size: 1.5rem; color: var(--blue); font-family: var(--font-mono);">0{{ loop.index }}</div>
+            </div>
+            
+            <div style="flex: 1;">
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+                    <div>
+                        <span style="background: rgba(0, 217, 255, 0.1); color: var(--cyan); border: 1px solid rgba(0, 217, 255, 0.2); padding: 4px 8px; border-radius: 4px; font-family: var(--font-mono); font-size: 0.8rem;">
+                            {{ doc.metadata.intent }}
+                        </span>
+                        <span style="margin-left: 10px; color: var(--text-secondary); font-size: 0.8rem;">ID: {{ doc.metadata.id }}</span>
+                    </div>
+                    
+                    <div style="text-align: right;">
+                        <div style="font-family: var(--font-mono); font-size: 0.9rem; color: var(--cyan); margin-bottom: 4px;">{{ "%.4f"|format(score) }}</div>
+                        <div style="width: 100px; height: 4px; background: var(--surface-2); border-radius: 2px; overflow: hidden; margin-left: auto;">
+                            <div style="height: 100%; width: {{ (score * 100) }}%; background: var(--cyan);"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="background: var(--surface-2); padding: 16px; border-radius: 8px; color: var(--text-secondary); font-size: 0.9rem; line-height: 1.5; white-space: pre-wrap;">{{ doc.metadata.conversation|tojson }}</div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

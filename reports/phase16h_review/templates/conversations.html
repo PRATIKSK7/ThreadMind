@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="main-content" style="padding: 30px; max-width: 1200px; margin: 0 auto;">
+    <h1 style="color: var(--cyan); margin-bottom: 20px; font-weight: 300; font-size: 2rem;">CONVERSATIONS</h1>
+    <p style="color: var(--text-secondary); margin-bottom: 30px;">
+        Browse and search historical ThreadMind cases from the Golden Set.
+    </p>
+
+    <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: hidden;">
+        <table style="width: 100%; border-collapse: collapse; text-align: left;">
+            <thead>
+                <tr style="background: var(--surface-2); border-bottom: 1px solid var(--border); color: var(--text-secondary); font-size: 0.8rem; letter-spacing: 0.05em;">
+                    <th style="padding: 16px 24px; font-weight: 600;">CASE ID</th>
+                    <th style="padding: 16px 24px; font-weight: 600;">GOLDEN LABEL</th>
+                    <th style="padding: 16px 24px; font-weight: 600;">V2 PREDICTION</th>
+                    <th style="padding: 16px 24px; font-weight: 600; text-align: right;">ACTION</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for case in cases[:25] %}
+                <tr style="border-bottom: 1px solid var(--border); color: var(--text-primary); font-size: 0.95rem;">
+                    <td style="padding: 16px 24px; font-family: var(--font-mono); color: var(--cyan);">{{ case.id }}</td>
+                    <td style="padding: 16px 24px;"><span style="background: rgba(236, 72, 153, 0.1); color: var(--pink); border: 1px solid rgba(236, 72, 153, 0.2); padding: 4px 8px; border-radius: 4px; font-size: 0.8rem;">{{ case.current_label }}</span></td>
+                    <td style="padding: 16px 24px;"><span style="background: rgba(49, 130, 255, 0.1); color: var(--blue); border: 1px solid rgba(49, 130, 255, 0.2); padding: 4px 8px; border-radius: 4px; font-size: 0.8rem;">{{ case.v2_prediction }}</span></td>
+                    <td style="padding: 16px 24px; text-align: right;">
+                        <a href="/case/{{ loop.index0 }}" class="btn-secondary" style="background: transparent; border: 1px solid var(--border); color: var(--cyan); padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 0.8rem; transition: background 0.2s;" onmouseover="this.style.background='rgba(0,217,255,0.1)'" onmouseout="this.style.background='transparent'">Open Case</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <div style="padding: 16px 24px; text-align: center; color: var(--text-secondary); font-size: 0.9rem; border-top: 1px solid var(--border);">
+            Showing top 25 cases from Golden Set.
+        </div>
+    </div>
+</div>
+{% endblock %}

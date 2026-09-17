@@ -1,0 +1,1953 @@
+[
+  {
+    "example_id": "GS-000",
+    "assigned_intent": "delivery_delayed",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 1.0,
+    "reason": "The assigned intent matches the customer's concern about the delayed delivery.",
+    "evidence": [
+      "The customer mentions that 2-day shipping means it arrives 7 days later, which is consistent with the definition of 2-day shipping."
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-001",
+    "assigned_intent": "delivery_delayed",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 1.0,
+    "reason": "The conversation mentions a shipment coming in late, which aligns with the intent of a delivery being delayed.",
+    "evidence": [
+      "Shipment coming in late"
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-002",
+    "assigned_intent": "delivery_delayed",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_missing",
+    "confidence": 0.8,
+    "reason": "The customer mentions that the order was received on time, which contradicts the assigned intent of 'delivery_delayed'.",
+    "evidence": [
+      "The customer mentions that the order was received on time.",
+      "The assigned intent of 'delivery_delayed' is not supported by the conversation"
+    ],
+    "competing_intents": [
+      "delivery_missing",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-003",
+    "assigned_intent": "delivery_delayed",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_missing",
+    "confidence": 0.8,
+    "reason": "The customer is expressing frustration and disappointment with the delayed delivery, which suggests that the issue might be with the missing item rather than just a delayed delivery.",
+    "evidence": [
+      "The customer mentions 'onsie' which is a specific item that might be missing",
+      "The customer's tone is more concerned about the missing item than just the delayed delivery"
+    ],
+    "competing_intents": [
+      "delivery_missing",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-004",
+    "assigned_intent": "delivery_delayed",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.9,
+    "reason": "The customer explicitly mentions 'delivery delayed' in their message.",
+    "evidence": [
+      "The bigger you are the worst the service ordering from prime a crapshoot deceptive ishipping info unexplained delays not worth $"
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-005",
+    "assigned_intent": "delivery_delayed",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_missing",
+    "confidence": 0.8,
+    "reason": "The customer mentions that they are still waiting weeks later for their package, which suggests that the package may not have been delivered at all.",
+    "evidence": [
+      "The customer mentions that they ordered a package weeks ago, they lost it",
+      "still waiting weeks later"
+    ],
+    "competing_intents": [
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-006",
+    "assigned_intent": "delivery_delayed",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_missing",
+    "confidence": 0.8,
+    "reason": "The customer is asking for the status of two parcels and expressing frustration with the delay, which suggests that the parcels may not have been delivered at all.",
+    "evidence": [
+      "@244842 please explain where parcels PD74A000026 and PD74A000027 for @115830 are?"
+    ],
+    "competing_intents": [
+      "delivery_missing",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-007",
+    "assigned_intent": "delivery_delayed",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.9,
+    "reason": "The conversation starts with a complaint about a delayed delivery, which is a clear indication of the assigned intent.",
+    "evidence": [
+      "a delay 2 days in a row?? https://t.co/ff8UCSOPYO",
+      "I'm sorry you're having issues with your delivery, Rehan. That's not the type of service we aim to provide."
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-008",
+    "assigned_intent": "delivery_delayed",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_missing",
+    "confidence": 0.8,
+    "reason": "The customer mentions that the delivery person isn't receiving the instructions, which suggests that the issue might not be with the delivery itself, but rather with the delivery person not following the instructions. This is a common issue with delivery delays, but the customer's tone and language suggest that the issue might be more complex and could be related to a missing delivery.",
+    "evidence": [
+      "The customer mentions that the delivery person isn't receiving the instructions.",
+      "The customer has had multiple escalations and the issue hasn't been resolved.",
+      "The customer is frustrated with the lack of resolution and is looking for a more concrete solution."
+    ],
+    "competing_intents": [
+      "delivery_missing",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-009",
+    "assigned_intent": "delivery_delayed",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_missing",
+    "confidence": 0.8,
+    "reason": "The customer mentions that their refund claim is 2 weeks old and they are still waiting, which suggests that the issue may not be resolved yet. The assigned intent 'delivery_delayed' does not capture the full context of the conversation.",
+    "evidence": [
+      "The customer mentions that their refund claim is 2 weeks old.",
+      "The customer is still waiting for the issue to be resolved."
+    ],
+    "competing_intents": [
+      "delivery_missing",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-010",
+    "assigned_intent": "delivery_delayed",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.9,
+    "reason": "The customer explicitly mentioned 'delayed and/or lost delivery' and expressed frustration with the Amazon US shipping service.",
+    "evidence": [
+      "@AmazonHelp Delayed and/or lost delivery.",
+      "I've got another one due tomorrow via AMZL-US, that I'm not holding my breath for."
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-011",
+    "assigned_intent": "delivery_delayed",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.9,
+    "reason": "The customer explicitly stated 'tired of promised deliv days & times and then delayed' and 'Potential window of delivery dates. This seems to be happening more.' which strongly suggests the assigned intent.",
+    "evidence": [
+      "tired of promised deliv days & times and then delayed",
+      "Potential window of delivery dates. This seems to be happening more."
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-012",
+    "assigned_intent": "delivery_delayed",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_missing",
+    "confidence": 0.8,
+    "reason": "The customer expresses frustration with the delayed delivery and asks for an update on the status. However, the conversation also mentions that the product was not delivered, which suggests that the assigned intent might not be entirely accurate.",
+    "evidence": [
+      "The customer expresses frustration with the delayed delivery",
+      "The customer asks for an update on the status",
+      "The conversation mentions that the product was not delivered"
+    ],
+    "competing_intents": [
+      "delivery_missing",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-013",
+    "assigned_intent": "delivery_delayed",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_missing",
+    "confidence": 0.8,
+    "reason": "The customer mentions that they have not received their items at all, which suggests that the issue is not just a delay, but also a missing item. The assigned intent 'delivery_delayed' does not capture this nuance.",
+    "evidence": [
+      "@AmazonHelp So I ordered it on Monday and it still hasn\u2019t arrived!!",
+      "@AmazonHelp I have requested a call back at 1pm. I\u2019m disappointed as it was for a present and now it\u2019s late/lost?"
+    ],
+    "competing_intents": [
+      "delivery_missing",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-014",
+    "assigned_intent": "delivery_missing",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer mentions they received a 'broken room heater', which is a specific type of item, but the assigned intent 'delivery_missing' is too broad. A more specific intent like 'delivery_delayed' or 'delivery_wrong_item' would be more accurate.",
+    "evidence": [
+      "The customer mentions a specific item (room heater) which suggests a problem with the delivery.",
+      "The customer's tone is apologetic and concerned, which is more typical of a delayed or wrong item delivery."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-015",
+    "assigned_intent": "delivery_missing",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer mentions that a package meant for someone else was delivered to them by mistake, which is a common cause of a delivery being missing. The assigned intent 'delivery_missing' is a good match for this conversation.",
+    "evidence": [
+      "The customer mentions that a package meant for someone else was delivered to them by mistake.",
+      "The customer asks how to return the package to Amazon.",
+      "The assigned intent 'delivery_missing' is a good match for this conversation."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "returns_refunds"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-016",
+    "assigned_intent": "delivery_missing",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer mentions that they received an order, but it's unclear if it was delayed or not. The assigned intent 'delivery_missing' assumes the order was never received, but the customer's statement suggests it was received, just not on the expected date.",
+    "evidence": [
+      "The customer mentions that they received an order",
+      "The customer mentions that they got 1 order delivered 2day"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-017",
+    "assigned_intent": "delivery_missing",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer mentions that the phone was delivered by mistake and has been causing issues for 3 days, which is more indicative of a delivery delay than a missing delivery.",
+    "evidence": [
+      "The phone was delivered by mistake",
+      "has been causing issues for 3 days"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-018",
+    "assigned_intent": "delivery_missing",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer explicitly mentions that their item 'failed to deliver', which is a more specific and accurate description of the issue.",
+    "evidence": [
+      "The customer mentions that their item 'failed to deliver'"
+    ],
+    "competing_intents": [
+      "delivery_delayed"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-019",
+    "assigned_intent": "delivery_missing",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer is explicitly stating that the delivery boy is not working with Amazon and is giving the same answer from customer service, which suggests a miscommunication or mislabeling of the intent.",
+    "evidence": [
+      "The customer is explicitly stating that the delivery boy is not working with Amazon",
+      "The customer service is giving the same answer"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-020",
+    "assigned_intent": "delivery_missing",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer mentions that the package was delivered to a wrong address, which is a common issue with the 'delivery_missing' intent. However, the customer also mentions that there is no update on the delivery status, which could also be related to a 'delivery_delayed' intent.",
+    "evidence": [
+      "The customer mentions that the package was delivered to a wrong address.",
+      "The customer mentions that there is no update on the delivery status."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-021",
+    "assigned_intent": "delivery_missing",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer mentions that the delivery was attempted but did not leave a note, which is a common scenario for a delivery missing intent. However, the customer also mentions that the app says the item will be delivered tomorrow, which could also be related to a delivery delayed intent.",
+    "evidence": [
+      "The customer mentions that the app says the item will be delivered tomorrow.",
+      "The customer does not mention any specific issues with the item itself."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-022",
+    "assigned_intent": "delivery_missing",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer mentions that they received 2 items they didn't order, which suggests a delay or misdelivery. However, the customer also mentions that they had to wait until tomorrow to call about an item that was on sale, which could indicate a delayed delivery. The assigned intent 'delivery_missing' seems to be a subset of the issue, but it doesn't fully capture the complexity of the situation.",
+    "evidence": [
+      "The customer received 2 items they didn't order",
+      "The customer had to wait until tomorrow to call about an item that was on sale"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-023",
+    "assigned_intent": "delivery_missing",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer explicitly states that their delivery is missing, but the conversation also mentions that the driver came up with excuses for a delayed delivery. The assigned intent does not capture the full context of the conversation.",
+    "evidence": [
+      "The customer states that the item is undeliverable",
+      "The customer explicitly states that their delivery is missing"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-024",
+    "assigned_intent": "delivery_missing",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer mentions that their order has not been delivered on the day they wanted, which is a common issue with delayed deliveries. However, the customer also explicitly states that their order is missing, which could also be a cause for concern. The conversation does not provide enough context to determine the exact issue, but the customer's frustration and disappointment suggest that the delivery delay is the primary concern.",
+    "evidence": [
+      "The customer mentions that their order has not been delivered on the day they wanted.",
+      "The customer explicitly states that their order is missing."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-025",
+    "assigned_intent": "delivery_missing",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer mentions that the package is not here and will not arrive until Wednesday or Thursday, which suggests a delay rather than a complete missing of the package.",
+    "evidence": [
+      "@797329 I ordered a package on Friday to be delivered today and it\u2019s not here.",
+      "@AmazonHelp I ordered a package on Friday to be delivered today and it\u2019s not here.",
+      "@797329 I'm sorry about the wait! Orders need a bit more time to fulfill and ship due to Black Friday and Cyber Monday."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-026",
+    "assigned_intent": "delivery_missing",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer mentions that the order was not delivered on the expected date (Thursday) and that the seller was unable to deliver it on the rescheduled date (Friday). This suggests that the order was delayed, but the customer's primary concern is that it was not delivered at all.",
+    "evidence": [
+      "The order went in fine got email saying will be delivered on Thursday which",
+      "it wasn't, then got an email saying they have tried to deliver it but no one was in, which was wrong.",
+      "After a few emails They said they will Deliver it on Friday which we explained we couldn't do Friday, I got another email saying they have cancelled the order and refunded my mone"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-027",
+    "assigned_intent": "delivery_missing",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer initially mentioned a delivery issue, but later confirmed that the product was delivered on time.",
+    "evidence": [
+      "@549653 Delighted to know that. Do keep us posted for further issues or concerns. ^SB",
+      "@AmazonHelp Delivered bang in time. https://t.co/OGmzvgFyXQ"
+    ],
+    "competing_intents": [
+      "delivery_delayed"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-028",
+    "assigned_intent": "delivery_wrong_item",
+    "audit_status": "LIKELY_MISLABELED",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer's tone and language suggest frustration and disappointment, which is more indicative of a delayed or missing delivery issue rather than a wrong item. The mention of 'await yet another email stating incorrect information' implies a sense of repetition and frustration, which is not typically associated with a wrong item issue.",
+    "evidence": [
+      "The customer's tone and language suggest frustration and disappointment",
+      "The mention of 'await yet another email stating incorrect information' implies a sense of repetition and frustration"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-029",
+    "assigned_intent": "delivery_wrong_item",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer expresses frustration and asks why this happens, which is more indicative of a delivery delay issue rather than a wrong item.",
+    "evidence": [
+      "The delivery may be delayed by a day due to the package arriving at an incorrect courier facility!",
+      "Y does dis happen all da tym?"
+    ],
+    "competing_intents": [
+      "delivery_missing",
+      "returns_refunds"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-030",
+    "assigned_intent": "delivery_wrong_item",
+    "audit_status": "AMBIGUOUS",
+    "suggested_intent": "account_access",
+    "confidence": 0.8,
+    "reason": "The conversation starts with a question about Amazon password, which is not related to delivery. The assigned intent 'delivery_wrong_item' is not supported by the initial message.",
+    "evidence": [
+      "The conversation starts with a question about Amazon password.",
+      "The assigned intent 'delivery_wrong_item' is not supported by the initial message."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "returns_refunds",
+      "product_availability",
+      "promotions_pricing",
+      "account_billing",
+      "digital_prime_video",
+      "digital_kindle",
+      "amazon_music",
+      "echo_alexa",
+      "amazon_locker",
+      "grocery_fresh"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-031",
+    "assigned_intent": "delivery_wrong_item",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer mentions that the delivery is 'not what I ordered and paid for', which suggests a potential issue with the delivery, but the assigned intent 'delivery_wrong_item' is too specific and doesn't capture the full context of the conversation.",
+    "evidence": [
+      "The customer mentions that the delivery is 'not what I ordered and paid for'"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-032",
+    "assigned_intent": "delivery_wrong_item",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer mentions a spelling error on the website, which is not directly related to the delivery issue. The conversation starts with a complaint about a product being delivered incorrectly, but the initial message is about a spelling error.",
+    "evidence": [
+      "The customer mentions a spelling error on the website.",
+      "The conversation starts with a complaint about a product being delivered incorrectly."
+    ],
+    "competing_intents": [
+      "delivery_missing",
+      "returns_refunds"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-033",
+    "assigned_intent": "delivery_wrong_item",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer mentions 'three instances of incorrect products being delivered' which suggests a broader issue with delivery, not just a wrong item. However, the customer also mentions 'damaged products' which could be related to the wrong item intent.",
+    "evidence": [
+      "The customer mentions 'three instances of incorrect products being delivered'"
+    ],
+    "competing_intents": [
+      "delivery_missing",
+      "returns_refunds"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-034",
+    "assigned_intent": "delivery_wrong_item",
+    "audit_status": "AMBIGUOUS",
+    "suggested_intent": "account_access",
+    "confidence": 0.8,
+    "reason": "The conversation starts with a complaint about not being able to log in to the account, which is not related to delivery. The mention of password changes and incorrect login attempts suggests an issue with account access rather than a delivery-related issue.",
+    "evidence": [
+      "The conversation starts with a complaint about not being able to log in to the account.",
+      "The mention of password changes and incorrect login attempts"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "returns_refunds",
+      "product_availability",
+      "promotions_pricing",
+      "account_billing"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-035",
+    "assigned_intent": "delivery_wrong_item",
+    "audit_status": "LIKELY_MISLABELED",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The conversation starts with a complaint about account issues, which is not directly related to the assigned intent. The customer mentions unauthorized access and password reset, but the primary concern is the delivery issue.",
+    "evidence": [
+      "@AmazonHelp Placed an order, got an email to say there has been unauthorized access and to reset password",
+      "@AmazonHelp But i get an email to say it's successfully updated then try to log in and it says it is incorrect"
+    ],
+    "competing_intents": [
+      "delivery_missing",
+      "returns_refunds",
+      "product_availability",
+      "promotions_pricing",
+      "account_billing",
+      "account_access",
+      "digital_prime_video",
+      "digital_kindle",
+      "amazon_music",
+      "echo_alexa",
+      "amazon_locker",
+      "grocery_fresh"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-036",
+    "assigned_intent": "delivery_wrong_item",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer mentions that they have received the wrong item twice in a row, which suggests a potential issue with the delivery process. The assigned intent 'delivery_wrong_item' is a good match, but the customer's statement also implies a delay in the delivery process.",
+    "evidence": [
+      "The customer mentions that they have received the wrong item twice in a row",
+      "The customer asks about the fulfillment status of their order"
+    ],
+    "competing_intents": [
+      "delivery_missing"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-037",
+    "assigned_intent": "delivery_wrong_item",
+    "audit_status": "AMBIGUOUS",
+    "suggested_intent": "delivery_missing",
+    "confidence": 0.8,
+    "reason": "The conversation starts with a concern about missing orders, which could be related to delivery delays or missing items. However, the conversation quickly shifts to login issues and password changes, which doesn't strongly support the assigned intent. The suggested intent 'delivery_missing' seems more plausible given the initial concern about missing orders.",
+    "evidence": [
+      "The conversation starts with a concern about missing orders.",
+      "The conversation quickly shifts to login issues and password changes."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "returns_refunds"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-038",
+    "assigned_intent": "delivery_wrong_item",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.9,
+    "reason": "The conversation starts with a customer expressing frustration with their delivery, which is a common issue that can be related to a delivery being delayed or missing. The customer's initial message does not explicitly mention a wrong item, but the conversation does not provide enough context to confirm that the assigned intent is correct.",
+    "evidence": [
+      "The customer's initial message expresses frustration with their delivery.",
+      "The conversation does not provide enough context to confirm that the assigned intent is correct."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-039",
+    "assigned_intent": "delivery_wrong_item",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer mentions that the delivery staff and their peers were unable to help with the issue, and the customer center did not respond. This suggests that the issue is not just a simple wrong item, but rather a more complex problem with the delivery process.",
+    "evidence": [
+      "The customer mentions that the delivery staff and their peers were unable to help with the issue.",
+      "The customer center did not respond."
+    ],
+    "competing_intents": [
+      "delivery_missing",
+      "returns_refunds"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-040",
+    "assigned_intent": "delivery_wrong_item",
+    "audit_status": "LIKELY_MISLABELED",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer's initial statement about the item not arriving on time and the subsequent statements about incorrect tracking information and delivery address suggest a more complex issue than a simple wrong item. The customer's frustration and confusion also indicate a potential mislabeling of the assigned intent.",
+    "evidence": [
+      "The customer's statement about the item not arriving on time and the subsequent statements about incorrect tracking information and delivery address.",
+      "The customer's frustration and confusion about the situation."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-041",
+    "assigned_intent": "delivery_wrong_item",
+    "audit_status": "AMBIGUOUS",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.5,
+    "reason": "The conversation starts with a complaint about not having access to their account, which could be related to various intents, including account_access. The conversation then shifts to discussing password issues, which is more closely related to account_access.",
+    "evidence": [
+      "@AmazonHelp bonjour je n'ai plus acc\u00e8s \u00e0 mon compte !!!",
+      "@389945 Avez-vous re\u00e7u un e-mail concernant votre compte ?"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "returns_refunds",
+      "account_access"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-042",
+    "assigned_intent": "returns_refunds",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer is asking about returning an item that was not ordered, which is a common issue with delivery delays. The assigned intent 'returns_refunds' is a good match, but the customer's tone and language suggest a delivery-related issue.",
+    "evidence": [
+      "The customer mentions a 'weird thing' that was not ordered",
+      "The customer is asking about getting the correct item instead"
+    ],
+    "competing_intents": [
+      "delivery_missing",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-043",
+    "assigned_intent": "returns_refunds",
+    "audit_status": "VALID",
+    "suggested_intent": "returns_refunds",
+    "confidence": 1.0,
+    "reason": "The conversation starts with a customer expressing dissatisfaction with their delivery experience, mentioning a prime residential address and a return. The assigned intent 'returns_refunds' accurately captures the customer's intent.",
+    "evidence": [
+      "The customer mentions a prime residential address and a return, indicating a return process.",
+      "The customer apologizes for the experience and asks for assistance, which is consistent with the intent of a return and refund."
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-044",
+    "assigned_intent": "returns_refunds",
+    "audit_status": "VALID",
+    "suggested_intent": "returns_refunds",
+    "confidence": 0.9,
+    "reason": "The customer explicitly mentioned wanting a refund and expressed frustration with Amazon's handling of the issue.",
+    "evidence": [
+      "The customer said 'I want a refund @AmazonHelp'"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-045",
+    "assigned_intent": "returns_refunds",
+    "audit_status": "VALID",
+    "suggested_intent": "returns_refunds",
+    "confidence": 1.0,
+    "reason": "The conversation starts with a complaint about a recurring charge, which is a common reason for returns/refunds. The customer also mentions a specific issue with their Prime subscription, which further supports the assigned intent.",
+    "evidence": [
+      "The customer mentions a recurring charge and a specific issue with their Prime subscription."
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-046",
+    "assigned_intent": "returns_refunds",
+    "audit_status": "VALID",
+    "suggested_intent": "returns_refunds",
+    "confidence": 1.0,
+    "reason": "The customer explicitly mentioned that they received the order and were asked to return the product, which aligns with the intent of returns_refunds.",
+    "evidence": [
+      "The customer stated that they paid for the order and money was debited from their bank account."
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-047",
+    "assigned_intent": "returns_refunds",
+    "audit_status": "VALID",
+    "suggested_intent": "returns_refunds",
+    "confidence": 0.9,
+    "reason": "The customer explicitly mentioned that they received a defective product and are trying to return it, which aligns with the intent of returns_refunds.",
+    "evidence": [
+      "The customer mentioned a defective product",
+      "The customer is trying to return the product"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-048",
+    "assigned_intent": "returns_refunds",
+    "audit_status": "VALID",
+    "suggested_intent": "returns_refunds",
+    "confidence": 0.9,
+    "reason": "The conversation starts with a complaint about a recharge not being successful, which is a common issue related to returns and refunds.",
+    "evidence": [
+      "The customer mentions that the recharge was not successful and that Amazon deducted the amount without refunding it."
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-049",
+    "assigned_intent": "returns_refunds",
+    "audit_status": "AMBIGUOUS",
+    "suggested_intent": "product_availability",
+    "confidence": 0.8,
+    "reason": "The customer is asking about refund policies on price drops, but the response provided by the agent is not directly related to returns or refunds. The conversation is more related to product pricing and availability.",
+    "evidence": [
+      "The constantly changing marketplace and our efforts to offer you the lowest price, may result in fluctuations in our prices over time."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-050",
+    "assigned_intent": "returns_refunds",
+    "audit_status": "VALID",
+    "suggested_intent": "returns_refunds",
+    "confidence": 1.0,
+    "reason": "The conversation starts with a complaint about not receiving a response from the CS team, which is a common issue in returns and refunds. The customer also mentions that they have been chasing the team for more than a week, which further supports the assigned intent.",
+    "evidence": [
+      "The customer mentions that they have been chasing the CS team for resolution/refund/new item for more than a week now.",
+      "The customer expresses frustration with the lack of response from the CS team."
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-051",
+    "assigned_intent": "returns_refunds",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer is frustrated with the delayed return pickup and is seeking assistance. The assigned intent 'returns_refunds' does not fully capture the customer's concern, which is more related to the delayed pickup.",
+    "evidence": [
+      "@115850 @AmazonHelp",
+      "@278937 Apologies for the unexpected delay with the return pick up",
+      "@AmazonHelp I reported several times but of no effect. Plz help"
+    ],
+    "competing_intents": [
+      "delivery_missing",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-052",
+    "assigned_intent": "returns_refunds",
+    "audit_status": "VALID",
+    "suggested_intent": "returns_refunds",
+    "confidence": 0.9,
+    "reason": "The conversation starts with a customer expressing confusion about the refund process and mentions loading Amazon balance and paying for an offer. The customer then shares their order details and requests help from Amazon's Twitter page. The conversation is focused on resolving the refund issue, which aligns with the assigned intent.",
+    "evidence": [
+      "@115850 I loaded 2500 into pay balace &amp; paid for 15% offer, its clear in my balance sheet but executives are denying it,",
+      "@742717 I'm sorry to hear about the cash back issues. We'd like to take a closer look on this and help. Please share your details here: https://t.co/GIJyeYqKE0 and let us know. We'll check and reach out to you with an update. ^VN"
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-053",
+    "assigned_intent": "returns_refunds",
+    "audit_status": "AMBIGUOUS",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The conversation starts with a complaint about a delayed delivery, which is not directly related to returns or refunds.",
+    "evidence": [
+      "@115823 is the new trick from amazon to lock up refunds (paid through gift card) which cannot be transferred to bank account.",
+      "@AmazonHelp Which won't be of any use"
+    ],
+    "competing_intents": [
+      "delivery_missing",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-054",
+    "assigned_intent": "returns_refunds",
+    "audit_status": "VALID",
+    "suggested_intent": "returns_refunds",
+    "confidence": 0.9,
+    "reason": "The conversation starts with a customer asking about returning an item, which is a clear indication of the assigned intent.",
+    "evidence": [
+      "What do I do if I need to return an item @AmazonHelp but I don't have a printer &amp; their no drop off places by me"
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-055",
+    "assigned_intent": "returns_refunds",
+    "audit_status": "VALID",
+    "suggested_intent": "delivery_missing",
+    "confidence": 0.8,
+    "reason": "The customer is unable to return a product due to a delivery issue, but the assigned intent is for returns and refunds.",
+    "evidence": [
+      "@AmazonHelp unable to return the product please help. Contact Jo 8800940900",
+      "@AmazonHelp Ur app is not whose first me. I placed order in India from 8800940900. Unable to call please help"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-056",
+    "assigned_intent": "account_billing",
+    "audit_status": "LIKELY_MISLABELED",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The customer's language and tone suggest a frustration with a delivery issue, rather than a billing concern.",
+    "evidence": [
+      "@115821 i will singlehandedly destroy your reputation on this Website",
+      "where the f*ck is my money????"
+    ],
+    "competing_intents": [
+      "returns_refunds",
+      "product_availability"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-057",
+    "assigned_intent": "account_billing",
+    "audit_status": "VALID",
+    "suggested_intent": "account_access",
+    "confidence": 0.8,
+    "reason": "The user is asking for help with adding money to their AmazonPay debit card, which is related to account access, not account billing.",
+    "evidence": [
+      "The user is being taken to the same page after filling in the info.",
+      "This suggests that the issue is with their account access, not their billing information."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item",
+      "returns_refunds",
+      "product_availability",
+      "promotions_pricing"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-058",
+    "assigned_intent": "account_billing",
+    "audit_status": "LIKELY_MISLABELED",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The conversation mentions 'delivery' multiple times, which suggests that the intent is related to shipping or delivery issues, rather than account billing.",
+    "evidence": [
+      "delivery",
+      "delayed",
+      "missing",
+      "wrong_item"
+    ],
+    "competing_intents": [
+      "returns_refunds",
+      "product_availability",
+      "promotions_pricing",
+      "account_access"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-059",
+    "assigned_intent": "account_billing",
+    "audit_status": "VALID",
+    "suggested_intent": "account_billing",
+    "confidence": 1.0,
+    "reason": "The conversation starts with a complaint about a false charge, which is a common issue related to account billing.",
+    "evidence": [
+      "The user mentions a false charge",
+      "The user asks to chat with a support member for the issue"
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-060",
+    "assigned_intent": "account_billing",
+    "audit_status": "VALID",
+    "suggested_intent": "account_access",
+    "confidence": 0.8,
+    "reason": "The customer mentions a 'desperate \u00a31 transaction' which suggests a potential issue with their account, but the context is not strong enough to confirm account_billing as the primary intent.",
+    "evidence": [
+      "The customer mentions a 'desperate \u00a31 transaction' which suggests a potential issue with their account.",
+      "The conversation does not mention any issues with billing or payment methods."
+    ],
+    "competing_intents": [
+      "account_access",
+      "delivery_delayed"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-061",
+    "assigned_intent": "account_billing",
+    "audit_status": "VALID",
+    "suggested_intent": "account_billing",
+    "confidence": 1.0,
+    "reason": "The conversation starts with a question about a specific product (Football Manager) and its pricing, which is a clear indication that the intent is related to product pricing, not account billing.",
+    "evidence": [
+      "The conversation starts with a question about a specific product (Football Manager) and its pricing.",
+      "The assigned intent 'account_billing' does not match the context of the conversation."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item",
+      "returns_refunds",
+      "product_availability",
+      "promotions_pricing"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-062",
+    "assigned_intent": "account_billing",
+    "audit_status": "VALID",
+    "suggested_intent": "promotions_pricing",
+    "confidence": 0.9,
+    "reason": "The customer is asking about a cashback offer for loading money in Amazon Pay, which is related to promotions and pricing, not account billing.",
+    "evidence": [
+      "@115850 do we have cashback offer for loading money in Amazon pay ?",
+      "Currently, we do not have this offer. However, please stay tuned. ^HN"
+    ],
+    "competing_intents": [
+      "returns_refunds",
+      "product_availability"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-063",
+    "assigned_intent": "account_billing",
+    "audit_status": "LIKELY_MISLABELED",
+    "suggested_intent": "account_access",
+    "confidence": 0.8,
+    "reason": "The conversation starts with a complaint about a poor experience with a Prime purchase, which doesn't align with account billing. The customer also mentions cancelling Prime and seeking help with a previous purchase, indicating a need for account access.",
+    "evidence": [
+      "The customer mentions cancelling Prime",
+      "The customer mentions a previous purchase"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-064",
+    "assigned_intent": "account_billing",
+    "audit_status": "VALID",
+    "suggested_intent": "product_availability",
+    "confidence": 0.9,
+    "reason": "The conversation revolves around a price change and the customer's concern about the actual price of a product, which is more related to product availability than account billing.",
+    "evidence": [
+      "The price you see are the lowest we are able to offer.",
+      "The price and availability of the items and services offered on our website are subject to change."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-065",
+    "assigned_intent": "account_billing",
+    "audit_status": "VALID",
+    "suggested_intent": "account_access",
+    "confidence": 0.8,
+    "reason": "The customer expresses dissatisfaction with the payment process, mentioning that Amazon tried multiple credit cards until one worked. This suggests a broader issue with account access rather than just billing.",
+    "evidence": [
+      "@115821 credit card trolling until they found a credit card to take my yearly fee from.",
+      "@AmazonHelp Five credit cards I've used in the past until one works"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item",
+      "returns_refunds",
+      "product_availability",
+      "promotions_pricing"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-066",
+    "assigned_intent": "account_billing",
+    "audit_status": "LIKELY_MISLABELED",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The conversation starts with a concern about an unsolicited email from Amazon, which is not related to account billing. The conversation then shifts to discussing the potential reasons behind the email and the customer's concerns about account security.",
+    "evidence": [
+      "The email is definitely from Amazon, for a trial of Amazon Prime that I didn't sign up for.",
+      "If 2, while I appreciate free things, it seems like this trial will auto renew with my credit card info."
+    ],
+    "competing_intents": [
+      "delivery_missing",
+      "delivery_wrong_item",
+      "returns_refunds",
+      "product_availability",
+      "promotions_pricing",
+      "account_access",
+      "digital_prime_video",
+      "digital_kindle",
+      "amazon_music",
+      "echo_alexa",
+      "amazon_locker",
+      "grocery_fresh"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-067",
+    "assigned_intent": "account_billing",
+    "audit_status": "LIKELY_MISLABELED",
+    "suggested_intent": "returns_refunds",
+    "confidence": 0.8,
+    "reason": "The customer is expressing frustration and desperation about a delayed or missing book delivery, and is threatening to take drastic actions, including a hunger strike and shutting off utilities. This behavior is not typical of a customer seeking to resolve an account billing issue.",
+    "evidence": [
+      "The customer is expressing frustration and desperation about a delayed or missing book delivery",
+      "The customer is threatening to take drastic actions, including a hunger strike and shutting off utilities"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-068",
+    "assigned_intent": "account_billing",
+    "audit_status": "VALID",
+    "suggested_intent": "account_access",
+    "confidence": 0.8,
+    "reason": "The conversation starts with a complaint about unauthorized charges, which is more related to account access than account billing. The conversation then shifts to discussing the issue with the customer, which further supports the suggested intent.",
+    "evidence": [
+      "The customer mentions that the money has been taken out of their account, which suggests a concern about account activity.",
+      "The customer also mentions that they ordered via a different website, which implies that they are trying to resolve an issue with their account, rather than billing."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-069",
+    "assigned_intent": "account_billing",
+    "audit_status": "AMBIGUOUS",
+    "suggested_intent": "delivery_delayed",
+    "confidence": 0.8,
+    "reason": "The conversation starts with a request for assistance with loading Amazon Pay, which is not directly related to account billing. The conversation then shifts to discussing a delayed delivery, which is a more relevant intent.",
+    "evidence": [
+      "@115850 @115821 Please help asap. We tried to load some amount in Amazon pay but after almost 20 hours, it doesn't show any amount.",
+      "@AmazonHelp Why we can't connect if we haven't placed order? What a strategy to avoid traffic!!  How can we get the status of the Amazon Pay"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-070",
+    "assigned_intent": "digital_prime_video",
+    "audit_status": "AMBIGUOUS",
+    "suggested_intent": "echo_alexa",
+    "confidence": 0.8,
+    "reason": "The conversation mentions 'Smart speaker. Smart living.' and 'ECHO', which suggests a strong connection to Echo devices. However, the assigned intent 'digital_prime_video' seems unrelated to the context.",
+    "evidence": [
+      "Smart speaker. Smart living.",
+      "ECHO"
+    ],
+    "competing_intents": [
+      "product_availability",
+      "promotions_pricing",
+      "account_billing",
+      "account_access"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-071",
+    "assigned_intent": "digital_prime_video",
+    "audit_status": "AMBIGUOUS",
+    "suggested_intent": "digital_prime_video",
+    "confidence": 0.0,
+    "reason": "Lack of context about the error message or symptoms described. The customer mentions issues with Amazon Video and Netflix, but the assigned intent only accounts for Amazon Video.",
+    "evidence": [
+      "The customer mentions issues with Amazon Video and Netflix.",
+      "The assigned intent only accounts for Amazon Video."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item",
+      "returns_refunds",
+      "product_availability",
+      "promotions_pricing",
+      "account_billing",
+      "account_access"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-072",
+    "assigned_intent": "digital_prime_video",
+    "audit_status": "VALID",
+    "suggested_intent": "digital_prime_video",
+    "confidence": 1.0,
+    "reason": "The conversation starts with a complaint about a video not being available due to geographical restrictions, which is a common issue with Prime Video.",
+    "evidence": [
+      "The user mentions a specific video title (@119625) and asks about the title they are trying to stream (@115851).",
+      "The user's question implies that they are trying to access a video, which is consistent with the Prime Video service."
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-073",
+    "assigned_intent": "digital_prime_video",
+    "audit_status": "VALID",
+    "suggested_intent": "digital_prime_video",
+    "confidence": 1.0,
+    "reason": "The conversation starts with a request to add a movie to the Prime Video playlist, which is a clear indication of the assigned intent.",
+    "evidence": [
+      "The conversation starts with a request to add a movie to the Prime Video playlist, which is a clear indication of the assigned intent."
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-074",
+    "assigned_intent": "digital_prime_video",
+    "audit_status": "AMBIGUOUS",
+    "suggested_intent": "digital_prime_video",
+    "confidence": 0.5,
+    "reason": "The conversation does not contain any explicit mention of Amazon Prime Video, and the context does not strongly suggest a discussion about the service.",
+    "evidence": [
+      "The mention of 'crazy on subscriptions' could be related to Amazon Prime Video, but it's not a clear indicator.",
+      "The conversation does not contain any specific details about movies or video releases."
+    ],
+    "competing_intents": [
+      "returns_refunds",
+      "product_availability",
+      "promotions_pricing",
+      "account_billing",
+      "account_access"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-075",
+    "assigned_intent": "digital_prime_video",
+    "audit_status": "AMBIGUOUS",
+    "suggested_intent": "product_availability",
+    "confidence": 0.5,
+    "reason": "The conversation mentions 'next update' and 'time passing without noticing', which could be related to product availability or a feature update, but the context is not strong enough to confirm the assigned intent.",
+    "evidence": [
+      "The conversation mentions 'next update' and 'time passing without noticing'"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-076",
+    "assigned_intent": "digital_prime_video",
+    "audit_status": "AMBIGUOUS",
+    "suggested_intent": "grocery_fresh",
+    "confidence": 0.0,
+    "reason": "The conversation does not contain any relevant information about Prime Video, and the mention of 'Ver Redskins vs Cowboys en vivo' seems unrelated to the topic.",
+    "evidence": [
+      "The conversation mentions 'Ver Redskins vs Cowboys en vivo' which is not related to Prime Video.",
+      "The conversation does not contain any information about the Prime Video application or its features."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item",
+      "returns_refunds",
+      "product_availability",
+      "promotions_pricing",
+      "account_billing",
+      "account_access"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-077",
+    "assigned_intent": "digital_prime_video",
+    "audit_status": "VALID",
+    "suggested_intent": "digital_prime_video",
+    "confidence": 1.0,
+    "reason": "The conversation starts with a complaint about a Prime video subscription issue, which is a clear indication that the assigned intent is correct.",
+    "evidence": [
+      "The customer mentions that the Prime subscription is still not activated despite the amount being deducted from their account."
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-078",
+    "assigned_intent": "digital_prime_video",
+    "audit_status": "VALID",
+    "suggested_intent": "product_availability",
+    "confidence": 0.9,
+    "reason": "The conversation starts with a request to add Gujarati Movies and TV shows to Prime Videos, which suggests a query about product availability rather than a request to subscribe to or access a specific service.",
+    "evidence": [
+      "@119625 n @115850 please add Gujarati Movies and TV shows in your prime videos!"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-079",
+    "assigned_intent": "digital_prime_video",
+    "audit_status": "VALID",
+    "suggested_intent": "digital_prime_video",
+    "confidence": 1.0,
+    "reason": "The conversation starts with a question about the availability of a specific TV show on Prime Video, which is a clear indication that the assigned intent is correct.",
+    "evidence": [
+      "The conversation starts with a question about the availability of a specific TV show on Prime Video."
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-080",
+    "assigned_intent": "digital_prime_video",
+    "audit_status": "VALID",
+    "suggested_intent": "digital_prime_video",
+    "confidence": 1.0,
+    "reason": "The conversation starts with a statement about a new Batman animated series being available on Amazon Video, which is a clear indication of the assigned intent.",
+    "evidence": [
+      "The conversation starts with a statement about a new Batman animated series being available on Amazon Video, which is a clear indication of the assigned intent."
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-081",
+    "assigned_intent": "digital_prime_video",
+    "audit_status": "AMBIGUOUS",
+    "suggested_intent": "product_availability",
+    "confidence": 0.8,
+    "reason": "The conversation starts with a question about the availability of Kannada movies in Prime, which is not directly related to Prime Video. The assigned intent does not match the context of the conversation.",
+    "evidence": [
+      "The conversation starts with a question about the availability of Kannada movies in Prime.",
+      "The assigned intent does not match the context of the conversation."
+    ],
+    "competing_intents": [
+      "product_availability",
+      "delivery_delayed"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-082",
+    "assigned_intent": "digital_prime_video",
+    "audit_status": "AMBIGUOUS",
+    "suggested_intent": "product_availability",
+    "confidence": 0.5,
+    "reason": "The conversation starts with a question about a specific product (Fire TV Stick with Alexa Voice Remote) and its availability in India, which is not related to the assigned intent of digital_prime_video. The conversation also mentions Amazon Prime Video in India, which is a different topic.",
+    "evidence": [
+      "The device is geo-location specific. Hence, you will not be able to access the features of the device here.",
+      "You can place an order for the device sold on amazon.in to the shipping address in India."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item",
+      "returns_refunds",
+      "product_availability",
+      "promotions_pricing",
+      "account_billing",
+      "account_access"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-083",
+    "assigned_intent": "digital_prime_video",
+    "audit_status": "AMBIGUOUS",
+    "suggested_intent": "product_availability",
+    "confidence": 0.5,
+    "reason": "The conversation does not contain any clear indication of a Prime Video-related issue or inquiry. The user's request for Odia movies and the response from the customer support team does not align with the assigned intent.",
+    "evidence": [
+      "@119625 you should add Odia movies in your content.... Many more people will happy with that.",
+      "@643626 We will continue to add new content. Keep checking https://t.co/FYM9PIZOR8 where we highlight the latest movies and TV shows we have available. ^MN"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item",
+      "returns_refunds",
+      "product_availability",
+      "promotions_pricing",
+      "account_billing",
+      "account_access",
+      "digital_prime_video",
+      "digital_kindle",
+      "amazon_music",
+      "echo_alexa",
+      "amazon_locker",
+      "grocery_fresh"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-084",
+    "assigned_intent": "digital_kindle",
+    "audit_status": "VALID",
+    "suggested_intent": "digital_kindle",
+    "confidence": 1.0,
+    "reason": "The customer's question 'where's my kindle' is a direct inquiry about the status of a digital product, which aligns with the intent of 'digital_kindle'.",
+    "evidence": [
+      "The customer's question 'where's my kindle' is a direct inquiry about the status of a digital product.",
+      "The intent 'digital_kindle' is a specific and relevant intent for this conversation."
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-085",
+    "assigned_intent": "digital_kindle",
+    "audit_status": "VALID",
+    "suggested_intent": "digital_prime_video",
+    "confidence": 0.8,
+    "reason": "The customer is trying to purchase a Kindle Unlimited offer, but the price is being reset to normal. This suggests that the customer is looking for a digital video streaming service, which is more closely related to Amazon Prime Video.",
+    "evidence": [
+      "The customer is trying to purchase a Kindle Unlimited offer",
+      "The price is being reset to normal"
+    ],
+    "competing_intents": [
+      "product_availability",
+      "returns_refunds"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-086",
+    "assigned_intent": "digital_kindle",
+    "audit_status": "AMBIGUOUS",
+    "suggested_intent": "account_access",
+    "confidence": 0.8,
+    "reason": "The conversation starts with a question about the legitimacy of a website, which is unrelated to the assigned intent of digital_kindle. The mention of ads on Twitter and Facebook suggests a concern about account security or billing, which is more relevant to account_access.",
+    "evidence": [
+      "The conversation starts with a question about the legitimacy of a website.",
+      "The mention of ads on Twitter and Facebook suggests a concern about account security or billing."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item",
+      "returns_refunds",
+      "product_availability",
+      "promotions_pricing",
+      "account_billing",
+      "account_access",
+      "digital_prime_video",
+      "digital_kindle",
+      "amazon_music",
+      "echo_alexa",
+      "amazon_locker",
+      "grocery_fresh"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-087",
+    "assigned_intent": "digital_kindle",
+    "audit_status": "AMBIGUOUS",
+    "suggested_intent": "digital_kindle",
+    "confidence": 0.5,
+    "reason": "The assigned intent 'digital_kindle' is ambiguous because the customer's issue is related to account registration, which is not a typical use case for the 'digital_kindle' intent.",
+    "evidence": [
+      "The customer mentions deregistering their Kindle.",
+      "The customer's issue is related to account registration, which is not a typical use case for the 'digital_kindle' intent."
+    ],
+    "competing_intents": [
+      "returns_refunds",
+      "product_availability",
+      "account_billing"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-088",
+    "assigned_intent": "digital_kindle",
+    "audit_status": "VALID",
+    "suggested_intent": "digital_kindle",
+    "confidence": 1.0,
+    "reason": "The customer explicitly mentioned 'Android kindle app' and 'update to the new version', which matches the intent of the assigned intent.",
+    "evidence": [
+      "The customer mentioned 'Android kindle app' and 'update to the new version'"
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-089",
+    "assigned_intent": "digital_kindle",
+    "audit_status": "VALID",
+    "suggested_intent": "product_availability",
+    "confidence": 0.9,
+    "reason": "The customer is asking about a promo credit for a Kindle book, which is related to product availability rather than a specific product like the Kindle itself.",
+    "evidence": [
+      "The customer is asking about a promo credit for a Kindle book",
+      "The customer mentions buying a OnePlus 5, which is a different product"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item",
+      "returns_refunds"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-090",
+    "assigned_intent": "digital_kindle",
+    "audit_status": "AMBIGUOUS",
+    "suggested_intent": "returns_refunds",
+    "confidence": 0.8,
+    "reason": "The conversation mentions a delivery issue and a wrong address, which doesn't align with the intent of a digital product like Kindle.",
+    "evidence": [
+      "The conversation mentions a delivery issue and a wrong address.",
+      "The assigned intent doesn't match the context of the conversation."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-091",
+    "assigned_intent": "digital_kindle",
+    "audit_status": "VALID",
+    "suggested_intent": "digital_prime_video",
+    "confidence": 0.8,
+    "reason": "The conversation mentions a 'giftcard service query' and a 'telecon' which suggests a more complex issue than a simple Kindle purchase. The mention of 'Aus site only Kindle' implies a need for a different product, which is more aligned with the intent 'digital_prime_video'.",
+    "evidence": [
+      "The conversation mentions a 'giftcard service query' and a 'telecon' which suggests a more complex issue than a simple Kindle purchase.",
+      "The mention of 'Aus site only Kindle' implies a need for a different product, which is more aligned with the intent 'digital_prime_video'."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item",
+      "returns_refunds",
+      "product_availability",
+      "promotions_pricing",
+      "account_billing",
+      "account_access"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-092",
+    "assigned_intent": "digital_kindle",
+    "audit_status": "VALID",
+    "suggested_intent": "returns_refunds",
+    "confidence": 0.9,
+    "reason": "The customer is asking about a refund due to a payment issue, which is not related to the digital kindle product.",
+    "evidence": [
+      "The customer mentions a payment issue and a promo, which suggests a refund-related intent.",
+      "The customer is concerned about losing a discount, which is a common reason for returns and refunds."
+    ],
+    "competing_intents": [
+      "product_availability",
+      "promotions_pricing"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-093",
+    "assigned_intent": "digital_kindle",
+    "audit_status": "VALID",
+    "suggested_intent": "digital_kindle",
+    "confidence": 1.0,
+    "reason": "The conversation starts with a positive tone and mentions a specific product (Kindle Fire 8) which is consistent with the assigned intent.",
+    "evidence": [
+      "The conversation starts with a positive tone and mentions a specific product (Kindle Fire 8) which is consistent with the assigned intent."
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-094",
+    "assigned_intent": "digital_kindle",
+    "audit_status": "VALID",
+    "suggested_intent": "digital_kindle",
+    "confidence": 1.0,
+    "reason": "The customer explicitly mentioned 'Kindle' and the conversation revolves around Kindle-related issues, making digital_kindle a strong match.",
+    "evidence": [
+      "The customer mentioned 'Kindle' in the initial message.",
+      "The conversation discusses Kindle-related issues, such as linking Smarthome devices to Kindle.",
+      "The customer's solution involved resetting Kindle-related links on their Echoes."
+    ],
+    "competing_intents": [
+      "product_availability",
+      "returns_refunds"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-095",
+    "assigned_intent": "digital_kindle",
+    "audit_status": "AMBIGUOUS",
+    "suggested_intent": "product_availability",
+    "confidence": 0.8,
+    "reason": "The conversation does not contain any clear indication of a Kindle-related issue, and the mention of 'order shows already ready to pick up' suggests a delivery-related issue.",
+    "evidence": [
+      "The conversation mentions a delivery issue.",
+      "The mention of 'order shows already ready to pick up' suggests a delivery-related issue."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-096",
+    "assigned_intent": "digital_kindle",
+    "audit_status": "VALID",
+    "suggested_intent": "product_availability",
+    "confidence": 0.8,
+    "reason": "The customer is asking about the availability of an ebook, not specifically about buying or accessing a digital product.",
+    "evidence": [
+      "The customer is asking about the availability of an ebook",
+      "The customer is looking for a specific ebook title"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-097",
+    "assigned_intent": "digital_kindle",
+    "audit_status": "VALID",
+    "suggested_intent": "digital_kindle",
+    "confidence": 1.0,
+    "reason": "The customer explicitly stated 'Ordered 4 kindles from @115821 for Christmas' which strongly suggests the intent is related to Kindle purchases.",
+    "evidence": [
+      "The customer mentioned 'kindles' and 'Christmas' which are strong indicators of a Kindle purchase intent.",
+      "The customer's tone and language suggest a frustration with receiving a non-Kindle item instead of the expected one."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item",
+      "returns_refunds",
+      "product_availability",
+      "promotions_pricing",
+      "account_billing",
+      "account_access",
+      "digital_prime_video",
+      "digital_kindle",
+      "amazon_music",
+      "echo_alexa",
+      "amazon_locker",
+      "grocery_fresh"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-098",
+    "assigned_intent": "amazon_music",
+    "audit_status": "VALID",
+    "suggested_intent": null,
+    "confidence": 0.0,
+    "reason": "The user's request for help with Alexa commands does not match the assigned intent of amazon_music. The user's request is more related to seeking general information about Alexa commands.",
+    "evidence": [
+      "The user's request for help with Alexa commands does not match the assigned intent of amazon_music.",
+      "The user's request is more related to seeking general information about Alexa commands."
+    ],
+    "competing_intents": [
+      "product_availability",
+      "returns_refunds",
+      "account_billing",
+      "account_access"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-099",
+    "assigned_intent": "amazon_music",
+    "audit_status": "VALID",
+    "suggested_intent": "account_access",
+    "confidence": 0.9,
+    "reason": "The conversation starts with a question about Amazon Music, but the user also mentions that the app opens but nothing works, which suggests a broader issue with account access or the app's functionality.",
+    "evidence": [
+      "The app opens, but nothing works.",
+      "Tried a restart."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item",
+      "returns_refunds",
+      "product_availability",
+      "promotions_pricing",
+      "account_billing"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-100",
+    "assigned_intent": "amazon_music",
+    "audit_status": "VALID",
+    "suggested_intent": "none",
+    "confidence": 1.0,
+    "reason": "The assigned intent matches the user's request for a specific feature.",
+    "evidence": [
+      "The user asked for a feature that is currently supported by Amazon Music."
+    ],
+    "competing_intents": [
+      "none"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-101",
+    "assigned_intent": "amazon_music",
+    "audit_status": "LIKELY_MISLABELED",
+    "suggested_intent": "returns_refunds",
+    "confidence": 0.8,
+    "reason": "The conversation starts with a complaint about a delivery issue, which is not related to Amazon Music.",
+    "evidence": [
+      "The customer mentions 'devolv\u00ed dos productos' (I returned two products) and 'el otro no era el que ped\u00ed' (the other one was not the one I ordered)"
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-102",
+    "assigned_intent": "amazon_music",
+    "audit_status": "AMBIGUOUS",
+    "suggested_intent": "grocery_fresh",
+    "confidence": 0.0,
+    "reason": "The conversation starts with a question about Amazon Music Unlimited, but the context is unclear and could be related to other services.",
+    "evidence": [
+      "The conversation starts with a question about Amazon Music Unlimited.",
+      "The context is unclear and could be related to other services."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item",
+      "returns_refunds",
+      "product_availability",
+      "promotions_pricing",
+      "account_billing",
+      "account_access",
+      "digital_prime_video",
+      "digital_kindle",
+      "amazon_locker",
+      "grocery_fresh"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-103",
+    "assigned_intent": "amazon_music",
+    "audit_status": "VALID",
+    "suggested_intent": "amazon_music",
+    "confidence": 1.0,
+    "reason": "The user's request to stream music from different Echo devices matches the intent of the assigned intent.",
+    "evidence": [
+      "The user's request to stream music from different Echo devices"
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-104",
+    "assigned_intent": "amazon_music",
+    "audit_status": "VALID",
+    "suggested_intent": null,
+    "confidence": 1.0,
+    "reason": "The conversation starts with a statement about Amazon Music being a service available to Amazon Prime members, which is a clear indication that the assigned intent is correct.",
+    "evidence": [
+      "Amazon music\u3068\u3044\u3046\u30b5\u30fc\u30d3\u30b9\u3092\u3001Amazon\u30d7\u30e9\u30a4\u30e0\u4f1a\u54e1\u306a\u3089\u4f7f\u3048\u308b\u3088\uff01\u3068\u3044\u3046\u3053\u3068\u3092\u3001\u798f\u5ca1\u306e\u30d6\u30ed\u30b0\u751f\u5f92\u3055\u3093\u306b\u6559\u3048\u3066\u3082\u3089\u3044\u307e\u3057\u305f"
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-105",
+    "assigned_intent": "amazon_music",
+    "audit_status": "LIKELY_MISLABELED",
+    "suggested_intent": "grocery_fresh",
+    "confidence": 0.8,
+    "reason": "The conversation starts with a complaint about a product (Nokia 6) not working and the customer's experience with Amazon's delivery and replacement process. The assigned intent 'amazon_music' does not match the context of the conversation.",
+    "evidence": [
+      "The customer mentions a product (Nokia 6) and a complaint about delivery and replacement.",
+      "The conversation does not mention music or Prime Music at all."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item",
+      "returns_refunds",
+      "product_availability",
+      "promotions_pricing",
+      "account_billing",
+      "account_access",
+      "digital_prime_video",
+      "digital_kindle",
+      "amazon_music"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-106",
+    "assigned_intent": "amazon_music",
+    "audit_status": "AMBIGUOUS",
+    "suggested_intent": "grocery_fresh",
+    "confidence": 0.2,
+    "reason": "The conversation does not contain any clear indication of music-related intent, and the assigned intent does not match the context of the conversation.",
+    "evidence": [
+      "The text does not mention music or Alexa.",
+      "The conversation is about a delivery issue and order details."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-107",
+    "assigned_intent": "amazon_music",
+    "audit_status": "VALID",
+    "suggested_intent": "amazon_music",
+    "confidence": 1.0,
+    "reason": "The conversation starts with a question about using Amazon Music Unlimited for the DFB-Pokal (Radio) and the user's response confirms that Amazon Prime does not cover this content.",
+    "evidence": [
+      "Hallo @116935 Braucht man f\u00fcr DFB-Pokal (Radio) \u00fcber Amazon zu h\u00f6ren Music Unlimited?"
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-108",
+    "assigned_intent": "amazon_music",
+    "audit_status": "VALID",
+    "suggested_intent": "amazon_music",
+    "confidence": 1.0,
+    "reason": "The conversation starts with a query about music stations, which is a clear indication that the assigned intent is correct.",
+    "evidence": [
+      "The conversation starts with a query about music stations.",
+      "The user mentions 'stations' which is a term commonly used in Amazon Music."
+    ],
+    "competing_intents": [],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-109",
+    "assigned_intent": "amazon_music",
+    "audit_status": "LIKELY_MISLABELED",
+    "suggested_intent": "grocery_fresh",
+    "confidence": 0.8,
+    "reason": "The conversation mentions 'Song', 'finden' (find), and 'eindeutig' (clearly) which are not typical phrases used in Amazon Music context. The mention of '@116935' and 'https://t.co/kzXfMZIY3b' suggests a different intent.",
+    "evidence": [
+      "The conversation mentions 'Song' and 'finden' (find) which are not typical phrases used in Amazon Music context.",
+      "@116935 and https://t.co/kzXfMZIY3b suggest a different intent."
+    ],
+    "competing_intents": [
+      "delivery_delayed",
+      "delivery_missing",
+      "delivery_wrong_item",
+      "returns_refunds",
+      "product_availability",
+      "promotions_pricing",
+      "account_billing",
+      "account_access",
+      "digital_prime_video",
+      "digital_kindle",
+      "amazon_locker",
+      "grocery_fresh"
+    ],
+    "_cache_hit": false
+  },
+  {
+    "example_id": "GS-110",
+    "assigned_intent": "amazon_music",
+    "audit_status": "VALID",
+    "suggested_intent": "echo_alexa",
+    "confidence": 0.9,
+    "reason": "The conversation starts with a question about Echo devices and Amazon accounts, which is more relevant to the Echo Alexa intent.",
+    "evidence": [
+      "@115833 I\u2019ve more than 1 echo do you need to have Spotify family account",
+      "@210804 Hi there, Tasha. Are all the Echos registered on the same Amazon account?"
+    ],
+    "competing_intents": [
+      "echo_alexa",
+      "digital_prime_video"
+    ],
+    "_cache_hit": false
+  }
+]

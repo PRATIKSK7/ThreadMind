@@ -1,0 +1,3372 @@
+{
+  "overall_accuracy": 0.8775510204081632,
+  "distribution_stats": {
+    "unanimous": {
+      "total": 130,
+      "correct": 118,
+      "accuracy": 0.9076923076923077
+    },
+    "2_vs_1": {
+      "total": 49,
+      "correct": 39,
+      "accuracy": 0.7959183673469388
+    },
+    "all_different": {
+      "total": 17,
+      "correct": 15,
+      "accuracy": 0.8823529411764706
+    }
+  },
+  "retrieval_presence": {
+    "expected_missing": {
+      "total": 31,
+      "accuracy": 0.8387096774193549
+    },
+    "expected_present": {
+      "total": 165,
+      "accuracy": 0.8848484848484849
+    },
+    "v2_predicted_in_retrieval": {
+      "total": 147,
+      "accuracy": 0.9931972789115646
+    },
+    "v2_predicted_not_in_retrieval": {
+      "total": 49,
+      "accuracy": 0.5306122448979592
+    }
+  },
+  "stats": [
+    {
+      "thread_id": "d3a37c0eb6a2e1af",
+      "expected_intent": "delivery_delayed",
+      "v2_predicted_intent": "delivery_delayed",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8802012205123901,
+      "top3_score": 0.8560028672218323,
+      "score_margin": 0.02419835329055786
+    },
+    {
+      "thread_id": "6128774c272909e7",
+      "expected_intent": "delivery_delayed",
+      "v2_predicted_intent": "delivery_delayed",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8981171250343323,
+      "top3_score": 0.8867753744125366,
+      "score_margin": 0.011341750621795654
+    },
+    {
+      "thread_id": "7dd3e41677eca8cf",
+      "expected_intent": "delivery_delayed",
+      "v2_predicted_intent": "delivery_delayed",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8871755003929138,
+      "top3_score": 0.882656991481781,
+      "score_margin": 0.0045185089111328125
+    },
+    {
+      "thread_id": "421694ec25574621",
+      "expected_intent": "delivery_delayed",
+      "v2_predicted_intent": "delivery_delayed",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8523043990135193,
+      "top3_score": 0.8427106142044067,
+      "score_margin": 0.009593784809112549
+    },
+    {
+      "thread_id": "ffdab40197f48de2",
+      "expected_intent": "delivery_delayed",
+      "v2_predicted_intent": "delivery_delayed",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8926992416381836,
+      "top3_score": 0.8868176937103271,
+      "score_margin": 0.005881547927856445
+    },
+    {
+      "thread_id": "66b6dfde5ea6a023",
+      "expected_intent": "delivery_delayed",
+      "v2_predicted_intent": "delivery_delayed",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8734668493270874,
+      "top3_score": 0.8634626269340515,
+      "score_margin": 0.010004222393035889
+    },
+    {
+      "thread_id": "e5e227f6392f6343",
+      "expected_intent": "returns_refunds",
+      "v2_predicted_intent": "returns_refunds",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "returns_refunds",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9357544183731079,
+      "top3_score": 0.9291369318962097,
+      "score_margin": 0.006617486476898193
+    },
+    {
+      "thread_id": "6211a9e0735ee03b",
+      "expected_intent": "delivery_delayed",
+      "v2_predicted_intent": "delivery_delayed",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9180532097816467,
+      "top3_score": 0.9136751890182495,
+      "score_margin": 0.004378020763397217
+    },
+    {
+      "thread_id": "1d34fe17e6385fba",
+      "expected_intent": "delivery_delayed",
+      "v2_predicted_intent": "delivery_delayed",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8845680356025696,
+      "top3_score": 0.8696019053459167,
+      "score_margin": 0.014966130256652832
+    },
+    {
+      "thread_id": "136747dbfd949f68",
+      "expected_intent": "returns_refunds",
+      "v2_predicted_intent": "other_support",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "returns_refunds",
+        "delivery_delayed"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": true,
+      "top1_score": 0.9449585676193237,
+      "top3_score": 0.939152181148529,
+      "score_margin": 0.005806386470794678
+    },
+    {
+      "thread_id": "9bd9508fd74f46c4",
+      "expected_intent": "delivery_delayed",
+      "v2_predicted_intent": "delivery_delayed",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.908564567565918,
+      "top3_score": 0.8965651988983154,
+      "score_margin": 0.011999368667602539
+    },
+    {
+      "thread_id": "da35f7dc09d3f8d2",
+      "expected_intent": "delivery_delayed",
+      "v2_predicted_intent": "delivery_delayed",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8991873860359192,
+      "top3_score": 0.8856616020202637,
+      "score_margin": 0.013525784015655518
+    },
+    {
+      "thread_id": "c329621fdd6a6860",
+      "expected_intent": "delivery_delayed",
+      "v2_predicted_intent": "delivery_delayed",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8896879553794861,
+      "top3_score": 0.8857971429824829,
+      "score_margin": 0.003890812397003174
+    },
+    {
+      "thread_id": "788e6b6ab3ad975f",
+      "expected_intent": "delivery_delayed",
+      "v2_predicted_intent": "delivery_delayed",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8857871890068054,
+      "top3_score": 0.879446804523468,
+      "score_margin": 0.006340384483337402
+    },
+    {
+      "thread_id": "564d4563079bdbfb",
+      "expected_intent": "delivery_missing",
+      "v2_predicted_intent": "delivery_missing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9227699041366577,
+      "top3_score": 0.9108712077140808,
+      "score_margin": 0.011898696422576904
+    },
+    {
+      "thread_id": "979bcf1ba7572381",
+      "expected_intent": "delivery_missing",
+      "v2_predicted_intent": "delivery_missing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9285376071929932,
+      "top3_score": 0.9255918264389038,
+      "score_margin": 0.0029457807540893555
+    },
+    {
+      "thread_id": "c01dbc075c112a90",
+      "expected_intent": "delivery_missing",
+      "v2_predicted_intent": "delivery_missing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9094487428665161,
+      "top3_score": 0.8988937735557556,
+      "score_margin": 0.010554969310760498
+    },
+    {
+      "thread_id": "9d4ee10b51d6518c",
+      "expected_intent": "delivery_missing",
+      "v2_predicted_intent": "amazon_locker",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": true,
+      "top1_score": 0.9331766366958618,
+      "top3_score": 0.9196209907531738,
+      "score_margin": 0.013555645942687988
+    },
+    {
+      "thread_id": "26e37f657a9242c0",
+      "expected_intent": "delivery_missing",
+      "v2_predicted_intent": "delivery_missing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.920369029045105,
+      "top3_score": 0.9165752530097961,
+      "score_margin": 0.003793776035308838
+    },
+    {
+      "thread_id": "d62bfab11ba69a91",
+      "expected_intent": "delivery_missing",
+      "v2_predicted_intent": "delivery_missing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9393332004547119,
+      "top3_score": 0.9303289651870728,
+      "score_margin": 0.00900423526763916
+    },
+    {
+      "thread_id": "44e4104210bad607",
+      "expected_intent": "delivery_missing",
+      "v2_predicted_intent": "delivery_missing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9310526847839355,
+      "top3_score": 0.921660304069519,
+      "score_margin": 0.009392380714416504
+    },
+    {
+      "thread_id": "1e9fb1462c55081f",
+      "expected_intent": "delivery_missing",
+      "v2_predicted_intent": "delivery_missing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9378620982170105,
+      "top3_score": 0.9228228330612183,
+      "score_margin": 0.015039265155792236
+    },
+    {
+      "thread_id": "3f03050f2ccd56e1",
+      "expected_intent": "delivery_missing",
+      "v2_predicted_intent": "delivery_missing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_missing",
+        "returns_refunds",
+        "delivery_wrong_item"
+      ],
+      "distribution": "all_different",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.898357629776001,
+      "top3_score": 0.8981251120567322,
+      "score_margin": 0.00023251771926879883
+    },
+    {
+      "thread_id": "1812ebbdb250a03e",
+      "expected_intent": "delivery_missing",
+      "v2_predicted_intent": "delivery_missing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9158093333244324,
+      "top3_score": 0.9121765494346619,
+      "score_margin": 0.003632783889770508
+    },
+    {
+      "thread_id": "3a510b96266055de",
+      "expected_intent": "delivery_missing",
+      "v2_predicted_intent": "delivery_missing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9239845871925354,
+      "top3_score": 0.9204100370407104,
+      "score_margin": 0.003574550151824951
+    },
+    {
+      "thread_id": "c9b23242d5347d51",
+      "expected_intent": "delivery_missing",
+      "v2_predicted_intent": "delivery_missing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9167711734771729,
+      "top3_score": 0.9147530794143677,
+      "score_margin": 0.0020180940628051758
+    },
+    {
+      "thread_id": "0d7053cbb502d63a",
+      "expected_intent": "delivery_missing",
+      "v2_predicted_intent": "delivery_missing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_wrong_item",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8914679884910583,
+      "top3_score": 0.8902521133422852,
+      "score_margin": 0.0012158751487731934
+    },
+    {
+      "thread_id": "2555a8d9872a2f15",
+      "expected_intent": "delivery_missing",
+      "v2_predicted_intent": "amazon_locker",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": true,
+      "top1_score": 0.9353843927383423,
+      "top3_score": 0.9214577078819275,
+      "score_margin": 0.013926684856414795
+    },
+    {
+      "thread_id": "8e6ae6b8bb6ff8d9",
+      "expected_intent": "delivery_wrong_item",
+      "v2_predicted_intent": "delivery_wrong_item",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "returns_refunds",
+        "delivery_wrong_item"
+      ],
+      "distribution": "all_different",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8287345170974731,
+      "top3_score": 0.8151267766952515,
+      "score_margin": 0.01360774040222168
+    },
+    {
+      "thread_id": "971d58ab9348de04",
+      "expected_intent": "account_access",
+      "v2_predicted_intent": "account_access",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.9102604389190674,
+      "top3_score": 0.9035903811454773,
+      "score_margin": 0.006670057773590088
+    },
+    {
+      "thread_id": "25ca3ab474dd691d",
+      "expected_intent": "account_access",
+      "v2_predicted_intent": "account_access",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_wrong_item",
+        "account_access",
+        "delivery_wrong_item"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9294431209564209,
+      "top3_score": 0.9267895221710205,
+      "score_margin": 0.0026535987854003906
+    },
+    {
+      "thread_id": "37bacc4a02a35a8b",
+      "expected_intent": "delivery_wrong_item",
+      "v2_predicted_intent": "delivery_wrong_item",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_delayed"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.860893726348877,
+      "top3_score": 0.8535151481628418,
+      "score_margin": 0.007378578186035156
+    },
+    {
+      "thread_id": "5fc32478a3b63ac7",
+      "expected_intent": "delivery_wrong_item",
+      "v2_predicted_intent": "delivery_wrong_item",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "returns_refunds",
+        "account_billing",
+        "delivery_wrong_item"
+      ],
+      "distribution": "all_different",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.801104724407196,
+      "top3_score": 0.7761917114257812,
+      "score_margin": 0.024913012981414795
+    },
+    {
+      "thread_id": "72784fad0c2d64eb",
+      "expected_intent": "delivery_wrong_item",
+      "v2_predicted_intent": "delivery_wrong_item",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_wrong_item",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9568009972572327,
+      "top3_score": 0.9258117079734802,
+      "score_margin": 0.03098928928375244
+    },
+    {
+      "thread_id": "20cce9b10faebf82",
+      "expected_intent": "account_access",
+      "v2_predicted_intent": "account_access",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_access",
+        "delivery_wrong_item",
+        "account_access"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9323915839195251,
+      "top3_score": 0.927297830581665,
+      "score_margin": 0.005093753337860107
+    },
+    {
+      "thread_id": "df577fc749f849fc",
+      "expected_intent": "account_access",
+      "v2_predicted_intent": "account_access",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_wrong_item",
+        "account_access"
+      ],
+      "distribution": "all_different",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9358527660369873,
+      "top3_score": 0.9269497990608215,
+      "score_margin": 0.008902966976165771
+    },
+    {
+      "thread_id": "80daedda83f344bd",
+      "expected_intent": "account_access",
+      "v2_predicted_intent": "account_access",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "returns_refunds",
+        "delivery_wrong_item",
+        "delivery_wrong_item"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.8619361519813538,
+      "top3_score": 0.8600890040397644,
+      "score_margin": 0.0018471479415893555
+    },
+    {
+      "thread_id": "aa1845b17e22923e",
+      "expected_intent": "account_access",
+      "v2_predicted_intent": "account_access",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_access",
+        "delivery_wrong_item",
+        "account_access"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8813877105712891,
+      "top3_score": 0.8728440999984741,
+      "score_margin": 0.008543610572814941
+    },
+    {
+      "thread_id": "d25f65835961b06a",
+      "expected_intent": "account_access",
+      "v2_predicted_intent": "account_access",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_wrong_item",
+        "delivery_wrong_item",
+        "account_access"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9285164475440979,
+      "top3_score": 0.9214458465576172,
+      "score_margin": 0.007070600986480713
+    },
+    {
+      "thread_id": "04f0d488a16c8b29",
+      "expected_intent": "account_access",
+      "v2_predicted_intent": "account_access",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.9286395907402039,
+      "top3_score": 0.9261899590492249,
+      "score_margin": 0.002449631690979004
+    },
+    {
+      "thread_id": "62c4d90a25d0f418",
+      "expected_intent": "account_access",
+      "v2_predicted_intent": "account_access",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.9340353012084961,
+      "top3_score": 0.9271863102912903,
+      "score_margin": 0.0068489909172058105
+    },
+    {
+      "thread_id": "dd3f0d83804bec2a",
+      "expected_intent": "delivery_wrong_item",
+      "v2_predicted_intent": "delivery_wrong_item",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_wrong_item",
+        "account_access",
+        "account_billing"
+      ],
+      "distribution": "all_different",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8880025148391724,
+      "top3_score": 0.8525682091712952,
+      "score_margin": 0.0354343056678772
+    },
+    {
+      "thread_id": "471d985ba341b408",
+      "expected_intent": "returns_refunds",
+      "v2_predicted_intent": "returns_refunds",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "returns_refunds",
+        "delivery_wrong_item",
+        "returns_refunds"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9135698676109314,
+      "top3_score": 0.9079878926277161,
+      "score_margin": 0.005581974983215332
+    },
+    {
+      "thread_id": "09b03780f7d6795f",
+      "expected_intent": "returns_refunds",
+      "v2_predicted_intent": "returns_refunds",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "returns_refunds",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8995004296302795,
+      "top3_score": 0.886264979839325,
+      "score_margin": 0.01323544979095459
+    },
+    {
+      "thread_id": "507666bffe853255",
+      "expected_intent": "returns_refunds",
+      "v2_predicted_intent": "returns_refunds",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "returns_refunds",
+        "delivery_delayed",
+        "returns_refunds"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9118284583091736,
+      "top3_score": 0.9111443758010864,
+      "score_margin": 0.0006840825080871582
+    },
+    {
+      "thread_id": "7537e113f152e797",
+      "expected_intent": "returns_refunds",
+      "v2_predicted_intent": "returns_refunds",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "returns_refunds",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9400622844696045,
+      "top3_score": 0.9362090229988098,
+      "score_margin": 0.0038532614707946777
+    },
+    {
+      "thread_id": "9cae32f77fa87a38",
+      "expected_intent": "returns_refunds",
+      "v2_predicted_intent": "returns_refunds",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "returns_refunds",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9587415456771851,
+      "top3_score": 0.9557298421859741,
+      "score_margin": 0.0030117034912109375
+    },
+    {
+      "thread_id": "74d3d83c4ad45c3d",
+      "expected_intent": "returns_refunds",
+      "v2_predicted_intent": "returns_refunds",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_billing",
+        "delivery_delayed",
+        "returns_refunds"
+      ],
+      "distribution": "all_different",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8538925051689148,
+      "top3_score": 0.8409997820854187,
+      "score_margin": 0.012892723083496094
+    },
+    {
+      "thread_id": "acbce372aa4fd05c",
+      "expected_intent": "returns_refunds",
+      "v2_predicted_intent": "returns_refunds",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_missing",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9472364783287048,
+      "top3_score": 0.9369372129440308,
+      "score_margin": 0.010299265384674072
+    },
+    {
+      "thread_id": "deff7ff8ef25e07d",
+      "expected_intent": "returns_refunds",
+      "v2_predicted_intent": "returns_refunds",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9418032169342041,
+      "top3_score": 0.9376183152198792,
+      "score_margin": 0.004184901714324951
+    },
+    {
+      "thread_id": "b614a28772a4ff9a",
+      "expected_intent": "returns_refunds",
+      "v2_predicted_intent": "returns_refunds",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_missing",
+        "returns_refunds",
+        "delivery_delayed"
+      ],
+      "distribution": "all_different",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9227331280708313,
+      "top3_score": 0.9218974113464355,
+      "score_margin": 0.000835716724395752
+    },
+    {
+      "thread_id": "583e80a133042b71",
+      "expected_intent": "returns_refunds",
+      "v2_predicted_intent": "returns_refunds",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.9416698217391968,
+      "top3_score": 0.9367359280586243,
+      "score_margin": 0.00493389368057251
+    },
+    {
+      "thread_id": "f7b90627ea18d8f6",
+      "expected_intent": "returns_refunds",
+      "v2_predicted_intent": "returns_refunds",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_billing",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9320030212402344,
+      "top3_score": 0.9295756220817566,
+      "score_margin": 0.002427399158477783
+    },
+    {
+      "thread_id": "5b8bf1ab06aa0f1a",
+      "expected_intent": "returns_refunds",
+      "v2_predicted_intent": "returns_refunds",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "returns_refunds",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9311176538467407,
+      "top3_score": 0.9296050071716309,
+      "score_margin": 0.0015126466751098633
+    },
+    {
+      "thread_id": "6aae04ebe65fd679",
+      "expected_intent": "returns_refunds",
+      "v2_predicted_intent": "returns_refunds",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "returns_refunds",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.927878201007843,
+      "top3_score": 0.9184122681617737,
+      "score_margin": 0.009465932846069336
+    },
+    {
+      "thread_id": "373f82ed0389646e",
+      "expected_intent": "returns_refunds",
+      "v2_predicted_intent": "returns_refunds",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "returns_refunds",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9349448680877686,
+      "top3_score": 0.9217253923416138,
+      "score_margin": 0.013219475746154785
+    },
+    {
+      "thread_id": "78620867b16ba960",
+      "expected_intent": "account_billing",
+      "v2_predicted_intent": "account_billing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9342539310455322,
+      "top3_score": 0.9197225570678711,
+      "score_margin": 0.014531373977661133
+    },
+    {
+      "thread_id": "548c4f7b87a573e3",
+      "expected_intent": "account_billing",
+      "v2_predicted_intent": "other_support",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": true,
+      "top1_score": 0.9469398856163025,
+      "top3_score": 0.9394469261169434,
+      "score_margin": 0.007492959499359131
+    },
+    {
+      "thread_id": "2e3f3cc2c3e5aaf3",
+      "expected_intent": "account_billing",
+      "v2_predicted_intent": "account_billing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9074622392654419,
+      "top3_score": 0.9018861651420593,
+      "score_margin": 0.005576074123382568
+    },
+    {
+      "thread_id": "1aa3e4f8f4a38d99",
+      "expected_intent": "account_billing",
+      "v2_predicted_intent": "account_billing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9440467953681946,
+      "top3_score": 0.93930983543396,
+      "score_margin": 0.004736959934234619
+    },
+    {
+      "thread_id": "afe31458331bf3e4",
+      "expected_intent": "account_billing",
+      "v2_predicted_intent": "account_billing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9472792744636536,
+      "top3_score": 0.9365223050117493,
+      "score_margin": 0.010756969451904297
+    },
+    {
+      "thread_id": "363ab923a9cff990",
+      "expected_intent": "account_billing",
+      "v2_predicted_intent": "account_billing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.903213620185852,
+      "top3_score": 0.8972457051277161,
+      "score_margin": 0.005967915058135986
+    },
+    {
+      "thread_id": "2516a81a039f9f65",
+      "expected_intent": "account_billing",
+      "v2_predicted_intent": "account_billing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_billing",
+        "delivery_missing",
+        "account_billing"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9254192113876343,
+      "top3_score": 0.9243646860122681,
+      "score_margin": 0.001054525375366211
+    },
+    {
+      "thread_id": "61d93d9d63543125",
+      "expected_intent": "account_billing",
+      "v2_predicted_intent": "account_billing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9083518385887146,
+      "top3_score": 0.9036215543746948,
+      "score_margin": 0.004730284214019775
+    },
+    {
+      "thread_id": "5bdc103dceaa85cc",
+      "expected_intent": "account_billing",
+      "v2_predicted_intent": "other_support",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": true,
+      "top1_score": 0.9153305292129517,
+      "top3_score": 0.9006351232528687,
+      "score_margin": 0.014695405960083008
+    },
+    {
+      "thread_id": "c1b7a8c0f138c843",
+      "expected_intent": "account_billing",
+      "v2_predicted_intent": "account_billing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "account_billing"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8966391086578369,
+      "top3_score": 0.8888307809829712,
+      "score_margin": 0.007808327674865723
+    },
+    {
+      "thread_id": "d6cf59dcf89bf508",
+      "expected_intent": "account_billing",
+      "v2_predicted_intent": "account_billing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_wrong_item",
+        "account_access",
+        "account_access"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.8855558633804321,
+      "top3_score": 0.8792399168014526,
+      "score_margin": 0.006315946578979492
+    },
+    {
+      "thread_id": "0e5b9b2c0a94881f",
+      "expected_intent": "account_billing",
+      "v2_predicted_intent": "account_billing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_billing",
+        "digital_kindle",
+        "account_billing"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9272521734237671,
+      "top3_score": 0.9150480031967163,
+      "score_margin": 0.012204170227050781
+    },
+    {
+      "thread_id": "9ff3f7dcf8a34d52",
+      "expected_intent": "account_billing",
+      "v2_predicted_intent": "account_billing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9483556747436523,
+      "top3_score": 0.945963978767395,
+      "score_margin": 0.0023916959762573242
+    },
+    {
+      "thread_id": "ddc983b3b471f230",
+      "expected_intent": "account_billing",
+      "v2_predicted_intent": "account_billing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "account_billing",
+        "account_billing"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9165302515029907,
+      "top3_score": 0.9150289297103882,
+      "score_margin": 0.001501321792602539
+    },
+    {
+      "thread_id": "7906799da7f63453",
+      "expected_intent": "digital_prime_video",
+      "v2_predicted_intent": "digital_prime_video",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9402381181716919,
+      "top3_score": 0.9274085164070129,
+      "score_margin": 0.012829601764678955
+    },
+    {
+      "thread_id": "d0a24e717d769d53",
+      "expected_intent": "digital_prime_video",
+      "v2_predicted_intent": "digital_prime_video",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.93538498878479,
+      "top3_score": 0.9306843876838684,
+      "score_margin": 0.004700601100921631
+    },
+    {
+      "thread_id": "d9eddd1b9db7e292",
+      "expected_intent": "digital_prime_video",
+      "v2_predicted_intent": "digital_prime_video",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "product_availability",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9242138266563416,
+      "top3_score": 0.9157993197441101,
+      "score_margin": 0.008414506912231445
+    },
+    {
+      "thread_id": "ceedfbc20a31c038",
+      "expected_intent": "digital_prime_video",
+      "v2_predicted_intent": "digital_prime_video",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.932792067527771,
+      "top3_score": 0.9319521188735962,
+      "score_margin": 0.0008399486541748047
+    },
+    {
+      "thread_id": "63cd9fc1dff215fe",
+      "expected_intent": "digital_prime_video",
+      "v2_predicted_intent": "digital_prime_video",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9318670630455017,
+      "top3_score": 0.916187047958374,
+      "score_margin": 0.015680015087127686
+    },
+    {
+      "thread_id": "0a0634610b8e0e15",
+      "expected_intent": "digital_prime_video",
+      "v2_predicted_intent": "digital_prime_video",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9260455965995789,
+      "top3_score": 0.9189223647117615,
+      "score_margin": 0.007123231887817383
+    },
+    {
+      "thread_id": "39e0d086c94789f5",
+      "expected_intent": "digital_prime_video",
+      "v2_predicted_intent": "digital_prime_video",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8705117106437683,
+      "top3_score": 0.8627541661262512,
+      "score_margin": 0.00775754451751709
+    },
+    {
+      "thread_id": "e6aef6c530ba4876",
+      "expected_intent": "digital_prime_video",
+      "v2_predicted_intent": "other_support",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": true,
+      "top1_score": 0.8938703536987305,
+      "top3_score": 0.8851688504219055,
+      "score_margin": 0.008701503276824951
+    },
+    {
+      "thread_id": "0f75cd0f5ec91604",
+      "expected_intent": "digital_prime_video",
+      "v2_predicted_intent": "digital_prime_video",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9458351135253906,
+      "top3_score": 0.942283034324646,
+      "score_margin": 0.003552079200744629
+    },
+    {
+      "thread_id": "e2c6b4110efb929a",
+      "expected_intent": "digital_prime_video",
+      "v2_predicted_intent": "digital_prime_video",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9566770792007446,
+      "top3_score": 0.9536164999008179,
+      "score_margin": 0.003060579299926758
+    },
+    {
+      "thread_id": "573ffd6be31435a7",
+      "expected_intent": "digital_prime_video",
+      "v2_predicted_intent": "digital_prime_video",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9363837242126465,
+      "top3_score": 0.9305599331855774,
+      "score_margin": 0.005823791027069092
+    },
+    {
+      "thread_id": "bf9c3cb5c69de4ea",
+      "expected_intent": "digital_prime_video",
+      "v2_predicted_intent": "digital_prime_video",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9600570797920227,
+      "top3_score": 0.9544233679771423,
+      "score_margin": 0.005633711814880371
+    },
+    {
+      "thread_id": "3bb93e2f47e6c826",
+      "expected_intent": "digital_prime_video",
+      "v2_predicted_intent": "digital_prime_video",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_prime_video",
+        "delivery_delayed",
+        "digital_prime_video"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9282266497612,
+      "top3_score": 0.915006697177887,
+      "score_margin": 0.013219952583312988
+    },
+    {
+      "thread_id": "400491ccf469b530",
+      "expected_intent": "digital_prime_video",
+      "v2_predicted_intent": "digital_prime_video",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_prime_video",
+        "digital_prime_video",
+        "digital_prime_video"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9572861194610596,
+      "top3_score": 0.9552929997444153,
+      "score_margin": 0.001993119716644287
+    },
+    {
+      "thread_id": "e0e2bacc798bff2b",
+      "expected_intent": "digital_kindle",
+      "v2_predicted_intent": "other_support",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.8410353660583496,
+      "top3_score": 0.8387489318847656,
+      "score_margin": 0.0022864341735839844
+    },
+    {
+      "thread_id": "d773ff9dfa682357",
+      "expected_intent": "digital_kindle",
+      "v2_predicted_intent": "digital_kindle",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9463763236999512,
+      "top3_score": 0.9450235962867737,
+      "score_margin": 0.0013527274131774902
+    },
+    {
+      "thread_id": "51f7b73ff3175ac1",
+      "expected_intent": "digital_kindle",
+      "v2_predicted_intent": "other_support",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.85796719789505,
+      "top3_score": 0.8530888557434082,
+      "score_margin": 0.004878342151641846
+    },
+    {
+      "thread_id": "d4bf43a13c2232a4",
+      "expected_intent": "digital_kindle",
+      "v2_predicted_intent": "digital_kindle",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9641274809837341,
+      "top3_score": 0.954119086265564,
+      "score_margin": 0.010008394718170166
+    },
+    {
+      "thread_id": "f3b9d9f09b657817",
+      "expected_intent": "digital_kindle",
+      "v2_predicted_intent": "digital_kindle",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_kindle",
+        "delivery_delayed",
+        "digital_kindle"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.969010591506958,
+      "top3_score": 0.963404655456543,
+      "score_margin": 0.005605936050415039
+    },
+    {
+      "thread_id": "935824c4704c860b",
+      "expected_intent": "digital_kindle",
+      "v2_predicted_intent": "digital_kindle",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9573985934257507,
+      "top3_score": 0.9391859173774719,
+      "score_margin": 0.01821267604827881
+    },
+    {
+      "thread_id": "875009abfa44529c",
+      "expected_intent": "digital_kindle",
+      "v2_predicted_intent": "digital_kindle",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9404314160346985,
+      "top3_score": 0.9312250018119812,
+      "score_margin": 0.009206414222717285
+    },
+    {
+      "thread_id": "17b4e0cd5b4ccece",
+      "expected_intent": "digital_kindle",
+      "v2_predicted_intent": "digital_kindle",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9358205795288086,
+      "top3_score": 0.9293436408042908,
+      "score_margin": 0.006476938724517822
+    },
+    {
+      "thread_id": "e4e2152608ade08d",
+      "expected_intent": "digital_kindle",
+      "v2_predicted_intent": "digital_kindle",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9647893309593201,
+      "top3_score": 0.9609264135360718,
+      "score_margin": 0.003862917423248291
+    },
+    {
+      "thread_id": "24d6b4a375ee21d6",
+      "expected_intent": "digital_kindle",
+      "v2_predicted_intent": "digital_kindle",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9378811717033386,
+      "top3_score": 0.9264241456985474,
+      "score_margin": 0.01145702600479126
+    },
+    {
+      "thread_id": "547be894014b4903",
+      "expected_intent": "digital_kindle",
+      "v2_predicted_intent": "digital_kindle",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_kindle",
+        "echo_alexa",
+        "digital_kindle"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9218889474868774,
+      "top3_score": 0.9199917912483215,
+      "score_margin": 0.0018971562385559082
+    },
+    {
+      "thread_id": "39c418bf1848d060",
+      "expected_intent": "digital_kindle",
+      "v2_predicted_intent": "digital_kindle",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_locker",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.8461530208587646,
+      "top3_score": 0.8340240716934204,
+      "score_margin": 0.012128949165344238
+    },
+    {
+      "thread_id": "a0cb92cfb35738bb",
+      "expected_intent": "digital_kindle",
+      "v2_predicted_intent": "other_support",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": true,
+      "top1_score": 0.906688928604126,
+      "top3_score": 0.8993411064147949,
+      "score_margin": 0.007347822189331055
+    },
+    {
+      "thread_id": "811b3d82afdfeb33",
+      "expected_intent": "digital_kindle",
+      "v2_predicted_intent": "digital_kindle",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9530395865440369,
+      "top3_score": 0.9342571496963501,
+      "score_margin": 0.018782436847686768
+    },
+    {
+      "thread_id": "15f5c05258eab8c8",
+      "expected_intent": "amazon_music",
+      "v2_predicted_intent": "amazon_music",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_music",
+        "amazon_music",
+        "amazon_music"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9554812908172607,
+      "top3_score": 0.9443708658218384,
+      "score_margin": 0.011110424995422363
+    },
+    {
+      "thread_id": "fa4e4850dc1714f0",
+      "expected_intent": "amazon_music",
+      "v2_predicted_intent": "amazon_music",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_music",
+        "amazon_music",
+        "amazon_music"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9314676523208618,
+      "top3_score": 0.922400712966919,
+      "score_margin": 0.009066939353942871
+    },
+    {
+      "thread_id": "07c5e73971f78e86",
+      "expected_intent": "amazon_music",
+      "v2_predicted_intent": "amazon_music",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_music",
+        "amazon_music",
+        "amazon_music"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9398769736289978,
+      "top3_score": 0.9363852143287659,
+      "score_margin": 0.0034917593002319336
+    },
+    {
+      "thread_id": "a6dbcc41eea15111",
+      "expected_intent": "amazon_music",
+      "v2_predicted_intent": "amazon_music",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "echo_alexa",
+        "echo_alexa"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.8691093325614929,
+      "top3_score": 0.8630454540252686,
+      "score_margin": 0.006063878536224365
+    },
+    {
+      "thread_id": "f6a518e270c277ae",
+      "expected_intent": "amazon_music",
+      "v2_predicted_intent": "amazon_music",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_music",
+        "amazon_music",
+        "amazon_music"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.954838752746582,
+      "top3_score": 0.9498012661933899,
+      "score_margin": 0.005037486553192139
+    },
+    {
+      "thread_id": "63b3f781506205d3",
+      "expected_intent": "amazon_music",
+      "v2_predicted_intent": "amazon_music",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_music",
+        "amazon_music",
+        "amazon_music"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9527918100357056,
+      "top3_score": 0.944715678691864,
+      "score_margin": 0.008076131343841553
+    },
+    {
+      "thread_id": "acd6f1d0d28dc947",
+      "expected_intent": "amazon_music",
+      "v2_predicted_intent": "amazon_music",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_music",
+        "amazon_music",
+        "amazon_music"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9560076594352722,
+      "top3_score": 0.9529459476470947,
+      "score_margin": 0.0030617117881774902
+    },
+    {
+      "thread_id": "5d794124ada5a1f9",
+      "expected_intent": "amazon_music",
+      "v2_predicted_intent": "amazon_music",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_music",
+        "delivery_delayed",
+        "amazon_music"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8996079564094543,
+      "top3_score": 0.8904199600219727,
+      "score_margin": 0.00918799638748169
+    },
+    {
+      "thread_id": "e91c71a242ee6355",
+      "expected_intent": "amazon_music",
+      "v2_predicted_intent": "amazon_music",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_music",
+        "amazon_music",
+        "amazon_music"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9520239233970642,
+      "top3_score": 0.9456849098205566,
+      "score_margin": 0.006339013576507568
+    },
+    {
+      "thread_id": "6740224804dec314",
+      "expected_intent": "amazon_music",
+      "v2_predicted_intent": "amazon_music",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_music",
+        "amazon_music",
+        "amazon_music"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9320114254951477,
+      "top3_score": 0.9255797863006592,
+      "score_margin": 0.006431639194488525
+    },
+    {
+      "thread_id": "d8ba70b3c92b7b78",
+      "expected_intent": "amazon_music",
+      "v2_predicted_intent": "amazon_music",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_music",
+        "amazon_music",
+        "amazon_music"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9341264963150024,
+      "top3_score": 0.9189907908439636,
+      "score_margin": 0.015135705471038818
+    },
+    {
+      "thread_id": "957c35145701a2e6",
+      "expected_intent": "amazon_music",
+      "v2_predicted_intent": "amazon_music",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_music",
+        "digital_kindle",
+        "amazon_music"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9423404932022095,
+      "top3_score": 0.936241090297699,
+      "score_margin": 0.006099402904510498
+    },
+    {
+      "thread_id": "48041061adba4897",
+      "expected_intent": "amazon_music",
+      "v2_predicted_intent": "amazon_music",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_music",
+        "amazon_music",
+        "amazon_music"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9338467121124268,
+      "top3_score": 0.9287492036819458,
+      "score_margin": 0.005097508430480957
+    },
+    {
+      "thread_id": "54def58a96d81403",
+      "expected_intent": "amazon_music",
+      "v2_predicted_intent": "amazon_music",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_music",
+        "digital_kindle",
+        "amazon_music"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9462123513221741,
+      "top3_score": 0.9359526634216309,
+      "score_margin": 0.010259687900543213
+    },
+    {
+      "thread_id": "d5047fc16cd0e349",
+      "expected_intent": "echo_alexa",
+      "v2_predicted_intent": "echo_alexa",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "echo_alexa",
+        "digital_prime_video",
+        "amazon_music"
+      ],
+      "distribution": "all_different",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9176198840141296,
+      "top3_score": 0.907448947429657,
+      "score_margin": 0.010170936584472656
+    },
+    {
+      "thread_id": "b7fe8e583253b111",
+      "expected_intent": "echo_alexa",
+      "v2_predicted_intent": "echo_alexa",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_music",
+        "echo_alexa",
+        "echo_alexa"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9226406216621399,
+      "top3_score": 0.9198045134544373,
+      "score_margin": 0.0028361082077026367
+    },
+    {
+      "thread_id": "124e29ffa7d5085f",
+      "expected_intent": "echo_alexa",
+      "v2_predicted_intent": "echo_alexa",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "echo_alexa",
+        "echo_alexa",
+        "echo_alexa"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9335976839065552,
+      "top3_score": 0.9276071190834045,
+      "score_margin": 0.005990564823150635
+    },
+    {
+      "thread_id": "cdc4792145fc1397",
+      "expected_intent": "echo_alexa",
+      "v2_predicted_intent": "echo_alexa",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "echo_alexa",
+        "echo_alexa",
+        "echo_alexa"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9550915956497192,
+      "top3_score": 0.947153627872467,
+      "score_margin": 0.007937967777252197
+    },
+    {
+      "thread_id": "0c7909fc4888fe37",
+      "expected_intent": "echo_alexa",
+      "v2_predicted_intent": "echo_alexa",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "echo_alexa",
+        "echo_alexa",
+        "echo_alexa"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9568948149681091,
+      "top3_score": 0.9426813721656799,
+      "score_margin": 0.0142134428024292
+    },
+    {
+      "thread_id": "0be61a30ba12a5e0",
+      "expected_intent": "echo_alexa",
+      "v2_predicted_intent": "echo_alexa",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "echo_alexa",
+        "echo_alexa",
+        "echo_alexa"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9410059452056885,
+      "top3_score": 0.9306185841560364,
+      "score_margin": 0.0103873610496521
+    },
+    {
+      "thread_id": "5869ba28a48cf763",
+      "expected_intent": "echo_alexa",
+      "v2_predicted_intent": "echo_alexa",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "echo_alexa",
+        "echo_alexa",
+        "echo_alexa"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9479976892471313,
+      "top3_score": 0.9279725551605225,
+      "score_margin": 0.020025134086608887
+    },
+    {
+      "thread_id": "15417200d18d8247",
+      "expected_intent": "echo_alexa",
+      "v2_predicted_intent": "echo_alexa",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "echo_alexa",
+        "echo_alexa",
+        "echo_alexa"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9231850504875183,
+      "top3_score": 0.9198954105377197,
+      "score_margin": 0.003289639949798584
+    },
+    {
+      "thread_id": "b9757fe990e40db8",
+      "expected_intent": "echo_alexa",
+      "v2_predicted_intent": "echo_alexa",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "echo_alexa",
+        "echo_alexa",
+        "echo_alexa"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9433301091194153,
+      "top3_score": 0.9335601925849915,
+      "score_margin": 0.009769916534423828
+    },
+    {
+      "thread_id": "add56eb200cd4103",
+      "expected_intent": "echo_alexa",
+      "v2_predicted_intent": "echo_alexa",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "echo_alexa",
+        "echo_alexa",
+        "echo_alexa"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8952031135559082,
+      "top3_score": 0.8944947719573975,
+      "score_margin": 0.0007083415985107422
+    },
+    {
+      "thread_id": "4c2ba68f8d6d8d01",
+      "expected_intent": "echo_alexa",
+      "v2_predicted_intent": "other_support",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "echo_alexa",
+        "delivery_delayed",
+        "echo_alexa"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": true,
+      "top1_score": 0.9200084805488586,
+      "top3_score": 0.9162073731422424,
+      "score_margin": 0.003801107406616211
+    },
+    {
+      "thread_id": "59b64538302cb337",
+      "expected_intent": "echo_alexa",
+      "v2_predicted_intent": "other_support",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "echo_alexa",
+        "echo_alexa",
+        "amazon_music"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": true,
+      "top1_score": 0.9324939250946045,
+      "top3_score": 0.9253297448158264,
+      "score_margin": 0.007164180278778076
+    },
+    {
+      "thread_id": "c4dfa7c7bd5687f2",
+      "expected_intent": "echo_alexa",
+      "v2_predicted_intent": "other_support",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "product_availability",
+        "account_access",
+        "echo_alexa"
+      ],
+      "distribution": "all_different",
+      "is_missing_expected": false,
+      "is_missing_predicted": true,
+      "top1_score": 0.9002453088760376,
+      "top3_score": 0.8707875609397888,
+      "score_margin": 0.02945774793624878
+    },
+    {
+      "thread_id": "1dcf6340ae04e307",
+      "expected_intent": "echo_alexa",
+      "v2_predicted_intent": "echo_alexa",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.9571841359138489,
+      "top3_score": 0.9475443959236145,
+      "score_margin": 0.009639739990234375
+    },
+    {
+      "thread_id": "fbb7f3a219b04208",
+      "expected_intent": "account_access",
+      "v2_predicted_intent": "account_access",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9244946241378784,
+      "top3_score": 0.9155062437057495,
+      "score_margin": 0.008988380432128906
+    },
+    {
+      "thread_id": "c4943ba47c397940",
+      "expected_intent": "account_access",
+      "v2_predicted_intent": "account_access",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.908221423625946,
+      "top3_score": 0.9011535048484802,
+      "score_margin": 0.00706791877746582
+    },
+    {
+      "thread_id": "7407c0dd1c4a8822",
+      "expected_intent": "account_access",
+      "v2_predicted_intent": "delivery_wrong_item",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "account_access",
+        "delivery_delayed",
+        "account_access"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": true,
+      "top1_score": 0.8716715574264526,
+      "top3_score": 0.8488761782646179,
+      "score_margin": 0.022795379161834717
+    },
+    {
+      "thread_id": "9df66edc158ef84e",
+      "expected_intent": "account_access",
+      "v2_predicted_intent": "account_access",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9013497829437256,
+      "top3_score": 0.8925991058349609,
+      "score_margin": 0.008750677108764648
+    },
+    {
+      "thread_id": "f96b9b10c4206c30",
+      "expected_intent": "delivery_wrong_item",
+      "v2_predicted_intent": "delivery_wrong_item",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.9069747924804688,
+      "top3_score": 0.9044848084449768,
+      "score_margin": 0.0024899840354919434
+    },
+    {
+      "thread_id": "e8d28e94aab63200",
+      "expected_intent": "account_access",
+      "v2_predicted_intent": "account_access",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "delivery_wrong_item"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.913519561290741,
+      "top3_score": 0.9082625508308411,
+      "score_margin": 0.005257010459899902
+    },
+    {
+      "thread_id": "424b7075b73da620",
+      "expected_intent": "account_access",
+      "v2_predicted_intent": "account_access",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.914878785610199,
+      "top3_score": 0.9021824598312378,
+      "score_margin": 0.012696325778961182
+    },
+    {
+      "thread_id": "086732e38ad7c1f5",
+      "expected_intent": "account_access",
+      "v2_predicted_intent": "account_access",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9342367053031921,
+      "top3_score": 0.9276252388954163,
+      "score_margin": 0.006611466407775879
+    },
+    {
+      "thread_id": "c763f518de8ef948",
+      "expected_intent": "account_access",
+      "v2_predicted_intent": "account_access",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8646883368492126,
+      "top3_score": 0.8589087724685669,
+      "score_margin": 0.005779564380645752
+    },
+    {
+      "thread_id": "d1f22969cd0ed8e7",
+      "expected_intent": "account_access",
+      "v2_predicted_intent": "account_access",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9294241070747375,
+      "top3_score": 0.9211886525154114,
+      "score_margin": 0.008235454559326172
+    },
+    {
+      "thread_id": "b916108101eca175",
+      "expected_intent": "delivery_wrong_item",
+      "v2_predicted_intent": "delivery_wrong_item",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_access",
+        "account_billing",
+        "account_access"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.8902267813682556,
+      "top3_score": 0.8824143409729004,
+      "score_margin": 0.007812440395355225
+    },
+    {
+      "thread_id": "8b231a42dfff628d",
+      "expected_intent": "account_access",
+      "v2_predicted_intent": "account_access",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9095525741577148,
+      "top3_score": 0.9073177576065063,
+      "score_margin": 0.002234816551208496
+    },
+    {
+      "thread_id": "6177b8cf868e7f36",
+      "expected_intent": "account_access",
+      "v2_predicted_intent": "account_access",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_missing",
+        "promotions_pricing"
+      ],
+      "distribution": "all_different",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.85664302110672,
+      "top3_score": 0.842340350151062,
+      "score_margin": 0.014302670955657959
+    },
+    {
+      "thread_id": "7e10f8a5300df65c",
+      "expected_intent": "account_access",
+      "v2_predicted_intent": "delivery_wrong_item",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "account_access",
+        "account_access",
+        "account_access"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": true,
+      "top1_score": 0.9017435312271118,
+      "top3_score": 0.8843434453010559,
+      "score_margin": 0.017400085926055908
+    },
+    {
+      "thread_id": "7683932e67b489ea",
+      "expected_intent": "promotions_pricing",
+      "v2_predicted_intent": "promotions_pricing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "promotions_pricing",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.925449550151825,
+      "top3_score": 0.917441725730896,
+      "score_margin": 0.008007824420928955
+    },
+    {
+      "thread_id": "507a5d959193bd85",
+      "expected_intent": "promotions_pricing",
+      "v2_predicted_intent": "other_support",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": true,
+      "top1_score": 0.8951706886291504,
+      "top3_score": 0.8781062364578247,
+      "score_margin": 0.017064452171325684
+    },
+    {
+      "thread_id": "271f08dfe4b24f20",
+      "expected_intent": "promotions_pricing",
+      "v2_predicted_intent": "promotions_pricing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "promotions_pricing",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9096654057502747,
+      "top3_score": 0.9065564274787903,
+      "score_margin": 0.003108978271484375
+    },
+    {
+      "thread_id": "2d269faf8a58863e",
+      "expected_intent": "promotions_pricing",
+      "v2_predicted_intent": "promotions_pricing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "promotions_pricing",
+        "delivery_wrong_item",
+        "promotions_pricing"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9142754673957825,
+      "top3_score": 0.9067019820213318,
+      "score_margin": 0.007573485374450684
+    },
+    {
+      "thread_id": "a2bbc722057b5719",
+      "expected_intent": "promotions_pricing",
+      "v2_predicted_intent": "other_support",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "promotions_pricing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": true,
+      "top1_score": 0.9012398719787598,
+      "top3_score": 0.8809977173805237,
+      "score_margin": 0.020242154598236084
+    },
+    {
+      "thread_id": "94623b4fdd7ab5bf",
+      "expected_intent": "promotions_pricing",
+      "v2_predicted_intent": "promotions_pricing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "returns_refunds",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9320828318595886,
+      "top3_score": 0.9315453767776489,
+      "score_margin": 0.0005374550819396973
+    },
+    {
+      "thread_id": "663015f372cd3b8a",
+      "expected_intent": "promotions_pricing",
+      "v2_predicted_intent": "promotions_pricing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "returns_refunds",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.8673566579818726,
+      "top3_score": 0.8661240935325623,
+      "score_margin": 0.0012325644493103027
+    },
+    {
+      "thread_id": "f7cd418894688848",
+      "expected_intent": "promotions_pricing",
+      "v2_predicted_intent": "promotions_pricing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_billing",
+        "promotions_pricing",
+        "delivery_delayed"
+      ],
+      "distribution": "all_different",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.844478189945221,
+      "top3_score": 0.8404261469841003,
+      "score_margin": 0.0040520429611206055
+    },
+    {
+      "thread_id": "9f194783f7dbfae8",
+      "expected_intent": "promotions_pricing",
+      "v2_predicted_intent": "promotions_pricing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "promotions_pricing",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8885188698768616,
+      "top3_score": 0.8842111229896545,
+      "score_margin": 0.004307746887207031
+    },
+    {
+      "thread_id": "b881f26bc54d6db1",
+      "expected_intent": "promotions_pricing",
+      "v2_predicted_intent": "promotions_pricing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "promotions_pricing",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9380393028259277,
+      "top3_score": 0.9239103198051453,
+      "score_margin": 0.01412898302078247
+    },
+    {
+      "thread_id": "a3b31228d3f292c5",
+      "expected_intent": "promotions_pricing",
+      "v2_predicted_intent": "other_support",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "promotions_pricing",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": true,
+      "top1_score": 0.9370699524879456,
+      "top3_score": 0.9241569638252258,
+      "score_margin": 0.012912988662719727
+    },
+    {
+      "thread_id": "0f622e19186b5f24",
+      "expected_intent": "promotions_pricing",
+      "v2_predicted_intent": "promotions_pricing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "promotions_pricing",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9152578115463257,
+      "top3_score": 0.9080246090888977,
+      "score_margin": 0.0072332024574279785
+    },
+    {
+      "thread_id": "f80ee1ce26d346fd",
+      "expected_intent": "promotions_pricing",
+      "v2_predicted_intent": "promotions_pricing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "promotions_pricing",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9156787991523743,
+      "top3_score": 0.9115666747093201,
+      "score_margin": 0.004112124443054199
+    },
+    {
+      "thread_id": "5d58b0bdefae1299",
+      "expected_intent": "promotions_pricing",
+      "v2_predicted_intent": "promotions_pricing",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "product_availability",
+        "delivery_delayed"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.9078577160835266,
+      "top3_score": 0.8902338147163391,
+      "score_margin": 0.0176239013671875
+    },
+    {
+      "thread_id": "d766800f05f78196",
+      "expected_intent": "amazon_locker",
+      "v2_predicted_intent": "amazon_locker",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_locker",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8612046837806702,
+      "top3_score": 0.8571649193763733,
+      "score_margin": 0.004039764404296875
+    },
+    {
+      "thread_id": "9e9de62e088affbc",
+      "expected_intent": "amazon_locker",
+      "v2_predicted_intent": "amazon_locker",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_locker",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8544193506240845,
+      "top3_score": 0.8413759469985962,
+      "score_margin": 0.013043403625488281
+    },
+    {
+      "thread_id": "8311a3c79d0be7ff",
+      "expected_intent": "amazon_locker",
+      "v2_predicted_intent": "amazon_locker",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_locker",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8772304654121399,
+      "top3_score": 0.8711787462234497,
+      "score_margin": 0.0060517191886901855
+    },
+    {
+      "thread_id": "962f87319795305d",
+      "expected_intent": "amazon_locker",
+      "v2_predicted_intent": "amazon_locker",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_locker",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8491306304931641,
+      "top3_score": 0.8478545546531677,
+      "score_margin": 0.0012760758399963379
+    },
+    {
+      "thread_id": "e1e6809c33e1958c",
+      "expected_intent": "amazon_locker",
+      "v2_predicted_intent": "amazon_locker",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_locker",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.85452800989151,
+      "top3_score": 0.84052574634552,
+      "score_margin": 0.01400226354598999
+    },
+    {
+      "thread_id": "20c1a80b2496fb80",
+      "expected_intent": "delivery_missing",
+      "v2_predicted_intent": "amazon_locker",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "delivery_missing",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.903884768486023,
+      "top3_score": 0.8944842219352722,
+      "score_margin": 0.009400546550750732
+    },
+    {
+      "thread_id": "1df63ea1d5a69936",
+      "expected_intent": "amazon_locker",
+      "v2_predicted_intent": "amazon_locker",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_missing",
+        "delivery_missing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.9042002558708191,
+      "top3_score": 0.8873987197875977,
+      "score_margin": 0.016801536083221436
+    },
+    {
+      "thread_id": "88d34caa84fe33cf",
+      "expected_intent": "amazon_locker",
+      "v2_predicted_intent": "amazon_locker",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_missing",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8932677507400513,
+      "top3_score": 0.8853751420974731,
+      "score_margin": 0.007892608642578125
+    },
+    {
+      "thread_id": "b75b8aba4b7a9baf",
+      "expected_intent": "amazon_locker",
+      "v2_predicted_intent": "amazon_locker",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_locker",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.921051025390625,
+      "top3_score": 0.8924545645713806,
+      "score_margin": 0.028596460819244385
+    },
+    {
+      "thread_id": "fc5e5ed945b5af36",
+      "expected_intent": "amazon_locker",
+      "v2_predicted_intent": "amazon_locker",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_locker",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9383514523506165,
+      "top3_score": 0.9335257411003113,
+      "score_margin": 0.004825711250305176
+    },
+    {
+      "thread_id": "e4b818ccb8232155",
+      "expected_intent": "amazon_locker",
+      "v2_predicted_intent": "other_support",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "amazon_locker",
+        "delivery_missing",
+        "delivery_delayed"
+      ],
+      "distribution": "all_different",
+      "is_missing_expected": false,
+      "is_missing_predicted": true,
+      "top1_score": 0.8583084344863892,
+      "top3_score": 0.8504761457443237,
+      "score_margin": 0.00783228874206543
+    },
+    {
+      "thread_id": "0303b444819797be",
+      "expected_intent": "amazon_locker",
+      "v2_predicted_intent": "amazon_locker",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_locker",
+        "amazon_locker",
+        "amazon_locker"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.911380410194397,
+      "top3_score": 0.9064809083938599,
+      "score_margin": 0.004899501800537109
+    },
+    {
+      "thread_id": "97d46e56ad05b8e3",
+      "expected_intent": "amazon_locker",
+      "v2_predicted_intent": "amazon_locker",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "amazon_locker",
+        "returns_refunds",
+        "delivery_delayed"
+      ],
+      "distribution": "all_different",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8931986093521118,
+      "top3_score": 0.8553286790847778,
+      "score_margin": 0.037869930267333984
+    },
+    {
+      "thread_id": "baa82fe4c3c04a25",
+      "expected_intent": "amazon_locker",
+      "v2_predicted_intent": "amazon_locker",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "returns_refunds",
+        "returns_refunds",
+        "delivery_delayed"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.8550612330436707,
+      "top3_score": 0.8461275100708008,
+      "score_margin": 0.008933722972869873
+    },
+    {
+      "thread_id": "9d048a20fd47ab7f",
+      "expected_intent": "grocery_fresh",
+      "v2_predicted_intent": "grocery_fresh",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "returns_refunds",
+        "delivery_wrong_item",
+        "returns_refunds"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.813417375087738,
+      "top3_score": 0.7976878881454468,
+      "score_margin": 0.01572948694229126
+    },
+    {
+      "thread_id": "8ce1398a13df32c7",
+      "expected_intent": "grocery_fresh",
+      "v2_predicted_intent": "grocery_fresh",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "grocery_fresh",
+        "grocery_fresh",
+        "grocery_fresh"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8758773803710938,
+      "top3_score": 0.8554152250289917,
+      "score_margin": 0.02046215534210205
+    },
+    {
+      "thread_id": "4659bf7cb80e967a",
+      "expected_intent": "grocery_fresh",
+      "v2_predicted_intent": "grocery_fresh",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "account_billing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.8948956727981567,
+      "top3_score": 0.88741534948349,
+      "score_margin": 0.007480323314666748
+    },
+    {
+      "thread_id": "3f38d0690064ea3e",
+      "expected_intent": "grocery_fresh",
+      "v2_predicted_intent": "grocery_fresh",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_missing",
+        "account_billing",
+        "delivery_wrong_item"
+      ],
+      "distribution": "all_different",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.8796964287757874,
+      "top3_score": 0.8370739817619324,
+      "score_margin": 0.04262244701385498
+    },
+    {
+      "thread_id": "416f367ae994e79c",
+      "expected_intent": "grocery_fresh",
+      "v2_predicted_intent": "grocery_fresh",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "grocery_fresh",
+        "amazon_locker",
+        "grocery_fresh"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8711574673652649,
+      "top3_score": 0.8545397520065308,
+      "score_margin": 0.01661771535873413
+    },
+    {
+      "thread_id": "16cfcf62900ef5ea",
+      "expected_intent": "grocery_fresh",
+      "v2_predicted_intent": "grocery_fresh",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_kindle",
+        "digital_kindle",
+        "digital_kindle"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.9030353426933289,
+      "top3_score": 0.8902818560600281,
+      "score_margin": 0.012753486633300781
+    },
+    {
+      "thread_id": "51815e0ee9dcfccd",
+      "expected_intent": "grocery_fresh",
+      "v2_predicted_intent": "other_support",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "delivery_missing",
+        "delivery_delayed"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.8763971924781799,
+      "top3_score": 0.8527288436889648,
+      "score_margin": 0.023668348789215088
+    },
+    {
+      "thread_id": "cae806d1e13ba7df",
+      "expected_intent": "grocery_fresh",
+      "v2_predicted_intent": "grocery_fresh",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "digital_prime_video",
+        "grocery_fresh",
+        "account_billing"
+      ],
+      "distribution": "all_different",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8899660110473633,
+      "top3_score": 0.8618929982185364,
+      "score_margin": 0.028073012828826904
+    },
+    {
+      "thread_id": "5de6e76b4a73d660",
+      "expected_intent": "grocery_fresh",
+      "v2_predicted_intent": "grocery_fresh",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "grocery_fresh",
+        "grocery_fresh",
+        "grocery_fresh"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.892692506313324,
+      "top3_score": 0.8769308924674988,
+      "score_margin": 0.015761613845825195
+    },
+    {
+      "thread_id": "632f0aed89f71a07",
+      "expected_intent": "grocery_fresh",
+      "v2_predicted_intent": "grocery_fresh",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_missing",
+        "account_billing",
+        "promotions_pricing"
+      ],
+      "distribution": "all_different",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.8570278882980347,
+      "top3_score": 0.84919673204422,
+      "score_margin": 0.007831156253814697
+    },
+    {
+      "thread_id": "f0cfad48f6a145b1",
+      "expected_intent": "grocery_fresh",
+      "v2_predicted_intent": "other_support",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "delivery_missing",
+        "delivery_delayed",
+        "delivery_delayed"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.8562769293785095,
+      "top3_score": 0.8501577377319336,
+      "score_margin": 0.006119191646575928
+    },
+    {
+      "thread_id": "f3e2bfa73a8376a8",
+      "expected_intent": "grocery_fresh",
+      "v2_predicted_intent": "grocery_fresh",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "grocery_fresh",
+        "grocery_fresh",
+        "grocery_fresh"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8760749101638794,
+      "top3_score": 0.8633471727371216,
+      "score_margin": 0.012727737426757812
+    },
+    {
+      "thread_id": "51a322d37e9a7679",
+      "expected_intent": "grocery_fresh",
+      "v2_predicted_intent": "grocery_fresh",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "returns_refunds",
+        "returns_refunds"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.8940261602401733,
+      "top3_score": 0.8851927518844604,
+      "score_margin": 0.00883340835571289
+    },
+    {
+      "thread_id": "e84a7e6d5d4a4373",
+      "expected_intent": "grocery_fresh",
+      "v2_predicted_intent": "grocery_fresh",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "returns_refunds",
+        "returns_refunds",
+        "delivery_delayed"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.8478301763534546,
+      "top3_score": 0.8418571352958679,
+      "score_margin": 0.00597304105758667
+    },
+    {
+      "thread_id": "7fa5ccca8702f290",
+      "expected_intent": "product_availability",
+      "v2_predicted_intent": "other_support",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": true,
+      "top1_score": 0.8869276642799377,
+      "top3_score": 0.8705329298973083,
+      "score_margin": 0.016394734382629395
+    },
+    {
+      "thread_id": "a7d1b1328697f03f",
+      "expected_intent": "product_availability",
+      "v2_predicted_intent": "product_availability",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9179700613021851,
+      "top3_score": 0.9154369831085205,
+      "score_margin": 0.0025330781936645508
+    },
+    {
+      "thread_id": "220588c05e025c77",
+      "expected_intent": "product_availability",
+      "v2_predicted_intent": "product_availability",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9584810733795166,
+      "top3_score": 0.9466122984886169,
+      "score_margin": 0.011868774890899658
+    },
+    {
+      "thread_id": "fa37c61f8b78911c",
+      "expected_intent": "product_availability",
+      "v2_predicted_intent": "product_availability",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9225465655326843,
+      "top3_score": 0.8949767351150513,
+      "score_margin": 0.027569830417633057
+    },
+    {
+      "thread_id": "451122bbe75eae6a",
+      "expected_intent": "product_availability",
+      "v2_predicted_intent": "other_support",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "account_billing",
+        "account_billing",
+        "amazon_music"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.8720964789390564,
+      "top3_score": 0.8626340627670288,
+      "score_margin": 0.009462416172027588
+    },
+    {
+      "thread_id": "1da537bb39d637d6",
+      "expected_intent": "product_availability",
+      "v2_predicted_intent": "product_availability",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.905342698097229,
+      "top3_score": 0.9047971367835999,
+      "score_margin": 0.0005455613136291504
+    },
+    {
+      "thread_id": "ebefc67d2ab0c89b",
+      "expected_intent": "product_availability",
+      "v2_predicted_intent": "product_availability",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "echo_alexa",
+        "grocery_fresh",
+        "returns_refunds"
+      ],
+      "distribution": "all_different",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.9345880150794983,
+      "top3_score": 0.8943567276000977,
+      "score_margin": 0.040231287479400635
+    },
+    {
+      "thread_id": "058a1adda23bf491",
+      "expected_intent": "product_availability",
+      "v2_predicted_intent": "other_support",
+      "v2_correct": false,
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": true,
+      "top1_score": 0.9304636716842651,
+      "top3_score": 0.9276256561279297,
+      "score_margin": 0.0028380155563354492
+    },
+    {
+      "thread_id": "b0889d80badcbecd",
+      "expected_intent": "product_availability",
+      "v2_predicted_intent": "product_availability",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "delivery_delayed",
+        "product_availability",
+        "product_availability"
+      ],
+      "distribution": "2_vs_1",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.8642630577087402,
+      "top3_score": 0.8566381931304932,
+      "score_margin": 0.00762486457824707
+    },
+    {
+      "thread_id": "92a7b4c25fb7c2f3",
+      "expected_intent": "product_availability",
+      "v2_predicted_intent": "product_availability",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9335851073265076,
+      "top3_score": 0.9135580062866211,
+      "score_margin": 0.020027101039886475
+    },
+    {
+      "thread_id": "a744ef56097b74a7",
+      "expected_intent": "product_availability",
+      "v2_predicted_intent": "product_availability",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.874223530292511,
+      "top3_score": 0.8657799959182739,
+      "score_margin": 0.00844353437423706
+    },
+    {
+      "thread_id": "8fac12fcb3126ce8",
+      "expected_intent": "product_availability",
+      "v2_predicted_intent": "product_availability",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9519413709640503,
+      "top3_score": 0.9421417713165283,
+      "score_margin": 0.009799599647521973
+    },
+    {
+      "thread_id": "079b146a88a14dc0",
+      "expected_intent": "product_availability",
+      "v2_predicted_intent": "product_availability",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "product_availability",
+        "product_availability",
+        "product_availability"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": false,
+      "is_missing_predicted": false,
+      "top1_score": 0.9154756665229797,
+      "top3_score": 0.9117152094841003,
+      "score_margin": 0.0037604570388793945
+    },
+    {
+      "thread_id": "c5f3c1301f833cc0",
+      "expected_intent": "product_availability",
+      "v2_predicted_intent": "product_availability",
+      "v2_correct": true,
+      "retrieved_intents": [
+        "promotions_pricing",
+        "promotions_pricing",
+        "promotions_pricing"
+      ],
+      "distribution": "unanimous",
+      "is_missing_expected": true,
+      "is_missing_predicted": true,
+      "top1_score": 0.9010768532752991,
+      "top3_score": 0.8961781859397888,
+      "score_margin": 0.004898667335510254
+    }
+  ]
+}

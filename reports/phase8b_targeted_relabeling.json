@@ -1,0 +1,114 @@
+{
+  "original_corpus_size": 82360,
+  "indexed_subset_size": 35247,
+  "k1_critical": 196,
+  "k3_critical": 368,
+  "k5_critical": 351,
+  "total_targeted": 915,
+  "accepted": 905,
+  "review": 10,
+  "changed": 0,
+  "text_integrity": true,
+  "duplicate_integrity": true,
+  "coverage_before_after": {
+    "digital_kindle": {
+      "original": 1533,
+      "untouched": 1470,
+      "targeted_accepted": 63,
+      "targeted_review": 0,
+      "final": 1533
+    },
+    "delivery_wrong_item": {
+      "original": 548,
+      "untouched": 517,
+      "targeted_accepted": 31,
+      "targeted_review": 0,
+      "final": 548
+    },
+    "delivery_delayed": {
+      "original": 5469,
+      "untouched": 5356,
+      "targeted_accepted": 113,
+      "targeted_review": 0,
+      "final": 5469
+    },
+    "product_availability": {
+      "original": 1470,
+      "untouched": 1407,
+      "targeted_accepted": 63,
+      "targeted_review": 0,
+      "final": 1470
+    },
+    "digital_prime_video": {
+      "original": 1503,
+      "untouched": 1438,
+      "targeted_accepted": 65,
+      "targeted_review": 0,
+      "final": 1503
+    },
+    "delivery_missing": {
+      "original": 9316,
+      "untouched": 9217,
+      "targeted_accepted": 99,
+      "targeted_review": 0,
+      "final": 9316
+    },
+    "account_billing": {
+      "original": 3387,
+      "untouched": 3302,
+      "targeted_accepted": 85,
+      "targeted_review": 0,
+      "final": 3387
+    },
+    "promotions_pricing": {
+      "original": 1769,
+      "untouched": 1716,
+      "targeted_accepted": 53,
+      "targeted_review": 0,
+      "final": 1769
+    },
+    "echo_alexa": {
+      "original": 1655,
+      "untouched": 1598,
+      "targeted_accepted": 57,
+      "targeted_review": 0,
+      "final": 1655
+    },
+    "returns_refunds": {
+      "original": 6098,
+      "untouched": 6002,
+      "targeted_accepted": 96,
+      "targeted_review": 0,
+      "final": 6098
+    },
+    "grocery_fresh": {
+      "original": 306,
+      "untouched": 285,
+      "targeted_accepted": 21,
+      "targeted_review": 0,
+      "final": 306
+    },
+    "account_access": {
+      "original": 1193,
+      "untouched": 1124,
+      "targeted_accepted": 59,
+      "targeted_review": 10,
+      "final": 1193
+    },
+    "amazon_locker": {
+      "original": 303,
+      "untouched": 261,
+      "targeted_accepted": 42,
+      "targeted_review": 0,
+      "final": 303
+    },
+    "amazon_music": {
+      "original": 697,
+      "untouched": 639,
+      "targeted_accepted": 58,
+      "targeted_review": 0,
+      "final": 697
+    }
+  },
+  "decision": "READY_FOR_REINDEX"
+}
