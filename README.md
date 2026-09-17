@@ -1,13 +1,17 @@
 # 🧠 ThreadMind
 ### AI Customer Support Intelligence & Hybrid Escalation System
 
+> *From customer conversations to intelligent, evidence-grounded, human-aware support decisions.*
+
+![ThreadMind Banner](hero_banner.png)
+
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-3.1-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.6-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
 [![FAISS](https://img.shields.io/badge/FAISS-Dense%20Retrieval-0467DF?style=for-the-badge)](https://github.com/facebookresearch/faiss)
 [![Ollama Llama 3.2](https://img.shields.io/badge/Ollama-Llama%203.2-000000?style=for-the-badge&logo=ollama&logoColor=white)](https://ollama.ai)
-[![Pytest 40/40](https://img.shields.io/badge/Pytest-40%2F40%20Passed-2EA44F?style=for-the-badge&logo=pytest&logoColor=white)](file:///tests/)
-[![License MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](file:///LICENSE)
+[![Pytest 40/40](https://img.shields.io/badge/Pytest-40%2F40%20Passed-2EA44F?style=for-the-badge&logo=pytest&logoColor=white)](tests/)
+[![License MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 ---
 
@@ -20,9 +24,64 @@
 
 ---
 
+## 🖥️ Product Walkthrough
+
+ThreadMind includes an interactive engineering dashboard for exploring classification, retrieval, response generation, evaluation, and human review workflows.
+
+### 01 — Executive Dashboard
+![ThreadMind Executive Dashboard](reports/phase16h_verification/screenshots/readme_dashboard.png)
+*Displays real-time system KPIs, 196-example Golden Set distribution, throughput metrics, and an interactive particle neural network canvas visualization.*
+
+---
+
+### 02 — AI Playground
+![ThreadMind AI Playground](reports/phase16h_verification/screenshots/readme_ai_playground.png)
+*Demonstrates end-to-end query processing: customer input ingestion, intent prediction, confidence scoring, FAISS retrieved context inspection, RAG LLM response generation, and deterministic escalation decision.*
+
+---
+
+### 03 — Retrieval Explorer
+![ThreadMind Retrieval Explorer](reports/phase16h_verification/screenshots/readme_retrieval.png)
+*Inspects dense vector similarity search ($k=3$) over the 2,500 historical Twitter support thread index using `all-MiniLM-L6-v2` embeddings and FAISS.*
+
+---
+
+### 04 — Intent Classifier & Taxonomy
+![ThreadMind Intent Classifier](reports/phase16h_verification/screenshots/readme_classifier.png)
+*Displays the 15-intent Amazon taxonomy evaluation matrix, per-class precision and recall metrics, and router confidence boundaries.*
+
+---
+
+### 05 — System Evaluation & Monitoring
+![ThreadMind Evaluation](reports/phase16h_verification/screenshots/readme_evaluation.png)
+*Tracks real-time system throughput, stage latency breakdowns across the FallbackRouter, offline LLM fallback health, and test suite verification.*
+
+---
+
+### 06 — Human Review Workbench
+![ThreadMind Human Review](reports/phase16h_verification/screenshots/readme_human_review.png)
+*Provides human-in-the-loop audit controls for auditing model predictions against Gold Set labels, reviewing conversation context, and logging taxonomy decisions.*
+
+---
+
+## 🔬 What the Interface Demonstrates
+
+| Interface | Demonstrates |
+| :--- | :--- |
+| **Executive Dashboard** | System health, benchmark metrics, intent distribution, and neural network visualization |
+| **AI Playground** | End-to-end intent classification, confidence scoring, FAISS retrieval, Llama 3.2 generation, and human escalation policy enforcement |
+| **Retrieval Explorer** | Semantic search and top-k historical thread evidence inspection |
+| **Intent Classifier** | 15-intent Amazon taxonomy analysis, per-class performance, and router confidence boundaries |
+| **Evaluation / Monitoring** | System latency, throughput breakdown across stages, and offline LLM fallback health |
+| **Human Review Workbench** | Human-in-the-loop verification, audit decision logging, and taxonomy relabeling |
+
+---
+
 ## 📑 Table of Contents
 
 - [📌 Hero Section](#-hero-section)
+- [🖥️ Product Walkthrough](#️-product-walkthrough)
+- [🔬 What the Interface Demonstrates](#-what-the-interface-demonstrates)
 - [🎯 Problem Statement](#-problem-statement)
 - [🎯 System Objectives](#-system-objectives)
 - [⚡ Key Capabilities](#-key-capabilities)
@@ -43,8 +102,6 @@
 - [🔍 Error Analysis](#-error-analysis)
 - [🛡️ Production Readiness \& Safety](#️-production-readiness--safety)
 - [🧪 Test Suite](#-test-suite)
-- [🖥️ Web Application \& UI](#️-web-application--ui)
-- [📷 Screenshots](#-screenshots)
 - [🔌 REST API Reference](#-rest-api-reference)
 - [📁 Project Structure](#-project-structure)
 - [🚀 Installation \& Setup](#-installation--setup)
@@ -55,7 +112,7 @@
 - [⚠️ Limitations](#️-limitations)
 - [🔮 Future Improvements](#-future-improvements)
 - [🔒 Security \& Data Privacy](#-security--data-privacy)
-- [👨‍💻 Author](#-author)
+- [👨‍💻 About the Author](#-about-the-author)
 - [📋 Submission Checklist](#-submission-checklist)
 
 ---
@@ -78,7 +135,7 @@ ThreadMind addresses these challenges through a **multi-stage hybrid routing pip
 
 | Objective | Technical Implementation | Value Delivered |
 | :--- | :--- | :--- |
-| **High Intent Accuracy** | Rule engine + Calibrated TF-IDF + Dense RAG Fallback | Achieves **87.76% accuracy** (0.762 Macro F1) across 15 Amazon intents |
+| **High Intent Accuracy** | Rule engine + Calibrated TF-IDF + Dense RAG LLM fallback | Achieves **87.76% accuracy** (0.8579 Macro F1) across 15 Amazon intents |
 | **Grounded Response Generation** | Few-shot RAG injection from historical resolved Twitter threads | Prevents LLM hallucinations; ensures Amazon brand voice consistency |
 | **Strict Escalation Policy** | Deterministic policy engine forcing escalation on PII/Financial requests | 100% safety on high-risk intents (account access, billing disputes) |
 | **Latency & Cost Reduction** | Rule-first router bypassing LLM for high-confidence predictions | Reduces LLM API calls by **~60%**, bringing median latency to <0.35s |
@@ -95,7 +152,7 @@ ThreadMind addresses these challenges through a **multi-stage hybrid routing pip
 | **Rule Baseline** | `src/threadmind/baselines/rule_baseline.py` | Regex & keyword pattern intent matcher | `VERIFIED` |
 | **TF-IDF ML Classifier** | `src/threadmind/baselines/tfidf_baseline.py` | N-gram TF-IDF + Calibrated Logistic Regression | `VERIFIED` |
 | **Dense Vector Retrieval** | `src/threadmind/rag/dense_retriever.py` | FAISS index over `all-MiniLM-L6-v2` embeddings | `VERIFIED` |
-| **Hybrid Fallback Router** | `src/threadmind/router/fallback_router.py` | Confidence-gated routing (Rule $\to$ TF-IDF $\to$ RAG/LLM) | `VERIFIED` |
+| **Hybrid FallbackRouter** | `src/threadmind/router/fallback_router.py` | Confidence-gated routing (Rule $\to$ TF-IDF $\to$ RAG/LLM) | `VERIFIED` |
 | **Local LLM Generation** | `src/threadmind/llm/provider.py` | Ollama Llama 3.2 structured JSON prompt generation | `VERIFIED` |
 | **Human Escalation Engine** | `reports/phase16h_review/app.py` | Hard-coded safety policy enforcing escalation on PII | `VERIFIED` |
 | **Web UI & Workbench** | `reports/phase16h_review/` | Flask dashboard, AI Playground, and Human QA Workbench | `VERIFIED` |
@@ -445,40 +502,6 @@ PYTHONPATH=. .venv/bin/python -m pytest tests/ -v
 
 ---
 
-## 🖥️ Web Application & UI
-
-ThreadMind features a full-featured Flask web application (`reports/phase16h_review/app.py`):
-
-- **Executive Dashboard** (`/dashboard`): Real-time KPIs, Golden Set stats, accuracy metrics, and particle canvas hero visualization.
-- **AI Playground** (`/playground`): Live query testing interface with intent prediction, confidence gauge, retrieved context cards, and escalation alerts.
-- **Classifier Explorer** (`/classifier`): Interactive taxonomy evaluation matrix.
-- **Retrieval Explorer** (`/retrieval`): Search & inspect vector retrieval results against the 2,500-thread corpus.
-- **Human QA Workbench** (`/case/<id>`): Review and audit individual Golden Set cases.
-
----
-
-## 📷 Screenshots
-
-The following verified screenshots demonstrate ThreadMind's running web application:
-
-### 1. Executive Dashboard (`/dashboard`)
-![ThreadMind Dashboard](reports/phase16h_verification/screenshots/01_dashboard.png)
-*Demonstrates system metrics, golden set volume (196), intent distribution, and neural network visualization.*
-
-### 2. Human Review Workbench Initial Case (`/case/0`)
-![Workbench Initial Case](reports/phase16h_verification/screenshots/02_case_initial.png)
-*Displays thread details, predicted taxonomy intent, confidence score, and human audit decision buttons.*
-
-### 3. Case Review - Audit Decision Logged (`/case/0`)
-![Audit Decision Logged](reports/phase16h_verification/screenshots/03_keep_decision.png)
-*Demonstrates interactive audit logging when a reviewer confirms the system intent prediction.*
-
-### 4. Case Review - Intent Relabeling (`/case/1`)
-![Intent Relabeling](reports/phase16h_verification/screenshots/04_change_label.png)
-*Shows taxonomy re-classification workflow when overriding a model prediction.*
-
----
-
 ## 🔌 REST API Reference
 
 ### 1. Analyze Playground Query
@@ -579,7 +602,7 @@ ThreadMind/
 
 ### 1. Clone Repository & Setup Virtual Environment
 ```bash
-git clone https://github.com/pratikskanoj/ThreadMind.git
+git clone https://github.com/PRATIKSK7/ThreadMind.git
 cd ThreadMind
 
 python3.12 -m venv .venv
@@ -681,13 +704,37 @@ PYTHONPATH=. .venv/bin/python scripts/verify_assignment_readiness.py
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 About the Author
 
 ### **Pratik S Kanoj**
-*B.Tech – Artificial Intelligence & Machine Learning*  
-**Dayananda Sagar University**
+**AI/ML Engineer • Builder • Problem Solver**
 
-Pratik is an AI/ML engineering student dedicated to building robust, production-ready intelligent systems combining machine learning, natural language processing, vector retrieval, and modern software engineering. ThreadMind reflects his philosophy of building AI applications with rigorous evaluation benchmarks, local inference privacy, zero-cost architectures, and interactive user interfaces.
+📍 Bengaluru, India  
+🎓 B.Tech — Artificial Intelligence & Machine Learning  
+🏫 Dayananda Sagar University  
+📧 pratiksk0077@gmail.com  
+
+[![GitHub](https://img.shields.io/badge/GitHub-PRATIKSK7-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PRATIKSK7)
+[![Email](https://img.shields.io/badge/Email-pratiksk0077%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pratiksk0077@gmail.com)
+[![ThreadMind Repository](https://img.shields.io/badge/Repository-ThreadMind-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PRATIKSK7/ThreadMind)
+
+---
+
+### 🚀 What I Build
+Pratik is an Artificial Intelligence & Machine Learning engineering student focused on building practical intelligent systems that connect machine learning research with real-world software applications.
+
+His engineering approach focuses on building complete systems rather than isolated models — combining data pipelines, inference, retrieval, evaluation, reliability, APIs, and user-facing applications.
+
+ThreadMind demonstrates this approach through its combination of intent classification, hybrid routing, FAISS retrieval, local LLM inference, evaluation pipelines, production-readiness checks, and an interactive review interface.
+
+### ⚙️ Technical Focus
+`Python` • `Machine Learning` • `Deep Learning` • `NLP` • `LLM Applications` • `RAG` • `FAISS` • `Flask` • `FastAPI` • `React` • `Docker` • `Git / GitHub` • `AI System Design` • `Model Evaluation`
+
+> **"I focus on turning AI models into complete, testable, and usable systems — from data and inference to evaluation and real-world interfaces."**  
+> — *Pratik S Kanoj*
+
+### 🌟 Featured Project: ThreadMind
+ThreadMind represents a complete AI engineering case study: a zero-cost, privacy-first customer support intelligence system featuring a 3-stage FallbackRouter, dense vector retrieval, local Ollama Llama 3.2 inference, deterministic human escalation policies, and a full engineering dashboard.
 
 ---
 
